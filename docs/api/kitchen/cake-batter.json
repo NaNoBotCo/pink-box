@@ -1,0 +1,196 @@
+{
+ "id": "cake-batter",
+ "type": "kitchen",
+ "names": {
+  "name": "The batter and the depositor",
+  "aliases": [
+   "depositor",
+   "the drop"
+  ],
+  "said": "Two levers and a plunger: the ring lands in the fat already round."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "mix"
+ },
+ "text": {
+  "what": "A thick chemically-leavened batter dropped straight into hot fat through a hand-held or bench depositor, which forms the ring as it falls.",
+  "story": "Cake batter uses cake flour, about 7 to 8 percent protein, and baking powder or soda rather than yeast. Commercial shops often start from a dry mix that takes only water — which is how the same donut turns up in shops two thousand miles apart.\n\nThis is the dough that industrialised. When shops were streamlining in the 1920s and 1930s, chemical leavening behaved the same way every morning and a machine could be built around it.",
+  "how": "Mix, rest, load the hopper, drop rings in rows, and turn them once with sticks when the underside sets.",
+  "today": "A depositor is what lets one person run a case alone."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "What comes out of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "yeast-raise",
+   "as": "The slower way.",
+   "rel": "contrast"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "as": "The shops that buy the mix rather than the formula.",
+   "rel": "style"
+  },
+  {
+   "to": "adolph-levitt",
+   "as": "Whose machine started the idea.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-cake-doughnut",
+  "s:wp-doughnut-shop"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A thick chemically-leavened batter dropped straight into hot fat through a hand-held or bench depositor, which forms the ring as it falls.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "What comes out of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "The slower way.",
+   "rel": "contrast"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The shops that buy the mix rather than the formula.",
+   "rel": "style"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Whose machine started the idea.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "What comes out of the bag.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "How it gets made, and why a machine could learn it.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "The other way to get lift, and the one machines preferred.",
+   "rel": "contrast"
+  },
+  {
+   "from": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "The process his machine automated.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "What comes out of the bag.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "The process it sold.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "What a machine could learn.",
+   "rel": "kitchen"
+  }
+ ]
+}

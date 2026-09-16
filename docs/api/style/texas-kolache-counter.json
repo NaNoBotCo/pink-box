@@ -1,0 +1,223 @@
+{
+ "id": "texas-kolache-counter",
+ "type": "style",
+ "names": {
+  "name": "The Texas kolache counter",
+  "aliases": [
+   "kolache shop",
+   "donut and kolache"
+  ],
+  "said": "Order a kolache in Texas and you will probably get sausage in it, which a Czech Texan will tell you is a klobasnek."
+ },
+ "region": [
+  "texas",
+  "houston"
+ ],
+ "facets": {
+  "state": "TX",
+  "dough": "both",
+  "counter": "kolaches"
+ },
+ "text": {
+  "what": "A donut counter that also sells kolaches — and, in Texas, mostly klobasniky: sausage, ham, egg, cheese or jalapeño wrapped in sweet kolache dough. Sold from gas stations, strip-mall shops and dedicated kolache bakeries across the state, well outside the Czech settlement belt.",
+  "story": "Two different pastries carry one name here. A traditional kolache came with Moravian immigrants: sweet dough with a fruit or cheese filling in a well on top. The klobasnek was invented by Czechs who had already settled in Texas — sausage wrapped in that same dough. Texans not of Czech descent call both kolaches; Texans of Czech descent call the savoury ones klobasniky and mean it.\n\nThe town of West, in McLennan County, has one of the largest concentrations of Czech Texans in the state and was designated \"Home of the Official Kolache of the Texas Legislature\" in 1997. Westfest keeps the day.\n\nThe donut shop picked it up because it sells at the same hour to the same driver. Fillings widened from klobása to hot dogs, ham and egg, cheese and peppers, and in some shops boudin, the Cajun pork-and-rice sausage.",
+  "how": "Kolache dough is enriched and proofed like a sweet roll, wrapped around the sausage and baked, not fried — which means a Texas donut shop is running an oven as well as a kettle.",
+  "today": "Kolaches travel where Texans travel. The word now shows up on donut counters in Oklahoma, Louisiana and Colorado, usually meaning the sausage kind."
+ },
+ "kin": [
+  {
+   "to": "kolache",
+   "as": "The sweet one, with the well and the fruit.",
+   "rel": "dish"
+  },
+  {
+   "to": "klobasnek",
+   "as": "The savoury one Texas calls a kolache.",
+   "rel": "dish"
+  },
+  {
+   "to": "czech-stop",
+   "as": "The town the legislature named for it.",
+   "rel": "place"
+  },
+  {
+   "to": "round-rock-donuts",
+   "as": "A Texas counter big enough to be a landmark.",
+   "rel": "place"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The same arithmetic, a different second menu.",
+   "rel": "story"
+  },
+  {
+   "to": "the-counter",
+   "as": "What else is in the case, state by state.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-klob-sn-k",
+  "s:wp-west-texas",
+  "s:wp-kolach-cake"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the spread beyond Texas is this project's reading of menus"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A donut counter that also sells kolaches — and, in Texas, mostly klobasniky: sausage, ham, egg, cheese or jalapeño wrapped in sweet kolache dough.",
+ "region_terms": [
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX",
+   "note": "Houston, Dallas, San Antonio; kolaches, klobasniky, and Cambodian- and Vietnamese-American counters"
+  },
+  {
+   "key": "houston",
+   "name": "Houston",
+   "state": "TX"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The sweet one, with the well and the fruit.",
+   "rel": "dish"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The savoury one Texas calls a kolache.",
+   "rel": "dish"
+  },
+  {
+   "to": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The town the legislature named for it.",
+   "rel": "place"
+  },
+  {
+   "to": "round-rock-donuts",
+   "type": "place",
+   "name": "Round Rock Donuts",
+   "as": "A Texas counter big enough to be a landmark.",
+   "rel": "place"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same arithmetic, a different second menu.",
+   "rel": "story"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What else is in the case, state by state.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-klob-sn-k",
+   "kind": "web",
+   "title": "Klobásník — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Klob%C3%A1sn%C3%ADk",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-west-texas",
+   "kind": "web",
+   "title": "West, Texas — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/West,_Texas",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-kolach-cake",
+   "kind": "web",
+   "title": "Kolach (cake) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kolach_(cake)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the spread beyond Texas is this project's reading of menus"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The counter it built.",
+   "rel": "style"
+  },
+  {
+   "from": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The counter style.",
+   "rel": "style"
+  },
+  {
+   "from": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "from": "round-rock-donuts",
+   "type": "place",
+   "name": "Round Rock Donuts",
+   "as": "The style around it.",
+   "rel": "style"
+  }
+ ]
+}

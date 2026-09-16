@@ -1,0 +1,183 @@
+{
+ "id": "donuts-per-capita",
+ "type": "story",
+ "names": {
+  "name": "Where the shops actually are",
+  "aliases": [
+   "donuts per capita",
+   "the density map"
+  ],
+  "sort": "where shops actually are"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "map"
+ },
+ "text": {
+  "what": "Donut shops are not spread evenly, and the places with the most of them are not the places with the most famous ones."
+ },
+ "sections": [
+  {
+   "h": "The one published American figure",
+   "text": "The Providence metropolitan area has been cited as having the most donut shops per capita in the United States: 25.3 shops per 100,000 people, as of 13 January 2010. Rhode Island is 48th by area among the states.\n\nCanada has the highest concentration of donut shops per capita in the world and eats the most donuts per head; Japan is second by concentration. Over 4,600 Tim Hortons locations do most of that work."
+  },
+  {
+   "h": "What this site can count, and what it cannot",
+   "text": "This directory counts what OpenStreetMap records, on the date it was fetched, plus the shops written up here. That is a count of a map, not a census of a trade. Shops open and close faster than any map keeps up with, and a shop that nobody has added to OpenStreetMap is invisible to it.\n\nThe number to compare against — an actual national count of independent donut shops — does not exist in a form this project can cite. KQED's 2021 figure of more than 5,000 independent shops in California alone is the largest sourced number here, and it is one state."
+  },
+  {
+   "h": "The map",
+   "text": "/places/ draws every row on one map. /numbers/ counts them by state and by distance. Chains are marked as chains, because OpenStreetMap records a brand when a place has one, and can be taken off the map in a click."
+  }
+ ],
+ "kin": [
+  {
+   "to": "the-counter",
+   "as": "What those shops sell besides donuts.",
+   "rel": "story"
+  },
+  {
+   "to": "dunkin-country",
+   "as": "The region that drives the New England number.",
+   "rel": "style"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The 5,000-shop state.",
+   "rel": "style"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "as": "What is being counted.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut-shop",
+  "s:kqed-donuts-chinese",
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "inference",
+    "note": "the limits of a map-derived count are this project's statement about its own data"
+   },
+   "sections[2].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Donut shops are not spread evenly, and the places with the most of them are not the places with the most famous ones.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What those shops sell besides donuts.",
+   "rel": "story"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region that drives the New England number.",
+   "rel": "style"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The 5,000-shop state.",
+   "rel": "style"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "What is being counted.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:kqed-donuts-chinese",
+   "kind": "article",
+   "title": "Why Donuts + Chinese Food = A Very Californian Combination",
+   "author": "Asal Ehsanipour",
+   "publisher": "KQED",
+   "url": "https://www.kqed.org/news/11871915/why-donuts-chinese-food-a-very-californian-combination",
+   "year": 2021,
+   "accessed": "2026-09-16",
+   "note": "published 6 May 2021, updated 1 January 2025"
+  },
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "Where the shops actually are, counted.",
+   "rel": "story"
+  },
+  {
+   "from": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "as": "Rhode Island's density, counted.",
+   "rel": "story"
+  },
+  {
+   "from": "free-to-use",
+   "type": "story",
+   "name": "Where all of this came from",
+   "as": "What the counts can and cannot say.",
+   "rel": "story"
+  }
+ ]
+}

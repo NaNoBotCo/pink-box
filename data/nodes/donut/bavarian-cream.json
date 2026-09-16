@@ -1,0 +1,101 @@
+{
+ "id": "bavarian-cream",
+ "type": "donut",
+ "names": {
+  "name": "Bavarian cream",
+  "aliases": [
+   "custard-filled",
+   "cream-filled",
+   "Boston cream (when chocolate-topped)"
+  ],
+  "said": "Ask whether it is custard or whipped. The answer tells you what kind of shop you are in."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "filled"
+ },
+ "text": {
+  "what": "A raised round with no hole, filled with a set custard — Bavarian cream is custard lightened with whipped cream and held with gelatin — and finished in sugar, or iced with chocolate, at which point most counters call it a Boston cream.",
+  "story": "The filled fried round is the older European form; the American shop split it by filling. Jam is a jelly donut or a bismarck; pastry cream and its relatives are custard, Bavarian or Boston cream depending on the shop and the region. The words are not standard and no authority governs them.",
+  "how": "Fry the round, cool it, then inject from the side with a nozzle until it gains weight in the hand. Chocolate icing goes on the top face after.",
+  "today": "The filled donuts are the ones a shop fills in the morning and the ones left over at closing, because a filled donut does not hold overnight the way a glazed ring does."
+ },
+ "kin": [
+  {
+   "to": "bismarck",
+   "as": "Same shell, jam instead of custard.",
+   "rel": "donut"
+  },
+  {
+   "to": "filling-injector",
+   "as": "The nozzle, and the weight in the hand.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "long-john",
+   "as": "The bar version of the same filling.",
+   "rel": "donut"
+  },
+  {
+   "to": "day-old",
+   "as": "What a filled donut is not sold as.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-bavarian-cream",
+  "s:wp-jelly-doughnut",
+  "s:wp-custard",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bavarian-cream"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition",
+    "note": "how filled donuts hold is bench knowledge, hedged"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "yeast",
+  "finish": "filled",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 85.0,
+  "kcal": 306.8,
+  "sugar_g": 12.4,
+  "fat_g": 20.8,
+  "sat_fat_g": 4.6,
+  "carb_g": 25.5,
+  "sodium_mg": 262.6,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/172757/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 172757, \"Doughnuts, yeast-leavened, with creme filling\", published per 100 g and scaled here to the portion USDA itself lists as \"doughnut oval (3-1/2\" x 2-1/2\")\" — 85 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ }
+}

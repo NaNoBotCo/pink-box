@@ -1,0 +1,72 @@
+{
+ "id": "filling-injector",
+ "type": "kitchen",
+ "names": {
+  "name": "The filler",
+  "aliases": [
+   "the injector",
+   "the nozzle",
+   "the pump"
+  ],
+  "said": "You can hear a filled donut being made: a thump and a hiss, once per piece."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "finish"
+ },
+ "text": {
+  "what": "A hand pump or bench machine that pushes jam, custard or cream through a nozzle into the side of a fried round.",
+  "story": "Filled fried dough is older than the ring — Gefüllte Krapfen are in a Nuremberg cookbook of 1485 — but the injector is what makes a case full of them possible before six in the morning. Fillings run to fruit preserve, custard, Bavarian cream, and in Polish shops powidła, stewed plum, and wild rose petal jam.",
+  "how": "Fry, cool, weigh the first few to set the dose, then work a tray at a time.",
+  "today": "A filled donut does not hold overnight the way a glazed ring does, which is why it is the one most often made last and sold out first."
+ },
+ "kin": [
+  {
+   "to": "bismarck",
+   "as": "The round it fills.",
+   "rel": "donut"
+  },
+  {
+   "to": "bavarian-cream",
+   "as": "The custard version.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "as": "Powidła and rose petal.",
+   "rel": "donut"
+  },
+  {
+   "to": "day-old",
+   "as": "What filled donuts are not sold as.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-jelly-doughnut",
+  "s:wp-p-czki",
+  "s:wp-fruit-preserves"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-jelly-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

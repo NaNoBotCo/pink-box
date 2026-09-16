@@ -1,0 +1,64 @@
+{
+ "id": "the-2am-shift",
+ "type": "kitchen",
+ "names": {
+  "name": "The night shift",
+  "aliases": [
+   "the two o'clock",
+   "the night bake"
+  ],
+  "said": "The light is on and the door is locked, and that is the shop working."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "shift"
+ },
+ "text": {
+  "what": "The hours the work actually happens in: dough started in the small hours so the case is full when the door opens.",
+  "story": "Krispy Kreme's hot donut began as a by-product of exactly this. Vernon Rudolph's Winston-Salem shop sold wholesale to grocery stores, and production ran from midnight to four in the morning; he sold hot donuts to whoever turned up during it. The window came later; the schedule came first.\n\nA raised dough sets the clock. It has to be mixed, risen, cut, proofed and fried before opening, and none of those steps can be hurried by much.",
+  "how": "Mix around midnight or one. Raised first, cake after. Glaze, ice, fill, sprinkle, load the case, unlock the door.",
+  "today": "The shift is the part of the business that does not scale, and the part a family absorbs. *Inference —* it is also the reason a second generation often does not take the shop on."
+ },
+ "kin": [
+  {
+   "to": "yeast-raise",
+   "as": "What sets the clock.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "southern-hot-now",
+   "as": "The chain that sold the by-product.",
+   "rel": "style"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "Whose families work it.",
+   "rel": "style"
+  },
+  {
+   "to": "vernon-rudolph",
+   "as": "Sold hot donuts to the people awake at 2 a.m.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme",
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

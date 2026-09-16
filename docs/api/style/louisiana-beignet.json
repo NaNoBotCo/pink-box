@@ -1,0 +1,167 @@
+{
+ "id": "louisiana-beignet",
+ "type": "style",
+ "names": {
+  "name": "The beignet stand",
+  "aliases": [
+   "New Orleans beignet",
+   "the Quarter counter"
+  ],
+  "said": "Do not wear black, and do not inhale."
+ },
+ "region": [
+  "louisiana"
+ ],
+ "facets": {
+  "state": "LA",
+  "dough": "choux",
+  "counter": "coffee-only"
+ },
+ "text": {
+  "what": "An open-air or walk-up counter selling square fried dough under powdered sugar, three to an order, with coffee cut with chicory beside it.",
+  "story": "French immigrants brought the pâte à choux method to New Orleans in the 1700s, and the square beignet is what it became there. Beignets are also made from yeast-leavened batters and from rice flour; the word covers all of them, and in Canadian French it simply means doughnut.\n\nThe coffee is the other half. The French brought coffee to the Gulf Coast around 1700, and Civil War shortages taught New Orleans to stretch it with chicory, which stayed after the shortage went.",
+  "how": "Roll thin, cut squares, fry hot so they inflate hollow, sugar heavily while steaming, serve immediately.",
+  "today": "Louisiana counters sell beignets, donuts and — in season — king cake off the same register, and nobody calls that a mixed menu."
+ },
+ "kin": [
+  {
+   "to": "beignet",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "cafe-du-monde",
+   "as": "The stand.",
+   "rel": "place"
+  },
+  {
+   "to": "chicory-coffee",
+   "as": "What it is served with.",
+   "rel": "dish"
+  },
+  {
+   "to": "french-cruller",
+   "as": "The other choux fry in America.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-beignet",
+  "s:wp-caf-du-monde"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "An open-air or walk-up counter selling square fried dough under powdered sugar, three to an order, with coffee cut with chicory beside it.",
+ "region_terms": [
+  {
+   "key": "louisiana",
+   "name": "Louisiana",
+   "state": "LA",
+   "note": "beignets, king cake, and the shops that sell both"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "The stand.",
+   "rel": "place"
+  },
+  {
+   "to": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "What it is served with.",
+   "rel": "dish"
+  },
+  {
+   "to": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "The other choux fry in America.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-beignet",
+   "kind": "web",
+   "title": "Beignet — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beignet",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-caf-du-monde",
+   "kind": "web",
+   "title": "Café du Monde — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_du_Monde",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "The style it anchors.",
+   "rel": "style"
+  },
+  {
+   "from": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "The style it anchors.",
+   "rel": "style"
+  }
+ ]
+}

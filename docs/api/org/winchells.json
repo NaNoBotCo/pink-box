@@ -1,0 +1,173 @@
+{
+ "id": "winchells",
+ "type": "org",
+ "names": {
+  "name": "Winchell's Donut House",
+  "aliases": [
+   "Winchell's"
+  ],
+  "said": "The chain that taught the trade to the people who went on to compete with it."
+ },
+ "region": [
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1948
+ },
+ "text": {
+  "what": "The Temple City, California chain founded by Verne Winchell on 8 October 1948.",
+  "story": "Under Canadian owner Shato Holdings there were 293 Winchell's locations in the western United States in 1999. By 2004, when Yum Yum Donut Shops bought it, the count was near 200; by 2025 it was about 100 shops in six states, plus Guam and Saipan. Franchises have also operated in Japan, Korea, New Zealand and Saudi Arabia.\n\nAn affirmative-action hiring programme at Winchell's trained Ted Ngoy, who managed a store in Newport Beach before buying his own shop — which is how a chain's training programme seeded a generation of independents.",
+  "today": "The chain shrank while the shops its training produced multiplied."
+ },
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "Learned the trade here.",
+   "rel": "person"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The independents that followed.",
+   "rel": "style"
+  },
+  {
+   "to": "yum-yum-donuts",
+   "as": "The competitor that bought it.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-winchell-s-donuts",
+  "s:wp-ted-ngoy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-winchell-s-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The Temple City, California chain founded by Verne Winchell on 8 October 1948.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Learned the trade here.",
+   "rel": "person"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The independents that followed.",
+   "rel": "style"
+  },
+  {
+   "to": "yum-yum-donuts",
+   "type": "org",
+   "name": "Yum Yum Donut Shops",
+   "as": "The competitor that bought it.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-winchell-s-donuts",
+   "kind": "web",
+   "title": "Winchell's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Winchell%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-ted-ngoy",
+   "kind": "web",
+   "title": "Ted Ngoy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ted_Ngoy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-winchell-s-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-winchell-s-donuts"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-winchell-s-donuts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Where the trade got taught, by a chain, to a refugee.",
+   "rel": "org"
+  },
+  {
+   "from": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Where he learned the trade.",
+   "rel": "org"
+  },
+  {
+   "from": "yum-yum-donuts",
+   "type": "org",
+   "name": "Yum Yum Donut Shops",
+   "as": "The chain it bought.",
+   "rel": "org"
+  },
+  {
+   "from": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "Where he learned.",
+   "rel": "org"
+  },
+  {
+   "from": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "The chain that shrank.",
+   "rel": "org"
+  }
+ ]
+}

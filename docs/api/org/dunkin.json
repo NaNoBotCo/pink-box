@@ -1,0 +1,177 @@
+{
+ "id": "dunkin",
+ "type": "org",
+ "names": {
+  "name": "Dunkin'",
+  "aliases": [
+   "Dunkin' Donuts"
+  ],
+  "said": "Dropped Donuts from the name in 2019 and kept the donuts."
+ },
+ "region": [
+  "new-england",
+  "us"
+ ],
+ "facets": {
+  "state": "MA",
+  "status": "open",
+  "founded": 1948
+ },
+ "text": {
+  "what": "The Quincy, Massachusetts chain that paired coffee and donuts nationally, and the oldest surviving company using the short spelling.",
+  "story": "Bill Rosenberg opened the Open Kettle in 1948 and renamed it Dunkin' Donuts in May 1950. Franchising started in 1955. Allied Lyons, Baskin-Robbins' holding company, acquired the chain in 1990; its purchase of Mister Donut — founded by Rosenberg's former partner Harry Winokur — and the conversion of those shops drove North American growth the same year. Dawn Donuts went the same way.",
+  "today": "New England independents compete on frying on site, which is the difference the chain's scale cannot copy shop by shop."
+ },
+ "kin": [
+  {
+   "to": "dunkin-country",
+   "as": "The region it defines.",
+   "rel": "style"
+  },
+  {
+   "to": "bill-rosenberg",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "to": "donut-spelling",
+   "as": "The spelling it carried.",
+   "rel": "term"
+  },
+  {
+   "to": "mister-donut",
+   "as": "The rival it absorbed.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-dunkin-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The Quincy, Massachusetts chain that paired coffee and donuts nationally, and the oldest surviving company using the short spelling.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region it defines.",
+   "rel": "style"
+  },
+  {
+   "to": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "to": "donut-spelling",
+   "type": "term",
+   "name": "Donut / doughnut",
+   "as": "The spelling it carried.",
+   "rel": "term"
+  },
+  {
+   "to": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "The rival it absorbed.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-dunkin-donuts",
+   "kind": "web",
+   "title": "Dunkin' Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "from": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "from": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "The chain that absorbed it.",
+   "rel": "org"
+  },
+  {
+   "from": "donut-spelling",
+   "type": "term",
+   "name": "Donut / doughnut",
+   "as": "The company that carried the short spelling.",
+   "rel": "org"
+  },
+  {
+   "from": "mr-spudnut",
+   "type": "art",
+   "name": "Mr. Spudnut and the mascots",
+   "as": "The other mascot's company.",
+   "rel": "org"
+  }
+ ]
+}

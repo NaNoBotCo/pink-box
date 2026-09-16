@@ -1,0 +1,168 @@
+{
+ "id": "the-pot-of-coffee",
+ "type": "dish",
+ "names": {
+  "name": "The pot of coffee",
+  "aliases": [
+   "drip coffee",
+   "the regular",
+   "bottomless cup"
+  ],
+  "said": "Refills happen without the question being asked, which is most of the reason people sit down."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "course": "drink"
+ },
+ "text": {
+  "what": "Drip coffee from a glass pot on a warmer, in a paper cup or a mug, refilled by whoever is at the counter.",
+  "story": "Coffee and donuts were paired commercially before either was a chain: Bill Rosenberg's finding, selling food to factories and construction sites in the 1940s, was that donuts and coffee were the two items people bought. He built a company on the pair. The dunking that gave Dunkin' its name was ordinary behaviour first; Johnny Spartos, running the Quincy shop, talked Rosenberg into making a donut with a handle for it.",
+  "today": "An independent shop's coffee is rarely the reason to go, and a shop that raises the coffee price before the donut price is telling you where its margin is. *Inference —* that reading is this project's, not a published finding."
+ },
+ "kin": [
+  {
+   "to": "dunkin-country",
+   "as": "The chain that paired them nationally.",
+   "rel": "style"
+  },
+  {
+   "to": "bill-rosenberg",
+   "as": "Found the pairing selling to factories.",
+   "rel": "person"
+  },
+  {
+   "to": "chicory-coffee",
+   "as": "The New Orleans version.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-dunkin-donuts",
+  "s:wp-coffeehouse"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Drip coffee from a glass pot on a warmer, in a paper cup or a mug, refilled by whoever is at the counter.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The chain that paired them nationally.",
+   "rel": "style"
+  },
+  {
+   "to": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "Found the pairing selling to factories.",
+   "rel": "person"
+  },
+  {
+   "to": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "The New Orleans version.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-dunkin-donuts",
+   "kind": "web",
+   "title": "Dunkin' Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-coffeehouse",
+   "kind": "web",
+   "title": "Coffeehouse — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coffeehouse",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "What the rest of the country pours instead.",
+   "rel": "dish"
+  },
+  {
+   "from": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "The other half of what he sold.",
+   "rel": "dish"
+  },
+  {
+   "from": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "The other half.",
+   "rel": "dish"
+  },
+  {
+   "from": "dunking",
+   "type": "term",
+   "name": "Dunking",
+   "as": "What you dunk into.",
+   "rel": "dish"
+  },
+  {
+   "from": "anthora-cup",
+   "type": "art",
+   "name": "The Anthora cup",
+   "as": "What is in it.",
+   "rel": "dish"
+  }
+ ]
+}

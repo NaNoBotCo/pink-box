@@ -1,0 +1,59 @@
+{
+ "id": "b-and-h-distributors",
+ "type": "org",
+ "names": {
+  "name": "B & H Bakery Distributors",
+  "aliases": [],
+  "said": "The supplier is the part of the trade nobody photographs."
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open"
+ },
+ "text": {
+  "what": "A Cambodian-American bakery supply business serving California donut shops.",
+  "story": "Dorothy Chow told KQED that her father, a survivor of the Cambodian genocide, built the business \"to help our own people\". Suppliers like it are how a shop opens in a week: flour, mix, boxes, fryer parts, and the knowledge of who is selling a shop.",
+  "today": "A distributor is the piece of infrastructure that makes an independent trade behave like a network."
+ },
+ "kin": [
+  {
+   "to": "socal-pink-box",
+   "as": "The shops it supplies.",
+   "rel": "style"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The same reporting.",
+   "rel": "story"
+  },
+  {
+   "to": "pink-box",
+   "as": "Who sells the boxes.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:kqed-donuts-chinese"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:kqed-donuts-chinese"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

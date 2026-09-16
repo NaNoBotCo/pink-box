@@ -1,0 +1,82 @@
+{
+ "id": "bobs-donuts",
+ "type": "place",
+ "names": {
+  "name": "Bob's Donuts and Pastries",
+  "aliases": [
+   "Bob's Donuts",
+   "Bob's on Polk"
+  ],
+  "sort": "Bob's Donuts"
+ },
+ "region": [
+  "bay-area"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1953,
+  "dough": "both"
+ },
+ "text": {
+  "what": "A 24-hour counter on Polk Street in San Francisco, busiest after midnight, and two other locations.",
+  "story": "The shop opened at 1621 Polk Street in 1953 or 1960 — accounts differ — and the original owner is not firmly established, though a city report points to Robert N. Nolt, who ran several businesses on the street. Elinor and Ronald Ahn bought it in 1977. After Elinor died in 2001 it passed to her son and daughter-in-law; Aya Ahn is a co-owner.\n\nAround 2012 the shop introduced the Bob's Donut Challenge: eat a giant donut the size of twelve regular ones in under three minutes, and your name goes on a wall.",
+  "today": "Two locations in San Francisco and one in Mill Valley."
+ },
+ "geo": {
+  "lat": 37.79182,
+  "lon": -122.42128,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "1621 Polk Street",
+  "city": "San Francisco",
+  "county": "",
+  "state": "CA"
+ },
+ "tags": [
+  {
+   "tag": "twentyfour-hours",
+   "source": "s:wp-bob-s-donuts",
+   "tier": "cited",
+   "note": "the Polk Street location"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:wp-bob-s-donuts",
+   "tier": "cited",
+   "note": "held by the Ahn family since 1977"
+  }
+ ],
+ "kin": [
+  {
+   "to": "bay-area-late-counter",
+   "as": "The city's after-midnight habit.",
+   "rel": "style"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "What the challenge donut is a very large one of.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-bob-s-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bob-s-donuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

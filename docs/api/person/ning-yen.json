@@ -1,0 +1,154 @@
+{
+ "id": "ning-yen",
+ "type": "person",
+ "names": {
+  "name": "Ning Yen",
+  "aliases": [],
+  "said": "Named in the same breath as Ngoy, and much less often."
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "role": "founder",
+  "state": "CA"
+ },
+ "text": {
+  "what": "Credited with Ted Ngoy for the pink donut box, after helping other Cambodians set up shops in Southern California.",
+  "story": "The pink boxes that package donuts in Southern California shops are attributed to Ngoy and Yen. Beyond that attribution this project has found little published detail about him, and says so rather than filling it in.",
+  "today": "The box outlasted both names in public memory: most people who know the box do not know either."
+ },
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "The other name on the box.",
+   "rel": "person"
+  },
+  {
+   "to": "pink-box",
+   "as": "The object.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The style it marks.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-cambodian-americans"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cambodian-americans"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "Credited with Ted Ngoy for the pink donut box, after helping other Cambodians set up shops in Southern California.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "cambodian-american",
+   "name": "Cambodian America",
+   "state": null,
+   "note": "Long Beach, Stockton, Lowell, Houston; a community, not a place — and the single largest owner group in independent donuts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The other name on the box.",
+   "rel": "person"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style it marks.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cambodian-americans",
+   "kind": "web",
+   "title": "Cambodian Americans — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cambodian_Americans",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cambodian-americans"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cambodian-americans"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-cambodian-americans"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Named with Ngoy as the reason the box is pink.",
+   "rel": "person"
+  },
+  {
+   "from": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Named with him for the pink box.",
+   "rel": "person"
+  },
+  {
+   "from": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "Credited with it.",
+   "rel": "person"
+  },
+  {
+   "from": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The other name on the box.",
+   "rel": "person"
+  }
+ ]
+}

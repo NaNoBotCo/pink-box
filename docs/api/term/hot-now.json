@@ -1,0 +1,162 @@
+{
+ "id": "hot-now",
+ "type": "term",
+ "names": {
+  "name": "Hot now",
+  "aliases": [
+   "hot light",
+   "hot doughnuts now"
+  ],
+  "said": "Two words, lit up, and the parking lot fills."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "H",
+  "part_of_speech": "phrase"
+ },
+ "text": {
+  "what": "A lit sign saying donuts are coming out of the fryer at that moment.",
+  "story": "The practice predates the sign. Vernon Rudolph's Winston-Salem shop ran production from midnight to four in the morning for its wholesale trade and sold hot donuts to individual customers who turned up during it. In the early 2010s Krispy Kreme began building shops with tunnel ovens so the hot sign could stay on all day.\n\n*Inference —* the sign changed what it means. Lit at 3 a.m. it reports a shift; lit at 2 p.m. it reports a piece of equipment."
+ },
+ "kin": [
+  {
+   "to": "southern-hot-now",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "krispy-kreme",
+   "as": "Whose sign it is.",
+   "rel": "org"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "What it used to point at.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "two words on a lit sign; plain description turned into a signal",
+  "first_attested": "",
+  "note": "The practice predates the sign: Krispy Kreme sold hot donuts during the midnight-to-four production run from 1937.",
+  "tier": "cited",
+  "source": "s:wp-krispy-kreme"
+ },
+ "blurb": "A lit sign saying donuts are coming out of the fryer at that moment.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "Whose sign it is.",
+   "rel": "org"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "What it used to point at.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-krispy-kreme",
+   "kind": "web",
+   "title": "Krispy Kreme — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Krispy_Kreme",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The two words as a term of art.",
+   "rel": "term"
+  },
+  {
+   "from": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What a chain built out of glazing this exact donut in front of you.",
+   "rel": "term"
+  },
+  {
+   "from": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "The two words.",
+   "rel": "term"
+  },
+  {
+   "from": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "The sign.",
+   "rel": "term"
+  },
+  {
+   "from": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "The two words.",
+   "rel": "term"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "yum-yum-donuts",
+ "type": "org",
+ "names": {
+  "name": "Yum Yum Donut Shops",
+  "aliases": [
+   "Yum Yum Donuts"
+  ],
+  "said": "A Los Angeles chain most of the country has never heard of."
+ },
+ "region": [
+  "socal"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open"
+ },
+ "text": {
+  "what": "A Southern California donut chain, and since 2004 the owner of Winchell's.",
+  "story": "Yum Yum Donut Shops, Inc. bought Winchell's in 2004, putting two of the West's older chains under one owner.",
+  "today": "Two chains, one company, in a region where most shops belong to families."
+ },
+ "kin": [
+  {
+   "to": "winchells",
+   "as": "The chain it bought.",
+   "rel": "org"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "What it competes with.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-yum-yum-donuts",
+  "s:wp-winchell-s-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-yum-yum-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16"
+}

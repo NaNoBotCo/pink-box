@@ -1,0 +1,69 @@
+{
+ "id": "novelty-donut-shop",
+ "type": "style",
+ "names": {
+  "name": "The novelty shop",
+  "aliases": [
+   "concept donut shop",
+   "the topping arms race"
+  ],
+  "said": "Bacon on a maple bar was a joke once."
+ },
+ "region": [
+  "pacific-northwest",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "A shop that competes on invention: unusual toppings, themed rooms, names that are jokes, and a queue that photographs its order.",
+  "story": "Voodoo Doughnut opened in Portland in May 2003, night-only until 2006, with a logo carrying Baron Samedi. Psycho Donuts opened in Campbell, California in March 2009 with a straitjacket on the wall and donuts named after mental-health conditions, which has drawn objection. Doughnut Plant, from 1994, took the opposite route: invention aimed at pastry rather than at spectacle.\n\n*Inference —* the novelty shop's real product is a photograph, which is why it prices above a strip-mall counter and why it ages faster.",
+  "today": "The form spread nationally in the 2010s and the strip-mall shops largely ignored it."
+ },
+ "kin": [
+  {
+   "to": "voodoo-doughnut",
+   "as": "The best-known one.",
+   "rel": "place"
+  },
+  {
+   "to": "psycho-donuts",
+   "as": "The most argued-over one.",
+   "rel": "place"
+  },
+  {
+   "to": "doughnut-plant",
+   "as": "Invention without the costume.",
+   "rel": "place"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "as": "Where it sits on price.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-voodoo-doughnut",
+  "s:wp-psycho-donuts",
+  "s:wp-doughnut-plant"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-voodoo-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,165 @@
+{
+ "id": "klobasnek",
+ "type": "dish",
+ "names": {
+  "name": "Klobasnek",
+  "aliases": [
+   "klobásník",
+   "klobasniky",
+   "Texas kolache (as sold)"
+  ],
+  "said": "Ask a Czech Texan and you get the distinction; ask anyone else and you get a sausage roll."
+ },
+ "region": [
+  "texas",
+  "houston"
+ ],
+ "facets": {
+  "course": "savory",
+  "state": "TX"
+ },
+ "text": {
+  "what": "Sausage — klobása, traditionally — wrapped in kolache dough and baked. Ham, egg, cheese, jalapeño and hot dog are all standard now, and in some Texas shops boudin, the Cajun pork-and-rice sausage.",
+  "story": "Unlike the kolache, which came with Moravian immigrants, the klobasnek was invented by Czechs who had already settled in Texas. Texans of Czech ancestry call the savoury doughs klobasniky; Texans who are not call them kolaches, and that is what the sign says. They are sold everywhere from gas stations to dedicated kolache shops, well outside the Czech counties.",
+  "today": "The klobasnek is the reason a Texas donut shop runs an oven."
+ },
+ "kin": [
+  {
+   "to": "kolache",
+   "as": "The sweet one whose name it borrowed.",
+   "rel": "dish"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "as": "The counter it built.",
+   "rel": "style"
+  },
+  {
+   "to": "czech-stop",
+   "as": "The stop on I-35 that sells them around the clock.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-klob-sn-k"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Sausage — klobása, traditionally — wrapped in kolache dough and baked. Ham, egg, cheese, jalapeño and hot dog are all standard now, and in some Texas shops boudin, the Cajun pork-and-rice sausage.",
+ "region_terms": [
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX",
+   "note": "Houston, Dallas, San Antonio; kolaches, klobasniky, and Cambodian- and Vietnamese-American counters"
+  },
+  {
+   "key": "houston",
+   "name": "Houston",
+   "state": "TX"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The sweet one whose name it borrowed.",
+   "rel": "dish"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The counter it built.",
+   "rel": "style"
+  },
+  {
+   "to": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The stop on I-35 that sells them around the clock.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-klob-sn-k",
+   "kind": "web",
+   "title": "Klobásník — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Klob%C3%A1sn%C3%ADk",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The savoury one Texas calls a kolache.",
+   "rel": "dish"
+  },
+  {
+   "from": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The savoury one Texas calls by this name.",
+   "rel": "dish"
+  },
+  {
+   "from": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "What it sells most of.",
+   "rel": "dish"
+  },
+  {
+   "from": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "Texas.",
+   "rel": "dish"
+  },
+  {
+   "from": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The Texan version.",
+   "rel": "dish"
+  }
+ ]
+}

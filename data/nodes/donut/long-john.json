@@ -1,0 +1,68 @@
+{
+ "id": "long-john",
+ "type": "donut",
+ "names": {
+  "name": "Long John",
+  "aliases": [
+   "bar",
+   "finger doughnut",
+   "cream stick",
+   "éclair (as sold)"
+  ],
+  "said": "Midwestern by default. In California the same thing is a bar."
+ },
+ "region": [
+  "upper-midwest",
+  "texas",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "iced"
+ },
+ "text": {
+  "what": "A bar-shaped raised donut, glazed all over or iced on top, sometimes filled with custard or cream.",
+  "story": "Names for it are regional in a way few American foods still are. Long John dominates the Midwest, Canada and Texas. The Mid-Atlantic and central Canada market it as an éclair; the pastries look alike but an éclair is steam-puffed choux with fondant, and a Long John is yeast. The West Coast says bar. Parts of the Midwest say finger doughnut, or cream stick when it is filled.",
+  "how": "Cut from sheeted raised dough into rectangles, proofed, fried, then glazed or iced. Filling goes in from the end with a nozzle.",
+  "today": "A filled Long John is one of the few donuts a shop will cut open for you to prove what is inside."
+ },
+ "kin": [
+  {
+   "to": "maple-bar",
+   "as": "The West Coast name and the coast's favourite icing.",
+   "rel": "donut"
+  },
+  {
+   "to": "bismarck",
+   "as": "The other filled one, round instead of long.",
+   "rel": "donut"
+  },
+  {
+   "to": "bar-or-long-john",
+   "as": "The map of what to call it.",
+   "rel": "story"
+  },
+  {
+   "to": "filling-injector",
+   "as": "How the custard gets in.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-long-john-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

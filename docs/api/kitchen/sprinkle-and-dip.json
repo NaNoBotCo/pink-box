@@ -1,0 +1,151 @@
+{
+ "id": "sprinkle-and-dip",
+ "type": "kitchen",
+ "names": {
+  "name": "Dipping and sprinkles",
+  "aliases": [
+   "jimmies",
+   "nonpareils",
+   "the dip"
+  ],
+  "said": "New England says jimmies. Almost nowhere else does."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "finish"
+ },
+ "text": {
+  "what": "Icing in flat pans, sprinkles in bins: a donut is dipped face-down, then set in the sprinkles while the icing is still wet.",
+  "story": "Sprinkles are small pieces of confectionery used as decoration. The long ones are called jimmies in parts of the United States, above all New England and Philadelphia; the tiny balls are nonpareils. Chocolate, maple, strawberry and vanilla icings are the standard dips, and the colour on a shop's sprinkles is one of the few things it chooses purely to look like itself.",
+  "how": "Dip, lift, tilt to shed the excess, then straight into the tray of sprinkles before it sets.",
+  "today": "A case of sprinkled donuts is the shop's shop window, which is why the bright ones sit at eye level."
+ },
+ "kin": [
+  {
+   "to": "glaze-table",
+   "as": "What happens first.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-case",
+   "as": "How the tray is laid out.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "jimmies",
+   "as": "The word, and where it stops.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-sprinkles"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Icing in flat pans, sprinkles in bins: a donut is dipped face-down, then set in the sprinkles while the icing is still wet.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "What happens first.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "How the tray is laid out.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "jimmies",
+   "type": "term",
+   "name": "Jimmies",
+   "as": "The word, and where it stops.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-sprinkles",
+   "kind": "web",
+   "title": "Sprinkles — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sprinkles",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "What happens after.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "What makes the front row bright.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "jimmies",
+   "type": "term",
+   "name": "Jimmies",
+   "as": "What happens with them.",
+   "rel": "kitchen"
+  }
+ ]
+}

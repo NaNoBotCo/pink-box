@@ -1,0 +1,220 @@
+{
+ "id": "paczki",
+ "type": "donut",
+ "names": {
+  "name": "Pączki",
+  "aliases": [
+   "paczki",
+   "punchki",
+   "pączek (sing.)"
+  ],
+  "said": "Pronounced closer to POONCH-key than anything the spelling suggests."
+ },
+ "region": [
+  "chicago",
+  "detroit",
+  "upper-midwest"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "filled"
+ },
+ "text": {
+  "what": "A Polish filled donut: a flattened ball of rich dough — eggs, fat, sugar, yeast, sometimes milk — deep fried, filled with jam or cream, and finished in powdered sugar, icing, glaze or dried orange zest.",
+  "story": "Pączki have been known in Poland since at least the Middle Ages. Jędrzej Kitowicz wrote that under Augustus III, French cooks in Poland improved the dough until pączki came out lighter and springier.\n\nTwo details separate them from a jelly donut. A small amount of grain alcohol — traditionally rectified spirit — goes into the dough; as it evaporates it keeps the oil from soaking in. And the bright pale stripe around the middle, from floating in fresh fat, is read as evidence the oil had not been used and reused.\n\nTraditional fillings are powidła, stewed plum jam, and wild rose petal jam. American shops fill them with everything else as well.",
+  "how": "Rich yeast dough with a spoonful of spirit, proofed, flattened, fried in fresh oil so the belt shows, filled from the side, sugared.",
+  "today": "In Chicago, Detroit, Milwaukee and Windsor the Tuesday before Lent runs on them. Lines start before dawn and bakeries sell by the dozen until the dough runs out."
+ },
+ "kin": [
+  {
+   "to": "paczki-day",
+   "as": "The one Tuesday the whole thing turns on.",
+   "rel": "event"
+  },
+  {
+   "to": "bismarck",
+   "as": "The German-descended cousin sold the rest of the year.",
+   "rel": "donut"
+  },
+  {
+   "to": "fastnacht",
+   "as": "The Pennsylvania Dutch answer to the same fast.",
+   "rel": "donut"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "as": "The style it belongs to.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-p-czki"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-doughnut"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Polish filled donut: a flattened ball of rich dough — eggs, fat, sugar, yeast, sometimes milk — deep fried, filled with jam or cream, and finished in powdered sugar, icing, glaze or dried orange zest.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "Polish bakeries, paczki, the long john"
+  },
+  {
+   "key": "detroit",
+   "name": "Detroit",
+   "state": "MI",
+   "note": "Hamtramck on Paczki Day"
+  },
+  {
+   "key": "upper-midwest",
+   "name": "The Upper Midwest",
+   "state": null,
+   "note": "Wisconsin, Minnesota, the Dakotas; bismarcks, long johns, church-basement fry"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The one Tuesday the whole thing turns on.",
+   "rel": "event"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The German-descended cousin sold the rest of the year.",
+   "rel": "donut"
+  },
+  {
+   "to": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The Pennsylvania Dutch answer to the same fast.",
+   "rel": "donut"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The style it belongs to.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-p-czki",
+   "kind": "web",
+   "title": "Pączki — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/P%C4%85czki",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "from": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "What the neighbours are frying the same morning.",
+   "rel": "donut"
+  },
+  {
+   "from": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The Polish one, richer, and tied to a single Tuesday.",
+   "rel": "donut"
+  },
+  {
+   "from": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The Polish one, richer, and on the same Tuesday in America.",
+   "rel": "donut"
+  },
+  {
+   "from": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "as": "Another Carnival donut that empties the pantry before a fast.",
+   "rel": "donut"
+  },
+  {
+   "from": "sufganiyah",
+   "type": "donut",
+   "name": "Sufganiyah",
+   "as": "Another calendar donut, another fast.",
+   "rel": "donut"
+  },
+  {
+   "from": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "Powidła and rose petal.",
+   "rel": "donut"
+  },
+  {
+   "from": "frying-fat",
+   "type": "kitchen",
+   "name": "What is in the kettle",
+   "as": "Where fresh oil is read off the donut.",
+   "rel": "donut"
+  },
+  {
+   "from": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The donut.",
+   "rel": "donut"
+  }
+ ]
+}

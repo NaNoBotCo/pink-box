@@ -1,0 +1,69 @@
+{
+ "id": "salvation-army-lassies",
+ "type": "org",
+ "names": {
+  "name": "The Salvation Army doughnut huts",
+  "aliases": [
+   "Donut Girls",
+   "Doughnut Lassies"
+  ],
+  "said": "\"Today I made 22 pies, 300 donuts, 700 cups of coffee.\""
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "status": "closed"
+ },
+ "text": {
+  "what": "The World War I canteens where Salvation Army volunteers fried donuts for American soldiers in France — and the reason there is a National Donut Day.",
+  "story": "After the United States entered the war in 1917 the Salvation Army sent a fact-finding mission to France, which concluded that enlisted men's needs could be met by canteens — \"huts\" — serving baked goods and providing writing supplies, stamps and mending. About 250 volunteers went. Baking was hard in abandoned buildings near the front, so two volunteers, Ensign Margaret Sheldon and Adjutant Helen Purviance, turned to donuts. They were an instant hit. Sheldon wrote of one day: \"Today I made 22 pies, 300 donuts, 700 cups of coffee.\"\n\nThe women became known to the servicemen as Donut Girls. A misconception ties the donuts to the word doughboy; the term was in use decades earlier.",
+  "today": "National Donut Day, first Friday in June, began in 1938 as a Chicago Salvation Army fundraiser honouring them."
+ },
+ "kin": [
+  {
+   "to": "national-donut-day",
+   "as": "The day it produced.",
+   "rel": "event"
+  },
+  {
+   "to": "salvation-army",
+   "as": "The organisation.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-national-donut-day"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-donut-day"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "salvation-army-lassies/salvation-army-lassies-a-red-cross-girls-carrying-fresh-doughnuts-from-an-i-bcbec62.jpg",
+   "source": "commons",
+   "title": "File:A Red Cross girls carrying fresh doughnuts from an improvised kitchen 8d40597v.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Red_Cross_girls_carrying_fresh_doughnuts_from_an_improvised_kitchen_8d40597v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AA_Red_Cross_girls_carrying_fresh_doughnuts_from_an_improvised_kitchen_8d40597v.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marjory Collins",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8d40597.This tag does not indicate the copyright status of the attached w",
+   "alt": "Constantine (vicinity), Algeria. A Red Cross girls carrying fresh doughnuts from an improvised kitchen to waiting clubmobile units which will carry doughnuts and coffee out to for bombers' crews who h",
+   "date": "1943 June?",
+   "primary": true,
+   "sha256": "7f7580ebebe8b94b357f37e44fdda18852840dea75710165f35c01b94d409a61"
+  }
+ ]
+}

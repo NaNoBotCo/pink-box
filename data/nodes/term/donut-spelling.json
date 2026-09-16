@@ -1,0 +1,59 @@
+{
+ "id": "donut-spelling",
+ "type": "term",
+ "names": {
+  "name": "Donut / doughnut",
+  "aliases": [
+   "donut",
+   "doughnut"
+  ],
+  "said": "Both are correct and people still write in about it."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "D",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "Two spellings of the same word. Doughnut is the older form and still dominates in print; donut is American, shorter, and on more signs.",
+  "story": "The first known printed use of donut is in George W. Peck's Peck's Bad Boy and his Pa, 1900: a character drinks a cup of coffee and eats a donut. John T. Edge writes that the short spelling was invented in the 1920s by the New York-based Display Doughnut Machine Corporation, which cut the word to make it easier for the foreign buyers it hoped would buy its machines. A Los Angeles Times piece of 10 August 1929 has Bailey Millard complaining he cannot swallow \"the 'wel-dun donut'\".\n\nThe two ran side by side for decades: The New York Times used both across a series of \"National Donut Week\" articles covering the 1939 World's Fair. Dunkin' — Open Kettle in 1948, renamed in 1950 — is the oldest surviving company using the short form. Krispy Kreme, per Oxford, is the notable exception that keeps the long one."
+ },
+ "kin": [
+  {
+   "to": "hole",
+   "as": "The other thing everyone argues about.",
+   "rel": "term"
+  },
+  {
+   "to": "dunkin",
+   "as": "The company that carried the short spelling.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "dough + nut, where nut carries the older sense of a small rounded cake or cookie, as in ginger nut",
+  "first_attested": "1809 (dough-nut, Washington Irving); 1900 (donut, George W. Peck)",
+  "note": "John T. Edge attributes the short spelling to the Display Doughnut Machine Corporation in the 1920s, shortened so foreign buyers of its machines could pronounce it.",
+  "tier": "cited",
+  "source": "s:wp-doughnut"
+ }
+}

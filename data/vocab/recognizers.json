@@ -1,0 +1,22 @@
+{
+ "note": "Who recognizes donut shops. A recognition is counted once per recognizer per shop. The count is a fact about attention paid; it is not this project's ranking.",
+ "entries": [
+  {"key": "james-beard", "label": "James Beard Foundation", "what": "America's Classics; a nomination or award", "url": "https://www.jamesbeard.org/"},
+  {"key": "nyt", "label": "The New York Times", "what": "a review, a list, or a feature", "url": ""},
+  {"key": "eater", "label": "Eater", "what": "an essential or best-of list", "url": ""},
+  {"key": "bon-appetit", "label": "Bon Appétit", "what": "a feature or list", "url": ""},
+  {"key": "food-network", "label": "Food Network", "what": "an episode or a feature", "url": ""},
+  {"key": "thrillist", "label": "Thrillist", "what": "a national list", "url": ""},
+  {"key": "usa-today", "label": "USA Today 10Best", "what": "a readers' choice list", "url": ""},
+  {"key": "southern-living", "label": "Southern Living", "what": "a South's Best list", "url": ""},
+  {"key": "sfa", "label": "Southern Foodways Alliance", "what": "an oral history recorded with the business", "url": "https://www.southernfoodways.org/"},
+  {"key": "smithsonian", "label": "A museum or archive", "what": "a collection, an exhibit, or a recorded interview; name it in `what`", "url": ""},
+  {"key": "national-register", "label": "National Register of Historic Places", "what": "the building is listed", "url": "https://www.nps.gov/subjects/nationalregister/"},
+  {"key": "local-landmark", "label": "A city or county landmark list", "what": "the building or sign is designated; name the list in `what`", "url": ""},
+  {"key": "local-press", "label": "The local paper or alt-weekly", "what": "a best-of list or a profile; name the paper in `what`", "url": ""},
+  {"key": "city-readers-poll", "label": "A city readers' poll", "what": "best donuts, voted; name the poll in `what`", "url": ""},
+  {"key": "state-tourism", "label": "A state tourism office", "what": "a trail or an official list", "url": ""},
+  {"key": "donut-festival", "label": "A donut festival or contest", "what": "a judged award; name the festival in `what`", "url": ""},
+  {"key": "other", "label": "Other named recognition", "what": "say what in `what`", "url": ""}
+ ]
+}

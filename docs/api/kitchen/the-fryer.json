@@ -1,0 +1,200 @@
+{
+ "id": "the-fryer",
+ "type": "kitchen",
+ "names": {
+  "name": "The kettle",
+  "aliases": [
+   "the fryer",
+   "the vat",
+   "the flip"
+  ],
+  "said": "One kettle, two temperatures, and a pair of sticks."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "fry"
+ },
+ "text": {
+  "what": "A shallow open kettle of hot fat with a screen, where every donut in the shop is cooked, turned once, and lifted out.",
+  "story": "The two doughs want different heat. Yeast-raised rings fry about 150 seconds at 182 to 190 °C and absorb more fat for it — around 25 percent by weight. Cake rings fry about 90 seconds at 190 to 198 °C, turning once, and run near 20 percent, with extra shortening already in the batter.\n\nThe numbers are not settled. Another account puts cake at 20 to 25 percent and yeast at 25 to 35, and commercial cake rings at 30 to 45 seconds at 191 °C. Neither cites a laboratory, and this project reports both rather than picking.",
+  "how": "Drop, wait for the belt to show, flip with sticks, wait, lift onto the drain screen.",
+  "today": "Every other decision in the shop is downstream of how many rings fit on the surface of the fat at once."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "Longer in the fat, and carries more of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "as": "Shorter, hotter, and drier out of the kettle.",
+   "rel": "donut"
+  },
+  {
+   "to": "frying-fat",
+   "as": "What is in the kettle.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-against-raised",
+   "as": "The numbers, side by side.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut",
+  "s:wp-cake-doughnut",
+  "s:wp-deep-frying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A shallow open kettle of hot fat with a screen, where every donut in the shop is cooked, turned once, and lifted out.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Longer in the fat, and carries more of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Shorter, hotter, and drier out of the kettle.",
+   "rel": "donut"
+  },
+  {
+   "to": "frying-fat",
+   "type": "kitchen",
+   "name": "What is in the kettle",
+   "as": "What is in the kettle.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The numbers, side by side.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "web",
+   "title": "Deep frying — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Two doughs, two temperatures, one kettle.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "Piped onto paper, fried paper and all.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "Cooler fat is what makes the crack.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "One kettle, two menus.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "frying-fat",
+   "type": "kitchen",
+   "name": "What is in the kettle",
+   "as": "The kettle it sits in.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "Where the difference is settled.",
+   "rel": "kitchen"
+  }
+ ]
+}

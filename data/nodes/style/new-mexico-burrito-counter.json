@@ -1,0 +1,76 @@
+{
+ "id": "new-mexico-burrito-counter",
+ "type": "style",
+ "names": {
+  "name": "The Southwest burrito counter",
+  "aliases": [
+   "donuts and breakfast burritos"
+  ],
+  "said": "Red or green gets asked about the burrito, not the donut."
+ },
+ "region": [
+  "new-mexico",
+  "southwest"
+ ],
+ "facets": {
+  "state": "NM",
+  "dough": "both",
+  "counter": "breakfast-burritos"
+ },
+ "text": {
+  "what": "A donut shop in New Mexico, Arizona or west Texas that also wraps breakfast burritos to order: scrambled egg, potato, cheese and chile in a flour tortilla, sold at the same window as the glazed.",
+  "story": "The breakfast burrito is New Mexican before it is anything else. Tia Sophia's, a diner in Santa Fe, claims the first use of the term on a menu in 1975, though a tortilla rolled around eggs, bacon, potatoes and cheese was on New Mexican tables well before that. The fast-food chains followed — McDonald's in the late 1980s, Sonic, Hardee's and Carl's Jr. through the 1990s, Taco Bell in 2014.\n\nThe donut shop sits in the same slot as those chains: open early, one window, a driver in a truck. *Inference —* a counter already selling coffee at five in the morning has a griddle's worth of spare capacity and a customer who wants something salty, which is the same argument the California shops make about egg rolls.",
+  "how": "A flat-top beside the fryer, a warmer of potatoes, a pot of chile. Burritos are wrapped in foil and stacked; donuts are boxed.",
+  "today": "Where the burrito is on the board, it often outsells the donuts on a weekday morning. This project has not found a count that shows it."
+ },
+ "kin": [
+  {
+   "to": "breakfast-burrito",
+   "as": "The item itself.",
+   "rel": "dish"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The same second-menu logic, one state west.",
+   "rel": "style"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "Why any of these counters sell something savoury at all.",
+   "rel": "story"
+  },
+  {
+   "to": "the-counter",
+   "as": "The map of what else is in the case.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-breakfast-burrito"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-breakfast-burrito"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the sales claim is stated as unverified rather than asserted"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,160 @@
+{
+ "id": "mister-donut",
+ "type": "org",
+ "names": {
+  "name": "Mister Donut",
+  "aliases": [],
+  "said": "Gone in America, enormous in Japan."
+ },
+ "region": [
+  "new-england",
+  "us"
+ ],
+ "facets": {
+  "state": "MA",
+  "status": "open",
+  "founded": 1956
+ },
+ "text": {
+  "what": "The chain founded by Harry Winokur, Bill Rosenberg's former partner, absorbed into Dunkin' in the United States and still large in Asia.",
+  "story": "Dunkin's parent bought Mister Donut in 1990 and converted the American shops. In 2003 the Japanese Mister Donut launched pon de ring, the eight-ball chewy donut named after Brazilian pão de queijo, which travelled to Hawaii and then to the mainland as the mochi donut.",
+  "today": "The American chain disappeared into its rival; the Japanese one exported a new shape back."
+ },
+ "kin": [
+  {
+   "to": "dunkin",
+   "as": "The chain that absorbed it.",
+   "rel": "org"
+  },
+  {
+   "to": "mochi-donut",
+   "as": "The shape its Japanese arm launched.",
+   "rel": "donut"
+  },
+  {
+   "to": "mochinut",
+   "as": "The chain that carried the shape into American strip malls.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-mister-donut",
+  "s:wp-dunkin-donuts",
+  "s:wp-mochi-donut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mister-donut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The chain founded by Harry Winokur, Bill Rosenberg's former partner, absorbed into Dunkin' in the United States and still large in Asia.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The chain that absorbed it.",
+   "rel": "org"
+  },
+  {
+   "to": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The shape its Japanese arm launched.",
+   "rel": "donut"
+  },
+  {
+   "to": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "The chain that carried the shape into American strip malls.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mister-donut",
+   "kind": "web",
+   "title": "Mister Donut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mister_Donut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-dunkin-donuts",
+   "kind": "web",
+   "title": "Dunkin' Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-mochi-donut",
+   "kind": "web",
+   "title": "Mochi donut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mochi_donut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-mister-donut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-mister-donut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-mister-donut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The rival it absorbed.",
+   "rel": "org"
+  },
+  {
+   "from": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "Where the shape came from.",
+   "rel": "org"
+  }
+ ]
+}

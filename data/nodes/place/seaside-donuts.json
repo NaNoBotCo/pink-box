@@ -1,0 +1,97 @@
+{
+ "id": "seaside-donuts",
+ "type": "place",
+ "names": {
+  "name": "Seaside Donuts Bakery",
+  "aliases": [
+   "Seaside Bakery",
+   "Seaside"
+  ],
+  "sort": "Seaside Donuts Bakery"
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1985,
+  "dough": "both",
+  "styles": [
+   "socal-pink-box"
+  ]
+ },
+ "text": {
+  "what": "A Cambodian-American bakery in Newport Beach, open 24 hours, known for cheap selections and a beachside room that fills up at odd hours.",
+  "story": "Kong Eap, who came to the United States in the 1970s, opened the bakery in 1985 — one of many Cambodian-American bakeries that opened in the area after Ted Ngoy's shops showed the way. He later handed it to his son, Roger Eap, and went into hospitality. The family also took on Simone's Donuts in Long Beach, which his daughter Melissa Eap runs.\n\nSince the 2020s the shop has drawn heavy attention from Asian-American creators on TikTok, which is a different kind of custom from the college students who kept it going for decades.",
+  "today": "Still open around the clock."
+ },
+ "geo": {
+  "lat": 33.60869,
+  "lon": -117.92897,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Newport Beach",
+  "county": "Orange",
+  "state": "CA"
+ },
+ "tags": [
+  {
+   "tag": "cambodian-american",
+   "source": "s:wp-seaside-donuts-bakery",
+   "tier": "cited",
+   "note": "the article names Kong Eap, a Cambodian immigrant, as founder and the family as owners since"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:wp-seaside-donuts-bakery",
+   "tier": "cited",
+   "note": "founder to son to daughter across two shops"
+  },
+  {
+   "tag": "twentyfour-hours",
+   "source": "s:wp-seaside-donuts-bakery",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {
+   "to": "socal-pink-box",
+   "as": "A shop the style is made of.",
+   "rel": "style"
+  },
+  {
+   "to": "ted-ngoy",
+   "as": "The shops that showed the way, by name, in the shop's own history.",
+   "rel": "person"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "How a family arrives at a fryer in Orange County.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-seaside-donuts-bakery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-seaside-donuts-bakery"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "town centre, not the shop door — the article gives no street address"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

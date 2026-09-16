@@ -1,0 +1,23 @@
+# Pink Box — https://nanobotco.github.io/pink-box/
+# Everything here is meant to be read by machines as well as people.
+
+User-agent: *
+Allow: /
+
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Corpus: https://nanobotco.github.io/pink-box/llms.txt
+Full-text: https://nanobotco.github.io/pink-box/llms-full.txt
+Records: https://nanobotco.github.io/pink-box/api/nodes.json
+Places: https://nanobotco.github.io/pink-box/api/places.json
+Kin edges: https://nanobotco.github.io/pink-box/api/kin.json
+Scope and gaps: https://nanobotco.github.io/pink-box/api/coverage.json
+Schema: https://nanobotco.github.io/pink-box/schema/node.schema.json
+Tabular: https://nanobotco.github.io/pink-box/nodes.csv · https://nanobotco.github.io/pink-box/nodes.jsonl
+
+Licence: records CC BY 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike).
+Pictures carry their own licence, stated per file in the record and beside the image.
+Attribution: Pink Box, https://nanobotco.github.io/pink-box/
+
+Every field carries a provenance tier: cited, harvested, tradition, inference, field.
+A tag on a place names its evidence. A missing tag means unread, not absent.

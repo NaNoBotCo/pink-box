@@ -1,0 +1,266 @@
+{
+ "note": "Every proportion here names where it came from. The first glaze is the one printed in the Wikibooks yeasted-doughnut recipe, in that recipe's own ratios, under CC BY-SA. The rest are this project's own and say so under the result. Sugar under each result is worked out from the quantities on screen, at 7.5 g of sugar in a tablespoon of powdered sugar, 12.6 g in granulated, 13 g in maple syrup and 17 g in honey, and drawn against the donuts USDA has weighed. A glaze you make yourself lands wherever you take it.",
+ "sugar_g_per_tbsp": {
+  "powdered sugar": 7.5,
+  "sugar": 12.6,
+  "maple syrup": 13.0,
+  "honey": 17.0,
+  "brown sugar": 12.6
+ },
+ "tbsp_per": {
+  "tsp": 0.3333,
+  "tbsp": 1,
+  "cup": 16,
+  "quart": 64,
+  "gallon": 256
+ },
+ "batches": [
+  {
+   "key": "cup",
+   "label": "a dozen — about a cup",
+   "tbsp": 16
+  },
+  {
+   "key": "pint",
+   "label": "two dozen",
+   "tbsp": 32
+  },
+  {
+   "key": "quart",
+   "label": "a whole tray",
+   "tbsp": 64
+  }
+ ],
+ "heats": [
+  {
+   "key": "mild",
+   "label": "Thick — it sets opaque",
+   "mult": 0.55
+  },
+  {
+   "key": "medium",
+   "label": "Standard",
+   "mult": 1.0
+  },
+  {
+   "key": "hot",
+   "label": "Thin — it soaks in",
+   "mult": 1.7
+  }
+ ],
+ "sweets": [
+  {
+   "key": "dry",
+   "label": "No extra sugar",
+   "mult": 0.0
+  },
+  {
+   "key": "little",
+   "label": "A little",
+   "mult": 0.5
+  },
+  {
+   "key": "sweet",
+   "label": "As written",
+   "mult": 1.0
+  },
+  {
+   "key": "sweeter",
+   "label": "Sweeter",
+   "mult": 1.6
+  }
+ ],
+ "bases": [
+  {
+   "key": "wikibooks",
+   "donut": "glazed-raised",
+   "style": "southern-hot-now",
+   "name": "Butter glaze",
+   "region": "the recipe as Wikibooks prints it",
+   "says": "Butter, powdered sugar, vanilla, hot water. Goes on hot and sets clear.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Doughnuts (Yeasted)",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Doughnuts_(Yeasted)",
+    "source": "s:wikibooks-doughnuts-yeasted",
+    "note": "The recipe's own glaze quantities — ⅓ cup butter, 2 cups confectioner's sugar, 1½ tsp vanilla, 4 tbsp hot water — scaled here to the batch you pick."
+   },
+   "method_tier": "cited",
+   "ingredients": [
+    {
+     "name": "confectioner's sugar",
+     "per_tbsp": 0.765,
+     "sugar": "powdered sugar",
+     "unit_hint": ""
+    },
+    {
+     "name": "butter, melted",
+     "per_tbsp": 0.127
+    },
+    {
+     "name": "hot water",
+     "per_tbsp": 0.096,
+     "dial": "heat"
+    },
+    {
+     "name": "vanilla",
+     "per_tbsp": 0.012
+    }
+   ],
+   "method": [
+    "Melt the butter in a saucepan over medium heat.",
+    "Stir in the sugar and vanilla until smooth.",
+    "Off the heat, stir in the hot water a tablespoon at a time until it is thin but not watery.",
+    "Drag each donut through face-down within a minute of the fryer, then set it on a screen."
+   ]
+  },
+  {
+   "key": "water",
+   "donut": "glazed-raised",
+   "style": "socal-pink-box",
+   "name": "Plain water glaze",
+   "region": "every shop with a glaze table",
+   "says": "Two ingredients. The one a strip-mall counter runs by the bucket.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "No free-to-use shop glaze recipe exists to build on. What is cited is what a glaze IS — a thin coating of powdered sugar and liquid, poured or brushed on. The ratio here is this project's own; a shop thins it as the morning warms up."
+   },
+   "method_tier": "tradition",
+   "ingredients": [
+    {
+     "name": "confectioner's sugar",
+     "per_tbsp": 0.86,
+     "sugar": "powdered sugar"
+    },
+    {
+     "name": "hot water or milk",
+     "per_tbsp": 0.14,
+     "dial": "heat"
+    },
+    {
+     "name": "salt",
+     "per_tbsp": 0.004
+    }
+   ],
+   "method": [
+    "Whisk the sugar into the liquid until no lumps are left.",
+    "Keep it warm. It thickens as it cools and stiffens as the shop heats up.",
+    "Glaze hot, drain on a screen, and leave it alone until the shell sets."
+   ]
+  },
+  {
+   "key": "maple",
+   "donut": "maple-bar",
+   "style": "socal-pink-box",
+   "name": "Maple icing",
+   "region": "the West Coast, on a bar",
+   "says": "Thicker than a glaze because it has to sit on top and stay there.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions. Maple flavour on a commercial bar is usually maple flavouring rather than syrup, which is a fact about the trade and not a recipe; syrup is used here because it is what a home kitchen has."
+   },
+   "method_tier": "tradition",
+   "ingredients": [
+    {
+     "name": "confectioner's sugar",
+     "per_tbsp": 0.7,
+     "sugar": "powdered sugar"
+    },
+    {
+     "name": "maple syrup",
+     "per_tbsp": 0.16,
+     "sugar": "maple syrup",
+     "dial": "sweet"
+    },
+    {
+     "name": "butter, melted",
+     "per_tbsp": 0.09
+    },
+    {
+     "name": "hot water",
+     "per_tbsp": 0.05,
+     "dial": "heat"
+    }
+   ],
+   "method": [
+    "Beat everything smooth while the butter is still warm.",
+    "Dip the top face of the bar only, and lift straight up.",
+    "Set it down icing-up. It firms in about ten minutes."
+   ]
+  },
+  {
+   "key": "chocolate",
+   "donut": "chocolate-cake",
+   "style": "socal-pink-box",
+   "name": "Chocolate icing",
+   "region": "the front row of the case",
+   "says": "Cocoa, sugar, fat, hot water. Dark enough to read from the street.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions."
+   },
+   "method_tier": "tradition",
+   "ingredients": [
+    {
+     "name": "confectioner's sugar",
+     "per_tbsp": 0.62,
+     "sugar": "powdered sugar"
+    },
+    {
+     "name": "cocoa powder",
+     "per_tbsp": 0.14
+    },
+    {
+     "name": "butter, melted",
+     "per_tbsp": 0.1
+    },
+    {
+     "name": "hot water",
+     "per_tbsp": 0.14,
+     "dial": "heat"
+    }
+   ],
+   "method": [
+    "Sift the cocoa with the sugar or it will stay lumpy.",
+    "Stir in the butter, then the water, until it pours off the spoon in a ribbon.",
+    "Dip face-down, lift, and go straight into the sprinkles if you want them to stick."
+   ]
+  },
+  {
+   "key": "cinnamon",
+   "donut": "cake-donut",
+   "style": "new-england-cider",
+   "name": "Cinnamon sugar",
+   "region": "the orchard window",
+   "says": "Not a glaze at all: a bowl of sugar and a hot donut.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions. The cited part is the practice — cider donuts are coated in granulated, powdered or cinnamon sugar while hot."
+   },
+   "method_tier": "tradition",
+   "ingredients": [
+    {
+     "name": "granulated sugar",
+     "per_tbsp": 0.92,
+     "sugar": "sugar",
+     "dial": "sweet"
+    },
+    {
+     "name": "ground cinnamon",
+     "per_tbsp": 0.08
+    }
+   ],
+   "method": [
+    "Mix the sugar and cinnamon in a deep bowl.",
+    "Drop the donut in while it is too hot to hold and turn it twice.",
+    "Eat it in the car park. This one does not keep."
+   ]
+  }
+ ]
+}

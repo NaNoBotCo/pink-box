@@ -1,0 +1,69 @@
+{
+ "id": "spudnut",
+ "type": "donut",
+ "names": {
+  "name": "Spudnut",
+  "aliases": [
+   "potato donut"
+  ],
+  "said": "A word somebody trademarked, and the shops that still use it earned it."
+ },
+ "region": [
+  "utah",
+  "mountain-west",
+  "us"
+ ],
+ "facets": {
+  "dough": "potato",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "A donut made with potato flour or mashed potato in the dough. Softer crumb, longer shelf life, and a faint savoury note under the sugar.",
+  "story": "Al and Bob Pelton of Salt Lake City ate potato doughnuts in Germany, then worked through wheat dough flavoured with potato water and mashed potato before landing on a dry potato mix that could be shipped — which is what made a franchise possible. They coined the word spudnut and opened in 1940.\n\nThe chain moved fast. Franchising began in 1946; in 1948 a new franchisee paid fifty dollars plus the cost of a hundred sacks of spudnut flour; by mid-1949 there were more than 225 shops in 31 states, more than 300 in 38 states by 1954, and 315 by 1968. The advertising ran \"Coast to coast… Alaska to Mexico\", with a cartoon Mr. Spudnut in parades.\n\nThe parent company is gone. Independent shops still trading under the name are the survivors of that system, not a chain.",
+  "how": "Potato flour or riced potato into a yeast dough, proofed, cut and fried like any raised ring.",
+  "today": "A Spudnut sign is a dated object: it marks a shop that bought into a franchise that no longer exists and kept the name."
+ },
+ "kin": [
+  {
+   "to": "fastnacht",
+   "as": "The other American potato donut, and older.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "What it is, under the potato.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-franchise-that-vanished",
+   "as": "How a 300-shop system leaves independent shops behind.",
+   "rel": "story"
+  },
+  {
+   "to": "neon-donut",
+   "as": "Spudnut signs are half the reason those signs get photographed.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:wp-spudnut-shops"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-spudnut-shops"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "reading a surviving sign as a franchise remnant is this project's reasoning from the company's collapse"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

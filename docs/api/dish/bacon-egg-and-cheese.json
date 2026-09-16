@@ -1,0 +1,162 @@
+{
+ "id": "bacon-egg-and-cheese",
+ "type": "dish",
+ "names": {
+  "name": "Bacon, egg and cheese",
+  "aliases": [
+   "BEC",
+   "baconeggandcheese",
+   "bodega sandwich"
+  ],
+  "said": "On a roll, salt pepper ketchup, and the order is said as one word."
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "course": "breakfast",
+  "state": "NY"
+ },
+ "text": {
+  "what": "Bacon, fried or scrambled egg and cheese on bread — in New York City, on a kaiser roll. About 20 grams of fat and 350 calories in a typical one.",
+  "story": "The sandwich is common across the United States and Canada and culturally particular to New York, where the deli, the bodega and the corner coffee shop all make it to order and wrap it in foil and paper. It is abbreviated BEC in print and said as a single word at the counter.",
+  "today": "Where the sandwich is the business, the donut is the impulse buy beside the register rather than the reason anyone came in."
+ },
+ "kin": [
+  {
+   "to": "nyc-bodega-donut",
+   "as": "The counter it anchors.",
+   "rel": "style"
+  },
+  {
+   "to": "anthora-cup",
+   "as": "What the coffee comes in.",
+   "rel": "art"
+  },
+  {
+   "to": "the-counter",
+   "as": "What else is in the case, by region.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-bacon-egg-and-cheese-sandwich",
+  "s:wp-bodega"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bacon-egg-and-cheese-sandwich"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Bacon, fried or scrambled egg and cheese on bread — in New York City, on a kaiser roll. About 20 grams of fat and 350 calories in a typical one.",
+ "region_terms": [
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The counter it anchors.",
+   "rel": "style"
+  },
+  {
+   "to": "anthora-cup",
+   "type": "art",
+   "name": "The Anthora cup",
+   "as": "What the coffee comes in.",
+   "rel": "art"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What else is in the case, by region.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bacon-egg-and-cheese-sandwich",
+   "kind": "web",
+   "title": "Bacon, egg and cheese sandwich — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bacon,_egg_and_cheese_sandwich",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-bodega",
+   "kind": "web",
+   "title": "Bodega — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bodega",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-bacon-egg-and-cheese-sandwich"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-bacon-egg-and-cheese-sandwich"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The sandwich that pays the rent.",
+   "rel": "dish"
+  },
+  {
+   "from": "anthora-cup",
+   "type": "art",
+   "name": "The Anthora cup",
+   "as": "What it comes with.",
+   "rel": "dish"
+  },
+  {
+   "from": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "New York.",
+   "rel": "dish"
+  },
+  {
+   "from": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The New York version.",
+   "rel": "dish"
+  }
+ ]
+}

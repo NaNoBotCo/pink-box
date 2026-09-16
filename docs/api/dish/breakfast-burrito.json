@@ -1,0 +1,149 @@
+{
+ "id": "breakfast-burrito",
+ "type": "dish",
+ "names": {
+  "name": "Breakfast burrito",
+  "aliases": [
+   "breakfast wrap"
+  ],
+  "said": "Foil-wrapped, eaten one-handed, and the chile question comes with it."
+ },
+ "region": [
+  "new-mexico",
+  "southwest"
+ ],
+ "facets": {
+  "course": "breakfast"
+ },
+ "text": {
+  "what": "Breakfast inside a flour tortilla: scrambled egg, potato, cheese, and in the Southwest, New Mexico chile, jalapeño, salsa, onion, chorizo or bacon.",
+  "story": "It comes out of New Mexican cooking. Tia Sophia's, a diner in Santa Fe, claims the first use of the term on a menu in 1975, though a tortilla rolled around eggs, bacon, potatoes and cheese predates the name. McDonald's added a version in the late 1980s; Sonic, Hardee's and Carl's Jr. followed in the 1990s; Taco Bell in 2014. Dunkin' sells one too.",
+  "today": "A donut shop with a griddle sells them to the same driver at the same hour, which is the whole reason they share a board."
+ },
+ "kin": [
+  {
+   "to": "new-mexico-burrito-counter",
+   "as": "The counter style built on it.",
+   "rel": "style"
+  },
+  {
+   "to": "egg-roll",
+   "as": "The California answer to the same arithmetic.",
+   "rel": "dish"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "Why the savoury item is there at all.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-breakfast-burrito"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-breakfast-burrito"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Breakfast inside a flour tortilla: scrambled egg, potato, cheese, and in the Southwest, New Mexico chile, jalapeño, salsa, onion, chorizo or bacon.",
+ "region_terms": [
+  {
+   "key": "new-mexico",
+   "name": "New Mexico",
+   "state": "NM",
+   "note": "red or green on the breakfast burrito next to the glazed"
+  },
+  {
+   "key": "southwest",
+   "name": "The Southwest",
+   "state": null,
+   "note": "Phoenix, Tucson, Albuquerque, Las Vegas; where the breakfast burrito shares the case"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "as": "The counter style built on it.",
+   "rel": "style"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The California answer to the same arithmetic.",
+   "rel": "dish"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "Why the savoury item is there at all.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-breakfast-burrito",
+   "kind": "web",
+   "title": "Breakfast burrito — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Breakfast_burrito",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-breakfast-burrito"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-breakfast-burrito"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "as": "The item itself.",
+   "rel": "dish"
+  },
+  {
+   "from": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "The Southwest.",
+   "rel": "dish"
+  },
+  {
+   "from": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The Southwestern version.",
+   "rel": "dish"
+  }
+ ]
+}

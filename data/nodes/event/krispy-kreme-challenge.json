@@ -1,0 +1,74 @@
+{
+ "id": "krispy-kreme-challenge",
+ "type": "event",
+ "names": {
+  "name": "Krispy Kreme Challenge",
+  "aliases": [],
+  "said": "Five miles, twelve donuts, one hour. 2,400 calories and 144 grams of fat, and they print the numbers."
+ },
+ "region": [
+  "the-south"
+ ],
+ "facets": {
+  "when": "February",
+  "status": "open",
+  "state": "NC",
+  "founded": 2004
+ },
+ "text": {
+  "what": "An annual charity run in Raleigh: 2.5 miles to a Krispy Kreme, a dozen donuts, and 2.5 miles back, inside an hour.",
+  "story": "It began in December 2004 with about a dozen friends and is planned and run by Park Scholars at North Carolina State University. Profits go to the North Carolina Children's Hospital; the 2023 race brought total donations past $2.1 million. The event is not affiliated with the Krispy Kreme company.",
+  "today": "The published calorie and fat figures are the only per-dozen nutrition numbers in this directory that a race gave out rather than a label."
+ },
+ "kin": [
+  {
+   "to": "krispy-kreme",
+   "as": "The shop at the turnaround.",
+   "rel": "org"
+  },
+  {
+   "to": "the-dozen",
+   "as": "The unit being eaten.",
+   "rel": "term"
+  },
+  {
+   "to": "southern-hot-now",
+   "as": "The regional habit it parodies and honours.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme-challenge"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme-challenge"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 35.7796,
+  "lon": -78.6382,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Raleigh",
+  "county": "Wake",
+  "state": "NC"
+ }
+}

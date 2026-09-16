@@ -1,0 +1,134 @@
+{
+ "id": "hanson-gregory",
+ "type": "person",
+ "names": {
+  "name": "Hanson Gregory",
+  "aliases": [
+   "Captain Gregory"
+  ],
+  "said": "Claimed the hole and told it the same way for sixty years."
+ },
+ "region": [
+  "new-england"
+ ],
+ "facets": {
+  "role": "inventor",
+  "state": "ME"
+ },
+ "text": {
+  "what": "The New England sailor who said he punched the first hole in a donut in 1847, at sixteen, aboard a lime-trading ship.",
+  "story": "Gregory said he disliked how greasy twisted donuts were and how raw their centres came out, and punched a hole through the middle with the ship's tin pepper box, later teaching his mother the trick. The Smithsonian's account has his mother, Elizabeth Gregory, frying a deep dough that used his spice cargo — nutmeg, cinnamon, lemon rind — and putting hazelnuts or walnuts in the middle where the dough might not cook through.\n\nThe claim is one of several. Michael Krondl suggests the ring came from recipes for a jumble, a ring-shaped cookie; Linda Civitello writes the hole made donuts cook faster. By 1870 a cutter with two concentric circles was in production.",
+  "today": "Nobody has produced a document that settles it, and the story is repeated as settled anyway."
+ },
+ "kin": [
+  {
+   "to": "hole",
+   "as": "The claim itself.",
+   "rel": "term"
+  },
+  {
+   "to": "olykoek",
+   "as": "What came before it.",
+   "rel": "term"
+  },
+  {
+   "to": "elizabeth-gregory",
+   "as": "The other Gregory in the story.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The New England sailor who said he punched the first hole in a donut in 1847, at sixteen, aboard a lime-trading ship.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The claim itself.",
+   "rel": "term"
+  },
+  {
+   "to": "olykoek",
+   "type": "term",
+   "name": "Olykoek",
+   "as": "What came before it.",
+   "rel": "term"
+  },
+  {
+   "to": "elizabeth-gregory",
+   "type": "person",
+   "name": "Elizabeth Gregory",
+   "as": "The other Gregory in the story.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "elizabeth-gregory",
+   "type": "person",
+   "name": "Elizabeth Gregory",
+   "as": "Her son, and the claim.",
+   "rel": "person"
+  },
+  {
+   "from": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "Who claimed it.",
+   "rel": "person"
+  }
+ ]
+}

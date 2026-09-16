@@ -1,0 +1,93 @@
+{
+ "id": "malasada",
+ "type": "donut",
+ "names": {
+  "name": "Malasada",
+  "aliases": [
+   "malassada",
+   "Hawaiian donut",
+   "filhós (related)"
+  ],
+  "said": "No hole, no filling unless you ask, and sugar all over your shirt."
+ },
+ "region": [
+  "hawaii",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "sugared",
+  "state": "HI"
+ },
+ "text": {
+  "what": "A flattened round of yeasted dough, fried and rolled in sugar — cinnamon sugar, often — with no hole and traditionally no filling. Portuguese from Madeira; Hawaiian by adoption, and the islands sell more of them than anywhere on the mainland.",
+  "story": "The name is Portuguese: mal and assado, badly roasted, for the unstructured shape — or, another account has it, for the underdone dough inside. Malasadas descend from the mainland and Madeiran filhós, a product of the sixteenth-century sugar industry, and travelled through Macaronesia to the Azores, the Canaries and as far as Brazil. They are first described in the Dicionário Houaiss da Língua Portuguesa in 1609 and appear in the ledgers of the Convento da Encarnação in Lisbon between 1688 and 1762.\n\nPortuguese contract labourers carried them to Hawaii, where they are called Hawaiian donuts often enough that the name has stuck to them in the rest of the country too. The Azorean malasada is a Carnival food; the Penedono filhós, made with brandy and olive oil instead of milk, is eaten year round, and the Portuguese agriculture directorate treats the two as distinct.",
+  "how": "A rich yeast dough, rested, pulled into rounds by hand rather than cut, fried until it puffs, then dropped straight into a pan of granulated sugar.",
+  "today": "Hawaii keeps a day for them. Shops sell them plain and filled — haupia, custard, guava — and the plain one is still the one that goes fastest."
+ },
+ "kin": [
+  {
+   "to": "leonards-bakery",
+   "as": "The Honolulu bakery that made it a statewide habit.",
+   "rel": "place"
+  },
+  {
+   "to": "hawaii-malasada",
+   "as": "The island style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "malasada-day",
+   "as": "The Tuesday it gets its own line out the door.",
+   "rel": "event"
+  },
+  {
+   "to": "bismarck",
+   "as": "The other no-hole fried round, filled instead of sugared.",
+   "rel": "contrast"
+  },
+  {
+   "to": "paczki",
+   "as": "Another Carnival donut that empties the pantry before a fast.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-malassada"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition",
+    "note": "the flavours are what island shops list; which sells fastest is shop lore, hedged"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "malasada/malasada-leonard-s-malasadas.jpg",
+   "source": "commons",
+   "title": "File:Leonard's malasadas.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Leonard%27s_malasadas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALeonard%27s_malasadas.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "_e.t from Saratoga, USA",
+   "credit": "O'ahu: Honolulu.",
+   "alt": "(Leonard's Bakery, Honolulu, Hawaii) we couldn't decide!, so ended up getting at least one of each of the flavor-filled (custard, chocolate, haupia, guava) malasadas, a cinnamon plain one, and an orig",
+   "date": "2007-10-26 08:31",
+   "primary": true,
+   "sha256": "b00a1e6ec7dbcab767d08c51ccfe796c23cb457ebe87f03d4b94b2dce9d68914"
+  }
+ ]
+}

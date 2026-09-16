@@ -1,0 +1,157 @@
+{
+ "id": "buttermilk-bar",
+ "type": "donut",
+ "names": {
+  "name": "Buttermilk bar",
+  "aliases": [
+   "buttermilk donut"
+  ],
+  "said": "Split down the middle like it fell apart, which is how you know it is the right one."
+ },
+ "region": [
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "dough": "cake",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "Cake batter cut in a bar rather than a ring, fried so it splits open along the top, and glazed heavily enough that the glaze runs into the split.",
+  "story": "*Tradition holds —* the bar is a West Coast case staple and a test of a cake bench: too warm a batter and it will not crack, too cold and it breaks apart. It belongs to the same family as the old-fashioned, which cracks for the same reason, and shops that make a good one tend to make a good old-fashioned too.\n\nNo published history names an inventor or a first shop, and this project has not found one.",
+  "how": "Buttermilk cake batter, rested cold, cut in rectangles, fried at a temperature low enough that the crust sets before the lift finishes. Glaze while warm.",
+  "today": "Priced as a bar rather than a ring in most shops, which is to say a little more."
+ },
+ "kin": [
+  {
+   "to": "old-fashioned",
+   "as": "Cracks for the same reason, in a ring.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The batter it comes from.",
+   "rel": "donut"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "A fixture of the California dozen.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-cake-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "tradition",
+    "note": "no published origin found for the bar; the record says so rather than filling the gap"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "Cake batter cut in a bar rather than a ring, fried so it splits open along the top, and glazed heavily enough that the glaze runs into the split.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "Cracks for the same reason, in a ring.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The batter it comes from.",
+   "rel": "donut"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "A fixture of the California dozen.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "no published origin found for the bar; the record says so rather than filling the gap"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The tell of a shop that can run a cake bench.",
+   "rel": "donut"
+  },
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Cake batter cut in a bar, cracked open, glazed heavy.",
+   "rel": "donut"
+  },
+  {
+   "from": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "Same batter, cut in a bar.",
+   "rel": "donut"
+  }
+ ]
+}

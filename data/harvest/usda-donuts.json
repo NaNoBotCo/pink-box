@@ -1,0 +1,285 @@
+{
+ "source": "USDA FoodData Central, SR Legacy",
+ "url": "https://fdc.nal.usda.gov/",
+ "license": "Public domain (U.S. government work)",
+ "release": "SR Legacy CSV bundle 2018-04; rows last updated 2019-04-01",
+ "fetched_at": "2026-09-17",
+ "note": "Nutrients are per 100 grams as published. A piece is not a fixed weight: the portion table is USDA's own, and runs from a 13-gram hole to a 157-gram jumbo.",
+ "foods": [
+  {
+   "fdc_id": "172758",
+   "dough": "yeast",
+   "per_100g": {
+    "sat_fat_g": 9.453,
+    "protein_g": 6.14,
+    "sodium_mg": 316.0,
+    "fat_g": 22.7,
+    "carb_g": 47.93,
+    "kcal": 421.0,
+    "sugar_g": 22.75,
+    "fiber_g": 2.1
+   },
+   "portions": [
+    {
+     "desc": "doughnut hole",
+     "g": 13.0
+    },
+    {
+     "desc": "doughnut, small (approx 3\" dia)",
+     "g": 31.0
+    },
+    {
+     "desc": "doughnut (approx 1-1/2 oz)",
+     "g": 42.0
+    },
+    {
+     "desc": "doughnut stick",
+     "g": 56.0
+    },
+    {
+     "desc": "doughnut (3-3/4\" dia)",
+     "g": 60.0
+    },
+    {
+     "desc": "doughnut, medium (approx 3-3/4\" dia)",
+     "g": 60.0
+    },
+    {
+     "desc": "doughnut",
+     "g": 63.0
+    },
+    {
+     "desc": "doughnut medium (approx 3-3/4\" dia)",
+     "g": 64.0
+    },
+    {
+     "desc": "honeybun (4\" x 3\")",
+     "g": 65.0
+    },
+    {
+     "desc": "doughnut, large (approx 4-1/4\" dia)",
+     "g": 75.0
+    },
+    {
+     "desc": "honeybun (4-1/2\" x 3-1/2\")",
+     "g": 78.0
+    },
+    {
+     "desc": "honeybun (5\" x 3-1/2\")",
+     "g": 85.0
+    },
+    {
+     "desc": "doughnut, long type (twist) approx 5-1/4\" x 2-1/2\" x 1-1/2\" high)",
+     "g": 90.0
+    },
+    {
+     "desc": "extra large (approx 5\" dia)",
+     "g": 122.0
+    },
+    {
+     "desc": "jumbo (approx 6\" dia)",
+     "g": 157.0
+    }
+   ],
+   "description": "Doughnuts, yeast-leavened, glazed, enriched (includes honey buns)"
+  },
+  {
+   "fdc_id": "175062",
+   "dough": "yeast",
+   "per_100g": {
+    "protein_g": 6.4,
+    "sodium_mg": 342.0,
+    "fat_g": 22.8,
+    "carb_g": 44.3,
+    "kcal": 403.0,
+    "fiber_g": 1.2,
+    "sat_fat_g": 5.813
+   },
+   "portions": [
+    {
+     "desc": "doughnut, medium (3-1/4\" dia)",
+     "g": 60.0
+    }
+   ],
+   "description": "Doughnuts, yeast-leavened, glazed, unenriched (includes honey buns)"
+  },
+  {
+   "fdc_id": "172757",
+   "dough": "yeast",
+   "per_100g": {
+    "fiber_g": 0.8,
+    "sugar_g": 14.55,
+    "fat_g": 24.5,
+    "carb_g": 30.0,
+    "kcal": 361.0,
+    "protein_g": 6.4,
+    "sodium_mg": 309.0,
+    "sat_fat_g": 5.43
+   },
+   "portions": [
+    {
+     "desc": "doughnut oval (3-1/2\" x 2-1/2\")",
+     "g": 85.0
+    }
+   ],
+   "description": "Doughnuts, yeast-leavened, with creme filling"
+  },
+  {
+   "fdc_id": "172759",
+   "dough": "yeast",
+   "per_100g": {
+    "fiber_g": 0.9,
+    "sugar_g": 21.1,
+    "protein_g": 5.9,
+    "fat_g": 18.7,
+    "carb_g": 39.0,
+    "kcal": 340.0,
+    "sodium_mg": 455.0,
+    "sat_fat_g": 4.843
+   },
+   "portions": [
+    {
+     "desc": "doughnut oval (3-1/2\" x 2-1/2\")",
+     "g": 85.0
+    }
+   ],
+   "description": "Doughnuts, yeast-leavened, with jelly filling"
+  },
+  {
+   "fdc_id": "174990",
+   "dough": "cake",
+   "per_100g": {
+    "sat_fat_g": 11.105,
+    "protein_g": 5.31,
+    "fiber_g": 1.7,
+    "sodium_mg": 477.0,
+    "sugar_g": 18.15,
+    "fat_g": 24.93,
+    "carb_g": 47.06,
+    "kcal": 434.0
+   },
+   "portions": [
+    {
+     "desc": "doughnut, mini (1-1/2\" dia) or doughnut hole",
+     "g": 14.0
+    },
+    {
+     "desc": "donut",
+     "g": 40.0
+    },
+    {
+     "desc": "doughnut stick",
+     "g": 52.0
+    },
+    {
+     "desc": "doughnut, long type (twist) (4-1/2\" long)",
+     "g": 52.0
+    },
+    {
+     "desc": "doughnut medium (3-1/4\" dia)",
+     "g": 54.0
+    },
+    {
+     "desc": "doughnut, large (4\" dia)",
+     "g": 71.0
+    }
+   ],
+   "description": "Doughnuts, cake-type, plain (includes unsugared, old-fashioned)"
+  },
+  {
+   "fdc_id": "174991",
+   "dough": "cake",
+   "per_100g": {
+    "sodium_mg": 326.0,
+    "fiber_g": 1.9,
+    "sat_fat_g": 13.47,
+    "protein_g": 4.93,
+    "sugar_g": 26.65,
+    "fat_g": 25.25,
+    "carb_g": 51.33,
+    "kcal": 452.0
+   },
+   "portions": [
+    {
+     "desc": "donettes (2\" dia)",
+     "g": 18.0
+    },
+    {
+     "desc": "doughnut, medium (approx 3\" dia)",
+     "g": 43.0
+    },
+    {
+     "desc": "doughnut large (approx 3-1/2\" dia)",
+     "g": 67.0
+    }
+   ],
+   "description": "Doughnuts, cake-type, plain, chocolate-coated or frosted"
+  },
+  {
+   "fdc_id": "174992",
+   "dough": "cake",
+   "per_100g": {
+    "fiber_g": 1.5,
+    "sodium_mg": 402.0,
+    "protein_g": 5.2,
+    "fat_g": 22.9,
+    "carb_g": 50.8,
+    "kcal": 426.0,
+    "sat_fat_g": 5.926
+   },
+   "portions": [
+    {
+     "desc": "doughnut, medium (approx 3\" dia)",
+     "g": 45.0
+    }
+   ],
+   "description": "Doughnuts, cake-type, plain, sugared or glazed"
+  },
+  {
+   "fdc_id": "174993",
+   "dough": "cake",
+   "per_100g": {
+    "sugar_g": 31.92,
+    "fat_g": 19.9,
+    "carb_g": 57.4,
+    "kcal": 417.0,
+    "protein_g": 4.5,
+    "fiber_g": 2.2,
+    "sodium_mg": 215.0,
+    "sat_fat_g": 5.132
+   },
+   "portions": [
+    {
+     "desc": "doughnut, medium (approx 3\" dia)",
+     "g": 42.0
+    },
+    {
+     "desc": "doughnut (3-3/4\" dia)",
+     "g": 60.0
+    }
+   ],
+   "description": "Doughnuts, cake-type, chocolate, sugared or glazed"
+  },
+  {
+   "fdc_id": "172756",
+   "dough": "choux",
+   "per_100g": {
+    "fiber_g": 1.2,
+    "sugar_g": 35.11,
+    "protein_g": 3.1,
+    "sodium_mg": 345.0,
+    "fat_g": 18.3,
+    "carb_g": 59.5,
+    "kcal": 412.0,
+    "sat_fat_g": 4.667
+   },
+   "portions": [
+    {
+     "desc": "cruller (3\" dia)",
+     "g": 41.0
+    }
+   ],
+   "description": "Doughnuts, french crullers, glazed"
+  }
+ ]
+}

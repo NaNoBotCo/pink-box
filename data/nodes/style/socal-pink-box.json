@@ -1,0 +1,155 @@
+{
+ "id": "socal-pink-box",
+ "type": "style",
+ "names": {
+  "name": "The Southern California pink box",
+  "aliases": [
+   "the pink box shop",
+   "SoCal independent donut shop",
+   "Cambodian-American donut shop"
+  ],
+  "said": "Nobody calls it a style. You say \"the donut shop\", and everyone knows which corner of which strip mall you mean."
+ },
+ "region": [
+  "socal",
+  "cambodian-american",
+  "us"
+ ],
+ "facets": {
+  "state": "CA",
+  "dough": "both",
+  "counter": "egg-rolls"
+ },
+ "text": {
+  "what": "An independent counter, usually in a strip mall, usually open before five in the morning, frying both doughs in one small kitchen and selling them out of a matte pink box. Glazed raised, cake rings, buttermilk bars, fritters, bear claws, maple bars, holes in a bag. Coffee in a paper cup. Often, on the same board: egg rolls, croissant sandwiches, chow mein, boba, or a breakfast burrito.",
+  "story": "Ted Ngoy left Cambodia with his wife and three children in 1975, ahead of the Khmer Rouge, and came through the U.S. Refugee Admissions Program to Camp Pendleton. He took a janitor's job at a Lutheran church in Tustin and a second job at a gas station, noticed how busy a local donut shop was, and asked to learn the trade. An affirmative-action hiring program at the Winchell's chain trained him; he managed a store in Newport Beach and put his wife and nephew to work in it. In 1977 he bought his own shop, Christy's Donuts in La Habra, and named every shop he bought afterwards the same thing.\n\nBy 1979 he had more than 25 shops. He grew tired of running them himself, so he trained relatives and refugees and leased shops to them — \"I sponsored more than 100 families\", he said, and claimed each on official paperwork as kin. By 1987 he had 32 Christy's; at the peak he reckoned 65. The leasing model is the part that mattered: a family arrived, learned a trade in a month, took a shop, and a few years later sold or leased a shop to the next family.\n\nKQED reported in 2021 that roughly 90 percent of California's 5,000-plus independent donut shops were Cambodian-owned. The pink box itself is attributed to Ngoy and Ning Yen, who were helping other Cambodians set up shops: cheaper matte pink stock instead of the glossy white box.\n\nWhy the second menu is there is not a mystery either. Jolly Chan, who opened China Express and Donut by the 24th Street BART station in San Francisco in 1993, put it plainly to KQED: \"We have to sell more stuff to make up the rent and the expense.\"",
+  "how": "One fryer, two doughs. Raised dough goes up overnight and is cut, proofed and fried first; cake batter is dropped from a depositor after. Glaze table by the door. Everything is done before the first commuter, and the case is not restocked — when the bars are gone they are gone. A second warmer holds whatever the shop also sells hot.",
+  "today": "The model is under pressure from rents, from flour and shortening prices, and from the second generation going to college rather than to the bench at two in the morning. Shops still open, close and change hands quietly; the pink box outlives the owner's name on the sign. *Inference —* the box is the most portable piece of the whole thing, which is why it turns up in cities that never had the shops."
+ },
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "Trained at Winchell's, bought Christy's in La Habra, and leased shops to the families who followed.",
+   "rel": "person"
+  },
+  {
+   "to": "ning-yen",
+   "as": "Named with Ngoy as the reason the box is pink.",
+   "rel": "person"
+  },
+  {
+   "to": "christys-donuts",
+   "as": "The La Habra shop the whole pattern starts from.",
+   "rel": "place"
+  },
+  {
+   "to": "pink-box",
+   "as": "The object the style is named for here.",
+   "rel": "art"
+  },
+  {
+   "to": "egg-roll",
+   "as": "On the board beside the glazed, and on it for a reason.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "The long version: refugee, empire, gambling, return.",
+   "rel": "story"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "Rent arithmetic, told by the people who did it.",
+   "rel": "story"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "The item the box is built around.",
+   "rel": "donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "as": "The tell of a shop that can run a cake bench.",
+   "rel": "donut"
+  },
+  {
+   "to": "randys-donuts",
+   "as": "The one with the roof that everybody photographs.",
+   "rel": "place"
+  },
+  {
+   "to": "winchells",
+   "as": "Where the trade got taught, by a chain, to a refugee.",
+   "rel": "org"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "When the work actually happens.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-ted-ngoy",
+  "s:wp-cambodian-americans",
+  "s:kqed-donuts-chinese",
+  "s:wp-doughnut-shop"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.what": {
+    "tier": "tradition",
+    "note": "the case description is general knowledge of these shops; the second menu is cited to KQED"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "bench order as these shops run it; hedged"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the pressures are this project reasoning from the cited rent argument and from shop turnover; no count is claimed"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "socal-pink-box/socal-pink-box-california-donuts-los-angeles-usa-panoramio.jpg",
+   "source": "commons",
+   "title": "File:California Donuts , Los Angeles USA - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/California_Donuts_%2C_Los_Angeles_USA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACalifornia_Donuts_%2C_Los_Angeles_USA_-_panoramio.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "The Erica Chang",
+   "credit": "https://web.archive.org/web/20161024035750/http://www.panoramio.com/photo/58494359",
+   "alt": "California Donuts , Los Angeles USA",
+   "date": "Taken on 3 March 2011",
+   "primary": true,
+   "sha256": "6e9e63ef2bf3237161a5a593b1e15bc671b46cddd3f39dafa8b2a781977b09c9"
+  },
+  {
+   "file": "socal-pink-box/socal-pink-box-dale-s-donuts-15904-s-atlantic-ave-compton-ca-01.jpg",
+   "source": "commons",
+   "title": "File:Dale's Donuts 15904 S. Atlantic Ave Compton CA 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dale%27s_Donuts_15904_S._Atlantic_Ave_Compton_CA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADale%27s_Donuts_15904_S._Atlantic_Ave_Compton_CA_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jengod",
+   "credit": "Own work",
+   "alt": "Dale's Donuts 15904 S. Atlantic Ave Compton CA",
+   "date": "2024-03-01 09:27:51",
+   "primary": false,
+   "sha256": "8b400908a25eb8f3892bb8317da077a383157c130f14f302f42f4b5b0812c3c9"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "powdered-sugar",
+ "type": "term",
+ "names": {
+  "name": "Powdered sugar",
+  "aliases": [
+   "confectioner's sugar",
+   "icing sugar",
+   "10X"
+  ],
+  "said": "It goes everywhere. That is not a flaw in the product."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "P",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "Sugar ground fine and cut with a little starch to stop it caking. The base of every glaze and the finish on beignets, malasadas and pączki.",
+  "story": "Confectioner's sugar is graded by fineness — 10X is the finest common grade — and usually carries around 3 percent cornstarch as an anti-caking agent, which is why a glaze made from it sets opaque rather than clear."
+ },
+ "kin": [
+  {
+   "to": "glaze-table",
+   "as": "Where it is used by the bucket.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "beignet",
+   "as": "Buried in it.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-powdered-sugar"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-powdered-sugar"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "sugar ground to a powder; confectioner's sugar in the trade, icing sugar in Britain",
+  "first_attested": "",
+  "note": "Graded by fineness — 10X is the finest common grade — and cut with starch against caking.",
+  "tier": "cited",
+  "source": "s:wp-powdered-sugar"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "note": "The eleven node types and how the directory groups each one. Order here is the order on the front page.",
+ "entries": [
+  {
+   "key": "style",
+   "name": "Styles",
+   "one": "style",
+   "path": "style",
+   "blurb": "The pink box in Los Angeles, kolaches in Houston, cider donuts in October, paczki on Tuesday.",
+   "group_by": "facets.state"
+  },
+  {
+   "key": "donut",
+   "name": "Donuts",
+   "one": "donut",
+   "path": "donut",
+   "blurb": "Raised glazed, old-fashioned, buttermilk bar, apple fritter, bear claw, maple bar, jelly bismarck, malasada.",
+   "group_by": "facets.dough"
+  },
+  {
+   "key": "dish",
+   "name": "The rest of the case",
+   "one": "dish",
+   "path": "dish",
+   "blurb": "Egg rolls, breakfast burritos, bacon egg and cheese, kolaches, croissant sandwiches, fried rice, boba, coffee.",
+   "group_by": "facets.course"
+  },
+  {
+   "key": "kitchen",
+   "name": "Out back",
+   "one": "practice",
+   "path": "kitchen",
+   "blurb": "Yeast and proof box, cake batter and depositor, the fryer, the glaze table, the 2 a.m. shift, day-old.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "place",
+   "name": "Shops",
+   "one": "shop",
+   "path": "place",
+   "blurb": "Strip-mall counters, drive-thrus, corner windows. Open and gone.",
+   "group_by": "address.state"
+  },
+  {
+   "key": "person",
+   "name": "People",
+   "one": "person",
+   "path": "person",
+   "blurb": "Fryers, founders, families, the man who sold the machine, the man who sold the box.",
+   "group_by": "facets.role"
+  },
+  {
+   "key": "org",
+   "name": "Outfits",
+   "one": "organization",
+   "path": "org",
+   "blurb": "Suppliers, associations, box printers, archives.",
+   "group_by": "facets.state"
+  },
+  {
+   "key": "event",
+   "name": "Days",
+   "one": "day",
+   "path": "event",
+   "blurb": "National Donut Day, Fastnacht Day, Paczki Day, Malasada Day, the first frost.",
+   "group_by": "facets.state"
+  },
+  {
+   "key": "term",
+   "name": "Words",
+   "one": "word",
+   "path": "word",
+   "blurb": "Sinker, bismarck, long john, fry cake, olykoek, klobasnek, day-old, the dozen.",
+   "group_by": "facets.letter"
+  },
+  {
+   "key": "art",
+   "name": "Signs",
+   "one": "piece",
+   "path": "art",
+   "blurb": "The giant donut on the roof, the pink box, neon, the number on the window.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "story",
+   "name": "Stories",
+   "one": "story",
+   "path": "story",
+   "blurb": "Cake against yeast, the refugee who sold a thousand shops a pink box, why the egg rolls are there.",
+   "group_by": "facets.kind"
+  }
+ ]
+}

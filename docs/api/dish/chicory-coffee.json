@@ -1,0 +1,144 @@
+{
+ "id": "chicory-coffee",
+ "type": "dish",
+ "names": {
+  "name": "Coffee with chicory",
+  "aliases": [
+   "café au lait",
+   "New Orleans coffee"
+  ],
+  "said": "Half coffee, half hot milk, and the chicory is not optional."
+ },
+ "region": [
+  "louisiana"
+ ],
+ "facets": {
+  "course": "drink",
+  "state": "LA"
+ },
+ "text": {
+  "what": "Coffee blended with roasted chicory root and cut half-and-half with hot milk.",
+  "story": "The French brought coffee to the Gulf Coast and the Mississippi around 1700. During the Civil War, with coffee short, New Orleans Creoles stretched it with chicory, which adds a chocolate-like note. The practice outlived the shortage.",
+  "today": "Served at Café du Monde and across New Orleans, beside beignets, in a cup that leaves sugar on the rim."
+ },
+ "kin": [
+  {
+   "to": "cafe-du-monde",
+   "as": "Where most people meet it.",
+   "rel": "place"
+  },
+  {
+   "to": "beignet",
+   "as": "What it is served with.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "What the rest of the country pours instead.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-caf-du-monde"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-caf-du-monde"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Coffee blended with roasted chicory root and cut half-and-half with hot milk.",
+ "region_terms": [
+  {
+   "key": "louisiana",
+   "name": "Louisiana",
+   "state": "LA",
+   "note": "beignets, king cake, and the shops that sell both"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "Where most people meet it.",
+   "rel": "place"
+  },
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "What it is served with.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "What the rest of the country pours instead.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-caf-du-monde",
+   "kind": "web",
+   "title": "Café du Monde — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_du_Monde",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-caf-du-monde"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-caf-du-monde"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "as": "What it is served with.",
+   "rel": "dish"
+  },
+  {
+   "from": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "The New Orleans version.",
+   "rel": "dish"
+  },
+  {
+   "from": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "What it is served with, and why.",
+   "rel": "dish"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "delta-grocery-counter",
+ "type": "style",
+ "names": {
+  "name": "The Delta grocery counter",
+  "aliases": [
+   "Chinese grocery counter"
+  ],
+  "said": "The store came first; the fryer was added because the store was already open."
+ },
+ "region": [
+  "mississippi-delta",
+  "chinese-american",
+  "the-south"
+ ],
+ "facets": {
+  "dough": "cake",
+  "counter": "fried-rice"
+ },
+ "text": {
+  "what": "A small family grocery in the Mississippi or Arkansas Delta with a hot counter — and, in some of them, donuts fried in the morning beside the rest of the cooking.",
+  "story": "Chinese labourers were recruited to the Delta by cotton planters during Reconstruction, most of them men from the Siyi region of Guangdong. By the end of the 1870s they had left the plantations and opened small family groceries in Delta towns, and families followed in the early 1900s. The stores served Black customers that white-owned stores treated badly, in a state whose records classified the owners as \"colored\".\n\n*Inference —* the donut counter in a Delta grocery belongs to the same logic as the egg rolls in a California donut shop: a family business open early with a fryer already lit adds the thing that sells at that hour. This project has not found a published history of Delta grocery donut counters, and says so rather than inventing one.",
+  "how": "Cake batter, a small kettle, and a case by the register.",
+  "today": "The Delta Chinese community has thinned as generations left for cities; the stores that remain are fewer and older."
+ },
+ "kin": [
+  {
+   "to": "fried-rice",
+   "as": "What else is hot at the same counter.",
+   "rel": "dish"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The same arithmetic, on a different river.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The easier dough for a counter that is not primarily a bakery.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-chinese-americans-in-the-mississippi-delta"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chinese-americans-in-the-mississippi-delta"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.what": {
+    "tier": "inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-chinese-americans-in-the-mississippi-delta"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16"
+}

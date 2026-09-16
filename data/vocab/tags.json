@@ -1,0 +1,290 @@
+{
+ "note": "Tag keys a shop record may carry. Each tag carries the source it came from. Ownership, community and welcome tags rest on the owner's own words, a press profile that names the owner, or a public directory. Tier cited = a named page; harvested = a public directory or list fetched by a tool; field = someone stood there. The validator refuses any tag at tier tradition or inference.",
+ "entries": [
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the shop's own history",
+   "resources": []
+  },
+  {
+   "key": "cambodian-american",
+   "label": "Cambodian-American owned",
+   "icon": "🇰🇭",
+   "group": "community",
+   "evidence": "the owner's own words, a press profile naming the family, or an oral-history archive. Never a surname, never a guess.",
+   "resources": [
+    "r:cambodian-donut-press",
+    "r:sfa-oral-histories"
+   ]
+  },
+  {
+   "key": "vietnamese-american",
+   "label": "Vietnamese-American owned",
+   "icon": "🇻🇳",
+   "group": "community",
+   "evidence": "the owner's own words or a press profile naming the family",
+   "resources": []
+  },
+  {
+   "key": "chinese-american",
+   "label": "Chinese-American owned",
+   "icon": "🥢",
+   "group": "community",
+   "evidence": "the owner's own words or a press profile naming the family",
+   "resources": []
+  },
+  {
+   "key": "korean-american",
+   "label": "Korean-American owned",
+   "icon": "🇰🇷",
+   "group": "community",
+   "evidence": "the owner's own words or a press profile naming the family",
+   "resources": []
+  },
+  {
+   "key": "mexican-american",
+   "label": "Mexican-American owned",
+   "icon": "🇲🇽",
+   "group": "community",
+   "evidence": "the owner's own words or a press profile naming the family",
+   "resources": []
+  },
+  {
+   "key": "greek-american",
+   "label": "Greek-American owned",
+   "icon": "☕",
+   "group": "community",
+   "evidence": "the owner's own words or a press profile naming the family",
+   "resources": []
+  },
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week"
+   ]
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ]
+  },
+  {
+   "key": "lgbtq-friendly",
+   "label": "LGBTQ+ welcoming",
+   "icon": "🏳️‍🌈",
+   "group": "welcome",
+   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome)",
+   "resources": [
+    "r:nglcc",
+    "r:osm-lgbtq",
+    "r:everywhere-is-queer"
+   ]
+  },
+  {
+   "key": "both-doughs",
+   "label": "Cake and yeast, both",
+   "icon": "🔄",
+   "group": "kitchen",
+   "evidence": "the menu, the shop's own words, or a press piece that names both",
+   "resources": []
+  },
+  {
+   "key": "yeast-only",
+   "label": "Raised only",
+   "icon": "🍩",
+   "group": "kitchen",
+   "evidence": "the menu or the shop's own words",
+   "resources": []
+  },
+  {
+   "key": "cake-only",
+   "label": "Cake only",
+   "icon": "🧁",
+   "group": "kitchen",
+   "evidence": "the menu or the shop's own words",
+   "resources": []
+  },
+  {
+   "key": "hand-cut",
+   "label": "Cut by hand",
+   "icon": "✂",
+   "group": "kitchen",
+   "evidence": "the shop's own words or a press piece describing the bench",
+   "resources": []
+  },
+  {
+   "key": "fried-overnight",
+   "label": "Fried overnight",
+   "icon": "🌙",
+   "group": "kitchen",
+   "evidence": "posted hours, the shop's own words, or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "fries-twice",
+   "label": "Fries again midday",
+   "icon": "🔁",
+   "group": "kitchen",
+   "evidence": "the shop's own words or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "egg-rolls",
+   "label": "Egg rolls",
+   "icon": "🥟",
+   "group": "counter",
+   "evidence": "the menu, a photograph of the case, or a press piece naming them",
+   "resources": []
+  },
+  {
+   "key": "breakfast-burritos",
+   "label": "Breakfast burritos",
+   "icon": "🌯",
+   "group": "counter",
+   "evidence": "the menu, a photograph of the board, or a press piece naming them",
+   "resources": []
+  },
+  {
+   "key": "bodega-sandwiches",
+   "label": "Deli or bodega sandwiches",
+   "icon": "🥪",
+   "group": "counter",
+   "evidence": "the menu, a press piece naming the sandwich, or — for a harvested row — a shop that calls itself a deli or bodega in its own name. In New York that means a bacon egg and cheese on a kaiser roll; in California it usually means a donut-and-deli counter.",
+   "resources": []
+  },
+  {
+   "key": "kolaches",
+   "label": "Kolaches and klobasniky",
+   "icon": "🌭",
+   "group": "counter",
+   "evidence": "the menu or a press piece naming them",
+   "resources": []
+  },
+  {
+   "key": "croissant-sandwiches",
+   "label": "Croissant sandwiches",
+   "icon": "🥐",
+   "group": "counter",
+   "evidence": "the menu or a photograph of the board",
+   "resources": []
+  },
+  {
+   "key": "fried-rice",
+   "label": "Fried rice or chow mein",
+   "icon": "🍚",
+   "group": "counter",
+   "evidence": "the menu or a press piece naming it",
+   "resources": []
+  },
+  {
+   "key": "tamales",
+   "label": "Tamales",
+   "icon": "🌽",
+   "group": "counter",
+   "evidence": "the menu or a press piece naming them",
+   "resources": []
+  },
+  {
+   "key": "biscuits-and-gravy",
+   "label": "Biscuits and gravy",
+   "icon": "🫓",
+   "group": "counter",
+   "evidence": "the menu or a press piece naming them",
+   "resources": []
+  },
+  {
+   "key": "boba",
+   "label": "Boba or smoothies",
+   "icon": "🧋",
+   "group": "counter",
+   "evidence": "the menu or a photograph of the board",
+   "resources": []
+  },
+  {
+   "key": "ice-cream",
+   "label": "Ice cream",
+   "icon": "🍦",
+   "group": "counter",
+   "evidence": "the menu",
+   "resources": []
+  },
+  {
+   "key": "opens-before-five",
+   "label": "Open before 5 a.m.",
+   "icon": "⏰",
+   "group": "visit",
+   "evidence": "posted hours",
+   "resources": []
+  },
+  {
+   "key": "twentyfour-hours",
+   "label": "Open around the clock",
+   "icon": "🕓",
+   "group": "visit",
+   "evidence": "posted hours",
+   "resources": []
+  },
+  {
+   "key": "sold-out-closes",
+   "label": "Closes when sold out",
+   "icon": "⏳",
+   "group": "visit",
+   "evidence": "the shop's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "drive-thru",
+   "label": "Drive-thru",
+   "icon": "🚗",
+   "group": "visit",
+   "evidence": "the shop's own site, a press piece, or OpenStreetMap drive_through=yes",
+   "resources": []
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the shop's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "pink-box",
+   "label": "Pink box",
+   "icon": "🎁",
+   "group": "visit",
+   "evidence": "a photograph, the shop's own words, or a press piece naming the box",
+   "resources": []
+  },
+  {
+   "key": "counter-or-window",
+   "label": "Counter or window, no tables",
+   "icon": "🪟",
+   "group": "visit",
+   "evidence": "the shop's own site, a press piece, or OpenStreetMap takeaway=only",
+   "resources": []
+  },
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the shop's own notice",
+   "resources": []
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "pennsylvania-fastnacht",
+ "type": "style",
+ "names": {
+  "name": "Fastnacht Day in the Dutch counties",
+  "aliases": [
+   "Pennsylvania Dutch fastnacht",
+   "Fasnacht Day"
+  ],
+  "said": "Pre-order by the dozen or do without."
+ },
+ "region": [
+  "pennsylvania-dutch"
+ ],
+ "facets": {
+  "state": "PA",
+  "dough": "potato",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "One pastry, one day. Potato-dough donuts, square or diamond cut, fried for Shrove Tuesday and eaten with butter or golden syrup, sold by bakeries, churches, fire halls and — in eastern Pennsylvania — most chain supermarkets.",
+  "story": "The fasnacht is a pantry-clearing food: lard, sugar, fat and butter used up before Lent. Lancaster, York, Lebanon and Berks counties keep it, and the day is known locally as Fastnacht Day rather than Shrove Tuesday. Parts of Maryland call them kinklings or kuechles, and bakeries there sell them only on that Tuesday.\n\nPolish-American communities in the United States have largely moved pączki from the Thursday before to this same Tuesday, so in a city with both populations, one Tuesday carries two traditions and two arguments about which dough is better.",
+  "how": "Potato dough, risen overnight, rolled, cut in squares with a slit, fried in the morning.",
+  "today": "Volume is ordered ahead. A shop that guesses wrong on Fastnacht Day is wrong for a year."
+ },
+ "kin": [
+  {
+   "to": "fastnacht",
+   "as": "The donut itself.",
+   "rel": "donut"
+  },
+  {
+   "to": "fastnacht-day",
+   "as": "The day.",
+   "rel": "event"
+  },
+  {
+   "to": "paczki",
+   "as": "What the neighbours are frying the same morning.",
+   "rel": "donut"
+  },
+  {
+   "to": "spudnut",
+   "as": "The other American potato donut.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-fasnacht-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,139 @@
+PINK BOX — WRITING A RECORD
+===========================
+
+One JSON file per node, in data/nodes/<type>/<id>.json. The schema is
+schema/node.schema.json. Copy an exemplar and change every field:
+
+  data/nodes/style/socal-pink-box.json   a style (rich: what / story / how / today, kin)
+  data/nodes/term/hole.json              a word (etymology block)
+  data/nodes/place/randys-donuts.json    a shop (geo, address, links, tags, hours)
+  data/nodes/donut/glazed-raised.json    a donut (facets.dough, and a profile if measured)
+
+Run  python3 tools/validate.py  until your records pass. Kin targets nobody has
+written yet show as errors; expect that while the set is still being built.
+
+TYPES
+  style   a region's way with a shop      donut   a donut, filed by dough
+  dish    what else is in the case        kitchen a practice: the raise, the batter, the fat
+  place   a shop, open or gone            person  a fryer, founder, family, writer, inventor
+  org     a company, supplier, archive    event   a day: Paczki Day, National Donut Day
+  term    a word, with its root           art     signs, neon, boxes, the giant donut
+  story   a long read
+
+FIELDS THAT CARRY THE WEIGHT
+  names.name     what the trade calls it. names.said = how a counter says it.
+  text.what      one plain paragraph. Present tense. What it is.
+  text.story     narrative, told as narrative. Scenes, dates, names. Mark each stretch:
+                   plain prose        = cited in this record's sources
+                   *Tradition holds —*  general knowledge, hedged
+                   *Inference —*        this project's own reasoning
+  text.how       how it gets mixed, cut, fried, finished, sold. text.today = now, dated.
+  kin[]          what another node IS to this one, said from here. One sentence a reader
+                 standing on this page wants: not "see also" but the fact that joins them
+                 ("the pink box is attributed to him and to Ning Yen").
+                 The other record answers in its own words. Link only to cast-list ids.
+  etymology      required on type=term, welcome anywhere a name has a root. root = the
+                 chain or the morpheme split; first_attested = a date with a source behind
+                 it, else blank; folk etymologies go in note, labelled folk.
+  facets         open keys per type, see data/vocab/facets.json: state, dough, finish,
+                 course, kind, role, status, founded, fat, counter, styles, when, letter.
+                 dough is the axis the whole site turns on: yeast, cake, choux, potato,
+                 both, other. Never guess it — a shop that runs both says so on its menu.
+  sources[]      ids from data/sources/sources.json ONLY. Add new ones to
+                 data/sources/new-<yourname>.json in the same shape; build.py merges them.
+                 Wikipedia: s:wp-<slug>. A web page: s:web-<slug> with title, publisher,
+                 url and the date you read it. A book: title, author, publisher, year —
+                 never an ISBN you did not see.
+  provenance     default tier + per-field overrides. Tiers: cited, harvested, tradition,
+                 inference, field. A date, a founding year, a death, a lawsuit, a price:
+                 cite it or hedge it.
+  geo / address  places and events. Coordinates from OSM (data/harvest/osm-places.json) or
+                 the address geocoded by hand; precision says which. address.state takes a
+                 two-letter code.
+  images[]       leave empty. Put candidate Commons titles in x_commons_files:
+                 ["File:Randys Donuts.jpg"]; tools/harvest_commons.py fetches them with
+                 their licences. Only CC0 / PD / CC BY / CC BY-SA / FAL.
+  confidence     high / medium / low. needs_verification: true when a fact stays unchecked.
+
+PLACE FIELDS
+  tags[]          {tag, source, tier?, note?, since?, url?}. Keys in data/vocab/tags.json.
+                  A tag carries the source it came from. Ownership, community and welcome
+                  tags (cambodian-american, black-owned, woman-owned, lgbtq-friendly and the
+                  rest) rest on the owner's own words,
+                  a press profile naming the owner, or a public directory — not on a name,
+                  a photograph or a guess. A tag without one of those goes unwritten, and a
+                  missing tag says nothing about a place. The validator refuses tier
+                  tradition or inference.
+  recognitions[]  {by, what, year?, source, url?}. `by` from data/vocab/recognizers.json.
+                  One entry per recognizer per place. The count measures attention paid,
+                  never our ranking.
+  hours           {open[], closed[], text, sold_out, seasonal, source, url, tier, checked}.
+                  THREE STATES, NEVER TWO: open, closed, and nobody published it. A day in
+                  neither list is unknown and drops out of the filters. Guessing a closure
+                  is worse than a blank, because a reader drives on it.
+  recipes[]       on donuts and dishes: {title, source, license, year?, url?, author?,
+                  book?, page?, ingredients[]?, text[]?, yield?, note?, region?}.
+                  Public-domain cookbooks (US, before 1930) copy in full into `text`; CC BY
+                  and CC BY-SA texts too, with the source named; everything else is
+                  license: "ingredients-only" with ingredients[] and no text. A list of
+                  ingredients states a fact. Instructions are somebody's writing.
+  profile         on donuts that somebody has actually measured: {dough, finish, kind
+                  (usda / chain / recipe / house), leaven, serving_g, kcal, sugar_g, fat_g,
+                  sat_fat_g, carb_g, sodium_mg, ingredients[] in label order, flour_rank,
+                  sugar_rank, fat_rank, egg_rank (1-based, 0 absent, null unknown), maker,
+                  town, state, source, url, accessed, note}. Grams are PER PIECE, and
+                  serving_g says what a piece weighed — USDA's own portion table runs from
+                  a 13 g hole to a 157 g jumbo, so a figure without its weight is noise.
+                  A field nobody published stays null; never estimate one.
+  sections[]      on art and story: [{h, text, images?[indices]}] after text.what.
+
+WORDS AND TONE
+  validate.py refuses a banned-word list — read it at the top of tools/validate.py, which
+  is where it lives and where it stays current.   <!-- stylecheck: allow --> Donuts run on argument —
+  cake against raised, hand-cut against a frozen shell, the chain against the counter down
+  the block, whether the egg rolls belong, whether a mochi donut is a donut. Report every
+  argument. Join none of them. When somebody says a thing is not a real donut, quote them
+  and name them; the sentence takes quotation marks or it does not go in.
+  Chains, supermarket boxes, frozen dough and mix from a bag belong to the trade and get
+  described the same way a family frying at two in the morning does.
+  Write short. Lead with a verb. Cut "the" and "what" wherever the sentence survives it.
+  Fewer adjectives, more verbs. Define every non-obvious word in a clause at first use.
+  Prices carry their date. No sentence that announces the next sentence. No closing summary.
+
+CAST LIST (every id that exists; link only to these)
+  style   bay-area-late-counter chicago-polish-bakery delta-grocery-counter dunkin-country 
+          hawaii-malasada louisiana-beignet new-england-cider new-mexico-burrito-counter 
+          novelty-donut-shop nyc-bodega-donut pennsylvania-fastnacht socal-pink-box 
+          southern-hot-now texas-kolache-counter tulsa-mix-shop
+  donut   apple-fritter bavarian-cream bear-claw beignet bismarck buttermilk-bar cake-donut 
+          chocolate-cake cider-donut donut-holes fastnacht french-cruller glazed-raised 
+          long-john malasada maple-bar mochi-donut old-fashioned paczki spudnut sufganiyah
+  dish    bacon-egg-and-cheese biscuits-and-gravy boba breakfast-burrito chicory-coffee 
+          egg-roll fried-rice klobasnek kolache the-pot-of-coffee
+  kitchen cake-batter day-old-rack filling-injector frying-fat glaze-table hand-cut proof-box 
+          sprinkle-and-dip the-2am-shift the-case the-fryer yeast-raise
+  place   allies-donuts bobs-donuts cafe-du-monde christys-donuts czech-stop donut-wheel 
+          doughnut-plant federal-donuts leonards-bakery pips-original psycho-donuts 
+          randys-donuts round-rock-donuts seaside-donuts the-donut-hole top-pot-doughnuts 
+          voodoo-doughnut
+  person  adolph-levitt bill-rosenberg elizabeth-gregory hanson-gregory ning-yen 
+          russell-wendell ted-ngoy vernon-rudolph
+  org     b-and-h-distributors daylight-donuts doughnut-corporation-of-america dunkin 
+          krispy-kreme mister-donut mochinut national-dunking-association salvation-army 
+          salvation-army-lassies winchells yum-yum-donuts
+  event   fastnacht-day krispy-kreme-challenge malasada-day national-donut-day orchard-season 
+          paczki-day
+  term    bar cruller-word day-old donut-spelling dunking fry-cake hole hot-now jimmies 
+          mom-and-pop olykoek powdered-sugar the-dozen
+  art     anthora-cup giant-donut-roof hand-lettered-board mr-spudnut neon-donut pink-box
+  story   bar-or-long-john cake-against-raised donuts-per-capita free-to-use the-counter 
+          the-donut-king the-franchise-that-vanished the-price-of-a-dozen 
+          the-sign-outlives-the-owner what-is-a-mom-and-pop why-the-egg-rolls
+  Cities are not nodes; name them in address.city and in prose.
+
+VERIFICATION CORPUS
+  Plain-text copies of the Wikipedia articles this set cites sit in the scratchpad folder
+  named in your brief (wiki/*.txt, each with URL and revision). Read those before writing;
+  reach for WebFetch when a fact is not there. A fact you could not find gets written as
+  *Tradition holds —* or left out. Never invent a date, a quote, a price, a menu item or
+  a person's death.

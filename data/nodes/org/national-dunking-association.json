@@ -1,0 +1,56 @@
+{
+ "id": "national-dunking-association",
+ "type": "org",
+ "names": {
+  "name": "National Dunking Association",
+  "aliases": [],
+  "said": "Jimmy Durante was president. So was Johnny Carson."
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "closed"
+ },
+ "text": {
+  "what": "A membership organisation started by the Doughnut Corporation of America in the 1930s to popularise donuts in North America.",
+  "story": "At its peak it claimed millions of members across more than 300 chapters — actors, athletes, politicians and ordinary members — with Official Dunking Rules treating dunking as a sport: break the donut in half, then swish it rhythmically in coffee, cocoa, tea or milk. It held an annual convention in New York. Presidents included Jimmy Durante, Jack Lemmon, Red Skelton, Joey Bishop and Johnny Carson; Bert Nevins was vice president.",
+  "today": "A trade association for a gesture, which is a thing the twentieth century could do and this one cannot."
+ },
+ "kin": [
+  {
+   "to": "dunking",
+   "as": "The gesture.",
+   "rel": "term"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "as": "Who ran it.",
+   "rel": "org"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "The other half.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-national-dunking-association"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-dunking-association"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

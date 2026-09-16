@@ -1,0 +1,63 @@
+{
+ "id": "dunking",
+ "type": "term",
+ "names": {
+  "name": "Dunking",
+  "aliases": [
+   "dunk"
+  ],
+  "said": "Break it in half first. There were rules, and a president of them."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "D",
+  "part_of_speech": "verb"
+ },
+ "text": {
+  "what": "Putting a donut in coffee. For twenty-odd years, an organised pastime with officers.",
+  "story": "The Doughnut Corporation of America started the National Dunking Association in the 1930s to popularise donuts in North America. At its peak it claimed millions of members across more than 300 chapters, with Official Dunking Rules that treated dunking as a sport and told members to break the donut in half before swishing it rhythmically in coffee, cocoa, tea or milk. There was an annual convention in New York.\n\nIts presidents included Jimmy Durante, Jack Lemmon, Red Skelton, Joey Bishop and Johnny Carson. Bert Nevins was vice president."
+ },
+ "kin": [
+  {
+   "to": "national-dunking-association",
+   "as": "The organisation.",
+   "rel": "org"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "What you dunk into.",
+   "rel": "dish"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "as": "Who set it up, and why.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-national-dunking-association"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-dunking-association"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "dunk, from Pennsylvania German dunke, to dip, from Middle High German dunken",
+  "first_attested": "",
+  "note": "The National Dunking Association turned the verb into a membership in the 1930s.",
+  "tier": "cited",
+  "source": "s:wp-national-dunking-association"
+ }
+}

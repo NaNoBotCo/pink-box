@@ -1,0 +1,60 @@
+{
+ "id": "boba",
+ "type": "dish",
+ "names": {
+  "name": "Boba",
+  "aliases": [
+   "bubble tea",
+   "pearl milk tea"
+  ],
+  "said": "The newest thing on an old board, usually in a different typeface."
+ },
+ "region": [
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "course": "drink"
+ },
+ "text": {
+  "what": "Tea with milk and tapioca pearls, sealed under a film lid and drunk through a fat straw.",
+  "story": "Bubble tea came out of Taiwan in the 1980s and spread through Taiwanese and Chinese diaspora communities. American donut shops with Asian-American owners have added it to the board as a second-generation move: a product with a young customer and a better margin than a glazed.",
+  "today": "A shop that adds boba is usually adding it beside the donuts, not instead of them."
+ },
+ "kin": [
+  {
+   "to": "socal-pink-box",
+   "as": "The board it turns up on.",
+   "rel": "style"
+  },
+  {
+   "to": "mochi-donut",
+   "as": "The other recent arrival in the same case.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-bubble-tea"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bubble-tea"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the margin reading is this project's; the Taiwanese origin is cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16"
+}

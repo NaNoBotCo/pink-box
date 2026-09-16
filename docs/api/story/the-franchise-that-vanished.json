@@ -1,0 +1,164 @@
+{
+ "id": "the-franchise-that-vanished",
+ "type": "story",
+ "names": {
+  "name": "The franchise that vanished",
+  "aliases": [
+   "Spudnut"
+  ],
+  "sort": "franchise that vanished"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "Between 1940 and 1968 a Salt Lake City potato-flour company put more than three hundred shops on American streets. The company is gone. Some of the shops are not."
+ },
+ "sections": [
+  {
+   "h": "A dry mix is a business model",
+   "text": "Al and Bob Pelton ate potato doughnuts in Germany and worked their way from wheat dough flavoured with potato water, through mashed potato, to a dry potato mix. The mix is the invention: it made the recipe shippable, and a shippable recipe can be franchised. They coined the word spudnut and opened in 1940."
+  },
+  {
+   "h": "The numbers",
+   "text": "Franchising began in 1946. In 1948 a new franchisee paid $50 plus the cost of a hundred sacks of spudnut flour. By 1952 a franchise cost $1,750 plus equipment, about $5,000 all in — roughly $109,550 in 2024 dollars — and the Peltons were on the cover of Mechanix Illustrated under the headline \"Their Potatoes Make Dough\".\n\nOver 200 shops by 1948. More than 225 in 31 states by mid-1949. More than 300 in 38 states by 1954. 315 by 1968. The advertising ran \"Coast to coast… Alaska to Mexico\", with a cartoon Mr. Spudnut in parades."
+  },
+  {
+   "h": "What is left",
+   "text": "The parent company no longer exists. Independent shops still trade under the name.\n\n*Inference —* that is the most common shape of survival in this trade. Daylight Donuts, the Tulsa mix company founded in 1954, still supplies roughly 950 independently owned shops; if it went tomorrow the signs would stay up and the shops would keep frying. The infrastructure of American donuts is mostly flour suppliers and second-hand equipment, and both outlive their companies."
+  }
+ ],
+ "kin": [
+  {
+   "to": "spudnut",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "as": "The model.",
+   "rel": "style"
+  },
+  {
+   "to": "daylight-donuts",
+   "as": "The one still running.",
+   "rel": "org"
+  },
+  {
+   "to": "mr-spudnut",
+   "as": "The mascot.",
+   "rel": "art"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "as": "What that leaves on the street.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-spudnut-shops",
+  "s:wp-daylight-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-spudnut-shops"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Between 1940 and 1968 a Salt Lake City potato-flour company put more than three hundred shops on American streets. The company is gone. Some of the shops are not.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The model.",
+   "rel": "style"
+  },
+  {
+   "to": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "The one still running.",
+   "rel": "org"
+  },
+  {
+   "to": "mr-spudnut",
+   "type": "art",
+   "name": "Mr. Spudnut and the mascots",
+   "as": "The mascot.",
+   "rel": "art"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "What that leaves on the street.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-spudnut-shops",
+   "kind": "web",
+   "title": "Spudnut Shops — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spudnut_Shops",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-daylight-donuts",
+   "kind": "web",
+   "title": "Daylight Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Daylight_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-spudnut-shops"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "How a 300-shop system leaves independent shops behind.",
+   "rel": "story"
+  }
+ ]
+}

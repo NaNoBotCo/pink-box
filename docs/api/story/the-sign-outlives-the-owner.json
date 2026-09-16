@@ -1,0 +1,220 @@
+{
+ "id": "the-sign-outlives-the-owner",
+ "type": "story",
+ "names": {
+  "name": "The sign outlives the owner",
+  "aliases": [
+   "reading a donut shop sign"
+  ],
+  "sort": "sign outlives owner"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "Donut shop signs are older than the businesses behind them, which makes them unreliable evidence and excellent evidence at the same time."
+ },
+ "sections": [
+  {
+   "h": "Names that stayed put",
+   "text": "Donut Wheel in Livermore was started in 1962 by Jack and Jean Weil, and got its name because a colleague heard Weil as \"wheel\". They sold in 1972. It has changed hands several times since and kept the name.\n\nRandy's Donuts was a Big Donut Drive-In until 1976, when Robert Eskow bought it and named it after his son. Eskow sold it in 1978 to Ron and Larry Weintraub, who kept it. It was sold again in 2015. There has been no Randy behind the counter for most of the sign's life.\n\nChristy's Donuts was named after Christy Ngoy. Shops trading as Christy's exist in Southern California today; this project has not established which, if any, descend from those shops."
+  },
+  {
+   "h": "Franchises that left their signs behind",
+   "text": "Spudnut Shops numbered more than 300 in 38 states by 1954 and 315 by 1968; the parent company no longer exists, and independent shops still trade under the name. A Spudnut sign today marks a shop that outlived a system.\n\nWinchell's went from 293 shops in 1999 to about 100 in six states by 2025. The chain shrank; the independents its training seeded multiplied."
+  },
+  {
+   "h": "What this means for reading a map",
+   "text": "*Inference —* the name on a donut shop is closer to a place name than a brand: it tells you what the corner has been called, not who is inside. A directory that treats the sign as the owner will be wrong on both counts, so this project records ownership only where a source names it."
+  }
+ ],
+ "kin": [
+  {
+   "to": "donut-wheel",
+   "as": "Four owners, one name.",
+   "rel": "place"
+  },
+  {
+   "to": "randys-donuts",
+   "as": "No Randy.",
+   "rel": "place"
+  },
+  {
+   "to": "christys-donuts",
+   "as": "The name that spread.",
+   "rel": "place"
+  },
+  {
+   "to": "spudnut",
+   "as": "The vanished franchise.",
+   "rel": "donut"
+  },
+  {
+   "to": "winchells",
+   "as": "The chain that shrank.",
+   "rel": "org"
+  },
+  {
+   "to": "mom-and-pop",
+   "as": "Why the sign is not the test.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-donut-wheel",
+  "s:wp-randy-s-donuts",
+  "s:wp-spudnut-shops",
+  "s:wp-winchell-s-donuts",
+  "s:wp-ted-ngoy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-donut-wheel"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Donut shop signs are older than the businesses behind them, which makes them unreliable evidence and excellent evidence at the same time.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "donut-wheel",
+   "type": "place",
+   "name": "Donut Wheel",
+   "as": "Four owners, one name.",
+   "rel": "place"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "No Randy.",
+   "rel": "place"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The name that spread.",
+   "rel": "place"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The vanished franchise.",
+   "rel": "donut"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "The chain that shrank.",
+   "rel": "org"
+  },
+  {
+   "to": "mom-and-pop",
+   "type": "term",
+   "name": "Mom-and-pop",
+   "as": "Why the sign is not the test.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-donut-wheel",
+   "kind": "web",
+   "title": "Donut Wheel — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Donut_Wheel",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-randy-s-donuts",
+   "kind": "web",
+   "title": "Randy's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Randy%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-spudnut-shops",
+   "kind": "web",
+   "title": "Spudnut Shops — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spudnut_Shops",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-winchell-s-donuts",
+   "kind": "web",
+   "title": "Winchell's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Winchell%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-ted-ngoy",
+   "kind": "web",
+   "title": "Ted Ngoy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ted_Ngoy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-donut-wheel"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "donut-wheel",
+   "type": "place",
+   "name": "Donut Wheel",
+   "as": "Why the name on the window is not the family inside.",
+   "rel": "story"
+  },
+  {
+   "from": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "What that does to a directory.",
+   "rel": "story"
+  },
+  {
+   "from": "the-franchise-that-vanished",
+   "type": "story",
+   "name": "The franchise that vanished",
+   "as": "What that leaves on the street.",
+   "rel": "story"
+  }
+ ]
+}

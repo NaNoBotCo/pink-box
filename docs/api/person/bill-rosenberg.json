@@ -1,0 +1,141 @@
+{
+ "id": "bill-rosenberg",
+ "type": "person",
+ "names": {
+  "name": "Bill Rosenberg",
+  "aliases": [
+   "William Rosenberg"
+  ],
+  "said": "Worked out what people bought and sold them only that."
+ },
+ "region": [
+  "new-england"
+ ],
+ "facets": {
+  "role": "founder",
+  "state": "MA"
+ },
+ "text": {
+  "what": "Opened the Open Kettle in Quincy, Massachusetts in 1948 and renamed it Dunkin' Donuts in 1950.",
+  "story": "Rosenberg had been selling food to factories and construction sites, and found donuts and coffee were the two things people bought. He built the shop around the pair, introduced a logo in 1953 and the mascot Dunkie in 1954, and started selling franchises in 1955. Johnny Spartos, one of the men running the Quincy shop, talked him into a donut with a handle, made for dunking. His son Bob became chief executive in 1963 at 25, the year the hundredth shop opened.",
+  "today": "Dunkin' dropped Donuts from its name in 2019 and kept selling them."
+ },
+ "kin": [
+  {
+   "to": "dunkin",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "to": "dunkin-country",
+   "as": "The region it shaped.",
+   "rel": "style"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "The other half of what he sold.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-dunkin-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Opened the Open Kettle in Quincy, Massachusetts in 1948 and renamed it Dunkin' Donuts in 1950.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region it shaped.",
+   "rel": "style"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "The other half of what he sold.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-dunkin-donuts",
+   "kind": "web",
+   "title": "Dunkin' Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "Sold coffee to factories, then sold the idea.",
+   "rel": "person"
+  },
+  {
+   "from": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "Found the pairing selling to factories.",
+   "rel": "person"
+  },
+  {
+   "from": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "Who built it.",
+   "rel": "person"
+  }
+ ]
+}

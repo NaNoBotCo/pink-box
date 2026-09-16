@@ -1,0 +1,120 @@
+{
+ "id": "proof-box",
+ "type": "kitchen",
+ "names": {
+  "name": "The proof box",
+  "aliases": [
+   "proofer",
+   "the cabinet"
+  ],
+  "said": "Warm, damp, and the one thing in the shop nobody opens without a reason."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "raise"
+ },
+ "text": {
+  "what": "A warm humid cabinet where cut rings take their final rise before they go in the fat.",
+  "story": "*Tradition holds —* a proof box is run warm and wet so the skin does not dry: a dried skin will not expand and the ring fries lopsided. Shops without a box use a rack near the fryer and the room's own heat, which is why a raised dough behaves differently in January.",
+  "how": "Rings go in on screens, come out when they wobble.",
+  "today": "The box is the piece of equipment that decides whether a shop can run raised dough at volume."
+ },
+ "kin": [
+  {
+   "to": "yeast-raise",
+   "as": "The process it serves.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "What is in there.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-proofing-baking-technique"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-proofing-baking-technique"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "A warm humid cabinet where cut rings take their final rise before they go in the fat.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "The process it serves.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What is in there.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-proofing-baking-technique",
+   "kind": "web",
+   "title": "Proofing (baking technique) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Proofing_(baking_technique)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  },
+  "text.story": {
+   "tier": "tradition"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "Where the second rise happens.",
+   "rel": "kitchen"
+  }
+ ]
+}

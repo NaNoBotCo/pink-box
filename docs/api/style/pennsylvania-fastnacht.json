@@ -1,0 +1,164 @@
+{
+ "id": "pennsylvania-fastnacht",
+ "type": "style",
+ "names": {
+  "name": "Fastnacht Day in the Dutch counties",
+  "aliases": [
+   "Pennsylvania Dutch fastnacht",
+   "Fasnacht Day"
+  ],
+  "said": "Pre-order by the dozen or do without."
+ },
+ "region": [
+  "pennsylvania-dutch"
+ ],
+ "facets": {
+  "state": "PA",
+  "dough": "potato",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "One pastry, one day. Potato-dough donuts, square or diamond cut, fried for Shrove Tuesday and eaten with butter or golden syrup, sold by bakeries, churches, fire halls and — in eastern Pennsylvania — most chain supermarkets.",
+  "story": "The fasnacht is a pantry-clearing food: lard, sugar, fat and butter used up before Lent. Lancaster, York, Lebanon and Berks counties keep it, and the day is known locally as Fastnacht Day rather than Shrove Tuesday. Parts of Maryland call them kinklings or kuechles, and bakeries there sell them only on that Tuesday.\n\nPolish-American communities in the United States have largely moved pączki from the Thursday before to this same Tuesday, so in a city with both populations, one Tuesday carries two traditions and two arguments about which dough is better.",
+  "how": "Potato dough, risen overnight, rolled, cut in squares with a slit, fried in the morning.",
+  "today": "Volume is ordered ahead. A shop that guesses wrong on Fastnacht Day is wrong for a year."
+ },
+ "kin": [
+  {
+   "to": "fastnacht",
+   "as": "The donut itself.",
+   "rel": "donut"
+  },
+  {
+   "to": "fastnacht-day",
+   "as": "The day.",
+   "rel": "event"
+  },
+  {
+   "to": "paczki",
+   "as": "What the neighbours are frying the same morning.",
+   "rel": "donut"
+  },
+  {
+   "to": "spudnut",
+   "as": "The other American potato donut.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-fasnacht-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "One pastry, one day. Potato-dough donuts, square or diamond cut, fried for Shrove Tuesday and eaten with butter or golden syrup, sold by bakeries, churches, fire halls and — in eastern Pennsylvania — most chain…",
+ "region_terms": [
+  {
+   "key": "pennsylvania-dutch",
+   "name": "Pennsylvania Dutch country",
+   "state": "PA",
+   "note": "fastnachts the day before Lent; potato dough"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The donut itself.",
+   "rel": "donut"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The day.",
+   "rel": "event"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "What the neighbours are frying the same morning.",
+   "rel": "donut"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The other American potato donut.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-fasnacht-doughnut",
+   "kind": "web",
+   "title": "Fasnacht (doughnut) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fasnacht_(doughnut)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The German-descended version of the same fast.",
+   "rel": "contrast"
+  },
+  {
+   "from": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "from": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The style.",
+   "rel": "style"
+  }
+ ]
+}

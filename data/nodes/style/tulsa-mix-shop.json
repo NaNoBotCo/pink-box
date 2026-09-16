@@ -1,0 +1,73 @@
+{
+ "id": "tulsa-mix-shop",
+ "type": "style",
+ "names": {
+  "name": "The mix-and-sign shop",
+  "aliases": [
+   "Daylight shop",
+   "franchise-flour independent"
+  ],
+  "said": "Same sign, same flour, different family, no head office telling them what to fry."
+ },
+ "region": [
+  "us",
+  "texas",
+  "the-south"
+ ],
+ "facets": {
+  "dough": "both",
+  "counter": "kolaches"
+ },
+ "text": {
+  "what": "An independently owned shop trading under a shared name and buying its dry mix from one supplier. It looks like a chain from the road and is not one at the till.",
+  "story": "Tommy and Lucille Day started in Tulsa in 1954, making donut mix in the mornings and selling it to shops in the afternoon, mostly out of the trunk of their car. The business they named was a flour company: Daylight Donuts Flour Co. The shops came after, and each Daylight Donuts store is independently owned and operated — roughly 950 of them, in 13 countries.\n\nThe Spudnut Shops ran the same way from 1940 with a dry potato mix, reaching more than 300 shops in 38 states by 1954 before the parent company disappeared and left the shops behind.\n\n*Inference —* the mix is what makes a two-person shop possible: it takes the formulation off the owner and leaves them the frying.",
+  "how": "Dry mix plus water, one kettle, one glaze table. The supplier's manual, not a corporate operations team.",
+  "today": "Reading a sign as a chain misses who owns the shop. Reading it as a purely independent bakery misses whose flour it is."
+ },
+ "kin": [
+  {
+   "to": "daylight-donuts",
+   "as": "The Tulsa flour company and its 950 signs.",
+   "rel": "org"
+  },
+  {
+   "to": "spudnut",
+   "as": "The potato-mix franchise that went before it.",
+   "rel": "donut"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "as": "Where this project draws the line, and why it is blurry.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-batter",
+   "as": "What comes out of the bag.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-daylight-donuts",
+  "s:wp-spudnut-shops"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

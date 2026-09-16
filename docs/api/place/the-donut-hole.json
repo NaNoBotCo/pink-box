@@ -1,0 +1,198 @@
+{
+ "id": "the-donut-hole",
+ "type": "place",
+ "names": {
+  "name": "The Donut Hole",
+  "aliases": [
+   "Donut Hole La Puente"
+  ],
+  "sort": "Donut Hole"
+ },
+ "region": [
+  "socal"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1963,
+  "dough": "both",
+  "styles": [
+   "socal-pink-box"
+  ]
+ },
+ "text": {
+  "what": "A drive-through bakery in La Puente shaped like two giant donuts: you drive in through one hole, order, and drive out through the other.",
+  "story": "The first Donut Hole opened in 1963 in La Puente, though sources disagree — one says the La Puente shop was the second, opened in 1968, and dates the building anywhere from 1947 to 1962. What is settled is that the chain went out of business in 1979, the Lopez family bought the La Puente shop that year and held it until 2003, the Covina branch was remodelled beyond recognition and the rest were demolished. This one is the last working example.\n\nNewlyweds drive through it. Some say for luck; others are less coy about the symbolism. Cars have hit the building more than once.",
+  "today": "An example of programmatic architecture — a building shaped like what it sells — and among the most photographed donut shops in the country."
+ },
+ "geo": {
+  "lat": 34.03714,
+  "lon": -117.95171,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "15300 Amar Road",
+  "city": "La Puente",
+  "county": "Los Angeles",
+  "state": "CA",
+  "postcode": "91744"
+ },
+ "tags": [
+  {
+   "tag": "drive-thru",
+   "source": "s:wp-the-donut-hole",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {
+   "to": "giant-donut-roof",
+   "as": "Programmatic architecture, and the one you drive through.",
+   "rel": "art"
+  },
+  {
+   "to": "randys-donuts",
+   "as": "The other landmark, on a roof rather than around a car.",
+   "rel": "place"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The style around it.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-the-donut-hole",
+  "s:wp-big-donuts-of-southern-california"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-the-donut-hole"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A drive-through bakery in La Puente shaped like two giant donuts: you drive in through one hole, order, and drive out through the other.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "Programmatic architecture, and the one you drive through.",
+   "rel": "art"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The other landmark, on a roof rather than around a car.",
+   "rel": "place"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style around it.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-the-donut-hole",
+   "kind": "web",
+   "title": "The Donut Hole — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/The_Donut_Hole",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-big-donuts-of-southern-california",
+   "kind": "web",
+   "title": "Big donuts of Southern California — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Big_donuts_of_Southern_California",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-the-donut-hole"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-the-donut-hole"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-the-donut-hole"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-the-donut-hole"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "drive-thru",
+   "label": "Drive-thru",
+   "icon": "🚗",
+   "group": "visit",
+   "evidence": "the shop's own site, a press piece, or OpenStreetMap drive_through=yes",
+   "resources": [],
+   "source": "s:wp-the-donut-hole",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The other drive-through landmark, twenty miles east.",
+   "rel": "place"
+  },
+  {
+   "from": "russell-wendell",
+   "type": "person",
+   "name": "Russell C. Wendell",
+   "as": "The drive-through cousin.",
+   "rel": "place"
+  },
+  {
+   "from": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The one you drive through.",
+   "rel": "place"
+  }
+ ]
+}

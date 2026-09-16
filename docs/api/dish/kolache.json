@@ -1,0 +1,195 @@
+{
+ "id": "kolache",
+ "type": "dish",
+ "names": {
+  "name": "Kolache",
+  "aliases": [
+   "koláč",
+   "kolach",
+   "kolaches"
+  ],
+  "said": "\"Kolaches\" is a double plural and Texas says it anyway."
+ },
+ "region": [
+  "texas"
+ ],
+ "facets": {
+  "course": "sweet",
+  "state": "TX"
+ },
+ "text": {
+  "what": "A sweet bread with a well of fruit or cheese in the middle of puffy yeast dough — tvaroh, jam, poppy seed, or povidla, which is prune. Baked, not fried.",
+  "story": "The word comes from Czech and Slovak koláč, from the Old Slavonic kolo, a circle or wheel. Traditional Czech koláče are small, no more than about eight centimetres across, and are village feast and wedding food. Moravian immigrants brought them to the United States.\n\nIn American English kolache is often used as the singular and given an extra s, which makes kolaches a double plural. Czech Texans notice.",
+  "today": "Texas donut counters sell them beside the savoury ones, and the savoury ones outsell them."
+ },
+ "kin": [
+  {
+   "to": "klobasnek",
+   "as": "The savoury one Texas calls by this name.",
+   "rel": "dish"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "as": "The counter style.",
+   "rel": "style"
+  },
+  {
+   "to": "czech-stop",
+   "as": "The town the legislature named for it.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-kolach-cake",
+  "s:wp-klob-sn-k"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-kolach-cake"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "which sells better is this project's reading of Texas counters"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "kolache/kolache-howdy-kolache-coffee-amazing-breakfast-buns.jpg",
+   "source": "commons",
+   "title": "File:Howdy Kolache & Coffee - Amazing Breakfast Buns.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Howdy_Kolache_%26_Coffee_-_Amazing_Breakfast_Buns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHowdy_Kolache_%26_Coffee_-_Amazing_Breakfast_Buns.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "HosiyarSingh7357",
+   "credit": "Own work",
+   "alt": "Howdy Kolache, a pair of Chicago entrepreneurs’ tribute to the kolache (“koh-la-chee”) – a typical Texas breakfast delicacy with Czech origins",
+   "date": "2022-11-29",
+   "primary": true,
+   "sha256": "e6731851c51a304158db9b40225338737c0943c3f372b005d4956662597a4e15"
+  }
+ ],
+ "blurb": "A sweet bread with a well of fruit or cheese in the middle of puffy yeast dough — tvaroh, jam, poppy seed, or povidla, which is prune. Baked, not fried.",
+ "region_terms": [
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX",
+   "note": "Houston, Dallas, San Antonio; kolaches, klobasniky, and Cambodian- and Vietnamese-American counters"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The savoury one Texas calls by this name.",
+   "rel": "dish"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The counter style.",
+   "rel": "style"
+  },
+  {
+   "to": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The town the legislature named for it.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-kolach-cake",
+   "kind": "web",
+   "title": "Kolach (cake) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kolach_(cake)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-klob-sn-k",
+   "kind": "web",
+   "title": "Klobásník — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Klob%C3%A1sn%C3%ADk",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-kolach-cake"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-kolach-cake"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "which sells better is this project's reading of Texas counters"
+  }
+ },
+ "primary_image": {
+  "file": "kolache/kolache-howdy-kolache-coffee-amazing-breakfast-buns.jpg",
+  "source": "commons",
+  "title": "File:Howdy Kolache & Coffee - Amazing Breakfast Buns.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Howdy_Kolache_%26_Coffee_-_Amazing_Breakfast_Buns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AHowdy_Kolache_%26_Coffee_-_Amazing_Breakfast_Buns.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "HosiyarSingh7357",
+  "credit": "Own work",
+  "alt": "Howdy Kolache, a pair of Chicago entrepreneurs’ tribute to the kolache (“koh-la-chee”) – a typical Texas breakfast delicacy with Czech origins",
+  "date": "2022-11-29",
+  "primary": true,
+  "sha256": "e6731851c51a304158db9b40225338737c0943c3f372b005d4956662597a4e15"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The sweet one, with the well and the fruit.",
+   "rel": "dish"
+  },
+  {
+   "from": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The sweet one whose name it borrowed.",
+   "rel": "dish"
+  },
+  {
+   "from": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The sweet one, and the town's official one.",
+   "rel": "dish"
+  },
+  {
+   "from": "round-rock-donuts",
+   "type": "place",
+   "name": "Round Rock Donuts",
+   "as": "What else a Texas counter sells at that hour.",
+   "rel": "dish"
+  }
+ ]
+}

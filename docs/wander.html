@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wander — Pink Box</title>
+<meta name="description" content="A page at random.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Pink Box"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="Wander — Pink Box"><meta property="og:description" content="A page at random."><meta property="og:type" content="website">
+
+<link rel="canonical" href="https://nanobotco.github.io/pink-box/wander.html">
+
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#d6136a">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Pink Box" href="opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Pink Box updates" href="feed.xml">
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#fff5fa;--panel:#ffffff;--ink:#2a1420;--mute:#78596a;--line:#ffd0e4;--donut:#d6136a;--smoke:#5b3220;--gold:#6d2bd9;--lemon:#c98a00;--hot:#a50f50;--blue:#0f6fc4;--celery:#0d8f63;--focus:#0f5fd1;--chip:#ffe6f2;--mint:#0d8f63;--cyan:#0f8fb8;--sprinkle:#ffd23f;
+  /* A donut shop letters its own window in fat caps and paints the rest bubblegum. Headings
+     take a rounded sign face, labels take the fattest caps on the machine, and the reading
+     text stays a plain humanist sans. All of it sits on the reader's machine already. */
+  --display:"Arial Rounded MT Bold","Helvetica Rounded",Avenir,"Avenir Next","Trebuchet MS",sans-serif;
+  --sign:"Arial Black","Helvetica Neue Black",Impact,Haettenschweiler,"Franklin Gothic Heavy",sans-serif;
+  --body:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#190e15;--panel:#251622;--ink:#ffeef7;--mute:#cba6bb;--line:#43283a;--donut:#ff6faa;--smoke:#e3c3ad;--gold:#c79bff;--lemon:#ffd25e;--hot:#ffa1c7;--blue:#79c2ff;--celery:#4ad6a1;--focus:#8ab4f8;--chip:#33202c;--mint:#4ad6a1;--cyan:#5ed0ee;--sprinkle:#ffd23f}}
+:root[data-theme="dark"]{--bg:#190e15;--panel:#251622;--ink:#ffeef7;--mute:#cba6bb;--line:#43283a;--donut:#ff6faa;--smoke:#e3c3ad;--gold:#c79bff;--lemon:#ffd25e;--hot:#ffa1c7;--blue:#79c2ff;--celery:#4ad6a1;--focus:#8ab4f8;--chip:#33202c;--mint:#4ad6a1;--cyan:#5ed0ee;--sprinkle:#ffd23f}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--donut);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--hot)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--donut)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--donut)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--donut)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--donut);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--hot)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+/* A photograph across the top of the front page is a band, not a wall: crop it so the
+   name and the map still land on the first screen. */
+.hero-shot.wide{margin:0 0 1.1rem}.hero-shot.wide img{max-height:none;aspect-ratio:21/6;object-fit:cover;object-position:center 62%}
+@media(max-width:760px){.hero-shot.wide img{aspect-ratio:16/9}}
+.hero-shot img{max-height:26rem;object-fit:cover}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--donut);background:var(--donut);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--donut);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--donut);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--donut)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--lemon);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--donut);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--donut)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--donut)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+
+/* ------------------------------------------------------------------ candy */
+/* Sprinkles, drawn with gradients so the page asks nobody for a picture. */
+body{background-image:
+  radial-gradient(circle at 12% 8%, color-mix(in srgb,var(--sprinkle) 55%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 78% 14%, color-mix(in srgb,var(--cyan) 45%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 33% 62%, color-mix(in srgb,var(--donut) 32%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 88% 78%, color-mix(in srgb,var(--mint) 40%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 58% 36%, color-mix(in srgb,var(--gold) 30%,transparent) 0 2px, transparent 3px);
+  background-size:420px 380px;background-attachment:fixed}
+header.top{background:var(--panel);border-bottom:3px solid var(--donut)}
+header.top .brand{font-family:var(--display);font-size:1.25rem;letter-spacing:-.01em}
+header.top .brand b{color:var(--donut)}
+h1{letter-spacing:-.02em}
+h1 .kind{color:var(--gold)}
+h2{border-bottom:3px dotted var(--line)}
+.btn{border-width:3px;box-shadow:3px 3px 0 var(--ink);text-transform:uppercase}
+.btn.ghost{background:var(--panel);box-shadow:3px 3px 0 var(--line)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.card,.kin a.card,.fact,.pitch,.whenbox,.mapwrap,figure,.recipe{border-width:2px;border-style:solid;border-color:var(--line)}
+.kin a.card{box-shadow:4px 4px 0 var(--chip)}
+.fact{box-shadow:4px 4px 0 var(--chip);border-radius:16px}
+.fact .n{color:var(--donut)}
+.fact .l{color:var(--mute)}
+.chip{border-width:2px}
+.dir h2 a:hover{color:var(--donut)}
+.dir ul{border-left:3px solid var(--line)}
+.etym{border-left:5px solid var(--gold);background:var(--chip)}
+.recipe{border-left:5px solid var(--sprinkle)}
+.search input{border-width:3px;border-color:var(--donut)}
+.search button{box-shadow:3px 3px 0 var(--ink);text-transform:uppercase;font-family:var(--sign);letter-spacing:.04em}
+.tagrow a.tg,.tagrow span.tg{border-width:2px;font-weight:600}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.community{border-color:var(--cyan)}
+.tagrow .tg.counter{border-color:var(--mint);background:color-mix(in srgb,var(--mint) 12%,var(--panel))}
+.tagrow .tg.kitchen{border-color:var(--donut)}
+/* The two doughs get one colour each and keep it everywhere on the site. */
+.dough-yeast{color:var(--donut)}.dough-cake{color:var(--blue)}
+.pill{display:inline-block;font-family:var(--sign);text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;padding:.12rem .55rem;border-radius:999px;border:2px solid currentColor;margin-right:.35rem}
+.pill.yeast{color:var(--donut)}.pill.cake{color:var(--blue)}.pill.choux{color:var(--gold)}.pill.other{color:var(--mute)}
+.hero h1{text-shadow:4px 4px 0 var(--chip)}
+.boxwrap{background:var(--chip);border:3px solid var(--donut);border-radius:18px;padding:1rem;margin:1rem 0}
+.legend{border-top:3px dotted var(--line)}
+footer{border-top:3px dotted var(--line)}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--donut) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--donut);color:var(--donut)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--donut);color:#fff;background:var(--donut)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--donut);border:1.6px solid var(--donut)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--donut);font-weight:700}
+.sunday-no{color:var(--mute)}
+</style>
+
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">Pink <b>Box</b></a>
+<nav class="crumbs"><a href="index.html">Everything</a> · <a href="near/index.html">Near me</a> · <a href="places/index.html">Map</a> · <a href="donut/index.html">Donuts</a> · <a href="dough/index.html">Cake or raised</a> · <a href="counter/index.html">The counter</a> · <a href="make/index.html">Make some</a> · <a href="numbers/index.html">Numbers</a> · <a href="art/index.html">Signs</a> · <a href="stories/index.html">Stories</a> · <a href="quiz/index.html">Quiz</a> · <a href="search/index.html">Search</a> · <a href="words/index.html">Words</a> · <a href="sources/index.html">Sources</a> · <a href="coverage/index.html">Coverage</a> · <a href="api/index.json">API</a> · <a href="llms.txt">llms.txt</a> · <a class="wander" href="wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<main>
+<h1><span class="kind">🎲</span>Wander</h1><p class="lede">A page at random. If nothing happens, pick from the list.</p><script>(function(){var u=["style/bay-area-late-counter/", "style/chicago-polish-bakery/", "style/delta-grocery-counter/", "style/dunkin-country/", "style/hawaii-malasada/", "style/louisiana-beignet/", "style/new-england-cider/", "style/new-mexico-burrito-counter/", "style/novelty-donut-shop/", "style/nyc-bodega-donut/", "style/pennsylvania-fastnacht/", "style/socal-pink-box/", "style/southern-hot-now/", "style/texas-kolache-counter/", "style/tulsa-mix-shop/", "donut/apple-fritter/", "donut/bavarian-cream/", "donut/bear-claw/", "donut/beignet/", "donut/bismarck/", "donut/buttermilk-bar/", "donut/cake-donut/", "donut/chocolate-cake/", "donut/cider-donut/", "donut/donut-holes/", "donut/fastnacht/", "donut/french-cruller/", "donut/glazed-raised/", "donut/long-john/", "donut/malasada/", "donut/maple-bar/", "donut/mochi-donut/", "donut/old-fashioned/", "donut/paczki/", "donut/spudnut/", "donut/sufganiyah/", "dish/bacon-egg-and-cheese/", "dish/biscuits-and-gravy/", "dish/boba/", "dish/breakfast-burrito/", "dish/chicory-coffee/", "dish/egg-roll/", "dish/fried-rice/", "dish/klobasnek/", "dish/kolache/", "dish/the-pot-of-coffee/", "kitchen/cake-batter/", "kitchen/day-old-rack/", "kitchen/filling-injector/", "kitchen/frying-fat/", "kitchen/glaze-table/", "kitchen/hand-cut/", "kitchen/proof-box/", "kitchen/sprinkle-and-dip/", "kitchen/the-2am-shift/", "kitchen/the-case/", "kitchen/the-fryer/", "kitchen/yeast-raise/", "place/allies-donuts/", "place/bobs-donuts/", "place/cafe-du-monde/", "place/christys-donuts/", "place/czech-stop/", "place/donut-wheel/", "place/doughnut-plant/", "place/federal-donuts/", "place/leonards-bakery/", "place/pips-original/", "place/psycho-donuts/", "place/randys-donuts/", "place/round-rock-donuts/", "place/seaside-donuts/", "place/the-donut-hole/", "place/top-pot-doughnuts/", "place/voodoo-doughnut/", "person/adolph-levitt/", "person/bill-rosenberg/", "person/elizabeth-gregory/", "person/hanson-gregory/", "person/ning-yen/", "person/russell-wendell/", "person/ted-ngoy/", "person/vernon-rudolph/", "org/b-and-h-distributors/", "org/daylight-donuts/", "org/doughnut-corporation-of-america/", "org/dunkin/", "org/krispy-kreme/", "org/mister-donut/", "org/mochinut/", "org/national-dunking-association/", "org/salvation-army-lassies/", "org/salvation-army/", "org/winchells/", "org/yum-yum-donuts/", "event/fastnacht-day/", "event/krispy-kreme-challenge/", "event/malasada-day/", "event/national-donut-day/", "event/orchard-season/", "event/paczki-day/", "word/bar/", "word/cruller-word/", "word/day-old/", "word/donut-spelling/", "word/dunking/", "word/fry-cake/", "word/hole/", "word/hot-now/", "word/jimmies/", "word/mom-and-pop/", "word/olykoek/", "word/powdered-sugar/", "word/the-dozen/", "art/anthora-cup/", "art/giant-donut-roof/", "art/hand-lettered-board/", "art/mr-spudnut/", "art/neon-donut/", "art/pink-box/", "story/bar-or-long-john/", "story/cake-against-raised/", "story/donuts-per-capita/", "story/free-to-use/", "story/the-counter/", "story/the-donut-king/", "story/the-franchise-that-vanished/", "story/the-price-of-a-dozen/", "story/the-sign-outlives-the-owner/", "story/what-is-a-mom-and-pop/", "story/why-the-egg-rolls/"];location.replace(u[Math.floor(Math.random()*u.length)]+"index.html")})();</script><ul><li><a href="person/adolph-levitt/index.html">Adolph Levitt</a></li><li><a href="place/allies-donuts/index.html">Allie&#x27;s Donuts</a></li><li><a href="donut/apple-fritter/index.html">Apple fritter</a></li><li><a href="org/b-and-h-distributors/index.html">B &amp; H Bakery Distributors</a></li><li><a href="dish/bacon-egg-and-cheese/index.html">Bacon, egg and cheese</a></li><li><a href="word/bar/index.html">Bar</a></li><li><a href="story/bar-or-long-john/index.html">Bar or Long John</a></li><li><a href="donut/bavarian-cream/index.html">Bavarian cream</a></li><li><a href="donut/bear-claw/index.html">Bear claw</a></li><li><a href="donut/beignet/index.html">Beignet</a></li><li><a href="person/bill-rosenberg/index.html">Bill Rosenberg</a></li><li><a href="dish/biscuits-and-gravy/index.html">Biscuits and gravy</a></li><li><a href="donut/bismarck/index.html">Bismarck</a></li><li><a href="place/bobs-donuts/index.html">Bob&#x27;s Donuts and Pastries</a></li><li><a href="dish/boba/index.html">Boba</a></li><li><a href="dish/breakfast-burrito/index.html">Breakfast burrito</a></li><li><a href="donut/buttermilk-bar/index.html">Buttermilk bar</a></li><li><a href="place/cafe-du-monde/index.html">Café du Monde</a></li><li><a href="story/cake-against-raised/index.html">Cake against raised</a></li><li><a href="donut/cake-donut/index.html">Cake donut</a></li><li><a href="donut/chocolate-cake/index.html">Chocolate cake</a></li><li><a href="place/christys-donuts/index.html">Christy&#x27;s Donuts</a></li><li><a href="donut/cider-donut/index.html">Cider donut</a></li><li><a href="event/orchard-season/index.html">Cider donut season</a></li><li><a href="dish/chicory-coffee/index.html">Coffee with chicory</a></li><li><a href="word/cruller-word/index.html">Cruller</a></li><li><a href="kitchen/hand-cut/index.html">Cutting by hand</a></li><li><a href="place/czech-stop/index.html">Czech Stop and Little Czech Bakery</a></li><li><a href="kitchen/day-old-rack/index.html">Day-old</a></li><li><a href="word/day-old/index.html">Day-old</a></li><li><a href="org/daylight-donuts/index.html">Daylight Donuts</a></li><li><a href="kitchen/sprinkle-and-dip/index.html">Dipping and sprinkles</a></li><li><a href="word/donut-spelling/index.html">Donut / doughnut</a></li><li><a href="donut/donut-holes/index.html">Donut holes</a></li><li><a href="place/donut-wheel/index.html">Donut Wheel</a></li><li><a href="org/doughnut-corporation-of-america/index.html">Doughnut Corporation of America</a></li><li><a href="place/doughnut-plant/index.html">Doughnut Plant</a></li><li><a href="org/dunkin/index.html">Dunkin&#x27;</a></li><li><a href="style/dunkin-country/index.html">Dunkin&#x27; country</a></li><li><a href="word/dunking/index.html">Dunking</a></li><li><a href="dish/egg-roll/index.html">Egg roll</a></li><li><a href="person/elizabeth-gregory/index.html">Elizabeth Gregory</a></li><li><a href="donut/fastnacht/index.html">Fastnacht</a></li><li><a href="event/fastnacht-day/index.html">Fastnacht Day</a></li><li><a href="style/pennsylvania-fastnacht/index.html">Fastnacht Day in the Dutch counties</a></li><li><a href="place/federal-donuts/index.html">Federal Donuts</a></li><li><a href="donut/french-cruller/index.html">French cruller</a></li><li><a href="dish/fried-rice/index.html">Fried rice and chow mein</a></li><li><a href="word/fry-cake/index.html">Fry cake</a></li><li><a href="donut/glazed-raised/index.html">Glazed raised</a></li><li><a href="person/hanson-gregory/index.html">Hanson Gregory</a></li><li><a href="word/hot-now/index.html">Hot now</a></li><li><a href="word/jimmies/index.html">Jimmies</a></li><li><a href="dish/klobasnek/index.html">Klobasnek</a></li><li><a href="dish/kolache/index.html">Kolache</a></li><li><a href="org/krispy-kreme/index.html">Krispy Kreme</a></li><li><a href="event/krispy-kreme-challenge/index.html">Krispy Kreme Challenge</a></li><li><a href="place/leonards-bakery/index.html">Leonard&#x27;s Bakery</a></li><li><a href="donut/long-john/index.html">Long John</a></li><li><a href="donut/malasada/index.html">Malasada</a></li><li><a href="event/malasada-day/index.html">Malasada Day</a></li><li><a href="donut/maple-bar/index.html">Maple bar</a></li><li><a href="org/mister-donut/index.html">Mister Donut</a></li><li><a href="donut/mochi-donut/index.html">Mochi donut</a></li><li><a href="org/mochinut/index.html">Mochinut</a></li><li><a href="word/mom-and-pop/index.html">Mom-and-pop</a></li><li><a href="art/mr-spudnut/index.html">Mr. Spudnut and the mascots</a></li><li><a href="event/national-donut-day/index.html">National Donut Day</a></li><li><a href="org/national-dunking-association/index.html">National Dunking Association</a></li><li><a href="art/neon-donut/index.html">Neon and the lit sign</a></li><li><a href="person/ning-yen/index.html">Ning Yen</a></li><li><a href="donut/old-fashioned/index.html">Old-fashioned</a></li><li><a href="word/olykoek/index.html">Olykoek</a></li><li><a href="event/paczki-day/index.html">Paczki Day</a></li><li><a href="place/pips-original/index.html">Pip&#x27;s Original Doughnuts &amp; Chai</a></li><li><a href="word/powdered-sugar/index.html">Powdered sugar</a></li><li><a href="place/psycho-donuts/index.html">Psycho Donuts</a></li><li><a href="donut/paczki/index.html">Pączki</a></li><li><a href="place/randys-donuts/index.html">Randy&#x27;s Donuts</a></li><li><a href="place/round-rock-donuts/index.html">Round Rock Donuts</a></li><li><a href="person/russell-wendell/index.html">Russell C. Wendell</a></li><li><a href="place/seaside-donuts/index.html">Seaside Donuts Bakery</a></li><li><a href="donut/spudnut/index.html">Spudnut</a></li><li><a href="donut/sufganiyah/index.html">Sufganiyah</a></li><li><a href="person/ted-ngoy/index.html">Ted Ngoy</a></li><li><a href="style/bay-area-late-counter/index.html">The all-night counter</a></li><li><a href="art/anthora-cup/index.html">The Anthora cup</a></li><li><a href="kitchen/cake-batter/index.html">The batter and the depositor</a></li><li><a href="style/louisiana-beignet/index.html">The beignet stand</a></li><li><a href="kitchen/the-case/index.html">The case</a></li><li><a href="story/the-counter/index.html">The counter</a></li><li><a href="style/delta-grocery-counter/index.html">The Delta grocery counter</a></li><li><a href="place/the-donut-hole/index.html">The Donut Hole</a></li><li><a href="story/the-donut-king/index.html">The Donut King</a></li><li><a href="art/giant-donut-roof/index.html">The donut on the roof</a></li><li><a href="word/the-dozen/index.html">The dozen</a></li><li><a href="kitchen/filling-injector/index.html">The filler</a></li><li><a href="story/the-franchise-that-vanished/index.html">The franchise that vanished</a></li><li><a href="kitchen/glaze-table/index.html">The glaze table</a></li><li><a href="art/hand-lettered-board/index.html">The hand-lettered board</a></li><li><a href="word/hole/index.html">The hole</a></li><li><a href="style/southern-hot-now/index.html">The hot light</a></li><li><a href="kitchen/the-fryer/index.html">The kettle</a></li><li><a href="style/hawaii-malasada/index.html">The malasada counter</a></li><li><a href="style/tulsa-mix-shop/index.html">The mix-and-sign shop</a></li><li><a href="style/nyc-bodega-donut/index.html">The New York corner counter</a></li><li><a href="kitchen/the-2am-shift/index.html">The night shift</a></li><li><a href="style/novelty-donut-shop/index.html">The novelty shop</a></li><li><a href="style/new-england-cider/index.html">The orchard window</a></li><li><a href="art/pink-box/index.html">The pink box</a></li><li><a href="style/chicago-polish-bakery/index.html">The Polish bakery counter</a></li><li><a href="dish/the-pot-of-coffee/index.html">The pot of coffee</a></li><li><a href="story/the-price-of-a-dozen/index.html">The price of a dozen</a></li><li><a href="kitchen/proof-box/index.html">The proof box</a></li><li><a href="kitchen/yeast-raise/index.html">The raise</a></li><li><a href="org/salvation-army/index.html">The Salvation Army</a></li><li><a href="org/salvation-army-lassies/index.html">The Salvation Army doughnut huts</a></li><li><a href="story/the-sign-outlives-the-owner/index.html">The sign outlives the owner</a></li><li><a href="style/socal-pink-box/index.html">The Southern California pink box</a></li><li><a href="style/new-mexico-burrito-counter/index.html">The Southwest burrito counter</a></li><li><a href="style/texas-kolache-counter/index.html">The Texas kolache counter</a></li><li><a href="place/top-pot-doughnuts/index.html">Top Pot Doughnuts</a></li><li><a href="person/vernon-rudolph/index.html">Vernon Rudolph</a></li><li><a href="place/voodoo-doughnut/index.html">Voodoo Doughnut</a></li><li><a href="story/what-is-a-mom-and-pop/index.html">What counts as a mom-and-pop</a></li><li><a href="kitchen/frying-fat/index.html">What is in the kettle</a></li><li><a href="story/free-to-use/index.html">Where all of this came from</a></li><li><a href="story/donuts-per-capita/index.html">Where the shops actually are</a></li><li><a href="story/why-the-egg-rolls/index.html">Why the egg rolls</a></li><li><a href="org/winchells/index.html">Winchell&#x27;s Donut House</a></li><li><a href="org/yum-yum-donuts/index.html">Yum Yum Donut Shops</a></li></ul>
+<section class="shareme" data-url="https://nanobotco.github.io/pink-box/wander.html" data-title="Wander — Pink Box"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=Wander%20%E2%80%94%20Pink%20Box%20https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=Wander%20%E2%80%94%20Pink%20Box&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=Wander%20%E2%80%94%20Pink%20Box&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html&amp;title=Wander%20%E2%80%94%20Pink%20Box" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=Wander%20%E2%80%94%20Pink%20Box%20https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=Wander%20%E2%80%94%20Pink%20Box&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fwander.html" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="api/nodes.json">nodes.json</a> <a href="api/places.json">places.json</a> <a href="api/kin.json">kin.json</a> <a href="nodes.jsonl">nodes.jsonl</a> <a href="nodes.csv">nodes.csv</a> <a href="llms-full.txt">llms-full.txt</a> <a href="sitemap.xml">sitemap.xml</a> <a href="feed.xml">feed.xml</a> <a href="api/coverage.json">coverage</a> <a href="api/sources.json">sources</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+</footer>
+</body>
+</html>

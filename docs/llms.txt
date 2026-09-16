@@ -1,0 +1,175 @@
+# Pink Box
+
+> A structured directory of the American independent donut shop: regional styles, donuts by dough, what else is in the case, kitchen practice, shops, people, organizations, days and vocabulary. One JSON record per node; every field carries a provenance tier (cited / harvested / tradition / inference / field); records say what their neighbours are to them in both directions.
+
+Records are CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Place points are OpenStreetMap, ODbL 1.0 (share-alike). Pictures carry their own licences, stated per file. Scope and gaps: https://nanobotco.github.io/pink-box/api/coverage.json
+
+## Data
+- [All records, JSON](https://nanobotco.github.io/pink-box/api/nodes.json)
+- [Directory index, JSON](https://nanobotco.github.io/pink-box/api/index.json)
+- [Every place, curated + OpenStreetMap](https://nanobotco.github.io/pink-box/api/places.json)
+- [Kin edges](https://nanobotco.github.io/pink-box/api/kin.json)
+- [JSONL](https://nanobotco.github.io/pink-box/nodes.jsonl) · [CSV](https://nanobotco.github.io/pink-box/nodes.csv)
+- [Record schema](https://nanobotco.github.io/pink-box/schema/node.schema.json)
+- [Vocabularies: regions, types, facets](https://nanobotco.github.io/pink-box/api/vocab/regions.json)
+- [Sources registry](https://nanobotco.github.io/pink-box/api/sources.json)
+- [Full text of every record](https://nanobotco.github.io/pink-box/llms-full.txt)
+
+## Styles
+- [Dunkin' country](https://nanobotco.github.io/pink-box/style/dunkin-country/): Coffee first, donut second, at a counter that measures itself in how fast the line moves. The New England model, and the one the rest of the country meets as a drive-thru.
+- [Fastnacht Day in the Dutch counties](https://nanobotco.github.io/pink-box/style/pennsylvania-fastnacht/): One pastry, one day. Potato-dough donuts, square or diamond cut, fried for Shrove Tuesday and eaten with butter or golden syrup, sold by bakeries, churches, fire halls and — in eastern Pennsylvania — most chain…
+- [The all-night counter](https://nanobotco.github.io/pink-box/style/bay-area-late-counter/): A shop that never closes, or opens again at midnight: bar traffic, night shifts, students, and whoever else is out.
+- [The beignet stand](https://nanobotco.github.io/pink-box/style/louisiana-beignet/): An open-air or walk-up counter selling square fried dough under powdered sugar, three to an order, with coffee cut with chicory beside it.
+- [The Delta grocery counter](https://nanobotco.github.io/pink-box/style/delta-grocery-counter/): A small family grocery in the Mississippi or Arkansas Delta with a hot counter — and, in some of them, donuts fried in the morning beside the rest of the cooking.
+- [The hot light](https://nanobotco.github.io/pink-box/style/southern-hot-now/): A glazed raised ring handed over hot, minutes out of the fryer, with the glaze still moving. Built around a window you can watch the line through, and a lit sign that says the fryer is running.
+- [The malasada counter](https://nanobotco.github.io/pink-box/style/hawaii-malasada/): A bakery counter in Hawaii selling malasadas — no hole, no filling by default, rolled in sugar — by the dozen in a box or hot by the piece in a bag.
+- [The mix-and-sign shop](https://nanobotco.github.io/pink-box/style/tulsa-mix-shop/): An independently owned shop trading under a shared name and buying its dry mix from one supplier. It looks like a chain from the road and is not one at the till.
+- [The New York corner counter](https://nanobotco.github.io/pink-box/style/nyc-bodega-donut/): Donuts sold from a deli, bodega or coffee shop rather than a donut shop: a tray by the register, a grill behind the counter, and a bacon egg and cheese on a kaiser roll doing most of the business.
+- [The novelty shop](https://nanobotco.github.io/pink-box/style/novelty-donut-shop/): A shop that competes on invention: unusual toppings, themed rooms, names that are jokes, and a queue that photographs its order.
+- [The orchard window](https://nanobotco.github.io/pink-box/style/new-england-cider/): A seasonal counter at a cider mill, orchard or farm stand, running one machine and one product: cake donuts with cider in the batter, sugared and handed over hot in a paper bag.
+- [The Polish bakery counter](https://nanobotco.github.io/pink-box/style/chicago-polish-bakery/): A Polish-American bakery selling pączki — rich filled donuts, powidła or rose-petal jam inside, powdered or glazed — beside rye bread and coffee cake. One day a year it is the only thing anyone is there for.
+- [The Southern California pink box](https://nanobotco.github.io/pink-box/style/socal-pink-box/): An independent counter, usually in a strip mall, usually open before five in the morning, frying both doughs in one small kitchen and selling them out of a matte pink box.
+- [The Southwest burrito counter](https://nanobotco.github.io/pink-box/style/new-mexico-burrito-counter/): A donut shop in New Mexico, Arizona or west Texas that also wraps breakfast burritos to order: scrambled egg, potato, cheese and chile in a flour tortilla, sold at the same window as the glazed.
+- [The Texas kolache counter](https://nanobotco.github.io/pink-box/style/texas-kolache-counter/): A donut counter that also sells kolaches — and, in Texas, mostly klobasniky: sausage, ham, egg, cheese or jalapeño wrapped in sweet kolache dough.
+
+## Donuts
+- [Apple fritter](https://nanobotco.github.io/pink-box/donut/apple-fritter/): Chopped apple and cinnamon folded through raised dough, torn rather than cut, fried craggy and glazed all over so the sugar catches in every fold. No two come out the same shape.
+- [Bavarian cream](https://nanobotco.github.io/pink-box/donut/bavarian-cream/): A raised round with no hole, filled with a set custard — Bavarian cream is custard lightened with whipped cream and held with gelatin — and finished in sugar, or iced with chocolate, at which point most counters call it…
+- [Bear claw](https://nanobotco.github.io/pink-box/donut/bear-claw/): A sweet yeast dough — bread dough carrying more shortening than usual — filled with almond paste and sometimes raisins, shaped in a semicircle with slices cut along the curved edge so the sections separate as it proofs…
+- [Beignet](https://nanobotco.github.io/pink-box/donut/beignet/): A deep-fried pastry of French origin, in New Orleans a square of dough fried until it puffs hollow and buried in confectioner's sugar. Beignet means bump.
+- [Bismarck](https://nanobotco.github.io/pink-box/donut/bismarck/): A round raised donut with no hole, fried, then injected with fruit preserve, custard or cream and finished in sugar or icing.
+- [Buttermilk bar](https://nanobotco.github.io/pink-box/donut/buttermilk-bar/): Cake batter cut in a bar rather than a ring, fried so it splits open along the top, and glazed heavily enough that the glaze runs into the split.
+- [Cake donut](https://nanobotco.github.io/pink-box/donut/cake-donut/): A ring of thick batter, not dough, raised by baking powder or soda rather than yeast and dropped straight into the fat from a depositor.
+- [Chocolate cake](https://nanobotco.github.io/pink-box/donut/chocolate-cake/): A cake ring with cocoa in the batter, glazed or sugared. Dark, dense, and sweeter than the plain cake ring on the published numbers.
+- [Cider donut](https://nanobotco.github.io/pink-box/donut/cider-donut/): An American cake donut flavoured with apple cider, cinnamon and nutmeg in the batter, usually rolled in cinnamon or granulated sugar.
+- [Donut holes](https://nanobotco.github.io/pink-box/donut/donut-holes/): The centres cut out of ring donuts, fried and sold by the bag — or, more often now, made on purpose from the same dough or batter and never cut from anything.
+- [Fastnacht](https://nanobotco.github.io/pink-box/donut/fastnacht/): A Pennsylvania Dutch fried donut, often made with potato dough, eaten in the days of Carnival and above all on Shrove Tuesday.
+- [French cruller](https://nanobotco.github.io/pink-box/donut/french-cruller/): A ring extruded from choux paste — flour cooked into butter and water, then beaten with eggs — piped through a star tip so it fries up ridged and hollow, and glazed thin. No yeast, no baking powder: steam lifts it.
+- [Glazed raised](https://nanobotco.github.io/pink-box/donut/glazed-raised/): A ring of yeast dough, proofed until it is full of gas, fried about two and a half minutes, then dragged through a thin sugar glaze while it is still hot enough to melt it. The glaze sets into a shell you can hear.
+- [Long John](https://nanobotco.github.io/pink-box/donut/long-john/): A bar-shaped raised donut, glazed all over or iced on top, sometimes filled with custard or cream.
+- [Malasada](https://nanobotco.github.io/pink-box/donut/malasada/): A flattened round of yeasted dough, fried and rolled in sugar — cinnamon sugar, often — with no hole and traditionally no filling.
+- [Maple bar](https://nanobotco.github.io/pink-box/donut/maple-bar/): A bar of raised dough, fried, then topped end to end with maple-flavoured icing. Sometimes filled with custard or cream; sometimes finished with chopped bacon, which is a newer idea and an argued one.
+- [Mochi donut](https://nanobotco.github.io/pink-box/donut/mochi-donut/): A chewy donut made with glutinous rice flour or tapioca flour, usually formed as a ring of eight connected balls that pull apart. Moist, springy, and heavier in the hand than it looks.
+- [Old-fashioned](https://nanobotco.github.io/pink-box/donut/old-fashioned/): A cake ring with a cracked surface and tapered edges, glazed or sugared so the glaze pools in the cracks. The crack is the point: more surface, crisper edge, and a ring that holds up to coffee longer than a raised one.
+- [Pączki](https://nanobotco.github.io/pink-box/donut/paczki/): A Polish filled donut: a flattened ball of rich dough — eggs, fat, sugar, yeast, sometimes milk — deep fried, filled with jam or cream, and finished in powdered sugar, icing, glaze or dried orange zest.
+- [Spudnut](https://nanobotco.github.io/pink-box/donut/spudnut/): A donut made with potato flour or mashed potato in the dough. Softer crumb, longer shelf life, and a faint savoury note under the sugar.
+- [Sufganiyah](https://nanobotco.github.io/pink-box/donut/sufganiyah/): A round filled donut, traditionally red jelly with icing sugar on top, eaten at Hanukkah. Dulce de leche fillings became common after South American immigration to Israel early in this century.
+
+## Dishes
+- [Bacon, egg and cheese](https://nanobotco.github.io/pink-box/dish/bacon-egg-and-cheese/): Bacon, fried or scrambled egg and cheese on bread — in New York City, on a kaiser roll. About 20 grams of fat and 350 calories in a typical one.
+- [Biscuits and gravy](https://nanobotco.github.io/pink-box/dish/biscuits-and-gravy/): Soft wheat biscuits split and covered in a white gravy built on sausage drippings, flour and milk.
+- [Boba](https://nanobotco.github.io/pink-box/dish/boba/): Tea with milk and tapioca pearls, sealed under a film lid and drunk through a fat straw.
+- [Breakfast burrito](https://nanobotco.github.io/pink-box/dish/breakfast-burrito/): Breakfast inside a flour tortilla: scrambled egg, potato, cheese, and in the Southwest, New Mexico chile, jalapeño, salsa, onion, chorizo or bacon.
+- [Coffee with chicory](https://nanobotco.github.io/pink-box/dish/chicory-coffee/): Coffee blended with roasted chicory root and cut half-and-half with hot milk.
+- [Egg roll](https://nanobotco.github.io/pink-box/dish/egg-roll/): A cylindrical deep-fried roll in a thick wheat skin — shredded cabbage, chopped meat, sometimes shrimp — eaten with the fingers out of a cellophane packet of duck sauce.
+- [Fried rice and chow mein](https://nanobotco.github.io/pink-box/dish/fried-rice/): Cooked rice stir-fried with egg, vegetables and meat, held hot in a steam table beside the donut case — with chow mein next to it in many shops.
+- [Klobasnek](https://nanobotco.github.io/pink-box/dish/klobasnek/): Sausage — klobása, traditionally — wrapped in kolache dough and baked. Ham, egg, cheese, jalapeño and hot dog are all standard now, and in some Texas shops boudin, the Cajun pork-and-rice sausage.
+- [Kolache](https://nanobotco.github.io/pink-box/dish/kolache/): A sweet bread with a well of fruit or cheese in the middle of puffy yeast dough — tvaroh, jam, poppy seed, or povidla, which is prune. Baked, not fried.
+- [The pot of coffee](https://nanobotco.github.io/pink-box/dish/the-pot-of-coffee/): Drip coffee from a glass pot on a warmer, in a paper cup or a mug, refilled by whoever is at the counter.
+
+## Kitchen
+- [Cutting by hand](https://nanobotco.github.io/pink-box/kitchen/hand-cut/): Rolling sheeted dough and cutting rings with a two-ring cutter, rather than depositing or buying pre-formed shells.
+- [Day-old](https://nanobotco.github.io/pink-box/kitchen/day-old-rack/): Yesterday's donuts, sold cheap the next morning, usually bagged rather than boxed and usually the rings rather than the filled ones.
+- [Dipping and sprinkles](https://nanobotco.github.io/pink-box/kitchen/sprinkle-and-dip/): Icing in flat pans, sprinkles in bins: a donut is dipped face-down, then set in the sprinkles while the icing is still wet.
+- [The batter and the depositor](https://nanobotco.github.io/pink-box/kitchen/cake-batter/): A thick chemically-leavened batter dropped straight into hot fat through a hand-held or bench depositor, which forms the ring as it falls.
+- [The case](https://nanobotco.github.io/pink-box/kitchen/the-case/): The glass case: trays by kind, tongs on a hook, and a layout that repeats across the country without anyone having agreed on it.
+- [The filler](https://nanobotco.github.io/pink-box/kitchen/filling-injector/): A hand pump or bench machine that pushes jam, custard or cream through a nozzle into the side of a fried round.
+- [The glaze table](https://nanobotco.github.io/pink-box/kitchen/glaze-table/): A shallow pan of thin sugar glaze beside the fryer, where raised rings are dragged through face-down within a minute of coming out of the fat.
+- [The kettle](https://nanobotco.github.io/pink-box/kitchen/the-fryer/): A shallow open kettle of hot fat with a screen, where every donut in the shop is cooked, turned once, and lifted out.
+- [The night shift](https://nanobotco.github.io/pink-box/kitchen/the-2am-shift/): The hours the work actually happens in: dough started in the small hours so the case is full when the door opens.
+- [The proof box](https://nanobotco.github.io/pink-box/kitchen/proof-box/): A warm humid cabinet where cut rings take their final rise before they go in the fat.
+- [The raise](https://nanobotco.github.io/pink-box/kitchen/yeast-raise/): Baker's yeast fermenting a sweet dough until it is full of gas — once in bulk, once again after the rings are cut.
+- [What is in the kettle](https://nanobotco.github.io/pink-box/kitchen/frying-fat/): The fat itself: lard, beef tallow, vegetable shortening, or liquid oils — canola, soybean, palm.
+
+## Places
+- [Allie's Donuts](https://nanobotco.github.io/pink-box/place/allies-donuts/): A shop on Route 2 in North Kingstown, Rhode Island, cutting its donuts by hand since 1968, and the state's landmark of the trade.
+- [Bob's Donuts and Pastries](https://nanobotco.github.io/pink-box/place/bobs-donuts/): A 24-hour counter on Polk Street in San Francisco, busiest after midnight, and two other locations.
+- [Café du Monde](https://nanobotco.github.io/pink-box/place/cafe-du-monde/): An open-air coffee stand on Decatur Street in the French Quarter, selling café au lait cut with chicory and beignets three to an order under powdered sugar.
+- [Christy's Donuts](https://nanobotco.github.io/pink-box/place/christys-donuts/): The La Habra shop Ted Ngoy bought in 1977, and the name he put on every shop he bought after it.
+- [Czech Stop and Little Czech Bakery](https://nanobotco.github.io/pink-box/place/czech-stop/): A combination deli, bakery and convenience store on Interstate 35 in West, Texas, selling kolaches, klobasniky and strudel to about 600 people a day.
+- [Donut Wheel](https://nanobotco.github.io/pink-box/place/donut-wheel/): A Livermore landmark at the intersection of the city's four quadrants, trading since 1962.
+- [Doughnut Plant](https://nanobotco.github.io/pink-box/place/doughnut-plant/): A New York bakery that treats the donut as a thing to redesign: square filled donuts, crème brûlée donuts, shapes that do not come off a standard cutter.
+- [Federal Donuts](https://nanobotco.github.io/pink-box/place/federal-donuts/): A Philadelphia counter selling donuts, coffee and fried chicken from the same window.
+- [Leonard's Bakery](https://nanobotco.github.io/pink-box/place/leonards-bakery/): A Portuguese bakery on Kapahulu Avenue in Honolulu that made the malasada an everyday Hawaiian habit rather than a Carnival one.
+- [Pip's Original Doughnuts & Chai](https://nanobotco.github.io/pink-box/place/pips-original/): A northeast Portland shop frying small cake donuts to order and serving house chai beside them.
+- [Psycho Donuts](https://nanobotco.github.io/pink-box/place/psycho-donuts/): A Campbell, California shop themed on "craziness", with donut names punning on mental illness, a straitjacket on the wall and a padded cell in the room.
+- [Randy's Donuts](https://nanobotco.github.io/pink-box/place/randys-donuts/): A drive-in donut counter on West Manchester Boulevard in Inglewood, under a 1950s rooftop donut big enough to be a landmark from the 405. Open around the clock.
+- [Round Rock Donuts](https://nanobotco.github.io/pink-box/place/round-rock-donuts/): A Texas counter trading since 1926, known for an outsized orange-yellow donut and a queue that starts early.
+- [Seaside Donuts Bakery](https://nanobotco.github.io/pink-box/place/seaside-donuts/): A Cambodian-American bakery in Newport Beach, open 24 hours, known for cheap selections and a beachside room that fills up at odd hours.
+- [The Donut Hole](https://nanobotco.github.io/pink-box/place/the-donut-hole/): A drive-through bakery in La Puente shaped like two giant donuts: you drive in through one hole, order, and drive out through the other.
+- [Top Pot Doughnuts](https://nanobotco.github.io/pink-box/place/top-pot-doughnuts/): A Seattle coffee-and-donut company begun on Capitol Hill, now 17 cafés around Puget Sound.
+- [Voodoo Doughnut](https://nanobotco.github.io/pink-box/place/voodoo-doughnut/): A Portland shop built on novelty donuts and a late-night queue, now with locations in several states.
+
+## People
+- [Adolph Levitt](https://nanobotco.github.io/pink-box/person/adolph-levitt/): The Russian refugee who built the first automated donut machine in New York in 1920 and founded the Doughnut Corporation of America.
+- [Bill Rosenberg](https://nanobotco.github.io/pink-box/person/bill-rosenberg/): Opened the Open Kettle in Quincy, Massachusetts in 1948 and renamed it Dunkin' Donuts in 1950.
+- [Elizabeth Gregory](https://nanobotco.github.io/pink-box/person/elizabeth-gregory/): Hanson Gregory's mother, who by the Smithsonian's account made the deep-fried dough the ring story starts from.
+- [Hanson Gregory](https://nanobotco.github.io/pink-box/person/hanson-gregory/): The New England sailor who said he punched the first hole in a donut in 1847, at sixteen, aboard a lime-trading ship.
+- [Ning Yen](https://nanobotco.github.io/pink-box/person/ning-yen/): Credited with Ted Ngoy for the pink donut box, after helping other Cambodians set up shops in Southern California.
+- [Russell C. Wendell](https://nanobotco.github.io/pink-box/person/russell-wendell/): The machine salesman who founded the Big Do-Nut Drive-In chain and put 22-foot donuts on its roofs.
+- [Ted Ngoy](https://nanobotco.github.io/pink-box/person/ted-ngoy/): The Cambodian refugee who turned one La Habra donut shop into a trade for a community, and lost the fortune it made him.
+- [Vernon Rudolph](https://nanobotco.github.io/pink-box/person/vernon-rudolph/): Bought a yeast-raised recipe from a New Orleans chef and opened in Winston-Salem in 1937.
+
+## Organizations
+- [B & H Bakery Distributors](https://nanobotco.github.io/pink-box/org/b-and-h-distributors/): A Cambodian-American bakery supply business serving California donut shops.
+- [Daylight Donuts](https://nanobotco.github.io/pink-box/org/daylight-donuts/): The Tulsa company that sells donut mix and a sign to roughly 950 independently owned shops in 13 countries.
+- [Doughnut Corporation of America](https://nanobotco.github.io/pink-box/org/doughnut-corporation-of-america/): Adolph Levitt's company: donut machines, mixes, the Mayflower shop in Times Square, and the National Dunking Association.
+- [Dunkin'](https://nanobotco.github.io/pink-box/org/dunkin/): The Quincy, Massachusetts chain that paired coffee and donuts nationally, and the oldest surviving company using the short spelling.
+- [Krispy Kreme](https://nanobotco.github.io/pink-box/org/krispy-kreme/): The Winston-Salem company built on a bought yeast-raised recipe, a window you can watch the line through, and a lit sign.
+- [Mister Donut](https://nanobotco.github.io/pink-box/org/mister-donut/): The chain founded by Harry Winokur, Bill Rosenberg's former partner, absorbed into Dunkin' in the United States and still large in Asia.
+- [Mochinut](https://nanobotco.github.io/pink-box/org/mochinut/): A franchise selling mochi donuts and Korean corn dogs that spread rapidly across American strip malls in the 2020s.
+- [National Dunking Association](https://nanobotco.github.io/pink-box/org/national-dunking-association/): A membership organisation started by the Doughnut Corporation of America in the 1930s to popularise donuts in North America.
+- [The Salvation Army](https://nanobotco.github.io/pink-box/org/salvation-army/): The Christian charitable organisation whose World War I canteens fried donuts for American soldiers, and whose Chicago branch created National Donut Day in 1938.
+- [The Salvation Army doughnut huts](https://nanobotco.github.io/pink-box/org/salvation-army-lassies/): The World War I canteens where Salvation Army volunteers fried donuts for American soldiers in France — and the reason there is a National Donut Day.
+- [Winchell's Donut House](https://nanobotco.github.io/pink-box/org/winchells/): The Temple City, California chain founded by Verne Winchell on 8 October 1948.
+- [Yum Yum Donut Shops](https://nanobotco.github.io/pink-box/org/yum-yum-donuts/): A Southern California donut chain, and since 2004 the owner of Winchell's.
+
+## Events
+- [Cider donut season](https://nanobotco.github.io/pink-box/event/orchard-season/): The weeks when orchards and cider mills in the Northeast and Midwest run donut machines for the people who came to pick apples.
+- [Fastnacht Day](https://nanobotco.github.io/pink-box/event/fastnacht-day/): Shrove Tuesday in Pennsylvania Dutch country, named after the donut rather than the fast.
+- [Krispy Kreme Challenge](https://nanobotco.github.io/pink-box/event/krispy-kreme-challenge/): An annual charity run in Raleigh: 2.5 miles to a Krispy Kreme, a dozen donuts, and 2.5 miles back, inside an hour.
+- [Malasada Day](https://nanobotco.github.io/pink-box/event/malasada-day/): The Hawaiian observance of Shrove Tuesday, kept by eating malasadas.
+- [National Donut Day](https://nanobotco.github.io/pink-box/event/national-donut-day/): An American observance on the first Friday of June, with free donuts at many shops.
+- [Paczki Day](https://nanobotco.github.io/pink-box/event/paczki-day/): The Tuesday before Lent, kept in Polish-American cities — Chicago, Milwaukee, Detroit, Windsor — as a day for eating pączki.
+
+## Words
+- [Bar](https://nanobotco.github.io/pink-box/word/bar/): A rectangular raised donut, glazed or iced, sometimes filled.
+- [Cruller](https://nanobotco.github.io/pink-box/word/cruller-word/): In North America: either a small loaf- or stick-shaped cake donut, or the choux ring sold as a French cruller.
+- [Day-old](https://nanobotco.github.io/pink-box/word/day-old/): Yesterday's donuts, sold cheap.
+- [Donut / doughnut](https://nanobotco.github.io/pink-box/word/donut-spelling/): Two spellings of the same word. Doughnut is the older form and still dominates in print; donut is American, shorter, and on more signs.
+- [Dunking](https://nanobotco.github.io/pink-box/word/dunking/): Putting a donut in coffee. For twenty-odd years, an organised pastime with officers.
+- [Fry cake](https://nanobotco.github.io/pink-box/word/fry-cake/): An older American name for the cake donut, still on some signs and menus.
+- [Hot now](https://nanobotco.github.io/pink-box/word/hot-now/): A lit sign saying donuts are coming out of the fryer at that moment.
+- [Jimmies](https://nanobotco.github.io/pink-box/word/jimmies/): The long rod-shaped sprinkles, above all the chocolate ones. The tiny balls are nonpareils.
+- [Mom-and-pop](https://nanobotco.github.io/pink-box/word/mom-and-pop/): A shop owned and worked by the family that runs it, as against a franchise or a company-owned store.
+- [Olykoek](https://nanobotco.github.io/pink-box/word/olykoek/): The Dutch fried dough ball that came to New Amsterdam, and the American donut's direct ancestor: sweetened dough fried in fat, with no hole.
+- [Powdered sugar](https://nanobotco.github.io/pink-box/word/powdered-sugar/): Sugar ground fine and cut with a little starch to stop it caking. The base of every glaze and the finish on beignets, malasadas and pączki.
+- [The dozen](https://nanobotco.github.io/pink-box/word/the-dozen/): The unit donuts are sold in, and the reason for the box.
+- [The hole](https://nanobotco.github.io/pink-box/word/hole/): The absence in the middle of a ring donut, and the argument about who first made one.
+
+## Art
+- [Mr. Spudnut and the mascots](https://nanobotco.github.io/pink-box/art/mr-spudnut/): The cartoon characters donut companies used to sell themselves in the middle of the twentieth century.
+- [Neon and the lit sign](https://nanobotco.github.io/pink-box/art/neon-donut/): Signs that advertise by light: a neon ring, a lit arrow, a plastic panel with DONUTS in red, and the hot sign that says the fryer is going.
+- [The Anthora cup](https://nanobotco.github.io/pink-box/art/anthora-cup/): The blue-and-white paper coffee cup with a Greek meander border and the words "We Are Happy To Serve You", designed for New York's Greek-run coffee shops.
+- [The donut on the roof](https://nanobotco.github.io/pink-box/art/giant-donut-roof/): Oversize donuts built on or around Southern California shops to catch drivers: roadside novelty architecture, most of it from the decade after the Second World War.
+- [The hand-lettered board](https://nanobotco.github.io/pink-box/art/hand-lettered-board/): The menu written by hand — on card, on a whiteboard, on the glass — and updated by writing over it.
+- [The pink box](https://nanobotco.github.io/pink-box/art/pink-box/): The matte pink paperboard box a dozen donuts go into: the most recognisable object in the American trade, and the cheapest.
+
+## Stories
+- [Bar or Long John](https://nanobotco.github.io/pink-box/story/bar-or-long-john/): One rectangular raised donut, at least five names, and a map of the country hiding inside a bakery case.
+- [Cake against raised](https://nanobotco.github.io/pink-box/story/cake-against-raised/): Two doughs, one kettle, and an argument every shop settles twice a day.
+- [The counter](https://nanobotco.github.io/pink-box/story/the-counter/): What a donut shop sells besides donuts, region by region, and what this project can show evidence for.
+- [The Donut King](https://nanobotco.github.io/pink-box/story/the-donut-king/): How one man's shop in La Habra became a trade for a community, and what happened to the man.
+- [The franchise that vanished](https://nanobotco.github.io/pink-box/story/the-franchise-that-vanished/): Between 1940 and 1968 a Salt Lake City potato-flour company put more than three hundred shops on American streets. The company is gone. Some of the shops are not.
+- [The price of a dozen](https://nanobotco.github.io/pink-box/story/the-price-of-a-dozen/): A price without its date is not a price. This page holds the dated ones this project can actually cite, which is not many, and says plainly what is missing.
+- [The sign outlives the owner](https://nanobotco.github.io/pink-box/story/the-sign-outlives-the-owner/): Donut shop signs are older than the businesses behind them, which makes them unreliable evidence and excellent evidence at the same time.
+- [What counts as a mom-and-pop](https://nanobotco.github.io/pink-box/story/what-is-a-mom-and-pop/): This site is about independent donut shops, which means it needs a rule for what that is. The rule used here: a shop is independent when no company owns it.
+- [Where all of this came from](https://nanobotco.github.io/pink-box/story/free-to-use/): What this site is built from, what each thing is licensed under, and what it does not cover.
+- [Where the shops actually are](https://nanobotco.github.io/pink-box/story/donuts-per-capita/): Donut shops are not spread evenly, and the places with the most of them are not the places with the most famous ones.
+- [Why the egg rolls](https://nanobotco.github.io/pink-box/story/why-the-egg-rolls/): A donut shop that also sells egg rolls, or breakfast burritos, or bacon egg and cheese, or kolaches, is not being eccentric. It is doing arithmetic out loud.
+
+## Optional
+- [Search page](https://nanobotco.github.io/pink-box/search/)
+- [Map of every place](https://nanobotco.github.io/pink-box/places/)
+- [Atom feed](https://nanobotco.github.io/pink-box/feed.xml)
+- [Sitemap](https://nanobotco.github.io/pink-box/sitemap.xml)

@@ -1,0 +1,181 @@
+{
+ "id": "chicago-polish-bakery",
+ "type": "style",
+ "names": {
+  "name": "The Polish bakery counter",
+  "aliases": [
+   "paczki counter",
+   "Chicago Polish bakery"
+  ],
+  "said": "The line starts before the sun and the sign says how many you may buy."
+ },
+ "region": [
+  "chicago",
+  "detroit",
+  "upper-midwest"
+ ],
+ "facets": {
+  "state": "IL",
+  "dough": "yeast",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "A Polish-American bakery selling pączki — rich filled donuts, powidła or rose-petal jam inside, powdered or glazed — beside rye bread and coffee cake. One day a year it is the only thing anyone is there for.",
+  "story": "Pączki are medieval in Poland and were improved, Jędrzej Kitowicz wrote, by French cooks at the court of Augustus III until they came out lighter. The dough is richer than a jelly donut's — eggs, fat, sugar, yeast, sometimes milk — and carries a spoonful of rectified spirit, which evaporates in the fryer and keeps the oil out.\n\nThe pale belt around the middle is read as proof the oil was fresh. In Chicago, Milwaukee, Detroit and Windsor the tradition sits with the Polish communities, and Fat Tuesday is Paczki Day.",
+  "how": "Fresh oil, and the bakers say so. Fried in batches all night before the day, filled and sugared as they cool.",
+  "today": "Hamtramck, Michigan, runs a Paczki Day the city closes streets for. Chicago bakeries post limits."
+ },
+ "kin": [
+  {
+   "to": "paczki",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki-day",
+   "as": "The Tuesday.",
+   "rel": "event"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "as": "The German-descended version of the same fast.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-p-czki",
+  "s:wp-doughnut",
+  "s:wp-hamtramck-michigan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-hamtramck-michigan"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Polish-American bakery selling pączki — rich filled donuts, powidła or rose-petal jam inside, powdered or glazed — beside rye bread and coffee cake. One day a year it is the only thing anyone is there for.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "Polish bakeries, paczki, the long john"
+  },
+  {
+   "key": "detroit",
+   "name": "Detroit",
+   "state": "MI",
+   "note": "Hamtramck on Paczki Day"
+  },
+  {
+   "key": "upper-midwest",
+   "name": "The Upper Midwest",
+   "state": null,
+   "note": "Wisconsin, Minnesota, the Dakotas; bismarcks, long johns, church-basement fry"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The Tuesday.",
+   "rel": "event"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "The German-descended version of the same fast.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-p-czki",
+   "kind": "web",
+   "title": "Pączki — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/P%C4%85czki",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hamtramck-michigan",
+   "kind": "web",
+   "title": "Hamtramck, Michigan — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hamtramck,_Michigan",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-hamtramck-michigan"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The style it belongs to.",
+   "rel": "style"
+  },
+  {
+   "from": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The counter.",
+   "rel": "style"
+  }
+ ]
+}

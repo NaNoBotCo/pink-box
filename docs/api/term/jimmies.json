@@ -1,0 +1,130 @@
+{
+ "id": "jimmies",
+ "type": "term",
+ "names": {
+  "name": "Jimmies",
+  "aliases": [
+   "sprinkles",
+   "hundreds and thousands",
+   "nonpareils"
+  ],
+  "said": "Boston and Philadelphia say jimmies. Say it in Los Angeles and you get a blank look."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "J",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The long rod-shaped sprinkles, above all the chocolate ones. The tiny balls are nonpareils.",
+  "story": "Jimmies is the most popular term for chocolate sprinkles in Boston, Philadelphia and New England. The origin is uncertain; it is first documented in 1930, as a cake topping. The Just Born Candy Company of Bethlehem, Pennsylvania, says it invented the product and named them after an employee.\n\nA second story credits Sidney Farber's Jimmy Fund and Brigham's ice cream, which charged a penny extra for chocolate sprinkles to benefit it — but the fund started in 1948, well after the word is first recorded. Nonpareils go back to at least the late eighteenth century, as decoration for pièces montées."
+ },
+ "kin": [
+  {
+   "to": "sprinkle-and-dip",
+   "as": "What happens with them.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "dunkin-country",
+   "as": "The region the word belongs to.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-sprinkles"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "uncertain; Just Born Candy Company says it named them after an employee",
+  "first_attested": "1930, as a cake topping",
+  "note": "The Jimmy Fund story postdates the first record by eighteen years.",
+  "tier": "cited",
+  "source": "s:wp-sprinkles"
+ },
+ "blurb": "The long rod-shaped sprinkles, above all the chocolate ones. The tiny balls are nonpareils.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "What happens with them.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region the word belongs to.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-sprinkles",
+   "kind": "web",
+   "title": "Sprinkles — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sprinkles",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-sprinkles"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "The word, and where it stops.",
+   "rel": "term"
+  },
+  {
+   "from": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "Another regional word.",
+   "rel": "term"
+  }
+ ]
+}

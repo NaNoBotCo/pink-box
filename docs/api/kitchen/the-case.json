@@ -1,0 +1,190 @@
+{
+ "id": "the-case",
+ "type": "kitchen",
+ "names": {
+  "name": "The case",
+  "aliases": [
+   "the display",
+   "the tray"
+  ],
+  "said": "Top shelf is what the shop wants you to see. Bottom shelf is what it has a lot of."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "hold"
+ },
+ "text": {
+  "what": "The glass case: trays by kind, tongs on a hook, and a layout that repeats across the country without anyone having agreed on it.",
+  "story": "*Inference —* the arrangement follows the frying order more than any merchandising plan. Raised glazed comes out first and takes the biggest tray; cake and old-fashioned follow; filled and iced pieces, which are finished last, land at the front where they look best and sell first.",
+  "how": "Load hot, front the trays as they empty, and stop refilling a few hours before close.",
+  "today": "A case that is still full at ten in the morning is a shop that made too many, and a case that is empty at eight is a shop that could have sold more. Neither is visible from the road."
+ },
+ "kin": [
+  {
+   "to": "sprinkle-and-dip",
+   "as": "What makes the front row bright.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "day-old-rack",
+   "as": "Where the leftovers go.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-dozen",
+   "as": "How it gets sold.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "source": "s:this-project"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "the-case/the-case-020240623-131800-donuts.jpg",
+   "source": "commons",
+   "title": "File:020240623 131800 Donuts.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/020240623_131800_Donuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A020240623_131800_Donuts.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Silar",
+   "credit": "Own work",
+   "alt": "Donuts",
+   "date": "2024-06-23",
+   "primary": true,
+   "sha256": "8d4ebf7ac0934b37066c90892398a8b9885cc379502569b7bf814aae5fd264c5"
+  },
+  {
+   "file": "the-case/the-case-boston-cream-doughnuts-in-display-case-november-2007.jpg",
+   "source": "commons",
+   "title": "File:Boston cream doughnuts in display case, November 2007.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Boston_cream_doughnuts_in_display_case%2C_November_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_cream_doughnuts_in_display_case%2C_November_2007.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Eugene Peretz",
+   "credit": "originally posted to Flickr as boston cream",
+   "alt": "Boston cream doughnuts in display case.",
+   "date": "2007-11-17 13:43:55",
+   "primary": false,
+   "sha256": "20f1b89375390362159ddf1362bd781a52747e46da20e6c855d07ce49a027130"
+  }
+ ],
+ "blurb": "The glass case: trays by kind, tongs on a hook, and a layout that repeats across the country without anyone having agreed on it.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "What makes the front row bright.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "as": "Where the leftovers go.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "as": "How it gets sold.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Pink Box — this project's own reasoning",
+   "publisher": "Pink Box",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "inference",
+   "source": "s:this-project"
+  },
+  "text.story": {
+   "tier": "inference",
+   "source": "s:this-project"
+  },
+  "text.how": {
+   "tier": "inference",
+   "source": "s:this-project"
+  },
+  "text.today": {
+   "tier": "inference",
+   "source": "s:this-project"
+  }
+ },
+ "primary_image": {
+  "file": "the-case/the-case-020240623-131800-donuts.jpg",
+  "source": "commons",
+  "title": "File:020240623 131800 Donuts.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/020240623_131800_Donuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3A020240623_131800_Donuts.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Silar",
+  "credit": "Own work",
+  "alt": "Donuts",
+  "date": "2024-06-23",
+  "primary": true,
+  "sha256": "8d4ebf7ac0934b37066c90892398a8b9885cc379502569b7bf814aae5fd264c5"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "How the tray is laid out.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "as": "Where it comes from.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "hand-lettered-board",
+   "type": "art",
+   "name": "The hand-lettered board",
+   "as": "What the board describes.",
+   "rel": "kitchen"
+  }
+ ]
+}

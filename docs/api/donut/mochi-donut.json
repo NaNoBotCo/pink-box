@@ -1,0 +1,182 @@
+{
+ "id": "mochi-donut",
+ "type": "donut",
+ "names": {
+  "name": "Mochi donut",
+  "aliases": [
+   "pon de ring",
+   "poi mochi"
+  ],
+  "said": "Eight balls in a ring, and you pull it apart rather than bite it."
+ },
+ "region": [
+  "hawaii",
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "dough": "other",
+  "finish": "iced"
+ },
+ "text": {
+  "what": "A chewy donut made with glutinous rice flour or tapioca flour, usually formed as a ring of eight connected balls that pull apart. Moist, springy, and heavier in the hand than it looks.",
+  "story": "An early version traces to Hawaii in 1992, when Charmaine Ocasek made poi mochi — deep-fried balls of mashed taro and mochiko, Japanese sweet rice flour. In 2003 the Japanese chain Mister Donut launched pon de ring, named for the Brazilian cheese bread pão de queijo, and that eight-ball shape is the one that travelled: Japan, then Hawaii, then the mainland. Hawaii tends to pick up Japanese food before the rest of the country does.\n\nEpicurious has pointed out the tangle in the name: neither pon de ring nor pão de queijo is typically made with glutinous rice flour — both lean on tapioca.",
+  "how": "Rice or tapioca flour batter, piped as eight touching balls onto paper, fried, then iced in bright flavours.",
+  "today": "Mochi donut counters opened across American cities through the 2020s, some as chains, some as a second case inside an older donut shop."
+ },
+ "kin": [
+  {
+   "to": "mochinut",
+   "as": "The chain that put the shape in strip malls nationwide.",
+   "rel": "org"
+  },
+  {
+   "to": "cake-donut",
+   "as": "Neither yeast nor powder; a third way of getting lift.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hawaii-malasada",
+   "as": "The island case it shares.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-mochi-donut",
+  "s:wp-mochinut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mochi-donut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-mochinut"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A chewy donut made with glutinous rice flour or tapioca flour, usually formed as a ring of eight connected balls that pull apart. Moist, springy, and heavier in the hand than it looks.",
+ "region_terms": [
+  {
+   "key": "hawaii",
+   "name": "Hawaii",
+   "state": "HI",
+   "note": "malasadas, no hole, rolled in sugar"
+  },
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "The chain that put the shape in strip malls nationwide.",
+   "rel": "org"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Neither yeast nor powder; a third way of getting lift.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The island case it shares.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mochi-donut",
+   "kind": "web",
+   "title": "Mochi donut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mochi_donut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-mochinut",
+   "kind": "web",
+   "title": "Mochinut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mochinut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-mochi-donut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-mochi-donut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-mochi-donut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-mochinut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The other Pacific arrival in the same case.",
+   "rel": "donut"
+  },
+  {
+   "from": "boba",
+   "type": "dish",
+   "name": "Boba",
+   "as": "The other recent arrival in the same case.",
+   "rel": "donut"
+  },
+  {
+   "from": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "The shape its Japanese arm launched.",
+   "rel": "donut"
+  },
+  {
+   "from": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "The item.",
+   "rel": "donut"
+  }
+ ]
+}

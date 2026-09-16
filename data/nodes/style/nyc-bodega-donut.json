@@ -1,0 +1,77 @@
+{
+ "id": "nyc-bodega-donut",
+ "type": "style",
+ "names": {
+  "name": "The New York corner counter",
+  "aliases": [
+   "bodega donut",
+   "deli donut",
+   "Greek coffee shop donut"
+  ],
+  "said": "A coffee regular and a bacon egg and cheese on a roll, and the donut is an afterthought until it isn't."
+ },
+ "region": [
+  "nyc",
+  "greek-american"
+ ],
+ "facets": {
+  "state": "NY",
+  "dough": "both",
+  "counter": "bodega-sandwiches"
+ },
+ "text": {
+  "what": "Donuts sold from a deli, bodega or coffee shop rather than a donut shop: a tray by the register, a grill behind the counter, and a bacon egg and cheese on a kaiser roll doing most of the business.",
+  "story": "A bodega is a small owner-operated store selling hot and prepared food, often open late, defined by the city's health department as a store that sells milk, meat or eggs, is not a specialty store, and has no more than two registers. New York had an estimated 13,000 of them in 2020, and they are tied in the public mind to immigrant and Puerto Rican New York.\n\nThe bacon, egg and cheese is culturally particular to the city, where it comes on a kaiser roll. The donut arrives alongside it as the sweet half of the same transaction.\n\nGreek immigrants ran a large share of the city's coffee shops and diners, and the Anthora cup — blue and white, Greek meander, \"We Are Happy To Serve You\" — was designed for exactly this trade.",
+  "how": "Donuts are bought in, not fried on site, in most of these counters. The kitchen is a grill, not a kettle.",
+  "today": "Dedicated donut shops in the city are a different business with different prices. The corner counter still moves more of them."
+ },
+ "kin": [
+  {
+   "to": "bacon-egg-and-cheese",
+   "as": "The sandwich that pays the rent.",
+   "rel": "dish"
+  },
+  {
+   "to": "anthora-cup",
+   "as": "The cup the coffee comes in.",
+   "rel": "art"
+  },
+  {
+   "to": "doughnut-plant",
+   "as": "The other New York model: one shop, one obsession, higher price.",
+   "rel": "place"
+  },
+  {
+   "to": "the-counter",
+   "as": "What else is in the case, by region.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-bodega",
+  "s:wp-bacon-egg-and-cheese-sandwich",
+  "s:wp-greek-americans",
+  "s:wp-anthora"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bodega"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "that most corner counters buy in rather than fry is this project's reading, not a count"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16"
+}

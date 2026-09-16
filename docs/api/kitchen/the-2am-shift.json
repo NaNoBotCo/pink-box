@@ -1,0 +1,189 @@
+{
+ "id": "the-2am-shift",
+ "type": "kitchen",
+ "names": {
+  "name": "The night shift",
+  "aliases": [
+   "the two o'clock",
+   "the night bake"
+  ],
+  "said": "The light is on and the door is locked, and that is the shop working."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "shift"
+ },
+ "text": {
+  "what": "The hours the work actually happens in: dough started in the small hours so the case is full when the door opens.",
+  "story": "Krispy Kreme's hot donut began as a by-product of exactly this. Vernon Rudolph's Winston-Salem shop sold wholesale to grocery stores, and production ran from midnight to four in the morning; he sold hot donuts to whoever turned up during it. The window came later; the schedule came first.\n\nA raised dough sets the clock. It has to be mixed, risen, cut, proofed and fried before opening, and none of those steps can be hurried by much.",
+  "how": "Mix around midnight or one. Raised first, cake after. Glaze, ice, fill, sprinkle, load the case, unlock the door.",
+  "today": "The shift is the part of the business that does not scale, and the part a family absorbs. *Inference —* it is also the reason a second generation often does not take the shop on."
+ },
+ "kin": [
+  {
+   "to": "yeast-raise",
+   "as": "What sets the clock.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "southern-hot-now",
+   "as": "The chain that sold the by-product.",
+   "rel": "style"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "Whose families work it.",
+   "rel": "style"
+  },
+  {
+   "to": "vernon-rudolph",
+   "as": "Sold hot donuts to the people awake at 2 a.m.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme",
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The hours the work actually happens in: dough started in the small hours so the case is full when the door opens.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What sets the clock.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The chain that sold the by-product.",
+   "rel": "style"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Whose families work it.",
+   "rel": "style"
+  },
+  {
+   "to": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "Sold hot donuts to the people awake at 2 a.m.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-krispy-kreme",
+   "kind": "web",
+   "title": "Krispy Kreme — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Krispy_Kreme",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bay-area-late-counter",
+   "type": "style",
+   "name": "The all-night counter",
+   "as": "The shift underneath it.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "When the work actually happens.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What the raise does to the schedule.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "What it used to point at.",
+   "rel": "kitchen"
+  }
+ ]
+}

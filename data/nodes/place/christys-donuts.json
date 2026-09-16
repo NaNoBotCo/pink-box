@@ -1,0 +1,90 @@
+{
+ "id": "christys-donuts",
+ "type": "place",
+ "names": {
+  "name": "Christy's Donuts",
+  "aliases": [
+   "Christy's"
+  ],
+  "sort": "Christy's Donuts"
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "unknown",
+  "founded": 1977,
+  "dough": "both",
+  "styles": [
+   "socal-pink-box"
+  ]
+ },
+ "text": {
+  "what": "The La Habra shop Ted Ngoy bought in 1977, and the name he put on every shop he bought after it.",
+  "story": "Christy's had not done well under its previous owners. It did well under the Ngoys, and they kept the name uniform across the shops they added — by 1979 more than 25 of them, by 1987 thirty-two, and at the peak Ngoy reckoned sixty-five. Ngoy and his wife took the American names Ted and Christy when they became citizens in 1985.\n\nThe shops were leased out to relatives and to refugee families Ngoy sponsored, which is how one shop turned into a trade for a community.",
+  "today": "Shops trading as Christy's Donuts still exist in Southern California. This project has not verified which, if any, descend from the Ngoy shops, and does not claim it."
+ },
+ "geo": {
+  "lat": 33.93161,
+  "lon": -117.94549,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "La Habra",
+  "county": "Orange",
+  "state": "CA"
+ },
+ "tags": [
+  {
+   "tag": "cambodian-american",
+   "source": "s:wp-ted-ngoy",
+   "tier": "cited",
+   "note": "bought and run by Ted and Christy Ngoy from 1977"
+  }
+ ],
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "Bought it, then made it a name and a system.",
+   "rel": "person"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The shop the style traces back through.",
+   "rel": "style"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "The long version.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-ted-ngoy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "town centre; the article gives no street address"
+   },
+   "facets.status": {
+    "tier": "inference",
+    "note": "unknown: this project has not established whether the original shop trades today"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16"
+}

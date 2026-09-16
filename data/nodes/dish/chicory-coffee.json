@@ -1,0 +1,61 @@
+{
+ "id": "chicory-coffee",
+ "type": "dish",
+ "names": {
+  "name": "Coffee with chicory",
+  "aliases": [
+   "café au lait",
+   "New Orleans coffee"
+  ],
+  "said": "Half coffee, half hot milk, and the chicory is not optional."
+ },
+ "region": [
+  "louisiana"
+ ],
+ "facets": {
+  "course": "drink",
+  "state": "LA"
+ },
+ "text": {
+  "what": "Coffee blended with roasted chicory root and cut half-and-half with hot milk.",
+  "story": "The French brought coffee to the Gulf Coast and the Mississippi around 1700. During the Civil War, with coffee short, New Orleans Creoles stretched it with chicory, which adds a chocolate-like note. The practice outlived the shortage.",
+  "today": "Served at Café du Monde and across New Orleans, beside beignets, in a cup that leaves sugar on the rim."
+ },
+ "kin": [
+  {
+   "to": "cafe-du-monde",
+   "as": "Where most people meet it.",
+   "rel": "place"
+  },
+  {
+   "to": "beignet",
+   "as": "What it is served with.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "What the rest of the country pours instead.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-caf-du-monde"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-caf-du-monde"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

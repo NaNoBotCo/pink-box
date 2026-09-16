@@ -1,0 +1,3813 @@
+{
+ "built": "2026-09-17",
+ "edges": [
+  {
+   "to": "bobs-donuts",
+   "type": "place",
+   "name": "Bob's Donuts and Pastries",
+   "as": "San Francisco's.",
+   "rel": "place",
+   "from": "bay-area-late-counter"
+  },
+  {
+   "to": "seaside-donuts",
+   "type": "place",
+   "name": "Seaside Donuts Bakery",
+   "as": "Orange County's.",
+   "rel": "place",
+   "from": "bay-area-late-counter"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The Inglewood window.",
+   "rel": "place",
+   "from": "bay-area-late-counter"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "The shift underneath it.",
+   "rel": "kitchen",
+   "from": "bay-area-late-counter"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The donut.",
+   "rel": "donut",
+   "from": "chicago-polish-bakery"
+  },
+  {
+   "to": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The Tuesday.",
+   "rel": "event",
+   "from": "chicago-polish-bakery"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "The German-descended version of the same fast.",
+   "rel": "contrast",
+   "from": "chicago-polish-bakery"
+  },
+  {
+   "to": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "What else is hot at the same counter.",
+   "rel": "dish",
+   "from": "delta-grocery-counter"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same arithmetic, on a different river.",
+   "rel": "story",
+   "from": "delta-grocery-counter"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The easier dough for a counter that is not primarily a bakery.",
+   "rel": "donut",
+   "from": "delta-grocery-counter"
+  },
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The company.",
+   "rel": "org",
+   "from": "dunkin-country"
+  },
+  {
+   "to": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "Sold coffee to factories, then sold the idea.",
+   "rel": "person",
+   "from": "dunkin-country"
+  },
+  {
+   "to": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "as": "The Rhode Island counter that outlasted the argument.",
+   "rel": "place",
+   "from": "dunkin-country"
+  },
+  {
+   "to": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "Where the shops actually are, counted.",
+   "rel": "story",
+   "from": "dunkin-country"
+  },
+  {
+   "to": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "as": "The item.",
+   "rel": "donut",
+   "from": "hawaii-malasada"
+  },
+  {
+   "to": "leonards-bakery",
+   "type": "place",
+   "name": "Leonard's Bakery",
+   "as": "The Honolulu bakery that made it a habit.",
+   "rel": "place",
+   "from": "hawaii-malasada"
+  },
+  {
+   "to": "malasada-day",
+   "type": "event",
+   "name": "Malasada Day",
+   "as": "The day the lines get long.",
+   "rel": "event",
+   "from": "hawaii-malasada"
+  },
+  {
+   "to": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The other Pacific arrival in the same case.",
+   "rel": "donut",
+   "from": "hawaii-malasada"
+  },
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "The item.",
+   "rel": "donut",
+   "from": "louisiana-beignet"
+  },
+  {
+   "to": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "The stand.",
+   "rel": "place",
+   "from": "louisiana-beignet"
+  },
+  {
+   "to": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "What it is served with.",
+   "rel": "dish",
+   "from": "louisiana-beignet"
+  },
+  {
+   "to": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "The other choux fry in America.",
+   "rel": "donut",
+   "from": "louisiana-beignet"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The one product.",
+   "rel": "donut",
+   "from": "new-england-cider"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Whose machine made a farm stand into a donut shop.",
+   "rel": "person",
+   "from": "new-england-cider"
+  },
+  {
+   "to": "orchard-season",
+   "type": "event",
+   "name": "Cider donut season",
+   "as": "The weeks it runs.",
+   "rel": "event",
+   "from": "new-england-cider"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "Sold the first commercial version, and the machines.",
+   "rel": "org",
+   "from": "new-england-cider"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The dough it belongs to.",
+   "rel": "donut",
+   "from": "new-england-cider"
+  },
+  {
+   "to": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "The item itself.",
+   "rel": "dish",
+   "from": "new-mexico-burrito-counter"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The same second-menu logic, one state west.",
+   "rel": "style",
+   "from": "new-mexico-burrito-counter"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "Why any of these counters sell something savoury at all.",
+   "rel": "story",
+   "from": "new-mexico-burrito-counter"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "The map of what else is in the case.",
+   "rel": "story",
+   "from": "new-mexico-burrito-counter"
+  },
+  {
+   "to": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "as": "The best-known one.",
+   "rel": "place",
+   "from": "novelty-donut-shop"
+  },
+  {
+   "to": "psycho-donuts",
+   "type": "place",
+   "name": "Psycho Donuts",
+   "as": "The most argued-over one.",
+   "rel": "place",
+   "from": "novelty-donut-shop"
+  },
+  {
+   "to": "doughnut-plant",
+   "type": "place",
+   "name": "Doughnut Plant",
+   "as": "Invention without the costume.",
+   "rel": "place",
+   "from": "novelty-donut-shop"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "Where it sits on price.",
+   "rel": "story",
+   "from": "novelty-donut-shop"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "The sandwich that pays the rent.",
+   "rel": "dish",
+   "from": "nyc-bodega-donut"
+  },
+  {
+   "to": "anthora-cup",
+   "type": "art",
+   "name": "The Anthora cup",
+   "as": "The cup the coffee comes in.",
+   "rel": "art",
+   "from": "nyc-bodega-donut"
+  },
+  {
+   "to": "doughnut-plant",
+   "type": "place",
+   "name": "Doughnut Plant",
+   "as": "The other New York model: one shop, one obsession, higher price.",
+   "rel": "place",
+   "from": "nyc-bodega-donut"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What else is in the case, by region.",
+   "rel": "story",
+   "from": "nyc-bodega-donut"
+  },
+  {
+   "to": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The donut itself.",
+   "rel": "donut",
+   "from": "pennsylvania-fastnacht"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The day.",
+   "rel": "event",
+   "from": "pennsylvania-fastnacht"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "What the neighbours are frying the same morning.",
+   "rel": "donut",
+   "from": "pennsylvania-fastnacht"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The other American potato donut.",
+   "rel": "donut",
+   "from": "pennsylvania-fastnacht"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Trained at Winchell's, bought Christy's in La Habra, and leased shops to the families who followed.",
+   "rel": "person",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "Named with Ngoy as the reason the box is pink.",
+   "rel": "person",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The La Habra shop the whole pattern starts from.",
+   "rel": "place",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object the style is named for here.",
+   "rel": "art",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "On the board beside the glazed, and on it for a reason.",
+   "rel": "dish",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The long version: refugee, empire, gambling, return.",
+   "rel": "story",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "Rent arithmetic, told by the people who did it.",
+   "rel": "story",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The item the box is built around.",
+   "rel": "donut",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "The tell of a shop that can run a cake bench.",
+   "rel": "donut",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The one with the roof that everybody photographs.",
+   "rel": "place",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "Where the trade got taught, by a chain, to a refugee.",
+   "rel": "org",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "When the work actually happens.",
+   "rel": "kitchen",
+   "from": "socal-pink-box"
+  },
+  {
+   "to": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "The company that built the window.",
+   "rel": "org",
+   "from": "southern-hot-now"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The two words as a term of art.",
+   "rel": "term",
+   "from": "southern-hot-now"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The item.",
+   "rel": "donut",
+   "from": "southern-hot-now"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen",
+   "from": "southern-hot-now"
+  },
+  {
+   "to": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "Bought the recipe, picked the town for a cigarette company.",
+   "rel": "person",
+   "from": "southern-hot-now"
+  },
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The sweet one, with the well and the fruit.",
+   "rel": "dish",
+   "from": "texas-kolache-counter"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The savoury one Texas calls a kolache.",
+   "rel": "dish",
+   "from": "texas-kolache-counter"
+  },
+  {
+   "to": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The town the legislature named for it.",
+   "rel": "place",
+   "from": "texas-kolache-counter"
+  },
+  {
+   "to": "round-rock-donuts",
+   "type": "place",
+   "name": "Round Rock Donuts",
+   "as": "A Texas counter big enough to be a landmark.",
+   "rel": "place",
+   "from": "texas-kolache-counter"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same arithmetic, a different second menu.",
+   "rel": "story",
+   "from": "texas-kolache-counter"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What else is in the case, state by state.",
+   "rel": "story",
+   "from": "texas-kolache-counter"
+  },
+  {
+   "to": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "The Tulsa flour company and its 950 signs.",
+   "rel": "org",
+   "from": "tulsa-mix-shop"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The potato-mix franchise that went before it.",
+   "rel": "donut",
+   "from": "tulsa-mix-shop"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "Where this project draws the line, and why it is blurry.",
+   "rel": "story",
+   "from": "tulsa-mix-shop"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "What comes out of the bag.",
+   "rel": "kitchen",
+   "from": "tulsa-mix-shop"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Same dough, torn instead of cut.",
+   "rel": "donut",
+   "from": "apple-fritter"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The other apple one, cake, and seasonal.",
+   "rel": "donut",
+   "from": "apple-fritter"
+  },
+  {
+   "to": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "as": "The other big ragged one, filled with almond instead of fruit.",
+   "rel": "donut",
+   "from": "apple-fritter"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Glazed all over, not just the top.",
+   "rel": "kitchen",
+   "from": "apple-fritter"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "Same shell, jam instead of custard.",
+   "rel": "donut",
+   "from": "bavarian-cream"
+  },
+  {
+   "to": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "The nozzle, and the weight in the hand.",
+   "rel": "kitchen",
+   "from": "bavarian-cream"
+  },
+  {
+   "to": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "The bar version of the same filling.",
+   "rel": "donut",
+   "from": "bavarian-cream"
+  },
+  {
+   "to": "day-old",
+   "type": "term",
+   "name": "Day-old",
+   "as": "What a filled donut is not sold as.",
+   "rel": "term",
+   "from": "bavarian-cream"
+  },
+  {
+   "to": "apple-fritter",
+   "type": "donut",
+   "name": "Apple fritter",
+   "as": "The other big ragged piece in the case.",
+   "rel": "donut",
+   "from": "bear-claw"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Sweeter, richer dough than the ring.",
+   "rel": "contrast",
+   "from": "bear-claw"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "A staple of the California case, and the name is a California word.",
+   "rel": "style",
+   "from": "bear-claw"
+  },
+  {
+   "to": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "The stand that made the square one famous.",
+   "rel": "place",
+   "from": "beignet"
+  },
+  {
+   "to": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "as": "The style it anchors.",
+   "rel": "style",
+   "from": "beignet"
+  },
+  {
+   "to": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "The other American donut lifted by steam alone.",
+   "rel": "donut",
+   "from": "beignet"
+  },
+  {
+   "to": "powdered-sugar",
+   "type": "term",
+   "name": "Powdered sugar",
+   "as": "What it is buried in.",
+   "rel": "term",
+   "from": "beignet"
+  },
+  {
+   "to": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "as": "Same shell, custard instead of jam.",
+   "rel": "donut",
+   "from": "bismarck"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The Polish one, richer, and tied to a single Tuesday.",
+   "rel": "donut",
+   "from": "bismarck"
+  },
+  {
+   "to": "sufganiyah",
+   "type": "donut",
+   "name": "Sufganiyah",
+   "as": "The Hanukkah one, fried in oil for the reason the holiday turns on.",
+   "rel": "donut",
+   "from": "bismarck"
+  },
+  {
+   "to": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "The nozzle that makes it what it is.",
+   "rel": "kitchen",
+   "from": "bismarck"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Same dough, hole instead of filling.",
+   "rel": "donut",
+   "from": "bismarck"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "Cracks for the same reason, in a ring.",
+   "rel": "donut",
+   "from": "buttermilk-bar"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The batter it comes from.",
+   "rel": "donut",
+   "from": "buttermilk-bar"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "A fixture of the California dozen.",
+   "rel": "style",
+   "from": "buttermilk-bar"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The other half of the argument: same fryer, different lift, different mouth.",
+   "rel": "contrast",
+   "from": "cake-donut"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The cracked, tapered cake ring people order by name.",
+   "rel": "donut",
+   "from": "cake-donut"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "How it gets made, and why a machine could learn it.",
+   "rel": "kitchen",
+   "from": "cake-donut"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "A cake ring with cider in the batter, sold by the bag at the orchard.",
+   "rel": "donut",
+   "from": "cake-donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "Cake batter cut in a bar, cracked open, glazed heavy.",
+   "rel": "donut",
+   "from": "cake-donut"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The argument, and what the numbers underneath it actually say.",
+   "rel": "story",
+   "from": "cake-donut"
+  },
+  {
+   "to": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "What the older counters called it.",
+   "rel": "term",
+   "from": "cake-donut"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Two doughs, two temperatures, one kettle.",
+   "rel": "kitchen",
+   "from": "cake-donut"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The family.",
+   "rel": "donut",
+   "from": "chocolate-cake"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The plain cake ring beside it.",
+   "rel": "donut",
+   "from": "chocolate-cake"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "Where its numbers sit.",
+   "rel": "story",
+   "from": "chocolate-cake"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The dough it belongs to.",
+   "rel": "donut",
+   "from": "cider-donut"
+  },
+  {
+   "to": "apple-fritter",
+   "type": "donut",
+   "name": "Apple fritter",
+   "as": "The year-round apple one, on the raised side.",
+   "rel": "donut",
+   "from": "cider-donut"
+  },
+  {
+   "to": "orchard-season",
+   "type": "event",
+   "name": "Cider donut season",
+   "as": "The weeks it exists in.",
+   "rel": "event",
+   "from": "cider-donut"
+  },
+  {
+   "to": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "The style around it.",
+   "rel": "style",
+   "from": "cider-donut"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Whose machine let a farm stand fry.",
+   "rel": "person",
+   "from": "cider-donut"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The ring the hole came out of.",
+   "rel": "donut",
+   "from": "donut-holes"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The word, and the argument about who punched the first one.",
+   "rel": "term",
+   "from": "donut-holes"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Cut the same way on the other side of the case.",
+   "rel": "donut",
+   "from": "donut-holes"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The Tuesday it is for.",
+   "rel": "event",
+   "from": "fastnacht"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The Polish one, richer, and on the same Tuesday in America.",
+   "rel": "donut",
+   "from": "fastnacht"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The other potato donut, and a franchise built on it.",
+   "rel": "donut",
+   "from": "fastnacht"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "The style around it.",
+   "rel": "style",
+   "from": "fastnacht"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The other thing the word cruller covers in America.",
+   "rel": "donut",
+   "from": "french-cruller"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Neither yeast nor powder — this one is lifted by steam alone.",
+   "rel": "contrast",
+   "from": "french-cruller"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Piped onto paper, fried paper and all.",
+   "rel": "kitchen",
+   "from": "french-cruller"
+  },
+  {
+   "to": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "as": "Dutch for curl, and what it came to mean here.",
+   "rel": "term",
+   "from": "french-cruller"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The other half of the argument: same fryer, different lift, different mouth.",
+   "rel": "contrast",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What makes it rise, and the reason the shop was working at two in the morning.",
+   "rel": "kitchen",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Where it gets the shell, seconds after it leaves the fat.",
+   "rel": "kitchen",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The part that isn't there, and the part they sell you in a bag.",
+   "rel": "term",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "donut-holes",
+   "type": "donut",
+   "name": "Donut holes",
+   "as": "The middles, fried and sold by the bag.",
+   "rel": "donut",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The same dough, cut in a bar and iced instead of glazed.",
+   "rel": "donut",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shop style that sells this one by the dozen before dawn.",
+   "rel": "style",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "Why the two doughs split the case, and the numbers underneath.",
+   "rel": "story",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "What a chain built out of glazing this exact donut in front of you.",
+   "rel": "term",
+   "from": "glazed-raised"
+  },
+  {
+   "to": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The West Coast name and the coast's favourite icing.",
+   "rel": "donut",
+   "from": "long-john"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The other filled one, round instead of long.",
+   "rel": "donut",
+   "from": "long-john"
+  },
+  {
+   "to": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "The map of what to call it.",
+   "rel": "story",
+   "from": "long-john"
+  },
+  {
+   "to": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "How the custard gets in.",
+   "rel": "kitchen",
+   "from": "long-john"
+  },
+  {
+   "to": "leonards-bakery",
+   "type": "place",
+   "name": "Leonard's Bakery",
+   "as": "The Honolulu bakery that made it a statewide habit.",
+   "rel": "place",
+   "from": "malasada"
+  },
+  {
+   "to": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The island style around it.",
+   "rel": "style",
+   "from": "malasada"
+  },
+  {
+   "to": "malasada-day",
+   "type": "event",
+   "name": "Malasada Day",
+   "as": "The Tuesday it gets its own line out the door.",
+   "rel": "event",
+   "from": "malasada"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The other no-hole fried round, filled instead of sugared.",
+   "rel": "contrast",
+   "from": "malasada"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "Another Carnival donut that empties the pantry before a fast.",
+   "rel": "donut",
+   "from": "malasada"
+  },
+  {
+   "to": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "The same bar under the name most of the country uses.",
+   "rel": "donut",
+   "from": "maple-bar"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Same dough, different cut and finish.",
+   "rel": "donut",
+   "from": "maple-bar"
+  },
+  {
+   "to": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "Where the country changes the word.",
+   "rel": "story",
+   "from": "maple-bar"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Two or three of these go in the box.",
+   "rel": "style",
+   "from": "maple-bar"
+  },
+  {
+   "to": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "The chain that put the shape in strip malls nationwide.",
+   "rel": "org",
+   "from": "mochi-donut"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Neither yeast nor powder; a third way of getting lift.",
+   "rel": "contrast",
+   "from": "mochi-donut"
+  },
+  {
+   "to": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The island case it shares.",
+   "rel": "style",
+   "from": "mochi-donut"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The family it belongs to.",
+   "rel": "donut",
+   "from": "old-fashioned"
+  },
+  {
+   "to": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "Same batter, cut in a bar.",
+   "rel": "donut",
+   "from": "old-fashioned"
+  },
+  {
+   "to": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "The older name for it.",
+   "rel": "term",
+   "from": "old-fashioned"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Cooler fat is what makes the crack.",
+   "rel": "kitchen",
+   "from": "old-fashioned"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The argument this one anchors.",
+   "rel": "story",
+   "from": "old-fashioned"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Where the cracks fill.",
+   "rel": "kitchen",
+   "from": "old-fashioned"
+  },
+  {
+   "to": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The one Tuesday the whole thing turns on.",
+   "rel": "event",
+   "from": "paczki"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The German-descended cousin sold the rest of the year.",
+   "rel": "donut",
+   "from": "paczki"
+  },
+  {
+   "to": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The Pennsylvania Dutch answer to the same fast.",
+   "rel": "donut",
+   "from": "paczki"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The style it belongs to.",
+   "rel": "style",
+   "from": "paczki"
+  },
+  {
+   "to": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The other American potato donut, and older.",
+   "rel": "donut",
+   "from": "spudnut"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What it is, under the potato.",
+   "rel": "donut",
+   "from": "spudnut"
+  },
+  {
+   "to": "the-franchise-that-vanished",
+   "type": "story",
+   "name": "The franchise that vanished",
+   "as": "How a 300-shop system leaves independent shops behind.",
+   "rel": "story",
+   "from": "spudnut"
+  },
+  {
+   "to": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "Spudnut signs are half the reason those signs get photographed.",
+   "rel": "art",
+   "from": "spudnut"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The same round under a different name.",
+   "rel": "donut",
+   "from": "sufganiyah"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "Another calendar donut, another fast.",
+   "rel": "donut",
+   "from": "sufganiyah"
+  },
+  {
+   "to": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "How it is filled.",
+   "rel": "kitchen",
+   "from": "sufganiyah"
+  },
+  {
+   "to": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The counter it anchors.",
+   "rel": "style",
+   "from": "bacon-egg-and-cheese"
+  },
+  {
+   "to": "anthora-cup",
+   "type": "art",
+   "name": "The Anthora cup",
+   "as": "What the coffee comes in.",
+   "rel": "art",
+   "from": "bacon-egg-and-cheese"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What else is in the case, by region.",
+   "rel": "story",
+   "from": "bacon-egg-and-cheese"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same arithmetic, in a different accent.",
+   "rel": "story",
+   "from": "biscuits-and-gravy"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The region's other early-morning habit.",
+   "rel": "style",
+   "from": "biscuits-and-gravy"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The board it turns up on.",
+   "rel": "style",
+   "from": "boba"
+  },
+  {
+   "to": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The other recent arrival in the same case.",
+   "rel": "donut",
+   "from": "boba"
+  },
+  {
+   "to": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "as": "The counter style built on it.",
+   "rel": "style",
+   "from": "breakfast-burrito"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The California answer to the same arithmetic.",
+   "rel": "dish",
+   "from": "breakfast-burrito"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "Why the savoury item is there at all.",
+   "rel": "story",
+   "from": "breakfast-burrito"
+  },
+  {
+   "to": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "Where most people meet it.",
+   "rel": "place",
+   "from": "chicory-coffee"
+  },
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "What it is served with.",
+   "rel": "donut",
+   "from": "chicory-coffee"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "What the rest of the country pours instead.",
+   "rel": "dish",
+   "from": "chicory-coffee"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shop it shares a fryer with.",
+   "rel": "style",
+   "from": "egg-roll"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The whole argument, told by the people running the shops.",
+   "rel": "story",
+   "from": "egg-roll"
+  },
+  {
+   "to": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "What sits next to it in the warmer.",
+   "rel": "dish",
+   "from": "egg-roll"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "One kettle, two menus.",
+   "rel": "kitchen",
+   "from": "egg-roll"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The other thing in the warmer.",
+   "rel": "dish",
+   "from": "fried-rice"
+  },
+  {
+   "to": "delta-grocery-counter",
+   "type": "style",
+   "name": "The Delta grocery counter",
+   "as": "The same counter logic in Mississippi.",
+   "rel": "style",
+   "from": "fried-rice"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The argument.",
+   "rel": "story",
+   "from": "fried-rice"
+  },
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The sweet one whose name it borrowed.",
+   "rel": "dish",
+   "from": "klobasnek"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The counter it built.",
+   "rel": "style",
+   "from": "klobasnek"
+  },
+  {
+   "to": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The stop on I-35 that sells them around the clock.",
+   "rel": "place",
+   "from": "klobasnek"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The savoury one Texas calls by this name.",
+   "rel": "dish",
+   "from": "kolache"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The counter style.",
+   "rel": "style",
+   "from": "kolache"
+  },
+  {
+   "to": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "as": "The town the legislature named for it.",
+   "rel": "place",
+   "from": "kolache"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The chain that paired them nationally.",
+   "rel": "style",
+   "from": "the-pot-of-coffee"
+  },
+  {
+   "to": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "Found the pairing selling to factories.",
+   "rel": "person",
+   "from": "the-pot-of-coffee"
+  },
+  {
+   "to": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "The New Orleans version.",
+   "rel": "dish",
+   "from": "the-pot-of-coffee"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "What comes out of it.",
+   "rel": "donut",
+   "from": "cake-batter"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "The slower way.",
+   "rel": "contrast",
+   "from": "cake-batter"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The shops that buy the mix rather than the formula.",
+   "rel": "style",
+   "from": "cake-batter"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Whose machine started the idea.",
+   "rel": "person",
+   "from": "cake-batter"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Stales first.",
+   "rel": "donut",
+   "from": "day-old-rack"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Holds longer.",
+   "rel": "donut",
+   "from": "day-old-rack"
+  },
+  {
+   "to": "day-old",
+   "type": "term",
+   "name": "Day-old",
+   "as": "The word.",
+   "rel": "term",
+   "from": "day-old-rack"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The round it fills.",
+   "rel": "donut",
+   "from": "filling-injector"
+  },
+  {
+   "to": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "as": "The custard version.",
+   "rel": "donut",
+   "from": "filling-injector"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "Powidła and rose petal.",
+   "rel": "donut",
+   "from": "filling-injector"
+  },
+  {
+   "to": "day-old",
+   "type": "term",
+   "name": "Day-old",
+   "as": "What filled donuts are not sold as.",
+   "rel": "term",
+   "from": "filling-injector"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "The kettle it sits in.",
+   "rel": "kitchen",
+   "from": "frying-fat"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "Where fresh oil is read off the donut.",
+   "rel": "donut",
+   "from": "frying-fat"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "How much of it each dough takes up.",
+   "rel": "story",
+   "from": "frying-fat"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What goes across it.",
+   "rel": "donut",
+   "from": "glaze-table"
+  },
+  {
+   "to": "powdered-sugar",
+   "type": "term",
+   "name": "Powdered sugar",
+   "as": "What it is made of.",
+   "rel": "term",
+   "from": "glaze-table"
+  },
+  {
+   "to": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "What happens after.",
+   "rel": "kitchen",
+   "from": "glaze-table"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "A chain that put the table in the window.",
+   "rel": "style",
+   "from": "glaze-table"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What the bench is for.",
+   "rel": "donut",
+   "from": "hand-cut"
+  },
+  {
+   "to": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "as": "A shop that put the words in its name.",
+   "rel": "place",
+   "from": "hand-cut"
+  },
+  {
+   "to": "donut-holes",
+   "type": "donut",
+   "name": "Donut holes",
+   "as": "What the small ring leaves behind.",
+   "rel": "donut",
+   "from": "hand-cut"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "The process it serves.",
+   "rel": "kitchen",
+   "from": "proof-box"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What is in there.",
+   "rel": "donut",
+   "from": "proof-box"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "What happens first.",
+   "rel": "kitchen",
+   "from": "sprinkle-and-dip"
+  },
+  {
+   "to": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "How the tray is laid out.",
+   "rel": "kitchen",
+   "from": "sprinkle-and-dip"
+  },
+  {
+   "to": "jimmies",
+   "type": "term",
+   "name": "Jimmies",
+   "as": "The word, and where it stops.",
+   "rel": "term",
+   "from": "sprinkle-and-dip"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What sets the clock.",
+   "rel": "kitchen",
+   "from": "the-2am-shift"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The chain that sold the by-product.",
+   "rel": "style",
+   "from": "the-2am-shift"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Whose families work it.",
+   "rel": "style",
+   "from": "the-2am-shift"
+  },
+  {
+   "to": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "Sold hot donuts to the people awake at 2 a.m.",
+   "rel": "person",
+   "from": "the-2am-shift"
+  },
+  {
+   "to": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "What makes the front row bright.",
+   "rel": "kitchen",
+   "from": "the-case"
+  },
+  {
+   "to": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "as": "Where the leftovers go.",
+   "rel": "kitchen",
+   "from": "the-case"
+  },
+  {
+   "to": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "as": "How it gets sold.",
+   "rel": "term",
+   "from": "the-case"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Longer in the fat, and carries more of it.",
+   "rel": "donut",
+   "from": "the-fryer"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "Shorter, hotter, and drier out of the kettle.",
+   "rel": "donut",
+   "from": "the-fryer"
+  },
+  {
+   "to": "frying-fat",
+   "type": "kitchen",
+   "name": "What is in the kettle",
+   "as": "What is in the kettle.",
+   "rel": "kitchen",
+   "from": "the-fryer"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The numbers, side by side.",
+   "rel": "story",
+   "from": "the-fryer"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What comes out of it.",
+   "rel": "donut",
+   "from": "yeast-raise"
+  },
+  {
+   "to": "proof-box",
+   "type": "kitchen",
+   "name": "The proof box",
+   "as": "Where the second rise happens.",
+   "rel": "kitchen",
+   "from": "yeast-raise"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The other way to get lift, and the one machines preferred.",
+   "rel": "contrast",
+   "from": "yeast-raise"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "What the raise does to the schedule.",
+   "rel": "kitchen",
+   "from": "yeast-raise"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region it competes in, by frying its own.",
+   "rel": "style",
+   "from": "allies-donuts"
+  },
+  {
+   "to": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "Rhode Island's density, counted.",
+   "rel": "story",
+   "from": "allies-donuts"
+  },
+  {
+   "to": "hand-cut",
+   "type": "kitchen",
+   "name": "Cutting by hand",
+   "as": "What the name claims and the bench does.",
+   "rel": "kitchen",
+   "from": "allies-donuts"
+  },
+  {
+   "to": "bay-area-late-counter",
+   "type": "style",
+   "name": "The all-night counter",
+   "as": "The city's after-midnight habit.",
+   "rel": "style",
+   "from": "bobs-donuts"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What the challenge donut is a very large one of.",
+   "rel": "donut",
+   "from": "bobs-donuts"
+  },
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "The square one, buried in sugar.",
+   "rel": "donut",
+   "from": "cafe-du-monde"
+  },
+  {
+   "to": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "as": "The style it anchors.",
+   "rel": "style",
+   "from": "cafe-du-monde"
+  },
+  {
+   "to": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "What it is served with, and why.",
+   "rel": "dish",
+   "from": "cafe-du-monde"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Bought it, then made it a name and a system.",
+   "rel": "person",
+   "from": "christys-donuts"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shop the style traces back through.",
+   "rel": "style",
+   "from": "christys-donuts"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The long version.",
+   "rel": "story",
+   "from": "christys-donuts"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "What it sells most of.",
+   "rel": "dish",
+   "from": "czech-stop"
+  },
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "The sweet one, and the town's official one.",
+   "rel": "dish",
+   "from": "czech-stop"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The style.",
+   "rel": "style",
+   "from": "czech-stop"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "Why the name on the window is not the family inside.",
+   "rel": "story",
+   "from": "donut-wheel"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The same shape of business, further north.",
+   "rel": "style",
+   "from": "donut-wheel"
+  },
+  {
+   "to": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The city's other model, at a third the price.",
+   "rel": "contrast",
+   "from": "doughnut-plant"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "Where a five-dollar donut sits.",
+   "rel": "story",
+   "from": "doughnut-plant"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same two-menu logic, with a chef's name on it.",
+   "rel": "story",
+   "from": "federal-donuts"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The side of the case it works on.",
+   "rel": "donut",
+   "from": "federal-donuts"
+  },
+  {
+   "to": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "as": "The thing it sells.",
+   "rel": "donut",
+   "from": "leonards-bakery"
+  },
+  {
+   "to": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The style it anchors.",
+   "rel": "style",
+   "from": "leonards-bakery"
+  },
+  {
+   "to": "malasada-day",
+   "type": "event",
+   "name": "Malasada Day",
+   "as": "The day the queue goes around the block.",
+   "rel": "event",
+   "from": "leonards-bakery"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "Where made-to-order sits on the price map.",
+   "rel": "story",
+   "from": "pips-original"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The dough it runs.",
+   "rel": "donut",
+   "from": "pips-original"
+  },
+  {
+   "to": "novelty-donut-shop",
+   "type": "style",
+   "name": "The novelty shop",
+   "as": "The register it works in.",
+   "rel": "style",
+   "from": "psycho-donuts"
+  },
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The best-known example of the form.",
+   "rel": "art",
+   "from": "randys-donuts"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The regional style it sits inside.",
+   "rel": "style",
+   "from": "randys-donuts"
+  },
+  {
+   "to": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "The other drive-through landmark, twenty miles east.",
+   "rel": "place",
+   "from": "randys-donuts"
+  },
+  {
+   "to": "russell-wendell",
+   "type": "person",
+   "name": "Russell C. Wendell",
+   "as": "Sold the machines, then built the chain the sign came from.",
+   "rel": "person",
+   "from": "randys-donuts"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The style around it.",
+   "rel": "style",
+   "from": "round-rock-donuts"
+  },
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "What else a Texas counter sells at that hour.",
+   "rel": "dish",
+   "from": "round-rock-donuts"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "A shop the style is made of.",
+   "rel": "style",
+   "from": "seaside-donuts"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The shops that showed the way, by name, in the shop's own history.",
+   "rel": "person",
+   "from": "seaside-donuts"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "How a family arrives at a fryer in Orange County.",
+   "rel": "story",
+   "from": "seaside-donuts"
+  },
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "Programmatic architecture, and the one you drive through.",
+   "rel": "art",
+   "from": "the-donut-hole"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The other landmark, on a roof rather than around a car.",
+   "rel": "place",
+   "from": "the-donut-hole"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style around it.",
+   "rel": "style",
+   "from": "the-donut-hole"
+  },
+  {
+   "to": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "as": "The other Northwest name, playing it differently.",
+   "rel": "place",
+   "from": "top-pot-doughnuts"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "Where a shop stops being one.",
+   "rel": "story",
+   "from": "top-pot-doughnuts"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "Took the box east and made it a brand.",
+   "rel": "art",
+   "from": "voodoo-doughnut"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Where the box came from.",
+   "rel": "style",
+   "from": "voodoo-doughnut"
+  },
+  {
+   "to": "top-pot-doughnuts",
+   "type": "place",
+   "name": "Top Pot Doughnuts",
+   "as": "The other Northwest shop, and the opposite register.",
+   "rel": "place",
+   "from": "voodoo-doughnut"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "The company he built.",
+   "rel": "org",
+   "from": "adolph-levitt"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The process his machine automated.",
+   "rel": "kitchen",
+   "from": "adolph-levitt"
+  },
+  {
+   "to": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "The trade it created at the roadside.",
+   "rel": "style",
+   "from": "adolph-levitt"
+  },
+  {
+   "to": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "The membership stunt his company ran.",
+   "rel": "org",
+   "from": "adolph-levitt"
+  },
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The company.",
+   "rel": "org",
+   "from": "bill-rosenberg"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region it shaped.",
+   "rel": "style",
+   "from": "bill-rosenberg"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "The other half of what he sold.",
+   "rel": "dish",
+   "from": "bill-rosenberg"
+  },
+  {
+   "to": "hanson-gregory",
+   "type": "person",
+   "name": "Hanson Gregory",
+   "as": "Her son, and the claim.",
+   "rel": "person",
+   "from": "elizabeth-gregory"
+  },
+  {
+   "to": "olykoek",
+   "type": "term",
+   "name": "Olykoek",
+   "as": "What she was frying a version of.",
+   "rel": "term",
+   "from": "elizabeth-gregory"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The argument.",
+   "rel": "term",
+   "from": "elizabeth-gregory"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The claim itself.",
+   "rel": "term",
+   "from": "hanson-gregory"
+  },
+  {
+   "to": "olykoek",
+   "type": "term",
+   "name": "Olykoek",
+   "as": "What came before it.",
+   "rel": "term",
+   "from": "hanson-gregory"
+  },
+  {
+   "to": "elizabeth-gregory",
+   "type": "person",
+   "name": "Elizabeth Gregory",
+   "as": "The other Gregory in the story.",
+   "rel": "person",
+   "from": "hanson-gregory"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The other name on the box.",
+   "rel": "person",
+   "from": "ning-yen"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object.",
+   "rel": "art",
+   "from": "ning-yen"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style it marks.",
+   "rel": "style",
+   "from": "ning-yen"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "His second building.",
+   "rel": "place",
+   "from": "russell-wendell"
+  },
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The form.",
+   "rel": "art",
+   "from": "russell-wendell"
+  },
+  {
+   "to": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "The drive-through cousin.",
+   "rel": "place",
+   "from": "russell-wendell"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style his system produced.",
+   "rel": "style",
+   "from": "ted-ngoy"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The shop he bought first.",
+   "rel": "place",
+   "from": "ted-ngoy"
+  },
+  {
+   "to": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "Named with him for the pink box.",
+   "rel": "person",
+   "from": "ted-ngoy"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "Where he learned the trade.",
+   "rel": "org",
+   "from": "ted-ngoy"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The long version.",
+   "rel": "story",
+   "from": "ted-ngoy"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object credited to him.",
+   "rel": "art",
+   "from": "ted-ngoy"
+  },
+  {
+   "to": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "The company.",
+   "rel": "org",
+   "from": "vernon-rudolph"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The style it built.",
+   "rel": "style",
+   "from": "vernon-rudolph"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen",
+   "from": "vernon-rudolph"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The two words.",
+   "rel": "term",
+   "from": "vernon-rudolph"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shops it supplies.",
+   "rel": "style",
+   "from": "b-and-h-distributors"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same reporting.",
+   "rel": "story",
+   "from": "b-and-h-distributors"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "Who sells the boxes.",
+   "rel": "art",
+   "from": "b-and-h-distributors"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The kind of business it makes possible.",
+   "rel": "style",
+   "from": "daylight-donuts"
+  },
+  {
+   "to": "mom-and-pop",
+   "type": "term",
+   "name": "Mom-and-pop",
+   "as": "Why the sign is not the test.",
+   "rel": "term",
+   "from": "daylight-donuts"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "What comes out of the bag.",
+   "rel": "kitchen",
+   "from": "daylight-donuts"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Who built it.",
+   "rel": "person",
+   "from": "doughnut-corporation-of-america"
+  },
+  {
+   "to": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "Its membership stunt.",
+   "rel": "org",
+   "from": "doughnut-corporation-of-america"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "A product it commercialised.",
+   "rel": "donut",
+   "from": "doughnut-corporation-of-america"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The process it sold.",
+   "rel": "kitchen",
+   "from": "doughnut-corporation-of-america"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region it defines.",
+   "rel": "style",
+   "from": "dunkin"
+  },
+  {
+   "to": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "Who built it.",
+   "rel": "person",
+   "from": "dunkin"
+  },
+  {
+   "to": "donut-spelling",
+   "type": "term",
+   "name": "Donut / doughnut",
+   "as": "The spelling it carried.",
+   "rel": "term",
+   "from": "dunkin"
+  },
+  {
+   "to": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "The rival it absorbed.",
+   "rel": "org",
+   "from": "dunkin"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The style it built.",
+   "rel": "style",
+   "from": "krispy-kreme"
+  },
+  {
+   "to": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "Who started it.",
+   "rel": "person",
+   "from": "krispy-kreme"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The sign.",
+   "rel": "term",
+   "from": "krispy-kreme"
+  },
+  {
+   "to": "krispy-kreme-challenge",
+   "type": "event",
+   "name": "Krispy Kreme Challenge",
+   "as": "The race students run at it.",
+   "rel": "event",
+   "from": "krispy-kreme"
+  },
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The chain that absorbed it.",
+   "rel": "org",
+   "from": "mister-donut"
+  },
+  {
+   "to": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The shape its Japanese arm launched.",
+   "rel": "donut",
+   "from": "mister-donut"
+  },
+  {
+   "to": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "The chain that carried the shape into American strip malls.",
+   "rel": "org",
+   "from": "mister-donut"
+  },
+  {
+   "to": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The item.",
+   "rel": "donut",
+   "from": "mochinut"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The play.",
+   "rel": "story",
+   "from": "mochinut"
+  },
+  {
+   "to": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "Where the shape came from.",
+   "rel": "org",
+   "from": "mochinut"
+  },
+  {
+   "to": "dunking",
+   "type": "term",
+   "name": "Dunking",
+   "as": "The gesture.",
+   "rel": "term",
+   "from": "national-dunking-association"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "Who ran it.",
+   "rel": "org",
+   "from": "national-dunking-association"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "The other half.",
+   "rel": "dish",
+   "from": "national-dunking-association"
+  },
+  {
+   "to": "national-donut-day",
+   "type": "event",
+   "name": "National Donut Day",
+   "as": "The day it produced.",
+   "rel": "event",
+   "from": "salvation-army-lassies"
+  },
+  {
+   "to": "salvation-army",
+   "type": "org",
+   "name": "The Salvation Army",
+   "as": "The organisation.",
+   "rel": "org",
+   "from": "salvation-army-lassies"
+  },
+  {
+   "to": "salvation-army-lassies",
+   "type": "org",
+   "name": "The Salvation Army doughnut huts",
+   "as": "The huts in France.",
+   "rel": "org",
+   "from": "salvation-army"
+  },
+  {
+   "to": "national-donut-day",
+   "type": "event",
+   "name": "National Donut Day",
+   "as": "The day.",
+   "rel": "event",
+   "from": "salvation-army"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Learned the trade here.",
+   "rel": "person",
+   "from": "winchells"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The independents that followed.",
+   "rel": "style",
+   "from": "winchells"
+  },
+  {
+   "to": "yum-yum-donuts",
+   "type": "org",
+   "name": "Yum Yum Donut Shops",
+   "as": "The competitor that bought it.",
+   "rel": "org",
+   "from": "winchells"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "The chain it bought.",
+   "rel": "org",
+   "from": "yum-yum-donuts"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "What it competes with.",
+   "rel": "style",
+   "from": "yum-yum-donuts"
+  },
+  {
+   "to": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "as": "The donut.",
+   "rel": "donut",
+   "from": "fastnacht-day"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "The style.",
+   "rel": "style",
+   "from": "fastnacht-day"
+  },
+  {
+   "to": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "as": "The Polish observance on the same day.",
+   "rel": "event",
+   "from": "fastnacht-day"
+  },
+  {
+   "to": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "The shop at the turnaround.",
+   "rel": "org",
+   "from": "krispy-kreme-challenge"
+  },
+  {
+   "to": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "as": "The unit being eaten.",
+   "rel": "term",
+   "from": "krispy-kreme-challenge"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The regional habit it parodies and honours.",
+   "rel": "style",
+   "from": "krispy-kreme-challenge"
+  },
+  {
+   "to": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "as": "The pastry.",
+   "rel": "donut",
+   "from": "malasada-day"
+  },
+  {
+   "to": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The style.",
+   "rel": "style",
+   "from": "malasada-day"
+  },
+  {
+   "to": "leonards-bakery",
+   "type": "place",
+   "name": "Leonard's Bakery",
+   "as": "The bakery most associated with it.",
+   "rel": "place",
+   "from": "malasada-day"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The same Tuesday, a different pantry.",
+   "rel": "event",
+   "from": "malasada-day"
+  },
+  {
+   "to": "salvation-army-lassies",
+   "type": "org",
+   "name": "The Salvation Army doughnut huts",
+   "as": "Whom the day honours.",
+   "rel": "org",
+   "from": "national-donut-day"
+  },
+  {
+   "to": "salvation-army",
+   "type": "org",
+   "name": "The Salvation Army",
+   "as": "Who created it.",
+   "rel": "org",
+   "from": "national-donut-day"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What gets given away.",
+   "rel": "donut",
+   "from": "national-donut-day"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The donut.",
+   "rel": "donut",
+   "from": "orchard-season"
+  },
+  {
+   "to": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "The counter.",
+   "rel": "style",
+   "from": "orchard-season"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Whose machine made it a roadside trade.",
+   "rel": "person",
+   "from": "orchard-season"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The donut.",
+   "rel": "donut",
+   "from": "paczki-day"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The counter.",
+   "rel": "style",
+   "from": "paczki-day"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The other tradition on the same Tuesday.",
+   "rel": "event",
+   "from": "paczki-day"
+  },
+  {
+   "to": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "The record for the pastry.",
+   "rel": "donut",
+   "from": "bar"
+  },
+  {
+   "to": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The West Coast's version.",
+   "rel": "donut",
+   "from": "bar"
+  },
+  {
+   "to": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "The map of the word.",
+   "rel": "story",
+   "from": "bar"
+  },
+  {
+   "to": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "The choux one.",
+   "rel": "donut",
+   "from": "cruller-word"
+  },
+  {
+   "to": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "The other contested word.",
+   "rel": "term",
+   "from": "cruller-word"
+  },
+  {
+   "to": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "as": "Where they sit.",
+   "rel": "kitchen",
+   "from": "day-old"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Which ones go first.",
+   "rel": "donut",
+   "from": "day-old"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The other thing everyone argues about.",
+   "rel": "term",
+   "from": "donut-spelling"
+  },
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The company that carried the short spelling.",
+   "rel": "org",
+   "from": "donut-spelling"
+  },
+  {
+   "to": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "The organisation.",
+   "rel": "org",
+   "from": "dunking"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "What you dunk into.",
+   "rel": "dish",
+   "from": "dunking"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "Who set it up, and why.",
+   "rel": "org",
+   "from": "dunking"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "What it means now.",
+   "rel": "donut",
+   "from": "fry-cake"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The cake ring that kept the old shape.",
+   "rel": "donut",
+   "from": "fry-cake"
+  },
+  {
+   "to": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "as": "The other word in the same argument.",
+   "rel": "term",
+   "from": "fry-cake"
+  },
+  {
+   "to": "donut-holes",
+   "type": "donut",
+   "name": "Donut holes",
+   "as": "What the missing part is sold as.",
+   "rel": "donut",
+   "from": "hole"
+  },
+  {
+   "to": "hanson-gregory",
+   "type": "person",
+   "name": "Hanson Gregory",
+   "as": "Who claimed it.",
+   "rel": "person",
+   "from": "hole"
+  },
+  {
+   "to": "olykoek",
+   "type": "term",
+   "name": "Olykoek",
+   "as": "What it was before.",
+   "rel": "term",
+   "from": "hole"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The style around it.",
+   "rel": "style",
+   "from": "hot-now"
+  },
+  {
+   "to": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "Whose sign it is.",
+   "rel": "org",
+   "from": "hot-now"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "What it used to point at.",
+   "rel": "kitchen",
+   "from": "hot-now"
+  },
+  {
+   "to": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "as": "What happens with them.",
+   "rel": "kitchen",
+   "from": "jimmies"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region the word belongs to.",
+   "rel": "style",
+   "from": "jimmies"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The shops that complicate it.",
+   "rel": "style",
+   "from": "mom-and-pop"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "Where this project draws the line.",
+   "rel": "story",
+   "from": "mom-and-pop"
+  },
+  {
+   "to": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "950 signs, 950 owners.",
+   "rel": "org",
+   "from": "mom-and-pop"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "What got punched in it.",
+   "rel": "term",
+   "from": "olykoek"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What it became.",
+   "rel": "donut",
+   "from": "olykoek"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Where it is used by the bucket.",
+   "rel": "kitchen",
+   "from": "powdered-sugar"
+  },
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "Buried in it.",
+   "rel": "donut",
+   "from": "powdered-sugar"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "What a dozen goes into.",
+   "rel": "art",
+   "from": "the-dozen"
+  },
+  {
+   "to": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "Where it comes from.",
+   "rel": "kitchen",
+   "from": "the-dozen"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "What it costs, with dates.",
+   "rel": "story",
+   "from": "the-dozen"
+  },
+  {
+   "to": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The counter it belongs to.",
+   "rel": "style",
+   "from": "anthora-cup"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "What it comes with.",
+   "rel": "dish",
+   "from": "anthora-cup"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "What is in it.",
+   "rel": "dish",
+   "from": "anthora-cup"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The most photographed one.",
+   "rel": "place",
+   "from": "giant-donut-roof"
+  },
+  {
+   "to": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "The one you drive through.",
+   "rel": "place",
+   "from": "giant-donut-roof"
+  },
+  {
+   "to": "russell-wendell",
+   "type": "person",
+   "name": "Russell C. Wendell",
+   "as": "Who built them.",
+   "rel": "person",
+   "from": "giant-donut-roof"
+  },
+  {
+   "to": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "The other thing on the roofline.",
+   "rel": "art",
+   "from": "giant-donut-roof"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "What tends to be written on the card.",
+   "rel": "story",
+   "from": "hand-lettered-board"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shops it is found in.",
+   "rel": "style",
+   "from": "hand-lettered-board"
+  },
+  {
+   "to": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "What the board describes.",
+   "rel": "kitchen",
+   "from": "hand-lettered-board"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The donut.",
+   "rel": "donut",
+   "from": "mr-spudnut"
+  },
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The other mascot's company.",
+   "rel": "org",
+   "from": "mr-spudnut"
+  },
+  {
+   "to": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "What outlasted them.",
+   "rel": "art",
+   "from": "mr-spudnut"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The two words.",
+   "rel": "term",
+   "from": "neon-donut"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The vanished franchise on the sign.",
+   "rel": "donut",
+   "from": "neon-donut"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "What that does to a directory.",
+   "rel": "story",
+   "from": "neon-donut"
+  },
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The daylight version.",
+   "rel": "art",
+   "from": "neon-donut"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Credited with it.",
+   "rel": "person",
+   "from": "pink-box"
+  },
+  {
+   "to": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "Credited with it.",
+   "rel": "person",
+   "from": "pink-box"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style named for it here.",
+   "rel": "style",
+   "from": "pink-box"
+  },
+  {
+   "to": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "as": "Carried it north.",
+   "rel": "place",
+   "from": "pink-box"
+  },
+  {
+   "to": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "as": "What goes inside.",
+   "rel": "term",
+   "from": "pink-box"
+  },
+  {
+   "to": "bar",
+   "type": "term",
+   "name": "Bar",
+   "as": "The word.",
+   "rel": "term",
+   "from": "bar-or-long-john"
+  },
+  {
+   "to": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "The pastry.",
+   "rel": "donut",
+   "from": "bar-or-long-john"
+  },
+  {
+   "to": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The coast's version.",
+   "rel": "donut",
+   "from": "bar-or-long-john"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The filled round with a regional name.",
+   "rel": "donut",
+   "from": "bar-or-long-john"
+  },
+  {
+   "to": "jimmies",
+   "type": "term",
+   "name": "Jimmies",
+   "as": "Another regional word.",
+   "rel": "term",
+   "from": "bar-or-long-john"
+  },
+  {
+   "to": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "as": "A Western word with a date.",
+   "rel": "donut",
+   "from": "bar-or-long-john"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The raised side.",
+   "rel": "donut",
+   "from": "cake-against-raised"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The cake side.",
+   "rel": "donut",
+   "from": "cake-against-raised"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Where the difference is settled.",
+   "rel": "kitchen",
+   "from": "cake-against-raised"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What costs the time.",
+   "rel": "kitchen",
+   "from": "cake-against-raised"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "What a machine could learn.",
+   "rel": "kitchen",
+   "from": "cake-against-raised"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The cake ring people name.",
+   "rel": "donut",
+   "from": "cake-against-raised"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "What those shops sell besides donuts.",
+   "rel": "story",
+   "from": "donuts-per-capita"
+  },
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region that drives the New England number.",
+   "rel": "style",
+   "from": "donuts-per-capita"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The 5,000-shop state.",
+   "rel": "style",
+   "from": "donuts-per-capita"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "What is being counted.",
+   "rel": "story",
+   "from": "donuts-per-capita"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "How the scope is drawn.",
+   "rel": "story",
+   "from": "free-to-use"
+  },
+  {
+   "to": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "What the counts can and cannot say.",
+   "rel": "story",
+   "from": "free-to-use"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "Why prices are thin here.",
+   "rel": "story",
+   "from": "free-to-use"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The argument in full.",
+   "rel": "story",
+   "from": "the-counter"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "California.",
+   "rel": "dish",
+   "from": "the-counter"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "Texas.",
+   "rel": "dish",
+   "from": "the-counter"
+  },
+  {
+   "to": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "The Southwest.",
+   "rel": "dish",
+   "from": "the-counter"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "New York.",
+   "rel": "dish",
+   "from": "the-counter"
+  },
+  {
+   "to": "biscuits-and-gravy",
+   "type": "dish",
+   "name": "Biscuits and gravy",
+   "as": "The South.",
+   "rel": "dish",
+   "from": "the-counter"
+  },
+  {
+   "to": "boba",
+   "type": "dish",
+   "name": "Boba",
+   "as": "The recent one.",
+   "rel": "dish",
+   "from": "the-counter"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The man.",
+   "rel": "person",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The shop.",
+   "rel": "place",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object.",
+   "rel": "art",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style.",
+   "rel": "style",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "Where he learned.",
+   "rel": "org",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "What the shops sell beside donuts, and why.",
+   "rel": "story",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "The other name on the box.",
+   "rel": "person",
+   "from": "the-donut-king"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The donut.",
+   "rel": "donut",
+   "from": "the-franchise-that-vanished"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The model.",
+   "rel": "style",
+   "from": "the-franchise-that-vanished"
+  },
+  {
+   "to": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "The one still running.",
+   "rel": "org",
+   "from": "the-franchise-that-vanished"
+  },
+  {
+   "to": "mr-spudnut",
+   "type": "art",
+   "name": "Mr. Spudnut and the mascots",
+   "as": "The mascot.",
+   "rel": "art",
+   "from": "the-franchise-that-vanished"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "What that leaves on the street.",
+   "rel": "story",
+   "from": "the-franchise-that-vanished"
+  },
+  {
+   "to": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "as": "The unit.",
+   "rel": "term",
+   "from": "the-price-of-a-dozen"
+  },
+  {
+   "to": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "as": "The 1968 price.",
+   "rel": "place",
+   "from": "the-price-of-a-dozen"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The franchise fee.",
+   "rel": "donut",
+   "from": "the-price-of-a-dozen"
+  },
+  {
+   "to": "krispy-kreme-challenge",
+   "type": "event",
+   "name": "Krispy Kreme Challenge",
+   "as": "The published dozen.",
+   "rel": "event",
+   "from": "the-price-of-a-dozen"
+  },
+  {
+   "to": "pips-original",
+   "type": "place",
+   "name": "Pip's Original Doughnuts & Chai",
+   "as": "The other end of the range.",
+   "rel": "place",
+   "from": "the-price-of-a-dozen"
+  },
+  {
+   "to": "donut-wheel",
+   "type": "place",
+   "name": "Donut Wheel",
+   "as": "Four owners, one name.",
+   "rel": "place",
+   "from": "the-sign-outlives-the-owner"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "No Randy.",
+   "rel": "place",
+   "from": "the-sign-outlives-the-owner"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The name that spread.",
+   "rel": "place",
+   "from": "the-sign-outlives-the-owner"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The vanished franchise.",
+   "rel": "donut",
+   "from": "the-sign-outlives-the-owner"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "The chain that shrank.",
+   "rel": "org",
+   "from": "the-sign-outlives-the-owner"
+  },
+  {
+   "to": "mom-and-pop",
+   "type": "term",
+   "name": "Mom-and-pop",
+   "as": "Why the sign is not the test.",
+   "rel": "term",
+   "from": "the-sign-outlives-the-owner"
+  },
+  {
+   "to": "mom-and-pop",
+   "type": "term",
+   "name": "Mom-and-pop",
+   "as": "The term.",
+   "rel": "term",
+   "from": "what-is-a-mom-and-pop"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The style that complicates it.",
+   "rel": "style",
+   "from": "what-is-a-mom-and-pop"
+  },
+  {
+   "to": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "950 signs, 950 owners.",
+   "rel": "org",
+   "from": "what-is-a-mom-and-pop"
+  },
+  {
+   "to": "top-pot-doughnuts",
+   "type": "place",
+   "name": "Top Pot Doughnuts",
+   "as": "Central kitchen, many cafés.",
+   "rel": "place",
+   "from": "what-is-a-mom-and-pop"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The franchise that vanished.",
+   "rel": "donut",
+   "from": "what-is-a-mom-and-pop"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The item that names the argument.",
+   "rel": "dish",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style it belongs to.",
+   "rel": "style",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "The Southwestern version.",
+   "rel": "dish",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The Texan version.",
+   "rel": "dish",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "The New York version.",
+   "rel": "dish",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "The map of it.",
+   "rel": "story",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "b-and-h-distributors",
+   "type": "org",
+   "name": "B & H Bakery Distributors",
+   "as": "Who supplies the shops.",
+   "rel": "org",
+   "from": "why-the-egg-rolls"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "How the trade arrived.",
+   "rel": "person",
+   "from": "why-the-egg-rolls"
+  }
+ ]
+}

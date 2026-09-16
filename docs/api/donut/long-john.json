@@ -1,0 +1,182 @@
+{
+ "id": "long-john",
+ "type": "donut",
+ "names": {
+  "name": "Long John",
+  "aliases": [
+   "bar",
+   "finger doughnut",
+   "cream stick",
+   "éclair (as sold)"
+  ],
+  "said": "Midwestern by default. In California the same thing is a bar."
+ },
+ "region": [
+  "upper-midwest",
+  "texas",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "iced"
+ },
+ "text": {
+  "what": "A bar-shaped raised donut, glazed all over or iced on top, sometimes filled with custard or cream.",
+  "story": "Names for it are regional in a way few American foods still are. Long John dominates the Midwest, Canada and Texas. The Mid-Atlantic and central Canada market it as an éclair; the pastries look alike but an éclair is steam-puffed choux with fondant, and a Long John is yeast. The West Coast says bar. Parts of the Midwest say finger doughnut, or cream stick when it is filled.",
+  "how": "Cut from sheeted raised dough into rectangles, proofed, fried, then glazed or iced. Filling goes in from the end with a nozzle.",
+  "today": "A filled Long John is one of the few donuts a shop will cut open for you to prove what is inside."
+ },
+ "kin": [
+  {
+   "to": "maple-bar",
+   "as": "The West Coast name and the coast's favourite icing.",
+   "rel": "donut"
+  },
+  {
+   "to": "bismarck",
+   "as": "The other filled one, round instead of long.",
+   "rel": "donut"
+  },
+  {
+   "to": "bar-or-long-john",
+   "as": "The map of what to call it.",
+   "rel": "story"
+  },
+  {
+   "to": "filling-injector",
+   "as": "How the custard gets in.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-long-john-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A bar-shaped raised donut, glazed all over or iced on top, sometimes filled with custard or cream.",
+ "region_terms": [
+  {
+   "key": "upper-midwest",
+   "name": "The Upper Midwest",
+   "state": null,
+   "note": "Wisconsin, Minnesota, the Dakotas; bismarcks, long johns, church-basement fry"
+  },
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX",
+   "note": "Houston, Dallas, San Antonio; kolaches, klobasniky, and Cambodian- and Vietnamese-American counters"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The West Coast name and the coast's favourite icing.",
+   "rel": "donut"
+  },
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The other filled one, round instead of long.",
+   "rel": "donut"
+  },
+  {
+   "to": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "The map of what to call it.",
+   "rel": "story"
+  },
+  {
+   "to": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "How the custard gets in.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-long-john-doughnut",
+   "kind": "web",
+   "title": "Long John (doughnut) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long_John_(doughnut)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "as": "The bar version of the same filling.",
+   "rel": "donut"
+  },
+  {
+   "from": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The same bar under the name most of the country uses.",
+   "rel": "donut"
+  },
+  {
+   "from": "bar",
+   "type": "term",
+   "name": "Bar",
+   "as": "The record for the pastry.",
+   "rel": "donut"
+  },
+  {
+   "from": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "The pastry.",
+   "rel": "donut"
+  }
+ ]
+}

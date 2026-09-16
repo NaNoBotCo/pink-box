@@ -1,0 +1,246 @@
+{
+ "note": "Fillings by the cup. Quantities scale off the finished cup, and every one says whether the proportions are somebody's published recipe or this project's own.",
+ "house_note": "A filled donut takes about two tablespoons. A cup fills roughly eight, which is this project's rule of thumb and not a measurement.",
+ "sizes": [
+  {
+   "key": "cup",
+   "label": "One cup — about eight donuts",
+   "cups": 1,
+   "lb": 0.5
+  },
+  {
+   "key": "pint",
+   "label": "A pint — about a dozen and a half",
+   "cups": 2,
+   "lb": 1
+  },
+  {
+   "key": "quart",
+   "label": "A quart — three dozen",
+   "cups": 4,
+   "lb": 2
+  },
+  {
+   "key": "crowd",
+   "label": "A tray",
+   "cups": 12,
+   "lb": 6
+  }
+ ],
+ "sweets": [
+  {
+   "key": "dry",
+   "label": "Barely",
+   "mult": 0.5
+  },
+  {
+   "key": "some",
+   "label": "As written",
+   "mult": 1.0
+  },
+  {
+   "key": "sweet",
+   "label": "Sweeter",
+   "mult": 1.6
+  }
+ ],
+ "heats": [
+  {
+   "key": "none",
+   "label": "Plain",
+   "mult": 0.0
+  },
+  {
+   "key": "some",
+   "label": "Some",
+   "mult": 1.0
+  },
+  {
+   "key": "more",
+   "label": "More",
+   "mult": 2.0
+  }
+ ],
+ "kinds": [
+  {
+   "key": "custard",
+   "name": "Pastry cream",
+   "dish": "bavarian-cream",
+   "region": "the front row of every case",
+   "says": "Thick enough to hold its shape when the donut is cut.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions, in the standard pastry-cream ratio: milk, yolks, sugar, cornflour, butter, vanilla."
+   },
+   "per_cup": [
+    {
+     "name": "whole milk",
+     "q": 0.85,
+     "unit": "cup"
+    },
+    {
+     "name": "egg yolks",
+     "q": 3,
+     "unit": "egg"
+    },
+    {
+     "name": "sugar",
+     "q": 3.5,
+     "unit": "tbsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "cornflour",
+     "q": 2,
+     "unit": "tbsp"
+    },
+    {
+     "name": "butter",
+     "q": 1,
+     "unit": "tbsp"
+    },
+    {
+     "name": "vanilla",
+     "q": 1,
+     "unit": "tsp",
+     "dial": "heat"
+    },
+    {
+     "name": "salt",
+     "q": 0.125,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    "Heat the milk to just under a boil.",
+    "Whisk the yolks, sugar, cornflour and salt smooth. Pour a third of the hot milk in while whisking, then return it all to the pan.",
+    "Cook over medium heat, whisking, until it thickens and bubbles — about two minutes past the first bubble or it will loosen later.",
+    "Off the heat, beat in the butter and vanilla.",
+    "Press cling film onto the surface and chill it cold before it goes near a nozzle."
+   ],
+   "swap": "Fold in a cup of whipped cream once it is cold and it becomes a Bavarian cream."
+  },
+  {
+   "key": "jelly",
+   "name": "Raspberry jelly",
+   "dish": "bismarck",
+   "region": "the Upper Midwest, and every bakery counter",
+   "says": "Seedless, thinned enough to go through a nozzle and no further.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions. The cited part is the practice: a jelly donut is filled with fruit preserve after frying."
+   },
+   "per_cup": [
+    {
+     "name": "seedless raspberry preserve",
+     "q": 0.9,
+     "unit": "cup",
+     "dial": "sweet"
+    },
+    {
+     "name": "lemon juice",
+     "q": 2,
+     "unit": "tsp",
+     "dial": "heat"
+    },
+    {
+     "name": "water",
+     "q": 1,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    "Warm the preserve with the water until it loosens.",
+    "Sharpen it with the lemon juice; shop jelly is sweeter than anything you would eat off a spoon.",
+    "Cool it to room temperature. Hot filling melts the crumb from the inside.",
+    "Fill from the side until the donut gains real weight in the hand."
+   ],
+   "swap": "Powidła — stewed plum — or rose petal jam, if you are making pączki."
+  },
+  {
+   "key": "lemon",
+   "name": "Lemon curd",
+   "dish": "bismarck",
+   "region": "the shops that like being asked about it",
+   "says": "Sharp enough to be worth the sugar around it.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions."
+   },
+   "per_cup": [
+    {
+     "name": "lemon juice",
+     "q": 0.4,
+     "unit": "cup",
+     "dial": "heat"
+    },
+    {
+     "name": "sugar",
+     "q": 0.5,
+     "unit": "cup",
+     "dial": "sweet"
+    },
+    {
+     "name": "eggs",
+     "q": 2,
+     "unit": "egg"
+    },
+    {
+     "name": "butter",
+     "q": 4,
+     "unit": "tbsp"
+    },
+    {
+     "name": "lemon zest",
+     "q": 2,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    "Whisk the eggs, sugar and juice in a pan off the heat.",
+    "Cook gently, stirring, until it coats a spoon. Do not boil it.",
+    "Off the heat, beat in the butter a piece at a time, then the zest.",
+    "Sieve it, then chill it. It thickens as it cools."
+   ]
+  },
+  {
+   "key": "cream",
+   "name": "Whipped cream filling",
+   "dish": "bavarian-cream",
+   "region": "the shops that fill to order",
+   "says": "Light, fast, and gone by lunchtime.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions. Stabilised with a little powdered sugar's starch, which is why it is not plain cream."
+   },
+   "per_cup": [
+    {
+     "name": "double or heavy cream",
+     "q": 0.75,
+     "unit": "cup"
+    },
+    {
+     "name": "confectioner's sugar",
+     "q": 3,
+     "unit": "tbsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "vanilla",
+     "q": 1,
+     "unit": "tsp",
+     "dial": "heat"
+    }
+   ],
+   "steps": [
+    "Whip the cream cold, with the bowl cold, to soft peaks.",
+    "Beat in the sugar and vanilla and take it to firm peaks — no further, or it turns.",
+    "Fill the same morning. This one does not hold overnight."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "donut-wheel",
+ "type": "place",
+ "names": {
+  "name": "Donut Wheel",
+  "aliases": [
+   "Jack's Donut Wheel"
+  ],
+  "sort": "Donut Wheel"
+ },
+ "region": [
+  "bay-area"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1962,
+  "dough": "both"
+ },
+ "text": {
+  "what": "A Livermore landmark at the intersection of the city's four quadrants, trading since 1962.",
+  "story": "Jack and Jean Weil started Jack's Donut Wheel in 1962, the year they moved to Livermore from San Francisco. The name came from a colleague at Stemple's who pointed out that people said Weil as \"wheel\". The Weils sold in 1972; it has changed hands since and kept the name. The building went up in 1941.",
+  "today": "A small shop that outlasted four sets of owners by not being renamed."
+ },
+ "geo": {
+  "lat": 37.68086,
+  "lon": -121.77086,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Livermore",
+  "county": "Alameda",
+  "state": "CA"
+ },
+ "kin": [
+  {
+   "to": "the-sign-outlives-the-owner",
+   "as": "Why the name on the window is not the family inside.",
+   "rel": "story"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The same shape of business, further north.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-donut-wheel"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-donut-wheel"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

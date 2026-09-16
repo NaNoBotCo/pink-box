@@ -1,0 +1,104 @@
+{
+ "id": "bismarck",
+ "type": "donut",
+ "names": {
+  "name": "Bismarck",
+  "aliases": [
+   "bismark",
+   "jelly donut",
+   "filled donut",
+   "Berliner"
+  ],
+  "said": "Upper Midwest word. Elsewhere you ask for a jelly."
+ },
+ "region": [
+  "upper-midwest",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "filled"
+ },
+ "text": {
+  "what": "A round raised donut with no hole, fried, then injected with fruit preserve, custard or cream and finished in sugar or icing.",
+  "story": "The filled fried dough is older than the ring by centuries. A recipe for Gefüllte Krapfen — stuffed fried dough cakes — is in Küchenmeisterei, printed in Nuremberg in 1485, and the form spread across Europe: the German Berliner, the Polish pączki, the Jewish sufganiyah, the Italian bombolone. In parts of Germany the same pastry is a Pfannkuchen, which means pancake everywhere else in the country and causes exactly the trouble you would expect.\n\nBismarcks and Berlin doughnuts turn up in Australia, Canada, Denmark, Finland, Switzerland and the United States. In the Upper Midwest the name stuck hard enough that a case label will say Bismarck and nothing else.",
+  "how": "No hole: round the dough, proof it, fry it so a pale belt runs around the middle where it floated, then fill from the side and dust or ice.",
+  "today": "A jelly donut is the one most likely to be filled to order in a shop that cares, and filled the night before everywhere else."
+ },
+ "kin": [
+  {
+   "to": "bavarian-cream",
+   "as": "Same shell, custard instead of jam.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "as": "The Polish one, richer, and tied to a single Tuesday.",
+   "rel": "donut"
+  },
+  {
+   "to": "sufganiyah",
+   "as": "The Hanukkah one, fried in oil for the reason the holiday turns on.",
+   "rel": "donut"
+  },
+  {
+   "to": "filling-injector",
+   "as": "The nozzle that makes it what it is.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "Same dough, hole instead of filling.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-jelly-doughnut",
+  "s:wp-berliner-doughnut",
+  "s:wp-doughnut",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-jelly-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "yeast",
+  "finish": "filled",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 85.0,
+  "kcal": 289.0,
+  "sugar_g": 17.9,
+  "fat_g": 15.9,
+  "sat_fat_g": 4.1,
+  "carb_g": 33.1,
+  "sodium_mg": 386.8,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/172759/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 172759, \"Doughnuts, yeast-leavened, with jelly filling\", published per 100 g and scaled here to the portion USDA itself lists as \"doughnut oval (3-1/2\" x 2-1/2\")\" — 85 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ }
+}

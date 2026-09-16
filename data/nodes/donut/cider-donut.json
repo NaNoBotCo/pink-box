@@ -1,0 +1,102 @@
+{
+ "id": "cider-donut",
+ "type": "donut",
+ "names": {
+  "name": "Cider donut",
+  "aliases": [
+   "apple cider doughnut"
+  ],
+  "said": "Bought hot at the mill, in a paper bag that goes translucent on the drive home."
+ },
+ "region": [
+  "new-england",
+  "upstate-ny",
+  "upper-midwest"
+ ],
+ "facets": {
+  "dough": "cake",
+  "finish": "sugared"
+ },
+ "text": {
+  "what": "An American cake donut flavoured with apple cider, cinnamon and nutmeg in the batter, usually rolled in cinnamon or granulated sugar. Denser and moister than a plain cake ring because the cider is in the batter, not on it.",
+  "story": "Cider donuts go back at least to the late nineteenth century — a 1901 piece in The Buffalo Enquirer has them at Halloween parties. Donuts had long belonged to autumn anyway: the slaughter season produced the surplus fat you fried them in.\n\nThe modern version follows the machine. Adolph Levitt's 1921 doughnut machine let anyone fry circles of batter methodically, and cider-selling farm stands took it up fast. The first commercially produced cider donut may have been the Doughnut Corporation of America's \"sweet cider doughnut\" in 1951.\n\nSeason runs with the apples: September through November or December. Grocery stores put them out as early as August, and Food & Wine has noted that a year-round cider donut is unlikely to have fresh-pressed cider in it.",
+  "how": "Reduce cider, beat it into a cake batter with cinnamon and nutmeg, drop rings, fry, and roll in sugar while hot.",
+  "today": "Sold at orchards, cider mills and farm stands as part of a day out, and by the half-dozen at the register of every farm store in the Northeast in October."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "The dough it belongs to.",
+   "rel": "donut"
+  },
+  {
+   "to": "apple-fritter",
+   "as": "The year-round apple one, on the raised side.",
+   "rel": "donut"
+  },
+  {
+   "to": "orchard-season",
+   "as": "The weeks it exists in.",
+   "rel": "event"
+  },
+  {
+   "to": "new-england-cider",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "adolph-levitt",
+   "as": "Whose machine let a farm stand fry.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cider-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "cider-donut/cider-donut-apple-cider-donuts-at-common-man-stop.jpg",
+   "source": "commons",
+   "title": "File:Apple Cider Donuts at Common Man Stop.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Apple_Cider_Donuts_at_Common_Man_Stop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AApple_Cider_Donuts_at_Common_Man_Stop.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Rjlevine",
+   "credit": "Own work",
+   "alt": "Cider Donuts Stand in NH",
+   "date": "2025-06-11 08:19:58",
+   "primary": true,
+   "sha256": "cd7cb4c6537bc63c34d1404015520b2f5ce77d55ed937b5a4fb7673a39bfeaf5"
+  },
+  {
+   "file": "cider-donut/cider-donut-cider-doughnut.jpg",
+   "source": "commons",
+   "title": "File:Cider Doughnut.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Cider_Doughnut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACider_Doughnut.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Rjlevine",
+   "credit": "Own work",
+   "alt": "Cider Doughnut",
+   "date": "2025-06-11 08:37:30",
+   "primary": false,
+   "sha256": "0ebc8999296e61438fcde38bacc81a1bc3ac2437e483b926cf33843f16d873ea"
+  }
+ ]
+}

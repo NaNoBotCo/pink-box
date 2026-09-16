@@ -1,0 +1,187 @@
+{
+ "id": "malasada-day",
+ "type": "event",
+ "names": {
+  "name": "Malasada Day",
+  "aliases": [
+   "Terça-feira Gorda"
+  ],
+  "said": "Shrove Tuesday, Portuguese-Hawaiian style: the queue starts at the bakery door."
+ },
+ "region": [
+  "hawaii"
+ ],
+ "facets": {
+  "when": "Shrove Tuesday",
+  "status": "open",
+  "state": "HI"
+ },
+ "text": {
+  "what": "The Hawaiian observance of Shrove Tuesday, kept by eating malasadas.",
+  "story": "The malasada came to Hawaii with Portuguese labourers from Madeira and the Azores, where the pastry belongs to Carnival. In the islands it is eaten year round and the Tuesday remains its day.\n\nThis project has not found a published history of when Malasada Day itself became a fixed Hawaiian observance, and does not date it.",
+  "today": "Bakeries run extra shifts; the wagons park where the lines will be."
+ },
+ "kin": [
+  {
+   "to": "malasada",
+   "as": "The pastry.",
+   "rel": "donut"
+  },
+  {
+   "to": "hawaii-malasada",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "to": "leonards-bakery",
+   "as": "The bakery most associated with it.",
+   "rel": "place"
+  },
+  {
+   "to": "fastnacht-day",
+   "as": "The same Tuesday, a different pantry.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-malassada"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-malassada"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 21.3069,
+  "lon": -157.8583,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Honolulu",
+  "county": "Honolulu",
+  "state": "HI"
+ },
+ "blurb": "The Hawaiian observance of Shrove Tuesday, kept by eating malasadas.",
+ "region_terms": [
+  {
+   "key": "hawaii",
+   "name": "Hawaii",
+   "state": "HI",
+   "note": "malasadas, no hole, rolled in sugar"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "as": "The pastry.",
+   "rel": "donut"
+  },
+  {
+   "to": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "to": "leonards-bakery",
+   "type": "place",
+   "name": "Leonard's Bakery",
+   "as": "The bakery most associated with it.",
+   "rel": "place"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The same Tuesday, a different pantry.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-malassada",
+   "kind": "web",
+   "title": "Malassada — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malassada",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  },
+  "text.today": {
+   "tier": "tradition"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the town the day is most associated with, not a venue"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "as": "The day the lines get long.",
+   "rel": "event"
+  },
+  {
+   "from": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "as": "The Tuesday it gets its own line out the door.",
+   "rel": "event"
+  },
+  {
+   "from": "leonards-bakery",
+   "type": "place",
+   "name": "Leonard's Bakery",
+   "as": "The day the queue goes around the block.",
+   "rel": "event"
+  }
+ ]
+}

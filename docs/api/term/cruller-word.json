@@ -1,0 +1,129 @@
+{
+ "id": "cruller-word",
+ "type": "term",
+ "names": {
+  "name": "Cruller",
+  "aliases": [
+   "kruller",
+   "crulla"
+  ],
+  "said": "One word, three pastries, and no authority to appeal to."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "C",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "In North America: either a small loaf- or stick-shaped cake donut, or the choux ring sold as a French cruller.",
+  "story": "From the Dutch kruller, from krullen, to curl. Pennsylvania Dutch settlers brought it in the late eighteenth and early nineteenth centuries. In Europe the shape is a twist or a plaited rectangle pulled through itself; northern Germany calls those Hirschhörner, deer horns, and Scandinavia makes them at Christmas — klejner in Danish, klenäter in Swedish.\n\nMilwaukee's cruller is a glazed loaf-shaped cake donut with a crunchy shell. The Aberdeen crulla is Scottish, first attested in Edinburgh in 1829 and thought to copy the American cruller. Youtiao and mahua both get called Chinese crullers in English."
+ },
+ "kin": [
+  {
+   "to": "french-cruller",
+   "as": "The choux one.",
+   "rel": "donut"
+  },
+  {
+   "to": "fry-cake",
+   "as": "The other contested word.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-cruller"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "Dutch kruller, from krullen, to curl",
+  "first_attested": "late 18th to early 19th century in the United States, with Pennsylvania Dutch settlers",
+  "note": "The Aberdeen crulla is first attested in Edinburgh in 1829 and is thought by the Scottish National Dictionary to copy the American word.",
+  "tier": "cited",
+  "source": "s:wp-cruller"
+ },
+ "blurb": "In North America: either a small loaf- or stick-shaped cake donut, or the choux ring sold as a French cruller.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "The choux one.",
+   "rel": "donut"
+  },
+  {
+   "to": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "The other contested word.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cruller",
+   "kind": "web",
+   "title": "Cruller — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cruller",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "Dutch for curl, and what it came to mean here.",
+   "rel": "term"
+  },
+  {
+   "from": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "The other word in the same argument.",
+   "rel": "term"
+  }
+ ]
+}

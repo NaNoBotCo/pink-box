@@ -1,0 +1,212 @@
+{
+ "id": "christys-donuts",
+ "type": "place",
+ "names": {
+  "name": "Christy's Donuts",
+  "aliases": [
+   "Christy's"
+  ],
+  "sort": "Christy's Donuts"
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "unknown",
+  "founded": 1977,
+  "dough": "both",
+  "styles": [
+   "socal-pink-box"
+  ]
+ },
+ "text": {
+  "what": "The La Habra shop Ted Ngoy bought in 1977, and the name he put on every shop he bought after it.",
+  "story": "Christy's had not done well under its previous owners. It did well under the Ngoys, and they kept the name uniform across the shops they added — by 1979 more than 25 of them, by 1987 thirty-two, and at the peak Ngoy reckoned sixty-five. Ngoy and his wife took the American names Ted and Christy when they became citizens in 1985.\n\nThe shops were leased out to relatives and to refugee families Ngoy sponsored, which is how one shop turned into a trade for a community.",
+  "today": "Shops trading as Christy's Donuts still exist in Southern California. This project has not verified which, if any, descend from the Ngoy shops, and does not claim it."
+ },
+ "geo": {
+  "lat": 33.93161,
+  "lon": -117.94549,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "La Habra",
+  "county": "Orange",
+  "state": "CA"
+ },
+ "tags": [
+  {
+   "tag": "cambodian-american",
+   "source": "s:wp-ted-ngoy",
+   "tier": "cited",
+   "note": "bought and run by Ted and Christy Ngoy from 1977"
+  }
+ ],
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "Bought it, then made it a name and a system.",
+   "rel": "person"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The shop the style traces back through.",
+   "rel": "style"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "The long version.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-ted-ngoy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "town centre; the article gives no street address"
+   },
+   "facets.status": {
+    "tier": "inference",
+    "note": "unknown: this project has not established whether the original shop trades today"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "The La Habra shop Ted Ngoy bought in 1977, and the name he put on every shop he bought after it.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "cambodian-american",
+   "name": "Cambodian America",
+   "state": null,
+   "note": "Long Beach, Stockton, Lowell, Houston; a community, not a place — and the single largest owner group in independent donuts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Bought it, then made it a name and a system.",
+   "rel": "person"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shop the style traces back through.",
+   "rel": "style"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The long version.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-ted-ngoy",
+   "kind": "web",
+   "title": "Ted Ngoy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ted_Ngoy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "town centre; the article gives no street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "cambodian-american",
+   "label": "Cambodian-American owned",
+   "icon": "🇰🇭",
+   "group": "community",
+   "evidence": "the owner's own words, a press profile naming the family, or an oral-history archive. Never a surname, never a guess.",
+   "resources": [
+    "r:cambodian-donut-press",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:wp-ted-ngoy",
+   "note": "bought and run by Ted and Christy Ngoy from 1977",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The La Habra shop the whole pattern starts from.",
+   "rel": "place"
+  },
+  {
+   "from": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The shop he bought first.",
+   "rel": "place"
+  },
+  {
+   "from": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The shop.",
+   "rel": "place"
+  },
+  {
+   "from": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "The name that spread.",
+   "rel": "place"
+  }
+ ]
+}

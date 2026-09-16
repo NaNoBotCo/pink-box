@@ -1,0 +1,80 @@
+{
+ "id": "ted-ngoy",
+ "type": "person",
+ "names": {
+  "name": "Ted Ngoy",
+  "aliases": [
+   "Bun Tek Ngoy",
+   "the Donut King"
+  ],
+  "said": "He is called the Donut King and the nickname did the work of a business card."
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "role": "founder",
+  "state": "CA"
+ },
+ "text": {
+  "what": "The Cambodian refugee who turned one La Habra donut shop into a trade for a community, and lost the fortune it made him.",
+  "story": "Born in 1941 in Sisophon, near the Thai border, to a Chinese immigrant family; his mother, from Shantou, did not speak Khmer. He was sent to Phnom Penh to study in 1967, married Suganthini Khoeun, worked as a travel agent and tour guide, joined the military in 1970 and, through his brother-in-law Sak Sutsakhan, became a major and military attaché in Thailand. In 1975 he fled the Khmer Rouge with his wife and three children and reached Camp Pendleton through the U.S. Refugee Admissions Program.\n\nHe took a janitor's job at Peace Lutheran Church in Tustin and a second job at a gas station, noticed a busy donut shop, and asked how it worked. An affirmative-action hiring programme at Winchell's trained him; he managed a store in Newport Beach. In 1977 he bought Christy's Donuts in La Habra.\n\nBy 1979 he had more than 25 shops. He began training relatives and refugees and leasing shops to them — \"I sponsored more than 100 families\" — living out of a motor home to open new ones. By 1987 there were 32 Christy's; at the peak he reckoned 65. He and his wife took citizenship in 1985 as Ted and Christy, bought a house at Lake Mission Viejo and a second at Big Bear, joined the Republican Party and held fundraisers for George H. W. Bush.\n\nThen the gambling. A 1977 Las Vegas trip introduced him to blackjack; he returned monthly, forged his wife's signature on cheques, borrowed from relatives who leased shops from him and signed shops over when he could not repay. Gamblers Anonymous did not hold: \"I cry, everybody cry. After cry, go back gambling.\"",
+  "today": "Alice Gu's documentary The Donut King (2020) put the story in front of a national audience. The shops the model produced outlasted the fortune by decades."
+ },
+ "kin": [
+  {
+   "to": "socal-pink-box",
+   "as": "The style his system produced.",
+   "rel": "style"
+  },
+  {
+   "to": "christys-donuts",
+   "as": "The shop he bought first.",
+   "rel": "place"
+  },
+  {
+   "to": "ning-yen",
+   "as": "Named with him for the pink box.",
+   "rel": "person"
+  },
+  {
+   "to": "winchells",
+   "as": "Where he learned the trade.",
+   "rel": "org"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "The long version.",
+   "rel": "story"
+  },
+  {
+   "to": "pink-box",
+   "as": "The object credited to him.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:wp-ted-ngoy",
+  "s:wp-the-donut-king",
+  "s:wp-cambodian-americans"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-the-donut-king"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

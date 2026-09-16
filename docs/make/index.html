@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Make some — Pink Box</title>
+<meta name="description" content="Build a glaze, a dough or a filling. Every proportion says whether it came from a free-to-use published recipe or from this project, and the sugar is worked out on screen.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Pink Box"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="Make some — Pink Box"><meta property="og:description" content="Build a glaze, a dough or a filling. Every proportion says whether it came from a free-to-use published recipe or from this project, and the sugar is worked out on screen."><meta property="og:type" content="website">
+<meta property="og:image" content="https://nanobotco.github.io/pink-box/cards/make.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Make a donut glaze, a dough or a filling"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/pink-box/cards/make.jpg"><meta name="twitter:image:alt" content="Make a donut glaze, a dough or a filling"><meta name="twitter:title" content="Make some — Pink Box"><meta name="twitter:description" content="Build a glaze, a dough or a filling. Every proportion says whether it came from a free-to-use published recipe or from this project, and the sugar is worked out on screen.">
+<link rel="canonical" href="https://nanobotco.github.io/pink-box/make/">
+
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#d6136a">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Pink Box" href="../opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Pink Box updates" href="../feed.xml">
+<style>
+.dials{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;background:var(--panel);
+  border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:.6rem 0 1.2rem}
+.dial b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);
+  font-family:var(--sign,sans-serif);margin-bottom:.4rem}
+.dial .opts{display:flex;flex-wrap:wrap;gap:.35rem}
+.dial button{font:inherit;font-size:.86rem;font-family:var(--ui,sans-serif);padding:.32rem .72rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.dial button[aria-pressed=true]{background:var(--donut);border-color:var(--donut);color:#fff}
+.recipe{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem}
+.recipe h3{margin:.1rem 0 .1rem;font-size:1.3rem}
+.recipe .says{color:var(--mute);font-style:italic;margin:0 0 .9rem}
+.recipe ul{list-style:none;margin:.2rem 0 1rem;padding:0}
+.recipe li{display:flex;gap:.7rem;padding:.3rem 0;border-bottom:1px dotted var(--line);font-size:1rem}
+.recipe li .q{flex:0 0 9.5rem;text-align:right;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:520px){.recipe li{flex-direction:column;gap:0}.recipe li .q{text-align:left;flex:none}}
+.recipe li.zero{display:none}
+.recipe ol{margin:.2rem 0 1rem;padding-left:1.2rem}.recipe ol li{display:list-item;border:0;padding:.15rem 0}
+.recipe .prov{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);padding-top:.7rem;margin-top:.4rem}
+.sugarline{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 .3rem}
+.sugarline b{font-size:1.5rem;font-family:var(--display,serif)}
+.nearby{font-size:.88rem;color:var(--mute);margin:.5rem 0 0}
+.mk-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+
+.tabs{display:flex;gap:.4rem;margin:.2rem 0 1rem}
+.tabs button{font:inherit;font-family:var(--sign,sans-serif);font-size:.95rem;letter-spacing:.04em;padding:.5rem 1.1rem;
+  border-radius:999px;border:2px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--donut);border-color:var(--donut);color:#fff}
+.panel[hidden]{display:none}
+.carolina-note{background:var(--panel);border-left:5px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.2rem 0 1rem;font-size:.95rem}
+.per{font-size:.86rem;color:var(--mute);margin:.1rem 0 .8rem}
+
+.viz{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.viz h3{margin:.1rem 0 .2rem;font-size:1.06rem}.viz .note{font-size:.86rem;color:var(--mute);margin:.1rem 0 .7rem}
+.viz svg{width:100%;height:auto;display:block;overflow:visible}
+.viz .axis{font:500 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .rowlab{font:600 13px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--ink)}
+.viz .vallab{font:600 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .grid{stroke:var(--line);stroke-width:1}
+.viz .dot{fill:var(--donut);stroke:var(--panel);stroke-width:2}
+.viz .med{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
+.viz .seg{stroke:var(--panel);stroke-width:2}
+.viz figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
+.legend-row{display:flex;flex-wrap:wrap;gap:.45rem .9rem;margin:.5rem 0 .2rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.legend-row span{display:inline-flex;align-items:center;gap:.35rem;color:var(--ink)}
+.legend-row i{width:.78rem;height:.78rem;border-radius:3px;display:inline-block}
+details.tbl{margin:.6rem 0 0}details.tbl summary{cursor:pointer;font-size:.86rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+details.tbl table{font-size:.86rem;margin-top:.5rem}
+.smallmult{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.9rem;margin-top:.7rem}
+.smallmult figure{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:.5rem .55rem}
+.smallmult figcaption{font-size:.84rem;color:var(--ink);font-weight:600;margin:0 0 .25rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.smallmult figcaption small{display:block;font-weight:400;color:var(--mute);font-size:.76rem}
+</style>
+<style>
+:root{--bg:#fff5fa;--panel:#ffffff;--ink:#2a1420;--mute:#78596a;--line:#ffd0e4;--donut:#d6136a;--smoke:#5b3220;--gold:#6d2bd9;--lemon:#c98a00;--hot:#a50f50;--blue:#0f6fc4;--celery:#0d8f63;--focus:#0f5fd1;--chip:#ffe6f2;--mint:#0d8f63;--cyan:#0f8fb8;--sprinkle:#ffd23f;
+  /* A donut shop letters its own window in fat caps and paints the rest bubblegum. Headings
+     take a rounded sign face, labels take the fattest caps on the machine, and the reading
+     text stays a plain humanist sans. All of it sits on the reader's machine already. */
+  --display:"Arial Rounded MT Bold","Helvetica Rounded",Avenir,"Avenir Next","Trebuchet MS",sans-serif;
+  --sign:"Arial Black","Helvetica Neue Black",Impact,Haettenschweiler,"Franklin Gothic Heavy",sans-serif;
+  --body:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#190e15;--panel:#251622;--ink:#ffeef7;--mute:#cba6bb;--line:#43283a;--donut:#ff6faa;--smoke:#e3c3ad;--gold:#c79bff;--lemon:#ffd25e;--hot:#ffa1c7;--blue:#79c2ff;--celery:#4ad6a1;--focus:#8ab4f8;--chip:#33202c;--mint:#4ad6a1;--cyan:#5ed0ee;--sprinkle:#ffd23f}}
+:root[data-theme="dark"]{--bg:#190e15;--panel:#251622;--ink:#ffeef7;--mute:#cba6bb;--line:#43283a;--donut:#ff6faa;--smoke:#e3c3ad;--gold:#c79bff;--lemon:#ffd25e;--hot:#ffa1c7;--blue:#79c2ff;--celery:#4ad6a1;--focus:#8ab4f8;--chip:#33202c;--mint:#4ad6a1;--cyan:#5ed0ee;--sprinkle:#ffd23f}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--donut);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--hot)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--donut)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--donut)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--donut)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--donut);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--hot)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+/* A photograph across the top of the front page is a band, not a wall: crop it so the
+   name and the map still land on the first screen. */
+.hero-shot.wide{margin:0 0 1.1rem}.hero-shot.wide img{max-height:none;aspect-ratio:21/6;object-fit:cover;object-position:center 62%}
+@media(max-width:760px){.hero-shot.wide img{aspect-ratio:16/9}}
+.hero-shot img{max-height:26rem;object-fit:cover}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--donut);background:var(--donut);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--donut);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--donut);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--donut)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--lemon);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--donut);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--donut)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--donut)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+
+/* ------------------------------------------------------------------ candy */
+/* Sprinkles, drawn with gradients so the page asks nobody for a picture. */
+body{background-image:
+  radial-gradient(circle at 12% 8%, color-mix(in srgb,var(--sprinkle) 55%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 78% 14%, color-mix(in srgb,var(--cyan) 45%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 33% 62%, color-mix(in srgb,var(--donut) 32%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 88% 78%, color-mix(in srgb,var(--mint) 40%,transparent) 0 3px, transparent 4px),
+  radial-gradient(circle at 58% 36%, color-mix(in srgb,var(--gold) 30%,transparent) 0 2px, transparent 3px);
+  background-size:420px 380px;background-attachment:fixed}
+header.top{background:var(--panel);border-bottom:3px solid var(--donut)}
+header.top .brand{font-family:var(--display);font-size:1.25rem;letter-spacing:-.01em}
+header.top .brand b{color:var(--donut)}
+h1{letter-spacing:-.02em}
+h1 .kind{color:var(--gold)}
+h2{border-bottom:3px dotted var(--line)}
+.btn{border-width:3px;box-shadow:3px 3px 0 var(--ink);text-transform:uppercase}
+.btn.ghost{background:var(--panel);box-shadow:3px 3px 0 var(--line)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.card,.kin a.card,.fact,.pitch,.whenbox,.mapwrap,figure,.recipe{border-width:2px;border-style:solid;border-color:var(--line)}
+.kin a.card{box-shadow:4px 4px 0 var(--chip)}
+.fact{box-shadow:4px 4px 0 var(--chip);border-radius:16px}
+.fact .n{color:var(--donut)}
+.fact .l{color:var(--mute)}
+.chip{border-width:2px}
+.dir h2 a:hover{color:var(--donut)}
+.dir ul{border-left:3px solid var(--line)}
+.etym{border-left:5px solid var(--gold);background:var(--chip)}
+.recipe{border-left:5px solid var(--sprinkle)}
+.search input{border-width:3px;border-color:var(--donut)}
+.search button{box-shadow:3px 3px 0 var(--ink);text-transform:uppercase;font-family:var(--sign);letter-spacing:.04em}
+.tagrow a.tg,.tagrow span.tg{border-width:2px;font-weight:600}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.community{border-color:var(--cyan)}
+.tagrow .tg.counter{border-color:var(--mint);background:color-mix(in srgb,var(--mint) 12%,var(--panel))}
+.tagrow .tg.kitchen{border-color:var(--donut)}
+/* The two doughs get one colour each and keep it everywhere on the site. */
+.dough-yeast{color:var(--donut)}.dough-cake{color:var(--blue)}
+.pill{display:inline-block;font-family:var(--sign);text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;padding:.12rem .55rem;border-radius:999px;border:2px solid currentColor;margin-right:.35rem}
+.pill.yeast{color:var(--donut)}.pill.cake{color:var(--blue)}.pill.choux{color:var(--gold)}.pill.other{color:var(--mute)}
+.hero h1{text-shadow:4px 4px 0 var(--chip)}
+.boxwrap{background:var(--chip);border:3px solid var(--donut);border-radius:18px;padding:1rem;margin:1rem 0}
+.legend{border-top:3px dotted var(--line)}
+footer{border-top:3px dotted var(--line)}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--donut) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--donut);color:var(--donut)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--donut);color:#fff;background:var(--donut)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--donut);border:1.6px solid var(--donut)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--donut);font-weight:700}
+.sunday-no{color:var(--mute)}
+</style>
+
+</head>
+<body>
+<header class="top"><a class="brand" href="../index.html">Pink <b>Box</b></a>
+<nav class="crumbs"><a href="../index.html">Everything</a> · <a href="../near/index.html">Near me</a> · <a href="../places/index.html">Map</a> · <a href="../donut/index.html">Donuts</a> · <a href="../dough/index.html">Cake or raised</a> · <a href="../counter/index.html">The counter</a> · <a href="../make/index.html">Make some</a> · <a href="../numbers/index.html">Numbers</a> · <a href="../art/index.html">Signs</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Sources</a> · <a href="../coverage/index.html">Coverage</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<main>
+
+<h1><span class="kind">Pink Box</span>Make some</h1>
+<p class="lede">A glaze, a dough, or something to put inside it. Where a free-to-use recipe exists it is named and used in its
+own ratios. Where none does, the page says the proportions are this project&#8217;s.</p>
+
+<div class="tabs" role="tablist">
+  <button type="button" role="tab" data-panel="donut" aria-selected="true">Glaze</button>
+  <button type="button" role="tab" data-panel="rub" aria-selected="false">Dough</button>
+  <button type="button" role="tab" data-panel="dip" aria-selected="false">Filling</button>
+</div>
+
+<section class="panel" id="panel-donut">
+<div class="dials">
+  <div class="dial"><b>Which glaze</b><div class="opts" data-dial="base"><button type="button" data-v="wikibooks" aria-pressed="true">Butter glaze</button><button type="button" data-v="water" aria-pressed="false">Plain water glaze</button><button type="button" data-v="maple" aria-pressed="false">Maple icing</button><button type="button" data-v="chocolate" aria-pressed="false">Chocolate icing</button><button type="button" data-v="cinnamon" aria-pressed="false">Cinnamon sugar</button></div></div>
+  <div class="dial"><b>How thin</b><div class="opts" data-dial="heat"><button type="button" data-v="mild" aria-pressed="false">Thick — it sets opaque</button><button type="button" data-v="medium" aria-pressed="true">Standard</button><button type="button" data-v="hot" aria-pressed="false">Thin — it soaks in</button></div></div>
+  <div class="dial"><b>How sweet</b><div class="opts" data-dial="sweet"><button type="button" data-v="dry" aria-pressed="false">No extra sugar</button><button type="button" data-v="little" aria-pressed="false">A little</button><button type="button" data-v="sweet" aria-pressed="true">As written</button><button type="button" data-v="sweeter" aria-pressed="false">Sweeter</button></div></div>
+  <div class="dial"><b>How much</b><div class="opts" data-dial="batch"><button type="button" data-v="cup" aria-pressed="true">a dozen — about a cup</button><button type="button" data-v="pint" aria-pressed="false">two dozen</button><button type="button" data-v="quart" aria-pressed="false">a whole tray</button></div></div>
+</div>
+
+<div class="recipe" id="out"></div>
+
+</section>
+
+<section class="panel" id="panel-rub" hidden>
+<p class="carolina-note">A pound of flour is about a dozen donuts, cut at three and a half inches. That conversion is this project&#x27;s rule of thumb, not a measurement — a shop cuts thinner or thicker and gets a different count.</p>
+<div class="dials">
+  <div class="dial"><b>Which dough</b><div class="opts" data-dial="level"><button type="button" data-v="cake" aria-pressed="false">Cake batter</button><button type="button" data-v="raised" aria-pressed="true">Raised dough</button><button type="button" data-v="potato" aria-pressed="false">Potato dough</button><button type="button" data-v="choux" aria-pressed="false">Choux paste</button></div></div>
+  <div class="dial"><b>How much flour</b><div class="opts" data-dial="meat"><button type="button" data-v="ten" aria-pressed="false">A pound of flour</button><button type="button" data-v="twenty" aria-pressed="true">Two pounds</button><button type="button" data-v="fifty" aria-pressed="false">Five pounds</button><button type="button" data-v="hundred" aria-pressed="false">Ten pounds</button></div></div>
+  <div class="dial"><b>Spice</b><div class="opts" data-dial="heat"><button type="button" data-v="none" aria-pressed="false">No spice</button><button type="button" data-v="mild" aria-pressed="false">A little</button><button type="button" data-v="medium" aria-pressed="true">As written</button><button type="button" data-v="hot" aria-pressed="false">Heavy</button></div></div>
+</div>
+<div class="recipe" id="rubout"></div>
+<p class="legend">A pound of flour is taken as about a dozen donuts, which is this project's rule of thumb rather than a
+measurement. The proportions inside each dough are the cited part.</p>
+</section>
+
+<section class="panel" id="panel-dip" hidden>
+<p class="carolina-note">A filled donut takes about two tablespoons. A cup fills roughly eight, which is this project&#x27;s rule of thumb and not a measurement.</p>
+<div class="dials">
+  <div class="dial"><b>Which filling</b><div class="opts" data-dial="kind"><button type="button" data-v="custard" aria-pressed="true">Pastry cream</button><button type="button" data-v="jelly" aria-pressed="false">Raspberry jelly</button><button type="button" data-v="lemon" aria-pressed="false">Lemon curd</button><button type="button" data-v="cream" aria-pressed="false">Whipped cream filling</button></div></div>
+  <div class="dial"><b>How much</b><div class="opts" data-dial="size"><button type="button" data-v="cup" aria-pressed="true">One cup — about eight donuts</button><button type="button" data-v="pint" aria-pressed="false">A pint — about a dozen and a half</button><button type="button" data-v="quart" aria-pressed="false">A quart — three dozen</button><button type="button" data-v="crowd" aria-pressed="false">A tray</button></div></div>
+  <div class="dial"><b>How sweet</b><div class="opts" data-dial="sweet"><button type="button" data-v="dry" aria-pressed="false">Barely</button><button type="button" data-v="some" aria-pressed="true">As written</button><button type="button" data-v="sweet" aria-pressed="false">Sweeter</button></div></div>
+  <div class="dial"><b>Flavouring</b><div class="opts" data-dial="heat"><button type="button" data-v="none" aria-pressed="false">Plain</button><button type="button" data-v="some" aria-pressed="true">Some</button><button type="button" data-v="more" aria-pressed="false">More</button></div></div>
+</div>
+<div class="recipe" id="slawout"></div>
+<p class="legend">Quantities scale off the finished cup. A cup fills about eight donuts, which is a rule of thumb. Each
+filling says whose proportions it is using.</p>
+</section>
+
+<p class="legend">Sugar is worked out from the quantities on screen: 7.5 g of sugar in a tablespoon of powdered sugar, 12.6 g in granulated, 13.0 g in maple syrup, 17.0 g in honey. It is then divided across a dozen donuts to the cup of glaze, which is a rule of thumb rather than a measurement. The donuts it is drawn against were weighed by USDA and are on <a href="../donut/index.html">the donut page</a> — those figures are the whole donut, dough included, and this one is the glaze alone.</p>
+
+<script>
+(function(){
+var B={"note": "Every proportion here names where it came from. The first glaze is the one printed in the Wikibooks yeasted-doughnut recipe, in that recipe's own ratios, under CC BY-SA. The rest are this project's own and say so under the result. Sugar under each result is worked out from the quantities on screen, at 7.5 g of sugar in a tablespoon of powdered sugar, 12.6 g in granulated, 13 g in maple syrup and 17 g in honey, and drawn against the donuts USDA has weighed. A glaze you make yourself lands wherever you take it.", "sugar_g_per_tbsp": {"powdered sugar": 7.5, "sugar": 12.6, "maple syrup": 13.0, "honey": 17.0, "brown sugar": 12.6}, "tbsp_per": {"tsp": 0.3333, "tbsp": 1, "cup": 16, "quart": 64, "gallon": 256}, "batches": [{"key": "cup", "label": "a dozen — about a cup", "tbsp": 16}, {"key": "pint", "label": "two dozen", "tbsp": 32}, {"key": "quart", "label": "a whole tray", "tbsp": 64}], "heats": [{"key": "mild", "label": "Thick — it sets opaque", "mult": 0.55}, {"key": "medium", "label": "Standard", "mult": 1.0}, {"key": "hot", "label": "Thin — it soaks in", "mult": 1.7}], "sweets": [{"key": "dry", "label": "No extra sugar", "mult": 0.0}, {"key": "little", "label": "A little", "mult": 0.5}, {"key": "sweet", "label": "As written", "mult": 1.0}, {"key": "sweeter", "label": "Sweeter", "mult": 1.6}], "bases": [{"key": "wikibooks", "donut": "glazed-raised", "style": "southern-hot-now", "name": "Butter glaze", "region": "the recipe as Wikibooks prints it", "says": "Butter, powdered sugar, vanilla, hot water. Goes on hot and sets clear.", "anchor": {"kind": "recipe", "title": "Cookbook:Doughnuts (Yeasted)", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Doughnuts_(Yeasted)", "source": "s:wikibooks-doughnuts-yeasted", "note": "The recipe's own glaze quantities — ⅓ cup butter, 2 cups confectioner's sugar, 1½ tsp vanilla, 4 tbsp hot water — scaled here to the batch you pick."}, "method_tier": "cited", "ingredients": [{"name": "confectioner's sugar", "per_tbsp": 0.765, "sugar": "powdered sugar", "unit_hint": ""}, {"name": "butter, melted", "per_tbsp": 0.127}, {"name": "hot water", "per_tbsp": 0.096, "dial": "heat"}, {"name": "vanilla", "per_tbsp": 0.012}], "method": ["Melt the butter in a saucepan over medium heat.", "Stir in the sugar and vanilla until smooth.", "Off the heat, stir in the hot water a tablespoon at a time until it is thin but not watery.", "Drag each donut through face-down within a minute of the fryer, then set it on a screen."], "href": "../donut/glazed-raised/index.html", "style_href": "../style/southern-hot-now/index.html", "style_name": "The hot light"}, {"key": "water", "donut": "glazed-raised", "style": "socal-pink-box", "name": "Plain water glaze", "region": "every shop with a glaze table", "says": "Two ingredients. The one a strip-mall counter runs by the bucket.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "No free-to-use shop glaze recipe exists to build on. What is cited is what a glaze IS — a thin coating of powdered sugar and liquid, poured or brushed on. The ratio here is this project's own; a shop thins it as the morning warms up."}, "method_tier": "tradition", "ingredients": [{"name": "confectioner's sugar", "per_tbsp": 0.86, "sugar": "powdered sugar"}, {"name": "hot water or milk", "per_tbsp": 0.14, "dial": "heat"}, {"name": "salt", "per_tbsp": 0.004}], "method": ["Whisk the sugar into the liquid until no lumps are left.", "Keep it warm. It thickens as it cools and stiffens as the shop heats up.", "Glaze hot, drain on a screen, and leave it alone until the shell sets."], "href": "../donut/glazed-raised/index.html", "style_href": "../style/socal-pink-box/index.html", "style_name": "The Southern California pink box"}, {"key": "maple", "donut": "maple-bar", "style": "socal-pink-box", "name": "Maple icing", "region": "the West Coast, on a bar", "says": "Thicker than a glaze because it has to sit on top and stay there.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions. Maple flavour on a commercial bar is usually maple flavouring rather than syrup, which is a fact about the trade and not a recipe; syrup is used here because it is what a home kitchen has."}, "method_tier": "tradition", "ingredients": [{"name": "confectioner's sugar", "per_tbsp": 0.7, "sugar": "powdered sugar"}, {"name": "maple syrup", "per_tbsp": 0.16, "sugar": "maple syrup", "dial": "sweet"}, {"name": "butter, melted", "per_tbsp": 0.09}, {"name": "hot water", "per_tbsp": 0.05, "dial": "heat"}], "method": ["Beat everything smooth while the butter is still warm.", "Dip the top face of the bar only, and lift straight up.", "Set it down icing-up. It firms in about ten minutes."], "href": "../donut/maple-bar/index.html", "style_href": "../style/socal-pink-box/index.html", "style_name": "The Southern California pink box"}, {"key": "chocolate", "donut": "chocolate-cake", "style": "socal-pink-box", "name": "Chocolate icing", "region": "the front row of the case", "says": "Cocoa, sugar, fat, hot water. Dark enough to read from the street.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions."}, "method_tier": "tradition", "ingredients": [{"name": "confectioner's sugar", "per_tbsp": 0.62, "sugar": "powdered sugar"}, {"name": "cocoa powder", "per_tbsp": 0.14}, {"name": "butter, melted", "per_tbsp": 0.1}, {"name": "hot water", "per_tbsp": 0.14, "dial": "heat"}], "method": ["Sift the cocoa with the sugar or it will stay lumpy.", "Stir in the butter, then the water, until it pours off the spoon in a ribbon.", "Dip face-down, lift, and go straight into the sprinkles if you want them to stick."], "href": "../donut/chocolate-cake/index.html", "style_href": "../style/socal-pink-box/index.html", "style_name": "The Southern California pink box"}, {"key": "cinnamon", "donut": "cake-donut", "style": "new-england-cider", "name": "Cinnamon sugar", "region": "the orchard window", "says": "Not a glaze at all: a bowl of sugar and a hot donut.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions. The cited part is the practice — cider donuts are coated in granulated, powdered or cinnamon sugar while hot."}, "method_tier": "tradition", "ingredients": [{"name": "granulated sugar", "per_tbsp": 0.92, "sugar": "sugar", "dial": "sweet"}, {"name": "ground cinnamon", "per_tbsp": 0.08}], "method": ["Mix the sugar and cinnamon in a deep bowl.", "Drop the donut in while it is too hot to hold and turn it twice.", "Eat it in the car park. This one does not keep."], "href": "../donut/cake-donut/index.html", "style_href": "../style/new-england-cider/index.html", "style_name": "The orchard window"}]}, MEASURED=[{"n": "Chocolate cake", "d": "cake", "g": 13.4, "w": 42.0}, {"n": "Old-fashioned", "d": "cake", "g": 7.3, "w": 40.0}, {"n": "French cruller", "d": "choux", "g": 14.4, "w": 41.0}, {"n": "Bavarian cream", "d": "yeast", "g": 12.4, "w": 85.0}, {"n": "Bismarck", "d": "yeast", "g": 17.9, "w": 85.0}, {"n": "Donut holes", "d": "yeast", "g": 3.0, "w": 13.0}, {"n": "Glazed raised", "d": "yeast", "g": 14.6, "w": 64.0}];
+var pick={base:B.bases[0].key, heat:"medium", sweet:"sweet", batch:"cup"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FRAC=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function nice(tbsp){
+  /* the kitchen unit a cook would actually reach for */
+  if(tbsp<=0) return null;
+  var p=function(v,w){return frac(v)+" "+w+(v>1.02?"s":"")};
+  if(tbsp>=16) return p(tbsp/16,"cup");
+  if(tbsp>=1) return p(tbsp,"tablespoon");
+  return p(tbsp*3,"teaspoon");
+}
+function frac(v){
+  var whole=Math.floor(v+1e-9), rem=v-whole, best="", bd=9;
+  for(var i=0;i<FRAC.length;i++){var d=Math.abs(rem-FRAC[i][0]); if(d<bd){bd=d;best=FRAC[i][1];}}
+  if(rem<0.06) return String(whole||"0");
+  /* a kitchen has no 0.58 of a spoon: snap to the nearest named fraction unless it is
+     genuinely far from all of them */
+  if(bd>0.1&&whole===0) return (Math.round(v*100)/100).toString();
+  if(best==="1"){whole+=1;best="";}
+  return (whole?whole+(best?" ":""):"")+best;
+}
+function base(){return B.bases.filter(function(b){return b.key===pick.base})[0]}
+function mult(list,key){var m=list.filter(function(x){return x.key===key})[0]; return m?m.mult:1}
+function compute(){
+  var b=base(), tbsp=B.batches.filter(function(x){return x.key===pick.batch})[0].tbsp;
+  var hm=mult(B.heats,pick.heat), sm=mult(B.sweets,pick.sweet);
+  var rows=[], vol=0, sugar=0;
+  b.ingredients.forEach(function(ing){
+    var f=ing.per_tbsp;
+    if(ing.dial==="heat") f*=hm;
+    if(ing.dial==="sweet") f*=sm;
+    var q=f*tbsp;
+    vol+=q;
+    if(ing.sugar) sugar+=q*B.sugar_g_per_tbsp[ing.sugar];
+    rows.push({name:ing.name, q:q, hint:ing.unit_hint||""});
+  });
+  return {b:b, rows:rows, vol:vol, sugar:vol>0?sugar/vol:0, tbsp:tbsp};
+}
+function perDonut(sugarPerTbsp){
+  /* a dozen is taken as the cup batch, so the glaze on one donut is the batch's sugar
+     divided by twelve — this project's rule of thumb, said as one on the page */
+  var tbsp=B.batches.filter(function(x){return x.key===pick.batch})[0].tbsp;
+  var per=B.batches.filter(function(x){return x.key===pick.batch})[0].label.indexOf("dozen")>=0?12:12;
+  var dozens=tbsp/16;
+  return sugarPerTbsp*tbsp/(12*dozens);
+}
+function scale(g){
+  /* grams of sugar in ONE donut, so the glaze and the USDA rows share an axis */
+  var top=Math.max(20, g*1.15);
+  MEASURED.forEach(function(m){ if(m.g>top) top=m.g*1.08 });
+  var w=440, x0=10, x1=w-10, pos=function(v){return x0+(x1-x0)*Math.min(v/top,1)};
+  var o='<svg viewBox="0 0 '+w+' 66" role="img" aria-label="Sugar in one glazed donut, against the donuts USDA has weighed">';
+  o+='<rect x="'+x0+'" y="26" width="'+(x1-x0)+'" height="8" rx="4" fill="var(--chip)"/>';
+  MEASURED.forEach(function(m){ o+='<circle cx="'+pos(m.g).toFixed(1)+'" cy="30" r="3.6" fill="var(--mute)" opacity=".7"><title>'+esc(m.n)+' — '+m.g+' g in a '+m.w+' g piece</title></circle>'; });
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="11" fill="var(--donut)" opacity=".25"/>';
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="7" fill="var(--donut)" stroke="var(--panel)" stroke-width="2"/>';
+  o+='<text x="'+x0+'" y="58" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">0 g</text>';
+  o+='<text x="'+x1+'" y="58" text-anchor="end" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">'+top.toFixed(0)+' g of sugar in one piece</text>';
+  return o+'</svg>';
+}
+function gap(g,key){
+  var all=MEASURED.map(function(m){return m.g}).sort(function(a,c){return a-c});
+  if(all.length<2) return "";
+  var med=all[Math.floor(all.length/2)];
+  var d=med-g;
+  if(Math.abs(d)<1.2) return '<p class="nearby">Roughly where the donuts USDA weighed sit — a median of '+med.toFixed(1)+' g of sugar in a piece, the whole donut included.</p>';
+  if(d>0) return '<p class="nearby">The donuts USDA has weighed run around <b>'+med.toFixed(1)+' g</b> of sugar a piece, dough and all, so this glaze is the lighter half of that.</p>';
+  return '<p class="nearby">That is more sugar than the median donut USDA weighed carries in total — <b>'+med.toFixed(1)+' g</b> — and this is the glaze alone.</p>';
+}function render(){
+  var r=compute(), b=r.b, a=b.anchor;
+  var heat=B.heats.filter(function(x){return x.key===pick.heat})[0].label.toLowerCase();
+  var sweet=B.sweets.filter(function(x){return x.key===pick.sweet})[0].label.toLowerCase();
+  var batch=B.batches.filter(function(x){return x.key===pick.batch})[0].label;
+  var ing=r.rows.map(function(x){
+    var q=nice(x.q);
+    return '<li class="'+(q?'':'zero')+'"><span class="q">'+esc(q||'')+'</span><span>'+esc(x.name)+
+      (x.hint?' <span class="mute">('+esc(x.hint)+')</span>':'')+'</span></li>';
+  }).join("");
+  var perOne=perDonut(r.sugar);
+  var near=MEASURED.sort(function(p,q){return Math.abs(p.g-perOne)-Math.abs(q.g-perOne)}).slice(0,3);
+  var prov;
+  if(a.kind==="recipe") prov='Built on <b>'+esc(a.title)+'</b>'+(a.year?', '+a.year:'')+', '+esc(a.publisher)+
+      ' — '+esc(a.license)+(a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the recipe</a>':'')+'. '+esc(a.note||'');
+  else if(a.kind==="ancestor") prov='Descends from <b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+
+      ' ('+esc(a.license)+'). '+esc(a.note||'');
+  else prov='<b>These proportions are this project\'s own.</b> '+esc(a.note||'');
+  document.getElementById("out").innerHTML=
+    '<h3>'+esc(b.name)+', '+esc(heat)+', '+esc(sweet)+' — '+esc(batch)+'</h3>'+
+    '<p class="says">'+esc(b.says)+' · '+esc(b.region)+'</p>'+
+    '<ul>'+ing+'</ul>'+
+    '<h4>How</h4><ol>'+b.method.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>'+
+    '<div class="sugarline"><b>'+perOne.toFixed(1)+' g</b><span class="mute">of sugar this glaze puts on one donut, at a dozen to the cup</span></div>'+
+    scale(perOne)+
+    gap(perOne,b.key)+
+    (near.length?'<p class="nearby">Nearest measured donuts: '+near.map(function(x){return esc(x.n)+' ('+x.g+' g in a '+x.w+' g piece)'}).join(' · ')+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="copy">Copy the recipe</button>'+
+    (b.href?'<a class="btn ghost" href="'+b.href+'">About this donut</a>':'')+
+    (b.style_href?'<a class="btn ghost" href="'+b.style_href+'">'+esc(b.style_name)+'</a>':'')+'</div>'+
+    '<p class="prov">'+prov+' Method '+(b.method_tier==="cited"?'as published':b.method_tier==="tradition"?'as the tradition has it':'is ours')+'.</p>';
+  document.getElementById("copy").addEventListener("click",function(){
+    var txt=b.name+' — '+heat+', '+sweet+', '+batch+'\n\n'+
+      r.rows.filter(function(x){return nice(x.q)}).map(function(x){return nice(x.q)+'  '+x.name}).join('\n')+
+      '\n\n'+b.method.join('\n')+'\n\n'+perDonut(r.sugar).toFixed(1)+' g of sugar on each donut.\n'+
+      'From Pink Box — https://nanobotco.github.io/pink-box/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      document.getElementById("copy").textContent="Copied";
+      setTimeout(function(){document.getElementById("copy").textContent="Copy the recipe"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-donut .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var group=btn.closest("[data-dial]"), k=group.dataset.dial;
+  pick[k]=btn.dataset.v;
+  [].forEach.call(group.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the rub */
+(function(){
+var R={"note": "Proportions per pound of flour, which is how a bench thinks. The raised dough is the Wikibooks recipe's own ratios, converted to the pound and kept under CC BY-SA. The others say plainly that the proportions are this project's, because no free-to-use version was found.", "house_note": "A pound of flour is about a dozen donuts, cut at three and a half inches. That conversion is this project's rule of thumb, not a measurement — a shop cuts thinner or thicker and gets a different count.", "meats": [{"key": "ten", "label": "A pound of flour", "lb": 1, "note": "about a dozen donuts"}, {"key": "twenty", "label": "Two pounds", "lb": 2, "note": "two dozen, and a long morning"}, {"key": "fifty", "label": "Five pounds", "lb": 5, "note": "five dozen; the smallest batch a shop bothers with"}, {"key": "hundred", "label": "Ten pounds", "lb": 10, "note": "ten dozen, which is one fryer running all night"}], "heats": [{"key": "none", "label": "No spice", "mult": 0.0}, {"key": "mild", "label": "A little", "mult": 0.5}, {"key": "medium", "label": "As written", "mult": 1.0}, {"key": "hot", "label": "Heavy", "mult": 2.0}], "heat_ingredients": ["ground nutmeg", "ground cinnamon", "ground mace"], "levels": [{"key": "cake", "name": "Cake batter", "tbsp_per_lb": 92.0, "says": "Lifted by baking powder, mixed soft, dropped straight into the fat. About 90 seconds, turning once.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions. No free-to-use cake-donut recipe was found to build on. What is cited is what a cake donut IS: cake flour at 7 to 8 percent protein, chemical leavening, extra shortening in the batter, fried 190–198 °C."}, "parts": {"cake flour": 0.615, "sugar": 0.105, "buttermilk": 0.145, "shortening, melted": 0.045, "beaten egg": 0.055, "baking powder": 0.016, "salt": 0.004, "ground nutmeg": 0.015}, "when": ["Beat the sugar, egg and melted shortening, then the buttermilk.", "Fold in the flour, baking powder, salt and nutmeg. Stop when it comes together.", "Chill the batter at least an hour. Warm batter will not hold a ring.", "Drop rings into 190–198 °C fat. Turn once when the underside sets.", "About 90 seconds in all. Sugar them warm, not hot."]}, {"key": "raised", "name": "Raised dough", "tbsp_per_lb": 93.7, "says": "Yeast, two rises, about 150 seconds in the fat at 182–190 °C. The dough that sets the shop's clock.", "anchor": {"kind": "recipe", "title": "Cookbook:Doughnuts (Yeasted)", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Doughnuts_(Yeasted)", "source": "s:wikibooks-doughnuts-yeasted", "note": "The recipe's own quantities — 5 cups flour, 1½ cups milk, ½ cup sugar, ⅓ cup shortening, 2 eggs, 2 envelopes of yeast — converted to the pound of flour. The recipe itself notes that two envelopes is a lot of yeast and will taste of it."}, "parts": {"all-purpose flour": 0.619, "lukewarm milk": 0.186, "sugar": 0.062, "beaten egg": 0.046, "shortening": 0.041, "warm water (105–115 °F)": 0.031, "active dry yeast": 0.012, "salt": 0.003}, "when": ["Scald the milk to 180 °F, then cool it below 105 °F.", "Sprinkle the yeast over the warm water and leave it five minutes.", "Mix the yeast, milk, sugar, salt, eggs, shortening and a third of the flour. Beat in the rest until the dough leaves the bowl. Knead five minutes.", "Rise in a greased covered bowl until doubled — a dent should stay when you press it.", "Roll to half an inch, cut with a floured cutter, and let the cut rings rise again until doubled.", "Fry at 182–190 °C, about 150 seconds, turning once. Glaze within a minute of the fat."]}, {"key": "potato", "name": "Potato dough", "tbsp_per_lb": 95.0, "says": "Riced potato in a raised dough: softer crumb, keeps longer. Spudnuts and fasnachts.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions, built off the raised dough above. What is cited is the practice — Pennsylvania Dutch fasnachts are often potato donuts, and the Spudnut franchise was built on a dry potato mix."}, "parts": {"all-purpose flour": 0.52, "riced cooked potato": 0.115, "lukewarm milk": 0.175, "sugar": 0.058, "beaten egg": 0.045, "shortening": 0.04, "warm water (105–115 °F)": 0.03, "active dry yeast": 0.012, "salt": 0.003, "ground cinnamon": 0.002}, "when": ["Boil, rice and cool the potato. Lumps become holes.", "Build the dough as for raised, with the potato going in at the milk stage.", "Expect a slacker dough. Flour the bench, not the dough.", "Cut square or diamond with a slit if you are making fasnachts; rings otherwise.", "Fry as for raised. It browns a shade faster."]}, {"key": "choux", "name": "Choux paste", "tbsp_per_lb": 86.0, "says": "No yeast, no powder. Steam lifts it and it fries hollow — the French cruller.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions. What is cited is what a French cruller IS: choux pastry — flour cooked into butter and water, then beaten with eggs — extruded in a ring and fried."}, "parts": {"all-purpose flour": 0.36, "water": 0.3, "beaten egg": 0.24, "butter": 0.085, "sugar": 0.01, "salt": 0.005}, "when": ["Boil the water and butter. Beat in all the flour at once and cook it until it pulls from the pan.", "Cool it a few minutes, then beat the eggs in one at a time until it ribbons.", "Pipe rings onto squares of paper through a star tip.", "Slide them in paper and all; the paper lifts off once they set.", "Fry until deep gold. Underdone choux collapses. Glaze thin."]}]}, pick={level:R.levels[1].key, meat:"twenty", heat:"medium"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FR=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function frac(v){var w=Math.floor(v+1e-9),r=v-w,b="",bd=9;
+  for(var i=0;i<FR.length;i++){var d=Math.abs(r-FR[i][0]); if(d<bd){bd=d;b=FR[i][1];}}
+  if(r<0.06)return String(w||"0");
+  if(bd>0.08&&w===0)return (Math.round(v*100)/100).toString();
+  if(b==="1"){w+=1;b="";}
+  return (w?w+(b?" ":""):"")+b;}
+function nice(tbsp){if(tbsp<=0)return null;
+  var p=function(v,wd){return frac(v)+" "+wd+(v>1.02?"s":"")};
+  if(tbsp>=16)return p(tbsp/16,"cup");
+  if(tbsp>=1)return p(tbsp,"tablespoon");
+  return p(tbsp*3,"teaspoon");}
+function rate(tbspPerLb){
+  /* under a tablespoon reads better as teaspoons, which is where every level but the last sits */
+  if(tbspPerLb>=1) return frac(tbspPerLb)+' tablespoon'+(tbspPerLb>1.02?'s':'');
+  var t=tbspPerLb*3; return frac(t)+' teaspoon'+(t>1.02?'s':'');
+}
+function lvl(){return R.levels.filter(function(x){return x.key===pick.level})[0]}
+function render(){
+  var L=lvl(), M=R.meats.filter(function(x){return x.key===pick.meat})[0];
+  var hm=R.heats.filter(function(x){return x.key===pick.heat})[0];
+  var total=L.tbsp_per_lb*M.lb, rows=[], sum=0;
+  for(var k in L.parts){
+    var f=L.parts[k];
+    if(R.heat_ingredients.indexOf(k)>=0) f*=hm.mult;
+    rows.push({name:k, q:f*total}); sum+=f*total;
+  }
+  var a=L.anchor, prov;
+  if(a.kind==="recipe") prov='<b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' — '+esc(a.license)+
+     (a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the recipe</a>':'')+'. '+esc(a.note);
+  else if(a.kind==="named") prov='<b>'+esc(a.title)+'</b>, from '+esc(a.publisher)+
+     (a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the article</a>':'')+'. '+esc(a.note);
+  else prov=esc(a.note);
+  document.getElementById("rubout").innerHTML=
+    '<h3>'+esc(L.name)+' — for '+esc(M.label.toLowerCase())+'</h3>'+
+    '<p class="says">'+esc(L.says)+'</p>'+
+    '<p class="per">'+esc(M.label)+' is taken as <b>'+M.lb+' lb</b> ('+esc(M.note)+'), at '+
+      rate(L.tbsp_per_lb)+' of rub to the pound.</p>'+
+    '<ul>'+rows.map(function(x){var q=nice(x.q);
+      return '<li class="'+(q?'':'zero')+'"><span class="q">'+esc(q||'')+'</span><span>'+esc(x.name)+'</span></li>';}).join("")+'</ul>'+
+    '<p class="per">About '+esc(nice(sum)||"nothing")+' of rub in all.</p>'+
+    (L.when?'<h4>When</h4><ol>'+L.when.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="rubcopy">Copy the rub</button>'+
+    '<a class="btn ghost" href="../dough/index.html">Cake or raised</a>'+
+    '<a class="btn ghost" href="../kitchen/glaze-table/index.html">The glaze table</a></div>'+
+    '<p class="prov">'+prov+'</p>';
+  document.getElementById("rubcopy").addEventListener("click",function(){
+    var txt=L.name+' — for '+M.label.toLowerCase()+' ('+M.lb+' lb)\n\n'+
+      rows.filter(function(x){return nice(x.q)}).map(function(x){return nice(x.q)+'  '+x.name}).join('\n')+
+      '\n\nFrom Pink Box — https://nanobotco.github.io/pink-box/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      var b=document.getElementById("rubcopy"); b.textContent="Copied";
+      setTimeout(function(){b.textContent="Copy the rub"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-rub .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
+  [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the dip */
+(function(){
+var S={"note": "Fillings by the cup. Quantities scale off the finished cup, and every one says whether the proportions are somebody's published recipe or this project's own.", "house_note": "A filled donut takes about two tablespoons. A cup fills roughly eight, which is this project's rule of thumb and not a measurement.", "sizes": [{"key": "cup", "label": "One cup — about eight donuts", "cups": 1, "lb": 0.5}, {"key": "pint", "label": "A pint — about a dozen and a half", "cups": 2, "lb": 1}, {"key": "quart", "label": "A quart — three dozen", "cups": 4, "lb": 2}, {"key": "crowd", "label": "A tray", "cups": 12, "lb": 6}], "sweets": [{"key": "dry", "label": "Barely", "mult": 0.5}, {"key": "some", "label": "As written", "mult": 1.0}, {"key": "sweet", "label": "Sweeter", "mult": 1.6}], "heats": [{"key": "none", "label": "Plain", "mult": 0.0}, {"key": "some", "label": "Some", "mult": 1.0}, {"key": "more", "label": "More", "mult": 2.0}], "kinds": [{"key": "custard", "name": "Pastry cream", "dish": "bavarian-cream", "region": "the front row of every case", "says": "Thick enough to hold its shape when the donut is cut.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions, in the standard pastry-cream ratio: milk, yolks, sugar, cornflour, butter, vanilla."}, "per_cup": [{"name": "whole milk", "q": 0.85, "unit": "cup"}, {"name": "egg yolks", "q": 3, "unit": "egg"}, {"name": "sugar", "q": 3.5, "unit": "tbsp", "dial": "sweet"}, {"name": "cornflour", "q": 2, "unit": "tbsp"}, {"name": "butter", "q": 1, "unit": "tbsp"}, {"name": "vanilla", "q": 1, "unit": "tsp", "dial": "heat"}, {"name": "salt", "q": 0.125, "unit": "tsp"}], "steps": ["Heat the milk to just under a boil.", "Whisk the yolks, sugar, cornflour and salt smooth. Pour a third of the hot milk in while whisking, then return it all to the pan.", "Cook over medium heat, whisking, until it thickens and bubbles — about two minutes past the first bubble or it will loosen later.", "Off the heat, beat in the butter and vanilla.", "Press cling film onto the surface and chill it cold before it goes near a nozzle."], "swap": "Fold in a cup of whipped cream once it is cold and it becomes a Bavarian cream."}, {"key": "jelly", "name": "Raspberry jelly", "dish": "bismarck", "region": "the Upper Midwest, and every bakery counter", "says": "Seedless, thinned enough to go through a nozzle and no further.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions. The cited part is the practice: a jelly donut is filled with fruit preserve after frying."}, "per_cup": [{"name": "seedless raspberry preserve", "q": 0.9, "unit": "cup", "dial": "sweet"}, {"name": "lemon juice", "q": 2, "unit": "tsp", "dial": "heat"}, {"name": "water", "q": 1, "unit": "tbsp"}], "steps": ["Warm the preserve with the water until it loosens.", "Sharpen it with the lemon juice; shop jelly is sweeter than anything you would eat off a spoon.", "Cool it to room temperature. Hot filling melts the crumb from the inside.", "Fill from the side until the donut gains real weight in the hand."], "swap": "Powidła — stewed plum — or rose petal jam, if you are making pączki."}, {"key": "lemon", "name": "Lemon curd", "dish": "bismarck", "region": "the shops that like being asked about it", "says": "Sharp enough to be worth the sugar around it.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions."}, "per_cup": [{"name": "lemon juice", "q": 0.4, "unit": "cup", "dial": "heat"}, {"name": "sugar", "q": 0.5, "unit": "cup", "dial": "sweet"}, {"name": "eggs", "q": 2, "unit": "egg"}, {"name": "butter", "q": 4, "unit": "tbsp"}, {"name": "lemon zest", "q": 2, "unit": "tsp"}], "steps": ["Whisk the eggs, sugar and juice in a pan off the heat.", "Cook gently, stirring, until it coats a spoon. Do not boil it.", "Off the heat, beat in the butter a piece at a time, then the zest.", "Sieve it, then chill it. It thickens as it cools."]}, {"key": "cream", "name": "Whipped cream filling", "dish": "bavarian-cream", "region": "the shops that fill to order", "says": "Light, fast, and gone by lunchtime.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "This project's own proportions. Stabilised with a little powdered sugar's starch, which is why it is not plain cream."}, "per_cup": [{"name": "double or heavy cream", "q": 0.75, "unit": "cup"}, {"name": "confectioner's sugar", "q": 3, "unit": "tbsp", "dial": "sweet"}, {"name": "vanilla", "q": 1, "unit": "tsp", "dial": "heat"}], "steps": ["Whip the cream cold, with the bowl cold, to soft peaks.", "Beat in the sugar and vanilla and take it to firm peaks — no further, or it turns.", "Fill the same morning. This one does not hold overnight."]}]}, pick={kind:S.kinds[0].key, size:"cup", sweet:"some", heat:"some"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FS=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function frac(v){var w=Math.floor(v+1e-9),r=v-w,b="",bd=9;
+  for(var i=0;i<FS.length;i++){var d=Math.abs(r-FS[i][0]); if(d<bd){bd=d;b=FS[i][1];}}
+  if(r<0.06)return String(w||"0");
+  if(bd>0.08&&w===0)return (Math.round(v*100)/100).toString();
+  if(b==="1"){w+=1;b="";}
+  return (w?w+(b?" ":""):"")+b;}
+function amount(q,unit){
+  /* cups fall back to tablespoons and spoons to each other, so nothing reads as 0.06 cup */
+  if(q<=0)return null;
+  var plural=function(v,w){return frac(v)+" "+w+(v>1.02?"s":"")};
+  if(unit==="cup"){ if(q<0.25) return plural(q*16,"tablespoon"); return plural(q,"cup"); }
+  if(unit==="tbsp"){ if(q<1) return plural(q*3,"teaspoon"); return plural(q,"tablespoon"); }
+  if(unit==="tsp"){ if(q>=3) return plural(q/3,"tablespoon"); return plural(q,"teaspoon"); }
+  if(unit==="egg"){ return frac(q); }
+  return plural(q,unit);
+}
+function kind(){return S.kinds.filter(function(x){return x.key===pick.kind})[0]}
+function render(){
+  var K=kind(), Z=S.sizes.filter(function(x){return x.key===pick.size})[0];
+  var sw=S.sweets.filter(function(x){return x.key===pick.sweet})[0].mult;
+  var ht=S.heats.filter(function(x){return x.key===pick.heat})[0].mult;
+  var rows=K.per_cup.map(function(ing){
+    var q=ing.q*Z.cups;
+    if(ing.dial==="sweet") q*=sw;
+    if(ing.dial==="heat") q*=ht;
+    return {name:ing.name, txt:amount(q,ing.unit), opt:!!ing.optional};
+  });
+  var a=K.anchor, prov;
+  if(a.kind==="recipe") prov='<b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+' ('+esc(a.license)+'). '+esc(a.note);
+  else prov='<b>These proportions are ours.</b> '+esc(a.note);
+  document.getElementById("slawout").innerHTML=
+    '<h3>'+esc(K.name)+' — '+esc(Z.label.toLowerCase())+'</h3>'+
+    '<p class="says">'+esc(K.says)+' · '+esc(K.region)+'</p>'+
+    '<p class="per">Makes about <b>'+Z.cups+' cup'+(Z.cups>1?'s':'')+'</b>.</p>'+
+    '<ul>'+
+    rows.map(function(x){
+      return '<li class="'+(x.txt?'':'zero')+'"><span class="q">'+esc(x.txt||'')+'</span><span>'+esc(x.name)+
+        (x.opt?' <span class="mute">(optional)</span>':'')+'</span></li>';}).join("")+'</ul>'+
+    '<h4>How</h4><ol>'+K.steps.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>'+
+    (K.swap?'<p class="per"><b>Or:</b> '+esc(K.swap)+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="slawcopy">Copy the dip</button>'+
+    '<a class="btn ghost" href="../donut/'+esc(K.dish)+'/index.html">About this dip</a></div>'+
+    '<p class="prov">'+prov+(K.verbatim?' Steps quoted from the receipt.':' Steps are ours.')+'</p>';
+  document.getElementById("slawcopy").addEventListener("click",function(){
+    var txt=K.name+' — '+Z.label.toLowerCase()+'\n\n'+
+      rows.filter(function(x){return x.txt}).map(function(x){return x.txt+'  '+x.name}).join('\n')+
+      '\n\n'+K.steps.join('\n')+'\n\nFrom Pink Box — https://nanobotco.github.io/pink-box/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      var b=document.getElementById("slawcopy"); b.textContent="Copied";
+      setTimeout(function(){b.textContent="Copy the dip"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-dip .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
+  [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the tabs */
+(function(){
+var tabs=document.querySelector(".tabs");
+tabs.addEventListener("click",function(e){
+  var b=e.target.closest("button[data-panel]"); if(!b)return;
+  [].forEach.call(tabs.querySelectorAll("button"),function(x){
+    var on=x===b; x.setAttribute("aria-selected",on?"true":"false");
+    document.getElementById("panel-"+x.dataset.panel).hidden=!on;
+  });
+});
+})();
+</script>
+
+<section class="shareme" data-url="https://nanobotco.github.io/pink-box/make/" data-title="Make some — Pink Box"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=Make%20some%20%E2%80%94%20Pink%20Box%20https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=Make%20some%20%E2%80%94%20Pink%20Box&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=Make%20some%20%E2%80%94%20Pink%20Box&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F&amp;title=Make%20some%20%E2%80%94%20Pink%20Box" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=Make%20some%20%E2%80%94%20Pink%20Box%20https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=Make%20some%20%E2%80%94%20Pink%20Box&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fpink-box%2Fmake%2F" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="../wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="../api/nodes.json">nodes.json</a> <a href="../api/places.json">places.json</a> <a href="../api/kin.json">kin.json</a> <a href="../nodes.jsonl">nodes.jsonl</a> <a href="../nodes.csv">nodes.csv</a> <a href="../llms-full.txt">llms-full.txt</a> <a href="../sitemap.xml">sitemap.xml</a> <a href="../feed.xml">feed.xml</a> <a href="../api/coverage.json">coverage</a> <a href="../api/sources.json">sources</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+</footer>
+</body>
+</html>

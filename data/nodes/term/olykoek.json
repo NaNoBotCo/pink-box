@@ -1,0 +1,60 @@
+{
+ "id": "olykoek",
+ "type": "term",
+ "names": {
+  "name": "Olykoek",
+  "aliases": [
+   "oly koek",
+   "oliekoek",
+   "oil cake"
+  ],
+  "said": "The word survives because Washington Irving wrote it down."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "O",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The Dutch fried dough ball that came to New Amsterdam, and the American donut's direct ancestor: sweetened dough fried in fat, with no hole.",
+  "story": "Dutch settlers brought olykoek — oil cake — to New York in the early eighteenth century. Washington Irving put it in print in his 1809 History of New York: \"an enormous dish of balls of sweetened dough, fried in hog's fat, and called dough-nuts, or oly koeks: a delicious kind of cake, at present scarce known in this city, excepting in genuine Dutch families.\"\n\nThe centres of those balls were the problem the ring solved. Elizabeth Gregory, by the Smithsonian's account, put hazelnuts or walnuts in the middle where the dough might not cook through — which is one reading of where the nut in doughnut comes from."
+ },
+ "kin": [
+  {
+   "to": "hole",
+   "as": "What got punched in it.",
+   "rel": "term"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "What it became.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "Dutch oliekoek, oil cake",
+  "first_attested": "1809, in Washington Irving's A History of New York",
+  "note": "Irving gives it as the Dutch-family name for balls of sweetened dough fried in hog's fat.",
+  "tier": "cited",
+  "source": "s:wp-doughnut"
+ }
+}

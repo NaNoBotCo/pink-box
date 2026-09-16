@@ -1,0 +1,64 @@
+{
+ "id": "hole",
+ "type": "term",
+ "names": {
+  "name": "The hole",
+  "aliases": [
+   "the middle",
+   "the ring"
+  ],
+  "said": "Sold by the bag, named for the part that is missing."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "T",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The absence in the middle of a ring donut, and the argument about who first made one.",
+  "story": "Hanson Gregory, an American sailor, claimed he invented the ring in 1847 aboard a lime-trading ship at sixteen, punching the middle out with the ship's tin pepper box because he disliked greasy dough and raw centres, and teaching his mother the trick. The Smithsonian has his mother, Elizabeth Gregory, making a deep-fried dough that used his spice cargo — nutmeg, cinnamon, lemon rind.\n\nOther readings compete. Michael Krondl suggests the ring came off recipes calling for a jumble, a ring-shaped cookie already in use. Linda Civitello writes the hole was invented because it let the donut cook faster. By 1870 a two-circle cutter was in production and the question became academic."
+ },
+ "kin": [
+  {
+   "to": "donut-holes",
+   "as": "What the missing part is sold as.",
+   "rel": "donut"
+  },
+  {
+   "to": "hanson-gregory",
+   "as": "Who claimed it.",
+   "rel": "person"
+  },
+  {
+   "to": "olykoek",
+   "as": "What it was before.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "the ordinary English word, applied to the absence and then sold as the piece removed",
+  "first_attested": "ring doughnut claimed by Hanson Gregory for 1847; two-circle cutters in production by 1870",
+  "note": "The thing sold as a donut hole is the dough taken out, not the space left.",
+  "tier": "cited",
+  "source": "s:wp-doughnut"
+ }
+}

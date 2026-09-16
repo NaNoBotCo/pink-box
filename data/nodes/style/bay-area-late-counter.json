@@ -1,0 +1,70 @@
+{
+ "id": "bay-area-late-counter",
+ "type": "style",
+ "names": {
+  "name": "The all-night counter",
+  "aliases": [
+   "24-hour donut shop",
+   "the late window"
+  ],
+  "said": "Two in the morning is a different customer and the same donut."
+ },
+ "region": [
+  "bay-area",
+  "socal"
+ ],
+ "facets": {
+  "dough": "both",
+  "counter": "coffee-only",
+  "state": "CA"
+ },
+ "text": {
+  "what": "A shop that never closes, or opens again at midnight: bar traffic, night shifts, students, and whoever else is out.",
+  "story": "Bob's Donuts on Polk Street in San Francisco has run 24 hours and draws a nightlife crowd. Seaside Donuts Bakery in Newport Beach has been open around the clock since 1985. Randy's original drive-in in Inglewood is a 24-hour window.\n\nThe all-night shop is only possible because the fryer runs at night anyway — the overnight bake and the overnight trade are the same shift seen from two sides.",
+  "today": "Where a city has a late counter, it tends to be one of the few places open at that hour that is not a bar or a hospital."
+ },
+ "kin": [
+  {
+   "to": "bobs-donuts",
+   "as": "San Francisco's.",
+   "rel": "place"
+  },
+  {
+   "to": "seaside-donuts",
+   "as": "Orange County's.",
+   "rel": "place"
+  },
+  {
+   "to": "randys-donuts",
+   "as": "The Inglewood window.",
+   "rel": "place"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "The shift underneath it.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-bob-s-donuts",
+  "s:wp-seaside-donuts-bakery",
+  "s:wp-randy-s-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bob-s-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

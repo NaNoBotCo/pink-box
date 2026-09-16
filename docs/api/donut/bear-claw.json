@@ -1,0 +1,154 @@
+{
+ "id": "bear-claw",
+ "type": "donut",
+ "names": {
+  "name": "Bear claw",
+  "aliases": [
+   "bearclaw"
+  ],
+  "said": "Western word. Ask for one in Boston and you may get a look."
+ },
+ "region": [
+  "socal",
+  "sacramento",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "iced"
+ },
+ "text": {
+  "what": "A sweet yeast dough — bread dough carrying more shortening than usual — filled with almond paste and sometimes raisins, shaped in a semicircle with slices cut along the curved edge so the sections separate as it proofs, into toes.",
+  "story": "The name is first attested on 13 March 1914, in a newspaper advertisement for the Geibel German Bakery in Sacramento, California. By the next year bear claws were on the breakfast menu at Hamburger's in Los Angeles, then the largest department store west of Chicago. The Sacramento Bee reports no earlier public reference; a Sacramento historian cautioned against crowning the city as the origin on that evidence alone.\n\nThe phrase is Western American English — the U.S. Regional Dialect Survey asks about it by name. Denmark calls the pastry a kam, Germany a Kamm; France has a patte d'ours, made in the Alps in 1982.\n\nA bear claw cutter was patented into use in 1950 by James Fennell, which is when the shape stopped being purely a knife job.",
+  "how": "Roll sweet dough around almond filling, cut four or five slits along one edge, curve it, proof it so the toes spread, bake or fry depending on the shop, then ice or glaze.",
+  "today": "Donut shops sell it as a donut; bakeries sell the same thing as a Danish. Which one you get depends on which side of the counter it was made on."
+ },
+ "kin": [
+  {
+   "to": "apple-fritter",
+   "as": "The other big ragged piece in the case.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "Sweeter, richer dough than the ring.",
+   "rel": "contrast"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "A staple of the California case, and the name is a California word.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-bear-claw"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bear-claw"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A sweet yeast dough — bread dough carrying more shortening than usual — filled with almond paste and sometimes raisins, shaped in a semicircle with slices cut along the curved edge so the sections separate as it proofs…",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "sacramento",
+   "name": "Sacramento",
+   "state": "CA"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "apple-fritter",
+   "type": "donut",
+   "name": "Apple fritter",
+   "as": "The other big ragged piece in the case.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Sweeter, richer dough than the ring.",
+   "rel": "contrast"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "A staple of the California case, and the name is a California word.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bear-claw",
+   "kind": "web",
+   "title": "Bear claw — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bear_claw",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-bear-claw"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-bear-claw"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-bear-claw"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "apple-fritter",
+   "type": "donut",
+   "name": "Apple fritter",
+   "as": "The other big ragged one, filled with almond instead of fruit.",
+   "rel": "donut"
+  },
+  {
+   "from": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "A Western word with a date.",
+   "rel": "donut"
+  }
+ ]
+}

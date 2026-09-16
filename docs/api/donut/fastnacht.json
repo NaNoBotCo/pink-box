@@ -1,0 +1,171 @@
+{
+ "id": "fastnacht",
+ "type": "donut",
+ "names": {
+  "name": "Fastnacht",
+  "aliases": [
+   "fasnacht",
+   "faschnacht",
+   "fosnaught",
+   "kinkling"
+  ],
+  "said": "Spelled six ways in six counties, and everybody thinks theirs is the spelling."
+ },
+ "region": [
+  "pennsylvania-dutch"
+ ],
+ "facets": {
+  "dough": "potato",
+  "finish": "sugared",
+  "state": "PA"
+ },
+ "text": {
+  "what": "A Pennsylvania Dutch fried donut, often made with potato dough, eaten in the days of Carnival and above all on Shrove Tuesday. Square or diamond cut, sometimes with a slit rather than a hole, sometimes plain, sometimes dusted with table sugar.",
+  "story": "The point of it is the pantry. Fasnachts were made to use up lard, sugar, fat and butter before Lent, when households gave them up. The Pennsylvania Dutch counties — Lancaster, York, Lebanon, Berks and around — keep the day, and in eastern Pennsylvania the supermarkets carry them. Parts of Maryland call them kinklings or kuechles and bakeries sell them on Shrove Tuesday only.\n\nThe Polish pączek is the same idea a few hundred miles west. In Poland pączki are eaten on the Thursday before; in Polish-American communities the date has moved to Fasnacht Day, which is to say Tuesday.",
+  "how": "Potato dough, risen, rolled, cut in squares or diamonds, slit in the middle, fried. Eaten with butter or golden syrup, which is the part outsiders find strange and Pennsylvania finds obvious.",
+  "today": "Churches and fire halls still sell them by pre-order, by the dozen, and stop when the batch is gone."
+ },
+ "kin": [
+  {
+   "to": "fastnacht-day",
+   "as": "The Tuesday it is for.",
+   "rel": "event"
+  },
+  {
+   "to": "paczki",
+   "as": "The Polish one, richer, and on the same Tuesday in America.",
+   "rel": "donut"
+  },
+  {
+   "to": "spudnut",
+   "as": "The other potato donut, and a franchise built on it.",
+   "rel": "donut"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "as": "The style around it.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-fasnacht-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Pennsylvania Dutch fried donut, often made with potato dough, eaten in the days of Carnival and above all on Shrove Tuesday.",
+ "region_terms": [
+  {
+   "key": "pennsylvania-dutch",
+   "name": "Pennsylvania Dutch country",
+   "state": "PA",
+   "note": "fastnachts the day before Lent; potato dough"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The Tuesday it is for.",
+   "rel": "event"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The Polish one, richer, and on the same Tuesday in America.",
+   "rel": "donut"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The other potato donut, and a franchise built on it.",
+   "rel": "donut"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "The style around it.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-fasnacht-doughnut",
+   "kind": "web",
+   "title": "Fasnacht (doughnut) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fasnacht_(doughnut)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "as": "The donut itself.",
+   "rel": "donut"
+  },
+  {
+   "from": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The Pennsylvania Dutch answer to the same fast.",
+   "rel": "donut"
+  },
+  {
+   "from": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The other American potato donut, and older.",
+   "rel": "donut"
+  },
+  {
+   "from": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The donut.",
+   "rel": "donut"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "id": "yeast-raise",
+ "type": "kitchen",
+ "names": {
+  "name": "The raise",
+  "aliases": [
+   "proofing",
+   "the rise",
+   "bulk ferment"
+  ],
+  "said": "The dough is worked when it is ready, not when the clock says."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "raise"
+ },
+ "text": {
+  "what": "Baker's yeast fermenting a sweet dough until it is full of gas — once in bulk, once again after the rings are cut.",
+  "story": "Proofing is the rest in which yeast ferments the dough and makes the gas that lifts it. Blooming is a different thing with the same word: suspending dry yeast in warm water to hydrate it, and to see whether it is still alive.\n\nThe raise is why the raised donut lost ground when shops automated in the 1920s. Yeast needs time and a warm room, and the dough is harder to handle; baking soda was predictable and easy to build a machine around, so most bakers went to cake.",
+  "how": "Mix, bulk rise, sheet, cut, then proof the cut rings again in a warm cabinet until they are light enough to float sideways in the fat.",
+  "today": "The raise is the reason the shop opens at four and the work started at one."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "What comes out of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "proof-box",
+   "as": "Where the second rise happens.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-batter",
+   "as": "The other way to get lift, and the one machines preferred.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "What the raise does to the schedule.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-proofing-baking-technique",
+  "s:wp-baker-s-yeast",
+  "s:wp-cake-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Baker's yeast fermenting a sweet dough until it is full of gas — once in bulk, once again after the rings are cut.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What comes out of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "proof-box",
+   "type": "kitchen",
+   "name": "The proof box",
+   "as": "Where the second rise happens.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The other way to get lift, and the one machines preferred.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "What the raise does to the schedule.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-proofing-baking-technique",
+   "kind": "web",
+   "title": "Proofing (baking technique) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Proofing_(baking_technique)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-baker-s-yeast",
+   "kind": "web",
+   "title": "Baker's yeast — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baker%27s_yeast",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What makes it rise, and the reason the shop was working at two in the morning.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The slower way.",
+   "rel": "contrast"
+  },
+  {
+   "from": "proof-box",
+   "type": "kitchen",
+   "name": "The proof box",
+   "as": "The process it serves.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "What sets the clock.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "What costs the time.",
+   "rel": "kitchen"
+  }
+ ]
+}

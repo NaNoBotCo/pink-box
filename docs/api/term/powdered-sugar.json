@@ -1,0 +1,130 @@
+{
+ "id": "powdered-sugar",
+ "type": "term",
+ "names": {
+  "name": "Powdered sugar",
+  "aliases": [
+   "confectioner's sugar",
+   "icing sugar",
+   "10X"
+  ],
+  "said": "It goes everywhere. That is not a flaw in the product."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "P",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "Sugar ground fine and cut with a little starch to stop it caking. The base of every glaze and the finish on beignets, malasadas and pączki.",
+  "story": "Confectioner's sugar is graded by fineness — 10X is the finest common grade — and usually carries around 3 percent cornstarch as an anti-caking agent, which is why a glaze made from it sets opaque rather than clear."
+ },
+ "kin": [
+  {
+   "to": "glaze-table",
+   "as": "Where it is used by the bucket.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "beignet",
+   "as": "Buried in it.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-powdered-sugar"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-powdered-sugar"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "sugar ground to a powder; confectioner's sugar in the trade, icing sugar in Britain",
+  "first_attested": "",
+  "note": "Graded by fineness — 10X is the finest common grade — and cut with starch against caking.",
+  "tier": "cited",
+  "source": "s:wp-powdered-sugar"
+ },
+ "blurb": "Sugar ground fine and cut with a little starch to stop it caking. The base of every glaze and the finish on beignets, malasadas and pączki.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Where it is used by the bucket.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "Buried in it.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-powdered-sugar",
+   "kind": "web",
+   "title": "Powdered sugar — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Powdered_sugar",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-powdered-sugar"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-powdered-sugar"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-powdered-sugar"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "What it is buried in.",
+   "rel": "term"
+  },
+  {
+   "from": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "What it is made of.",
+   "rel": "term"
+  }
+ ]
+}

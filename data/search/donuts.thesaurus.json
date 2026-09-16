@@ -1,0 +1,662 @@
+{
+"note": "mined by build.py from data/nodes names + aliases — synonymy only",
+"groups": [
+[
+"24-hour donut shop",
+"the all-night counter",
+"the late window"
+],
+[
+"chicago polish bakery",
+"paczki counter",
+"the polish bakery counter"
+],
+[
+"chinese grocery counter",
+"the delta grocery counter"
+],
+[
+"dunkin' country",
+"new england coffee-and-donut",
+"the regular"
+],
+[
+"hawaiian donut shop",
+"the malasada counter"
+],
+[
+"new orleans beignet",
+"the beignet stand",
+"the quarter counter"
+],
+[
+"cider donut stand",
+"farm stand donuts",
+"the orchard window"
+],
+[
+"donuts and breakfast burritos",
+"the southwest burrito counter"
+],
+[
+"concept donut shop",
+"the novelty shop",
+"the topping arms race"
+],
+[
+"bodega donut",
+"deli donut",
+"greek coffee shop donut"
+],
+[
+"fasnacht day",
+"pennsylvania dutch fastnacht"
+],
+[
+"cambodian-american donut shop",
+"socal independent donut shop",
+"the pink box shop"
+],
+[
+"hot now",
+"the hot light",
+"the southern glazed"
+],
+[
+"donut and kolache",
+"kolache shop",
+"the texas kolache counter"
+],
+[
+"daylight shop",
+"franchise-flour independent",
+"the mix-and-sign shop"
+],
+[
+"apple fritter",
+"fritter"
+],
+[
+"bavarian cream",
+"boston cream (when chocolate-topped)",
+"cream-filled",
+"custard-filled"
+],
+[
+"bear claw",
+"bearclaw"
+],
+[
+"beignet",
+"french-style beignet",
+"new orleans beignet"
+],
+[
+"berliner",
+"bismarck",
+"bismark",
+"filled donut",
+"jelly donut"
+],
+[
+"buttermilk bar",
+"buttermilk donut"
+],
+[
+"cake donut",
+"cake-type",
+"chemical-leavened donut",
+"fry cake"
+],
+[
+"chocolate cake",
+"chocolate old-fashioned",
+"devil's food"
+],
+[
+"apple cider doughnut",
+"cider donut"
+],
+[
+"donut bites",
+"donut holes",
+"holes",
+"munchkins"
+],
+[
+"faschnacht",
+"fasnacht",
+"fastnacht",
+"fosnaught",
+"kinkling"
+],
+[
+"cruller",
+"french cruller",
+"kruller"
+],
+[
+"glazed raised",
+"plain glazed",
+"raised glazed",
+"the glazed",
+"yeast glazed"
+],
+[
+"bar",
+"cream stick",
+"finger doughnut",
+"long john",
+"éclair (as sold)"
+],
+[
+"filhós (related)",
+"hawaiian donut",
+"malasada",
+"malassada"
+],
+[
+"maple bar",
+"maple bismarck",
+"maple creamstick",
+"maple log",
+"maple long john"
+],
+[
+"mochi donut",
+"poi mochi",
+"pon de ring"
+],
+[
+"fry cake",
+"old fashioned",
+"old-fashioned",
+"sour cream old-fashioned"
+],
+[
+"paczki",
+"punchki",
+"pączek (sing.)",
+"pączki"
+],
+[
+"potato donut",
+"spudnut"
+],
+[
+"hanukkah donut",
+"sufganiyah",
+"sufganiyot"
+],
+[
+"bacon, egg and cheese",
+"baconeggandcheese",
+"bec",
+"bodega sandwich"
+],
+[
+"boba",
+"bubble tea",
+"pearl milk tea"
+],
+[
+"breakfast burrito",
+"breakfast wrap"
+],
+[
+"café au lait",
+"coffee with chicory",
+"new orleans coffee"
+],
+[
+"egg roll",
+"eggroll"
+],
+[
+"chow mein",
+"the hot case"
+],
+[
+"klobasnek",
+"klobasniky",
+"klobásník",
+"texas kolache (as sold)"
+],
+[
+"kolach",
+"kolache",
+"kolaches",
+"koláč"
+],
+[
+"bottomless cup",
+"drip coffee",
+"the pot of coffee",
+"the regular"
+],
+[
+"depositor",
+"the drop"
+],
+[
+"day-old",
+"the day-old rack",
+"yesterday's"
+],
+[
+"the filler",
+"the injector",
+"the nozzle",
+"the pump"
+],
+[
+"frying oil",
+"lard",
+"shortening"
+],
+[
+"the dip",
+"the glaze table",
+"the waterfall"
+],
+[
+"cutting by hand",
+"hand-cut",
+"the bench",
+"the cutter"
+],
+[
+"proofer",
+"the cabinet",
+"the proof box"
+],
+[
+"dipping and sprinkles",
+"jimmies",
+"nonpareils",
+"the dip"
+],
+[
+"the night bake",
+"the night shift",
+"the two o'clock"
+],
+[
+"the case",
+"the display",
+"the tray"
+],
+[
+"the flip",
+"the fryer",
+"the kettle",
+"the vat"
+],
+[
+"bulk ferment",
+"proofing",
+"the raise",
+"the rise"
+],
+[
+"allie's donuts",
+"allie's hand-cut do-nut shop"
+],
+[
+"bob's donuts",
+"bob's donuts and pastries",
+"bob's on polk"
+],
+[
+"cafe du monde",
+"café du monde"
+],
+[
+"christy's",
+"christy's donuts"
+],
+[
+"donut wheel",
+"jack's donut wheel"
+],
+[
+"doughnut plant",
+"doughnut plant nyc"
+],
+[
+"federal donuts",
+"federal donuts & chicken"
+],
+[
+"leonard's",
+"leonard's bakery",
+"leonard's malasadas"
+],
+[
+"big donut drive-in (original)",
+"randy's donuts",
+"the big donut"
+],
+[
+"lone star bakery",
+"round rock donuts"
+],
+[
+"seaside",
+"seaside bakery",
+"seaside donuts bakery"
+],
+[
+"donut hole la puente",
+"the donut hole"
+],
+[
+"top pot",
+"top pot doughnuts"
+],
+[
+"voodoo",
+"voodoo doughnut"
+],
+[
+"bill rosenberg",
+"william rosenberg"
+],
+[
+"captain gregory",
+"hanson gregory"
+],
+[
+"russell c. wendell",
+"russell wendell"
+],
+[
+"bun tek ngoy",
+"ted ngoy",
+"the donut king"
+],
+[
+"daylight donut flour company",
+"daylight donuts"
+],
+[
+"dca",
+"doughnut corporation of america"
+],
+[
+"dunkin'",
+"dunkin' donuts"
+],
+[
+"krispy kreme",
+"krispy kreme doughnuts, inc."
+],
+[
+"donut girls",
+"doughnut lassies"
+],
+[
+"winchell's",
+"winchell's donut house"
+],
+[
+"yum yum donut shops",
+"yum yum donuts"
+],
+[
+"fasnacht day",
+"fastnacht day",
+"shrove tuesday"
+],
+[
+"malasada day",
+"terça-feira gorda"
+],
+[
+"national donut day",
+"national doughnut day"
+],
+[
+"apple picking",
+"cider donut season",
+"harvest season"
+],
+[
+"fat tuesday",
+"paczki day",
+"shrove tuesday"
+],
+[
+"bar",
+"cream stick",
+"finger doughnut",
+"long john",
+"éclair (as sold)"
+],
+[
+"crulla",
+"cruller",
+"kruller"
+],
+[
+"day-old",
+"seconds",
+"yesterday's"
+],
+[
+"donut",
+"donut / doughnut",
+"doughnut"
+],
+[
+"dunk",
+"dunking"
+],
+[
+"fried cake",
+"fry cake"
+],
+[
+"the hole",
+"the middle",
+"the ring"
+],
+[
+"hot doughnuts now",
+"hot light",
+"hot now"
+],
+[
+"hundreds and thousands",
+"jimmies",
+"nonpareils",
+"sprinkles"
+],
+[
+"family shop",
+"independent",
+"mom-and-pop"
+],
+[
+"oil cake",
+"oliekoek",
+"oly koek",
+"olykoek"
+],
+[
+"10x",
+"confectioner's sugar",
+"icing sugar",
+"powdered sugar"
+],
+[
+"a dozen",
+"baker's dozen",
+"half dozen",
+"the dozen"
+],
+[
+"the anthora cup",
+"the greek cup"
+],
+[
+"big donut",
+"programmatic architecture"
+],
+[
+"marker on card",
+"the hand-lettered board",
+"the menu board"
+],
+[
+"dunkie",
+"mr. spudnut"
+],
+[
+"the hot sign",
+"the neon ring"
+],
+[
+"1-dozen pink",
+"the box",
+"the pink box"
+],
+[
+"bar or long john",
+"the word map",
+"what to call it"
+],
+[
+"cake against raised",
+"cake vs yeast",
+"the two doughs"
+],
+[
+"donuts per capita",
+"the density map"
+],
+[
+"resources",
+"sources"
+],
+[
+"ted ngoy's story",
+"the donut king"
+],
+[
+"spudnut",
+"the franchise that vanished"
+],
+[
+"donuts and chinese food",
+"the second menu",
+"why the egg rolls"
+],
+[
+"donut",
+"doughnut",
+"donuts",
+"doughnuts",
+"do-nut",
+"sinker"
+],
+[
+"raised",
+"yeast",
+"yeast-raised",
+"yeasted",
+"risen"
+],
+[
+"cake donut",
+"cake",
+"fry cake",
+"cake-type"
+],
+[
+"old-fashioned",
+"old fashioned",
+"sour cream old-fashioned"
+],
+[
+"bismarck",
+"bismark",
+"berliner",
+"jelly donut",
+"filled donut"
+],
+[
+"long john",
+"eclair bar",
+"bar donut"
+],
+[
+"maple bar",
+"maple log",
+"maple long john"
+],
+[
+"cruller",
+"french cruller",
+"kruller"
+],
+[
+"bear claw",
+"bearclaw"
+],
+[
+"apple fritter",
+"fritter"
+],
+[
+"kolache",
+"kolace",
+"koláče",
+"klobasnek",
+"pig in a blanket"
+],
+[
+"malasada",
+"malassada"
+],
+[
+"paczki",
+"pączki",
+"punchki"
+],
+[
+"fastnacht",
+"fasnacht",
+"fastnacht kuchen"
+],
+[
+"beignet",
+"benyay"
+],
+[
+"egg roll",
+"eggroll",
+"lumpia",
+"cha gio"
+],
+[
+"breakfast burrito",
+"burrito"
+],
+[
+"bacon egg and cheese",
+"bec",
+"bodega sandwich"
+],
+[
+"pink box",
+"the pink box",
+"donut box"
+],
+[
+"day-old",
+"day old",
+"yesterday's"
+]
+]
+}

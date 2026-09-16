@@ -1,0 +1,121 @@
+{
+ "id": "cake-donut",
+ "type": "donut",
+ "names": {
+  "name": "Cake donut",
+  "aliases": [
+   "fry cake",
+   "cake-type",
+   "chemical-leavened donut"
+  ],
+  "said": "Some counters still call it a fry cake, and the older the sign, the likelier that is."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "cake",
+  "finish": "sugared"
+ },
+ "text": {
+  "what": "A ring of thick batter, not dough, raised by baking powder or soda rather than yeast and dropped straight into the fat from a depositor. It is denser, shorter and smaller than a raised ring — cake rings run 24 to 28 grams against the raised ring's 38 — and it takes sugar, cinnamon sugar or a heavy icing better than it takes a thin glaze.",
+  "story": "The cake ring appears in American cookbooks in the 1830s, after pearlash — a potash refined for baking — became easy to buy, and it is the ring that industrialised. Yeast wants hours and a warm room; chemical leavening wants a mixer and a clock. When doughnut shops were streamlining production in the 1920s and 1930s, most bakers went the cake route because baking soda behaved the same way every morning and machines could be built around it.\n\nThe structural difference is in the flour as much as the lift: cake rings use cake flour, around 7 to 8 percent protein, which is why they crumb rather than pull.\n\nThe fat numbers depend on who you ask, and the two accounts do not agree. One puts cake at about 20 percent oil against yeast's 25; another puts cake at 20 to 25 percent and yeast at 25 to 35. Neither names a laboratory. What both agree on is the direction: the raised ring spends longer in the fat and comes out carrying more of it, and the cake ring makes up the difference with shortening mixed in before it ever gets there.",
+  "how": "Beat a soft batter — cake flour, sugar, eggs, shortening, milk, baking powder. Rest it. Drop rings into 190 to 198 °C fat through a depositor, or cut them from a soft rolled dough. Fry roughly 90 seconds, turning once; one account has commercial cake rings out in 30 to 45 seconds at 191 °C. Sugar or ice them after they cool a little, because a hot cake ring drinks a thin glaze and goes soggy.",
+  "today": "Cake is the dough that holds a flavour — buttermilk, sour cream, blueberry, chocolate, cider — so a shop that runs both doughs usually runs its specials on this side of the case."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "The other half of the argument: same fryer, different lift, different mouth.",
+   "rel": "contrast"
+  },
+  {
+   "to": "old-fashioned",
+   "as": "The cracked, tapered cake ring people order by name.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-batter",
+   "as": "How it gets made, and why a machine could learn it.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cider-donut",
+   "as": "A cake ring with cider in the batter, sold by the bag at the orchard.",
+   "rel": "donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "as": "Cake batter cut in a bar, cracked open, glazed heavy.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-against-raised",
+   "as": "The argument, and what the numbers underneath it actually say.",
+   "rel": "story"
+  },
+  {
+   "to": "fry-cake",
+   "as": "What the older counters called it.",
+   "rel": "term"
+  },
+  {
+   "to": "the-fryer",
+   "as": "Two doughs, two temperatures, one kettle.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-cake-doughnut",
+  "s:wp-doughnut",
+  "s:wp-old-fashioned-doughnut",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "which side of the case carries the flavours is this project reading menus, not a cited claim"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "cake",
+  "finish": "sugared",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 45.0,
+  "kcal": 191.7,
+  "sugar_g": null,
+  "fat_g": 10.3,
+  "sat_fat_g": 2.7,
+  "carb_g": 22.9,
+  "sodium_mg": 180.9,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/174992/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 174992, \"Doughnuts, cake-type, plain, sugared or glazed\", published per 100 g and scaled here to the portion USDA itself lists as \"doughnut, medium (approx 3\" dia)\" — 45 g. USDA publishes no total-sugars figure for this food, so sugar is null rather than estimated. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ }
+}

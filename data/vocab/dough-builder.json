@@ -1,0 +1,176 @@
+{
+ "note": "Proportions per pound of flour, which is how a bench thinks. The raised dough is the Wikibooks recipe's own ratios, converted to the pound and kept under CC BY-SA. The others say plainly that the proportions are this project's, because no free-to-use version was found.",
+ "house_note": "A pound of flour is about a dozen donuts, cut at three and a half inches. That conversion is this project's rule of thumb, not a measurement — a shop cuts thinner or thicker and gets a different count.",
+ "meats": [
+  {
+   "key": "ten",
+   "label": "A pound of flour",
+   "lb": 1,
+   "note": "about a dozen donuts"
+  },
+  {
+   "key": "twenty",
+   "label": "Two pounds",
+   "lb": 2,
+   "note": "two dozen, and a long morning"
+  },
+  {
+   "key": "fifty",
+   "label": "Five pounds",
+   "lb": 5,
+   "note": "five dozen; the smallest batch a shop bothers with"
+  },
+  {
+   "key": "hundred",
+   "label": "Ten pounds",
+   "lb": 10,
+   "note": "ten dozen, which is one fryer running all night"
+  }
+ ],
+ "heats": [
+  {
+   "key": "none",
+   "label": "No spice",
+   "mult": 0.0
+  },
+  {
+   "key": "mild",
+   "label": "A little",
+   "mult": 0.5
+  },
+  {
+   "key": "medium",
+   "label": "As written",
+   "mult": 1.0
+  },
+  {
+   "key": "hot",
+   "label": "Heavy",
+   "mult": 2.0
+  }
+ ],
+ "heat_ingredients": [
+  "ground nutmeg",
+  "ground cinnamon",
+  "ground mace"
+ ],
+ "levels": [
+  {
+   "key": "cake",
+   "name": "Cake batter",
+   "tbsp_per_lb": 92.0,
+   "says": "Lifted by baking powder, mixed soft, dropped straight into the fat. About 90 seconds, turning once.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions. No free-to-use cake-donut recipe was found to build on. What is cited is what a cake donut IS: cake flour at 7 to 8 percent protein, chemical leavening, extra shortening in the batter, fried 190–198 °C."
+   },
+   "parts": {
+    "cake flour": 0.615,
+    "sugar": 0.105,
+    "buttermilk": 0.145,
+    "shortening, melted": 0.045,
+    "beaten egg": 0.055,
+    "baking powder": 0.016,
+    "salt": 0.004,
+    "ground nutmeg": 0.015
+   },
+   "when": [
+    "Beat the sugar, egg and melted shortening, then the buttermilk.",
+    "Fold in the flour, baking powder, salt and nutmeg. Stop when it comes together.",
+    "Chill the batter at least an hour. Warm batter will not hold a ring.",
+    "Drop rings into 190–198 °C fat. Turn once when the underside sets.",
+    "About 90 seconds in all. Sugar them warm, not hot."
+   ]
+  },
+  {
+   "key": "raised",
+   "name": "Raised dough",
+   "tbsp_per_lb": 93.7,
+   "says": "Yeast, two rises, about 150 seconds in the fat at 182–190 °C. The dough that sets the shop's clock.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Doughnuts (Yeasted)",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Doughnuts_(Yeasted)",
+    "source": "s:wikibooks-doughnuts-yeasted",
+    "note": "The recipe's own quantities — 5 cups flour, 1½ cups milk, ½ cup sugar, ⅓ cup shortening, 2 eggs, 2 envelopes of yeast — converted to the pound of flour. The recipe itself notes that two envelopes is a lot of yeast and will taste of it."
+   },
+   "parts": {
+    "all-purpose flour": 0.619,
+    "lukewarm milk": 0.186,
+    "sugar": 0.062,
+    "beaten egg": 0.046,
+    "shortening": 0.041,
+    "warm water (105–115 °F)": 0.031,
+    "active dry yeast": 0.012,
+    "salt": 0.003
+   },
+   "when": [
+    "Scald the milk to 180 °F, then cool it below 105 °F.",
+    "Sprinkle the yeast over the warm water and leave it five minutes.",
+    "Mix the yeast, milk, sugar, salt, eggs, shortening and a third of the flour. Beat in the rest until the dough leaves the bowl. Knead five minutes.",
+    "Rise in a greased covered bowl until doubled — a dent should stay when you press it.",
+    "Roll to half an inch, cut with a floured cutter, and let the cut rings rise again until doubled.",
+    "Fry at 182–190 °C, about 150 seconds, turning once. Glaze within a minute of the fat."
+   ]
+  },
+  {
+   "key": "potato",
+   "name": "Potato dough",
+   "tbsp_per_lb": 95.0,
+   "says": "Riced potato in a raised dough: softer crumb, keeps longer. Spudnuts and fasnachts.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions, built off the raised dough above. What is cited is the practice — Pennsylvania Dutch fasnachts are often potato donuts, and the Spudnut franchise was built on a dry potato mix."
+   },
+   "parts": {
+    "all-purpose flour": 0.52,
+    "riced cooked potato": 0.115,
+    "lukewarm milk": 0.175,
+    "sugar": 0.058,
+    "beaten egg": 0.045,
+    "shortening": 0.04,
+    "warm water (105–115 °F)": 0.03,
+    "active dry yeast": 0.012,
+    "salt": 0.003,
+    "ground cinnamon": 0.002
+   },
+   "when": [
+    "Boil, rice and cool the potato. Lumps become holes.",
+    "Build the dough as for raised, with the potato going in at the milk stage.",
+    "Expect a slacker dough. Flour the bench, not the dough.",
+    "Cut square or diamond with a slit if you are making fasnachts; rings otherwise.",
+    "Fry as for raised. It browns a shade faster."
+   ]
+  },
+  {
+   "key": "choux",
+   "name": "Choux paste",
+   "tbsp_per_lb": 86.0,
+   "says": "No yeast, no powder. Steam lifts it and it fries hollow — the French cruller.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "This project's own proportions. What is cited is what a French cruller IS: choux pastry — flour cooked into butter and water, then beaten with eggs — extruded in a ring and fried."
+   },
+   "parts": {
+    "all-purpose flour": 0.36,
+    "water": 0.3,
+    "beaten egg": 0.24,
+    "butter": 0.085,
+    "sugar": 0.01,
+    "salt": 0.005
+   },
+   "when": [
+    "Boil the water and butter. Beat in all the flour at once and cook it until it pulls from the pan.",
+    "Cool it a few minutes, then beat the eggs in one at a time until it ribbons.",
+    "Pipe rings onto squares of paper through a star tip.",
+    "Slide them in paper and all; the paper lifts off once they set.",
+    "Fry until deep gold. Underdone choux collapses. Glaze thin."
+   ]
+  }
+ ]
+}

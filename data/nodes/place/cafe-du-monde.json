@@ -1,0 +1,99 @@
+{
+ "id": "cafe-du-monde",
+ "type": "place",
+ "names": {
+  "name": "Café du Monde",
+  "aliases": [
+   "Cafe du Monde"
+  ],
+  "sort": "Cafe du Monde"
+ },
+ "region": [
+  "louisiana"
+ ],
+ "facets": {
+  "state": "LA",
+  "status": "open",
+  "dough": "choux",
+  "styles": [
+   "louisiana-beignet"
+  ]
+ },
+ "text": {
+  "what": "An open-air coffee stand on Decatur Street in the French Quarter, selling café au lait cut with chicory and beignets three to an order under powdered sugar.",
+  "story": "The French brought coffee to the Gulf Coast and the Mississippi around 1700. During the Civil War, New Orleans Creoles stretched short coffee with chicory, which adds a chocolate note to café au lait, and the practice stayed.",
+  "today": "A landmark, and busy enough that the queue is part of the experience people describe."
+ },
+ "geo": {
+  "lat": 29.95756,
+  "lon": -90.06185,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "800 Decatur Street",
+  "city": "New Orleans",
+  "county": "Orleans Parish",
+  "state": "LA"
+ },
+ "tags": [
+  {
+   "tag": "counter-or-window",
+   "source": "s:wp-caf-du-monde",
+   "tier": "cited",
+   "note": "an open-air coffee stand"
+  }
+ ],
+ "kin": [
+  {
+   "to": "beignet",
+   "as": "The square one, buried in sugar.",
+   "rel": "donut"
+  },
+  {
+   "to": "louisiana-beignet",
+   "as": "The style it anchors.",
+   "rel": "style"
+  },
+  {
+   "to": "chicory-coffee",
+   "as": "What it is served with, and why.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-caf-du-monde"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-caf-du-monde"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "cafe-du-monde/cafe-du-monde-beignets-and-caf-au-lait-at-caf-du-monde-new-orleans.jpg",
+   "source": "commons",
+   "title": "File:Beignets and Café au Lait at Café du Monde, New Orleans.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Beignets_and_Caf%C3%A9_au_Lait_at_Caf%C3%A9_du_Monde%2C_New_Orleans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABeignets_and_Caf%C3%A9_au_Lait_at_Caf%C3%A9_du_Monde%2C_New_Orleans.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Pburka",
+   "credit": "Own work",
+   "alt": "Beignets and cafe au lait at Café du Monde, New Orleans",
+   "date": "2016-12-26 16:21:32",
+   "primary": true,
+   "sha256": "05739320174d348eea439b47f41099519531198312fa7975282aafb3b40f6d63"
+  }
+ ]
+}

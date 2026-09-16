@@ -1,0 +1,88 @@
+{
+ "id": "malasada-day",
+ "type": "event",
+ "names": {
+  "name": "Malasada Day",
+  "aliases": [
+   "Terça-feira Gorda"
+  ],
+  "said": "Shrove Tuesday, Portuguese-Hawaiian style: the queue starts at the bakery door."
+ },
+ "region": [
+  "hawaii"
+ ],
+ "facets": {
+  "when": "Shrove Tuesday",
+  "status": "open",
+  "state": "HI"
+ },
+ "text": {
+  "what": "The Hawaiian observance of Shrove Tuesday, kept by eating malasadas.",
+  "story": "The malasada came to Hawaii with Portuguese labourers from Madeira and the Azores, where the pastry belongs to Carnival. In the islands it is eaten year round and the Tuesday remains its day.\n\nThis project has not found a published history of when Malasada Day itself became a fixed Hawaiian observance, and does not date it.",
+  "today": "Bakeries run extra shifts; the wagons park where the lines will be."
+ },
+ "kin": [
+  {
+   "to": "malasada",
+   "as": "The pastry.",
+   "rel": "donut"
+  },
+  {
+   "to": "hawaii-malasada",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "to": "leonards-bakery",
+   "as": "The bakery most associated with it.",
+   "rel": "place"
+  },
+  {
+   "to": "fastnacht-day",
+   "as": "The same Tuesday, a different pantry.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-malassada"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-malassada"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 21.3069,
+  "lon": -157.8583,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Honolulu",
+  "county": "Honolulu",
+  "state": "HI"
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "id": "the-counter",
+ "type": "story",
+ "names": {
+  "name": "The counter",
+  "aliases": [
+   "what else is in the case"
+  ],
+  "sort": "counter"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "map"
+ },
+ "text": {
+  "what": "What a donut shop sells besides donuts, region by region, and what this project can show evidence for. Egg rolls in Southern California, klobasniky in Texas, breakfast burritos in New Mexico, bacon egg and cheese in New York, biscuits and gravy in the South, boba almost anywhere after 2015."
+ },
+ "sections": [
+  {
+   "h": "How a shop gets tagged here",
+   "text": "A shop carries a counter tag when a source says so: its own menu, a photograph of the board, or a press piece that names the item. The tag says which. A shop with no counter tag has not been read, which is a fact about this project and not about the shop.\n\nThe national map is coarser, and says which kind of evidence it is using. OpenStreetMap rows are tagged from what the map itself records — the shop's name and its cuisine tags — so a place called \"Donut & Burrito\" lands on the burrito layer because it says so on the sign."
+  },
+  {
+   "h": "The regional shape",
+   "text": "— **Southern California and the Central Valley**: egg rolls, chow mein, fried rice, croissant sandwiches. Cambodian-American and Chinese-American ownership, a hot case beside the donut case.\n— **Texas**: kolaches and klobasniky, from gas stations to dedicated shops, statewide and well past the Czech counties.\n— **New Mexico, Arizona, west Texas**: breakfast burritos, foil-wrapped, chile by name.\n— **New York and New Jersey**: bacon egg and cheese on a kaiser roll, mostly at delis and bodegas rather than donut shops.\n— **The South**: biscuits and gravy, and fried chicken in shops that lean that way.\n— **Hawaii**: malasadas as the main event, with the rest of the case around them.\n— **Everywhere, lately**: boba, and Korean corn dogs beside mochi donuts."
+  },
+  {
+   "h": "What the pattern is not",
+   "text": "It is not fusion and it is not a gimmick. It is a second sale to the same customer at the same hour, in a business whose own product stops selling by mid-morning. The shop owners say this plainly when anyone asks them."
+  }
+ ],
+ "kin": [
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The argument in full.",
+   "rel": "story"
+  },
+  {
+   "to": "egg-roll",
+   "as": "California.",
+   "rel": "dish"
+  },
+  {
+   "to": "klobasnek",
+   "as": "Texas.",
+   "rel": "dish"
+  },
+  {
+   "to": "breakfast-burrito",
+   "as": "The Southwest.",
+   "rel": "dish"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "as": "New York.",
+   "rel": "dish"
+  },
+  {
+   "to": "biscuits-and-gravy",
+   "as": "The South.",
+   "rel": "dish"
+  },
+  {
+   "to": "boba",
+   "as": "The recent one.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:kqed-donuts-chinese",
+  "s:wp-klob-sn-k",
+  "s:wp-breakfast-burrito",
+  "s:wp-bacon-egg-and-cheese-sandwich"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:kqed-donuts-chinese"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "inference",
+    "note": "the regional summary draws on the cited pages for each item; the arrangement is this project's"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "What a donut shop sells besides donuts, region by region, and what this project can show evidence for.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The argument in full.",
+   "rel": "story"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "California.",
+   "rel": "dish"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "Texas.",
+   "rel": "dish"
+  },
+  {
+   "to": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "The Southwest.",
+   "rel": "dish"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "New York.",
+   "rel": "dish"
+  },
+  {
+   "to": "biscuits-and-gravy",
+   "type": "dish",
+   "name": "Biscuits and gravy",
+   "as": "The South.",
+   "rel": "dish"
+  },
+  {
+   "to": "boba",
+   "type": "dish",
+   "name": "Boba",
+   "as": "The recent one.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:kqed-donuts-chinese",
+   "kind": "article",
+   "title": "Why Donuts + Chinese Food = A Very Californian Combination",
+   "author": "Asal Ehsanipour",
+   "publisher": "KQED",
+   "url": "https://www.kqed.org/news/11871915/why-donuts-chinese-food-a-very-californian-combination",
+   "year": 2021,
+   "accessed": "2026-09-16",
+   "note": "published 6 May 2021, updated 1 January 2025"
+  },
+  {
+   "id": "s:wp-klob-sn-k",
+   "kind": "web",
+   "title": "Klobásník — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Klob%C3%A1sn%C3%ADk",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-breakfast-burrito",
+   "kind": "web",
+   "title": "Breakfast burrito — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Breakfast_burrito",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-bacon-egg-and-cheese-sandwich",
+   "kind": "web",
+   "title": "Bacon, egg and cheese sandwich — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bacon,_egg_and_cheese_sandwich",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:kqed-donuts-chinese"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "as": "The map of what else is in the case.",
+   "rel": "story"
+  },
+  {
+   "from": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "What else is in the case, by region.",
+   "rel": "story"
+  },
+  {
+   "from": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "What else is in the case, state by state.",
+   "rel": "story"
+  },
+  {
+   "from": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "What else is in the case, by region.",
+   "rel": "story"
+  },
+  {
+   "from": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "What those shops sell besides donuts.",
+   "rel": "story"
+  },
+  {
+   "from": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The map of it.",
+   "rel": "story"
+  }
+ ]
+}

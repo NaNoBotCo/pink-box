@@ -1,0 +1,130 @@
+{
+ "id": "day-old",
+ "type": "term",
+ "names": {
+  "name": "Day-old",
+  "aliases": [
+   "yesterday's",
+   "seconds"
+  ],
+  "said": "Not a complaint. A price."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "D",
+  "part_of_speech": "adjective"
+ },
+ "text": {
+  "what": "Yesterday's donuts, sold cheap.",
+  "story": "*Tradition holds —* a donut is a one-morning product, so the rack exists in nearly every independent shop and is priced to clear. Raised rings stale fastest."
+ },
+ "kin": [
+  {
+   "to": "day-old-rack",
+   "as": "Where they sit.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "Which ones go first.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "plain description: a donut a day old",
+  "first_attested": "",
+  "note": "A trade usage rather than a dialect word; the rack is named after the age of what is on it.",
+  "tier": "tradition",
+  "source": "s:this-project"
+ },
+ "blurb": "Yesterday's donuts, sold cheap.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "as": "Where they sit.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Which ones go first.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Pink Box — this project's own reasoning",
+   "publisher": "Pink Box",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "as": "What a filled donut is not sold as.",
+   "rel": "term"
+  },
+  {
+   "from": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "as": "The word.",
+   "rel": "term"
+  },
+  {
+   "from": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "What filled donuts are not sold as.",
+   "rel": "term"
+  }
+ ]
+}

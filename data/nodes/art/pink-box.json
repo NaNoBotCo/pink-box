@@ -1,0 +1,91 @@
+{
+ "id": "pink-box",
+ "type": "art",
+ "names": {
+  "name": "The pink box",
+  "aliases": [
+   "the box",
+   "1-dozen pink"
+  ],
+  "said": "\"Good things come in pink boxes\" is a slogan somebody else wrote about somebody else's box."
+ },
+ "region": [
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "kind": "box",
+  "state": "CA"
+ },
+ "text": {
+  "what": "The matte pink paperboard box a dozen donuts go into: the most recognisable object in the American trade, and the cheapest.",
+  "story": "The pink boxes that Southern California shops pack donuts in are attributed to Ted Ngoy and Ning Yen, who were setting other Cambodian families up in shops. Pink stock was cheaper than the glossy white box the trade used.\n\nIt travelled. Kenneth Pogson of Voodoo Doughnut adopted the box, and the slogan \"Good things come in pink boxes\", after a trip to California where he saw the boxes in use.",
+  "today": "A pink box in a film or on a desk signals donuts without a logo, which is a thing very few products manage."
+ },
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "Credited with it.",
+   "rel": "person"
+  },
+  {
+   "to": "ning-yen",
+   "as": "Credited with it.",
+   "rel": "person"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The style named for it here.",
+   "rel": "style"
+  },
+  {
+   "to": "voodoo-doughnut",
+   "as": "Carried it north.",
+   "rel": "place"
+  },
+  {
+   "to": "the-dozen",
+   "as": "What goes inside.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-cambodian-americans",
+  "s:wp-voodoo-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cambodian-americans"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-voodoo-doughnut"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "pink-box/pink-box-american-donuts-in-red-box-closeup-49818859171.jpg",
+   "source": "commons",
+   "title": "File:American donuts in red box closeup. (49818859171).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/American_donuts_in_red_box_closeup._%2849818859171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAmerican_donuts_in_red_box_closeup._%2849818859171%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Nenad Stojkovic",
+   "credit": "American donuts in red box closeup.",
+   "alt": "American donuts in red box closeup.",
+   "date": "2020-04-25 15:57",
+   "primary": true,
+   "sha256": "eac10c9b77d47e439f41622c862d0753c44da80a4f3ef6d262bb671d5ff7f443"
+  }
+ ]
+}

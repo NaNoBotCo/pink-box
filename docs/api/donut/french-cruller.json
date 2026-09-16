@@ -1,0 +1,234 @@
+{
+ "id": "french-cruller",
+ "type": "donut",
+ "names": {
+  "name": "French cruller",
+  "aliases": [
+   "cruller",
+   "kruller"
+  ],
+  "said": "The light one. Ridged, hollow, gone in three bites."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "choux",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "A ring extruded from choux paste — flour cooked into butter and water, then beaten with eggs — piped through a star tip so it fries up ridged and hollow, and glazed thin. No yeast, no baking powder: steam lifts it.",
+  "story": "Cruller is Dutch, from kruller, from krullen, to curl, and it arrives in America in the late eighteenth and early nineteenth centuries with Pennsylvania Dutch settlers. In Europe the shape is a twist or a plaited rectangle pulled through itself; in North America the word covers both a small loaf- or stick-shaped cake doughnut and the French cruller, the choux ring. Milwaukee's cruller is the loaf kind: a glazed cake bar with a crunchy shell.\n\nThe word travels further than the pastry. Youtiao, the Chinese fried stick, gets called a Chinese cruller in English; so does mahua, the twisted one.",
+  "how": "Cook the paste, beat in the eggs, pipe rings onto squares of paper, and slide them paper and all into the fat so they keep their shape. The paper lifts off once they set. Glaze while warm.",
+  "today": "Few independent shops make them, because the paste is a different process from everything else on the bench, and the ones that do say so on the sign."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "The other thing the word cruller covers in America.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "Neither yeast nor powder — this one is lifted by steam alone.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-fryer",
+   "as": "Piped onto paper, fried paper and all.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cruller-word",
+   "as": "Dutch for curl, and what it came to mean here.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-cruller",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "how many shops make them is this project's reading of menus, not a count"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "choux",
+  "finish": "glazed",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 41.0,
+  "kcal": 168.9,
+  "sugar_g": 14.4,
+  "fat_g": 7.5,
+  "sat_fat_g": 1.9,
+  "carb_g": 24.4,
+  "sodium_mg": 141.4,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/172756/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 172756, \"Doughnuts, french crullers, glazed\", published per 100 g and scaled here to the portion USDA itself lists as \"cruller (3\" dia)\" — 41 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ },
+ "images": [
+  {
+   "file": "french-cruller/french-cruller-french-crullers-in-a-doughnut-shop-display-case-in-c-0bbb8fe.jpg",
+   "source": "commons",
+   "title": "File:French crullers in a doughnut shop display case in California 2023 Jan 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/French_crullers_in_a_doughnut_shop_display_case_in_California_2023_Jan_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AFrench_crullers_in_a_doughnut_shop_display_case_in_California_2023_Jan_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jengod",
+   "credit": "Own work",
+   "alt": "French crullers in a doughnut shop display case in California 2023 Jan",
+   "date": "2024-01-10 08:26:34",
+   "primary": true,
+   "sha256": "e54431753e9c3b0f55a27d461ebf7f529022de6d87b8852bf7c3e89ff686b7b4"
+  }
+ ],
+ "blurb": "A ring extruded from choux paste — flour cooked into butter and water, then beaten with eggs — piped through a star tip so it fries up ridged and hollow, and glazed thin. No yeast, no baking powder: steam lifts it.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The other thing the word cruller covers in America.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Neither yeast nor powder — this one is lifted by steam alone.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Piped onto paper, fried paper and all.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "as": "Dutch for curl, and what it came to mean here.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cruller",
+   "kind": "web",
+   "title": "Cruller — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cruller",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:fdc-sr-legacy",
+   "kind": "data",
+   "title": "FoodData Central, SR Legacy — doughnut foods",
+   "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "accessed": "2026-09-17",
+   "license": "Public domain (U.S. government work)",
+   "note": "SR Legacy CSV bundle 2018-04; the nine doughnut rows last updated 2019-04-01. Values per 100 g, with USDA's own portion weights."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-cruller"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "how many shops make them is this project's reading of menus, not a count"
+  }
+ },
+ "primary_image": {
+  "file": "french-cruller/french-cruller-french-crullers-in-a-doughnut-shop-display-case-in-c-0bbb8fe.jpg",
+  "source": "commons",
+  "title": "File:French crullers in a doughnut shop display case in California 2023 Jan 01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/French_crullers_in_a_doughnut_shop_display_case_in_California_2023_Jan_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AFrench_crullers_in_a_doughnut_shop_display_case_in_California_2023_Jan_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Jengod",
+  "credit": "Own work",
+  "alt": "French crullers in a doughnut shop display case in California 2023 Jan",
+  "date": "2024-01-10 08:26:34",
+  "primary": true,
+  "sha256": "e54431753e9c3b0f55a27d461ebf7f529022de6d87b8852bf7c3e89ff686b7b4"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "as": "The other choux fry in America.",
+   "rel": "donut"
+  },
+  {
+   "from": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "as": "The other American donut lifted by steam alone.",
+   "rel": "donut"
+  },
+  {
+   "from": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "as": "The choux one.",
+   "rel": "donut"
+  }
+ ]
+}

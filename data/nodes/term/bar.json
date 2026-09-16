@@ -1,0 +1,66 @@
+{
+ "id": "bar",
+ "type": "term",
+ "names": {
+  "name": "Bar",
+  "aliases": [
+   "long john",
+   "finger doughnut",
+   "cream stick",
+   "éclair (as sold)"
+  ],
+  "said": "Say bar in California, Long John in Iowa, éclair in Baltimore, and you will be handed the same pastry."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "B",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "A rectangular raised donut, glazed or iced, sometimes filled.",
+  "story": "Names for it are regional. Long John runs through the Midwest, Canada and Texas; the Mid-Atlantic and central Canada market it as an éclair, though an éclair is choux and this is yeast; the West Coast says bar, and specifies: maple bar, chocolate bar, filled bar. Parts of the Midwest say finger doughnut, or cream stick when filled."
+ },
+ "kin": [
+  {
+   "to": "long-john",
+   "as": "The record for the pastry.",
+   "rel": "donut"
+  },
+  {
+   "to": "maple-bar",
+   "as": "The West Coast's version.",
+   "rel": "donut"
+  },
+  {
+   "to": "bar-or-long-john",
+   "as": "The map of the word.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-long-john-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "the shape: a bar of dough, cut rectangular rather than rung",
+  "first_attested": "",
+  "note": "Long John, éclair, finger doughnut and cream stick name the same pastry in other regions.",
+  "tier": "cited",
+  "source": "s:wp-long-john-doughnut"
+ }
+}

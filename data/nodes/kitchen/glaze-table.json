@@ -1,0 +1,65 @@
+{
+ "id": "glaze-table",
+ "type": "kitchen",
+ "names": {
+  "name": "The glaze table",
+  "aliases": [
+   "the waterfall",
+   "the dip"
+  ],
+  "said": "Glaze goes on hot or it goes on wrong."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "finish"
+ },
+ "text": {
+  "what": "A shallow pan of thin sugar glaze beside the fryer, where raised rings are dragged through face-down within a minute of coming out of the fat.",
+  "story": "Glaze is a thin coating applied to food — here, powdered sugar with water or milk and sometimes a little fat, thin enough to run off and set clear. On a hot ring it soaks the crust and hardens into a shell; on a cool one it sits on top and stays tacky.\n\nCake rings are finished differently for the same reason: a hot cake ring drinks a thin glaze and goes soggy, so it takes sugar, cinnamon sugar or a heavier icing instead.",
+  "how": "Dip, turn, lift, drain on a screen. The pan is topped up all morning and the glaze thickens as the shop warms.",
+  "today": "The glaze table is where a shop's whole tray of raised donuts is either made or ruined, in about a minute each."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "What goes across it.",
+   "rel": "donut"
+  },
+  {
+   "to": "powdered-sugar",
+   "as": "What it is made of.",
+   "rel": "term"
+  },
+  {
+   "to": "sprinkle-and-dip",
+   "as": "What happens after.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "southern-hot-now",
+   "as": "A chain that put the table in the window.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-glaze-cooking",
+  "s:wp-powdered-sugar",
+  "s:wp-cake-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-glaze-cooking"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

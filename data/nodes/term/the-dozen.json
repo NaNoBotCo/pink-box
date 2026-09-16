@@ -1,0 +1,67 @@
+{
+ "id": "the-dozen",
+ "type": "term",
+ "names": {
+  "name": "The dozen",
+  "aliases": [
+   "a dozen",
+   "half dozen",
+   "baker's dozen"
+  ],
+  "said": "You do not buy one. You buy twelve and eat two in the car."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "T",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The unit donuts are sold in, and the reason for the box.",
+  "story": "*Tradition holds —* the dozen is the trade's unit because a box holds twelve in a single layer without crushing, and because a shop prices twelve below twelve times one to move the tray. A baker's dozen is thirteen, an old trade practice of adding one to be safe against a short weight.\n\nThis project has not found a published history of donut dozen pricing in the United States and does not invent one."
+ },
+ "kin": [
+  {
+   "to": "pink-box",
+   "as": "What a dozen goes into.",
+   "rel": "art"
+  },
+  {
+   "to": "the-case",
+   "as": "Where it comes from.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "as": "What it costs, with dates.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "from Old French dozeine, twelve; a baker's dozen is thirteen",
+  "first_attested": "",
+  "note": "The extra one is an old trade practice against selling short weight.",
+  "tier": "tradition",
+  "source": "s:this-project"
+ }
+}

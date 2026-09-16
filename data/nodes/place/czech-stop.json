@@ -1,0 +1,132 @@
+{
+ "id": "czech-stop",
+ "type": "place",
+ "names": {
+  "name": "Czech Stop and Little Czech Bakery",
+  "aliases": [
+   "Czech Stop"
+  ],
+  "sort": "Czech Stop"
+ },
+ "region": [
+  "texas"
+ ],
+ "facets": {
+  "state": "TX",
+  "status": "open",
+  "founded": 1983,
+  "dough": "yeast",
+  "counter": "kolaches",
+  "styles": [
+   "texas-kolache-counter"
+  ]
+ },
+ "text": {
+  "what": "A combination deli, bakery and convenience store on Interstate 35 in West, Texas, selling kolaches, klobasniky and strudel to about 600 people a day.",
+  "story": "Established in 1983 in a town designated \"Home of the official Kolache of the Texas Legislature\". A poster in the store counts the year's raw materials in thousands of pounds — over 1,200 pounds of cream cheese, 9,000 pounds of flour.\n\nFor a lot of Texans the Czech Stop is where the kolache and the klobasnek stop being a regional food and become a road food: the reason you take I-35 rather than another route.",
+  "today": "Open around the clock, and busiest when the highway is."
+ },
+ "geo": {
+  "lat": 31.80322,
+  "lon": -97.09932,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "West",
+  "county": "McLennan",
+  "state": "TX"
+ },
+ "tags": [
+  {
+   "tag": "kolaches",
+   "source": "s:wp-czech-stop-and-little-czech-bakery",
+   "tier": "cited",
+   "note": "kolache, klobasnek and strudel are named in the article"
+  },
+  {
+   "tag": "twentyfour-hours",
+   "source": "s:wp-czech-stop-and-little-czech-bakery",
+   "tier": "cited",
+   "note": "described as a highway stop serving travellers; hours read from the article"
+  }
+ ],
+ "kin": [
+  {
+   "to": "klobasnek",
+   "as": "What it sells most of.",
+   "rel": "dish"
+  },
+  {
+   "to": "kolache",
+   "as": "The sweet one, and the town's official one.",
+   "rel": "dish"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "as": "The style.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-czech-stop-and-little-czech-bakery",
+  "s:wp-west-texas"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-czech-stop-and-little-czech-bakery"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "town centre, not the store's door"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the second paragraph is this project's reading of why the stop matters"
+   },
+   "tags[1]": {
+    "tier": "cited",
+    "note": "hours are read from the article's description; if the store's own posted hours differ, they win"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "czech-stop/czech-stop-czechstopfff2010-4kpx.jpg",
+   "source": "commons",
+   "title": "File:CzechStopFFF2010 4kpx.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/CzechStopFFF2010_4kpx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACzechStopFFF2010_4kpx.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Lm13700",
+   "credit": "Own work",
+   "alt": "Czeh Stop the Kolache capitol of Texas   ---   Photo Taken 5/11/2010 in West, TX 76691",
+   "date": "2001-11-05",
+   "primary": true,
+   "sha256": "9fdec4ee077ec51a901732375d04447a1d8756326d46955ff60fda005a16126a"
+  },
+  {
+   "file": "czech-stop/czech-stop-czech-stop-and-little-czech-bakery-in-west-texas-dpl-b8f8152.jpg",
+   "source": "commons",
+   "title": "File:Czech Stop And Little Czech Bakery in West Texas - DPLA - 3779739db77dbb45945f5da5965dc2c0.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Czech_Stop_And_Little_Czech_Bakery_in_West_Texas_-_DPLA_-_3779739db77dbb45945f5da5965dc2c0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACzech_Stop_And_Little_Czech_Bakery_in_West_Texas_-_DPLA_-_3779739db77dbb45945f5da5965dc2c0.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Hicks, William",
+   "credit": "This file was contributed to Wikimedia Commons by University of North Texas Libraries as part of a cooperation project. The donation was facilitated by the Digital Public Library of America.\nRecord in",
+   "alt": "Photograph of the Czech Stop And Little Czech Bakery. Well known roadside stop for kolaches on Interstate 35 in West, TX.; 1 photograph : digital, col.",
+   "date": "24 June 2018",
+   "primary": false,
+   "sha256": "08792f82be0155658c05f267e240ad1dd4b42f756ee8b4933e2e0a3be62edd7f"
+  }
+ ]
+}

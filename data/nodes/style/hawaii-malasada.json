@@ -1,0 +1,71 @@
+{
+ "id": "hawaii-malasada",
+ "type": "style",
+ "names": {
+  "name": "The malasada counter",
+  "aliases": [
+   "Hawaiian donut shop"
+  ],
+  "said": "Sold hot, in a paper bag with sugar already in it."
+ },
+ "region": [
+  "hawaii"
+ ],
+ "facets": {
+  "state": "HI",
+  "dough": "yeast",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "A bakery counter in Hawaii selling malasadas — no hole, no filling by default, rolled in sugar — by the dozen in a box or hot by the piece in a bag.",
+  "story": "Portuguese contract labourers from Madeira and the Azores brought the malasada to the islands. The pastry descends from filhós and was carried through Macaronesia by the sixteenth-century sugar trade. In Hawaii it stopped being a Carnival food and became an everyday one, which is not what happened to it anywhere else.\n\nMalasadas are called Hawaiian donuts often enough on the mainland that the name has travelled back.",
+  "how": "A wet, rich yeast dough, hand-pulled rather than cut, fried to order in the shops that can manage it, and dropped straight into sugar.",
+  "today": "Filled versions — haupia, custard, guava — are standard now. The plain one is the one people queue for."
+ },
+ "kin": [
+  {
+   "to": "malasada",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "leonards-bakery",
+   "as": "The Honolulu bakery that made it a habit.",
+   "rel": "place"
+  },
+  {
+   "to": "malasada-day",
+   "as": "The day the lines get long.",
+   "rel": "event"
+  },
+  {
+   "to": "mochi-donut",
+   "as": "The other Pacific arrival in the same case.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-malassada",
+  "s:wp-leonard-s-bakery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-malassada"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

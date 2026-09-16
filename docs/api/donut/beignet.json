@@ -1,0 +1,212 @@
+{
+ "id": "beignet",
+ "type": "donut",
+ "names": {
+  "name": "Beignet",
+  "aliases": [
+   "French-style beignet",
+   "New Orleans beignet"
+  ],
+  "said": "Square, no hole, and the sugar is not optional."
+ },
+ "region": [
+  "louisiana"
+ ],
+ "facets": {
+  "dough": "choux",
+  "finish": "powdered",
+  "state": "LA"
+ },
+ "text": {
+  "what": "A deep-fried pastry of French origin, in New Orleans a square of dough fried until it puffs hollow and buried in confectioner's sugar. Beignet means bump.",
+  "story": "The pâte à choux method — butter, eggs, milk or water, sugar, flour, salt, cooked and beaten — is the style French immigrants brought to New Orleans in the 1700s. Beignets are also made from yeast-leavened batters and from rice flour, and the word covers all of them. In Canadian French, beigne or beignet simply means doughnut. In the former French colonies of West Africa a beignet is a ball of fried dough, sometimes millet flour in Senegal.\n\nThe New Orleans beignet arrives at a table three to an order with a snowbank of powdered sugar and coffee cut with chicory beside it.",
+  "how": "Roll the dough thin, cut squares, fry hot so they inflate and stay hollow, then sugar them heavily while they steam.",
+  "today": "A donut shop in Louisiana may sell beignets, donuts and king cake off the same counter without anyone treating that as a mixed menu."
+ },
+ "kin": [
+  {
+   "to": "cafe-du-monde",
+   "as": "The stand that made the square one famous.",
+   "rel": "place"
+  },
+  {
+   "to": "louisiana-beignet",
+   "as": "The style it anchors.",
+   "rel": "style"
+  },
+  {
+   "to": "french-cruller",
+   "as": "The other American donut lifted by steam alone.",
+   "rel": "donut"
+  },
+  {
+   "to": "powdered-sugar",
+   "as": "What it is buried in.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-beignet",
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the mixed counter is this project's reading of Louisiana menus"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "beignet/beignet-beignets-cafe-du-monde-metairie-louisiana-2015.jpg",
+   "source": "commons",
+   "title": "File:Beignets - Cafe du Monde, Metairie, Louisiana 2015.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Beignets_-_Cafe_du_Monde%2C_Metairie%2C_Louisiana_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABeignets_-_Cafe_du_Monde%2C_Metairie%2C_Louisiana_2015.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "leighklotz",
+   "credit": "https://www.flickr.com/photos/leighklotz/17097947182/",
+   "alt": "Beignets - Cafe du Monde, Metairie, Louisiana 2015",
+   "date": "2015-04-10 08:07:56",
+   "primary": true,
+   "sha256": "907e6ab8412a57093083152643570b732bc878b3f28d553963449831ccce790d"
+  }
+ ],
+ "blurb": "A deep-fried pastry of French origin, in New Orleans a square of dough fried until it puffs hollow and buried in confectioner's sugar. Beignet means bump.",
+ "region_terms": [
+  {
+   "key": "louisiana",
+   "name": "Louisiana",
+   "state": "LA",
+   "note": "beignets, king cake, and the shops that sell both"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "The stand that made the square one famous.",
+   "rel": "place"
+  },
+  {
+   "to": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "as": "The style it anchors.",
+   "rel": "style"
+  },
+  {
+   "to": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "The other American donut lifted by steam alone.",
+   "rel": "donut"
+  },
+  {
+   "to": "powdered-sugar",
+   "type": "term",
+   "name": "Powdered sugar",
+   "as": "What it is buried in.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-beignet",
+   "kind": "web",
+   "title": "Beignet — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beignet",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-beignet"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the mixed counter is this project's reading of Louisiana menus"
+  }
+ },
+ "primary_image": {
+  "file": "beignet/beignet-beignets-cafe-du-monde-metairie-louisiana-2015.jpg",
+  "source": "commons",
+  "title": "File:Beignets - Cafe du Monde, Metairie, Louisiana 2015.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Beignets_-_Cafe_du_Monde%2C_Metairie%2C_Louisiana_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABeignets_-_Cafe_du_Monde%2C_Metairie%2C_Louisiana_2015.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "leighklotz",
+  "credit": "https://www.flickr.com/photos/leighklotz/17097947182/",
+  "alt": "Beignets - Cafe du Monde, Metairie, Louisiana 2015",
+  "date": "2015-04-10 08:07:56",
+  "primary": true,
+  "sha256": "907e6ab8412a57093083152643570b732bc878b3f28d553963449831ccce790d"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "from": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "as": "What it is served with.",
+   "rel": "donut"
+  },
+  {
+   "from": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "as": "The square one, buried in sugar.",
+   "rel": "donut"
+  },
+  {
+   "from": "powdered-sugar",
+   "type": "term",
+   "name": "Powdered sugar",
+   "as": "Buried in it.",
+   "rel": "donut"
+  }
+ ]
+}

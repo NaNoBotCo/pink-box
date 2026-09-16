@@ -1,0 +1,195 @@
+{
+ "note": "Open list. A record may name a region not listed here; validate.py warns so it can be added. Regions are the trade's own geography, not administrative units.",
+ "entries": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "central-valley",
+   "name": "The Central Valley",
+   "state": "CA",
+   "note": "Stockton, Modesto, Fresno, Bakersfield"
+  },
+  {
+   "key": "bay-area",
+   "name": "The Bay Area",
+   "state": "CA"
+  },
+  {
+   "key": "san-diego",
+   "name": "San Diego",
+   "state": "CA"
+  },
+  {
+   "key": "sacramento",
+   "name": "Sacramento",
+   "state": "CA"
+  },
+  {
+   "key": "pacific-northwest",
+   "name": "The Pacific Northwest",
+   "state": null,
+   "note": "Portland, Seattle"
+  },
+  {
+   "key": "southwest",
+   "name": "The Southwest",
+   "state": null,
+   "note": "Phoenix, Tucson, Albuquerque, Las Vegas; where the breakfast burrito shares the case"
+  },
+  {
+   "key": "new-mexico",
+   "name": "New Mexico",
+   "state": "NM",
+   "note": "red or green on the breakfast burrito next to the glazed"
+  },
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX",
+   "note": "Houston, Dallas, San Antonio; kolaches, klobasniky, and Cambodian- and Vietnamese-American counters"
+  },
+  {
+   "key": "houston",
+   "name": "Houston",
+   "state": "TX"
+  },
+  {
+   "key": "louisiana",
+   "name": "Louisiana",
+   "state": "LA",
+   "note": "beignets, king cake, and the shops that sell both"
+  },
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "mississippi-delta",
+   "name": "The Mississippi Delta",
+   "state": null,
+   "note": "Chinese-American grocers and counters, some of them frying"
+  },
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "Polish bakeries, paczki, the long john"
+  },
+  {
+   "key": "detroit",
+   "name": "Detroit",
+   "state": "MI",
+   "note": "Hamtramck on Paczki Day"
+  },
+  {
+   "key": "upper-midwest",
+   "name": "The Upper Midwest",
+   "state": null,
+   "note": "Wisconsin, Minnesota, the Dakotas; bismarcks, long johns, church-basement fry"
+  },
+  {
+   "key": "ohio-valley",
+   "name": "The Ohio Valley",
+   "state": null,
+   "note": "Cleveland, Columbus, Cincinnati, Louisville"
+  },
+  {
+   "key": "pennsylvania-dutch",
+   "name": "Pennsylvania Dutch country",
+   "state": "PA",
+   "note": "fastnachts the day before Lent; potato dough"
+  },
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  },
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  },
+  {
+   "key": "new-jersey",
+   "name": "New Jersey",
+   "state": "NJ"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "cider mills, the county fair"
+  },
+  {
+   "key": "utah",
+   "name": "Utah",
+   "state": "UT",
+   "note": "the maple bar country of the Mountain West"
+  },
+  {
+   "key": "mountain-west",
+   "name": "The Mountain West",
+   "state": null,
+   "note": "Idaho, Montana, Wyoming, Colorado"
+  },
+  {
+   "key": "hawaii",
+   "name": "Hawaii",
+   "state": "HI",
+   "note": "malasadas, no hole, rolled in sugar"
+  },
+  {
+   "key": "alaska",
+   "name": "Alaska",
+   "state": "AK"
+  },
+  {
+   "key": "cambodian-american",
+   "name": "Cambodian America",
+   "state": null,
+   "note": "Long Beach, Stockton, Lowell, Houston; a community, not a place — and the single largest owner group in independent donuts"
+  },
+  {
+   "key": "vietnamese-american",
+   "name": "Vietnamese America",
+   "state": null,
+   "note": "Orange County, Houston, San Jose"
+  },
+  {
+   "key": "chinese-american",
+   "name": "Chinese America",
+   "state": null,
+   "note": "the Delta grocery, the California counter, the fried rice in the warmer"
+  },
+  {
+   "key": "korean-american",
+   "name": "Korean America",
+   "state": null
+  },
+  {
+   "key": "mexican-american",
+   "name": "Mexican America",
+   "state": null,
+   "note": "the burrito, the churro, the pan dulce case beside the donut case"
+  },
+  {
+   "key": "greek-american",
+   "name": "Greek America",
+   "state": null,
+   "note": "the coffee shop, the diner, the paper cup with the meander pattern"
+  }
+ ]
+}

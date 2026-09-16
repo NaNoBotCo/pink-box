@@ -1,0 +1,90 @@
+{
+ "id": "new-england-cider",
+ "type": "style",
+ "names": {
+  "name": "The orchard window",
+  "aliases": [
+   "cider donut stand",
+   "farm stand donuts"
+  ],
+  "said": "Six for the car and six for the house, and the six for the house never arrive."
+ },
+ "region": [
+  "new-england",
+  "upstate-ny"
+ ],
+ "facets": {
+  "dough": "cake",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "A seasonal counter at a cider mill, orchard or farm stand, running one machine and one product: cake donuts with cider in the batter, sugared and handed over hot in a paper bag.",
+  "story": "Donuts belonged to autumn before anyone sold them at an orchard: the slaughter season produced the surplus fat you fried in. Cider donuts themselves go back at least to the late nineteenth century — a 1901 piece in The Buffalo Enquirer has them at Halloween parties.\n\nWhat made them a roadside business was Adolph Levitt's 1921 machine, which fried rings of batter methodically and in public. Cider-selling farm stands took it up quickly. The Doughnut Corporation of America may have sold the first commercial cider donut, a \"sweet cider doughnut\", in 1951.\n\nThe season runs with the apples: September into November or December.",
+  "how": "One depositor over one kettle, in view of the queue. Cider is reduced first, or the batter carries too much water. Donuts go into cinnamon sugar and then into a bag that goes translucent on the drive home.",
+  "today": "Grocery stores start selling them in August and Dunkin' has run them as a seasonal item, which Food & Wine has pointed out is unlikely to involve fresh-pressed cider."
+ },
+ "kin": [
+  {
+   "to": "cider-donut",
+   "as": "The one product.",
+   "rel": "donut"
+  },
+  {
+   "to": "adolph-levitt",
+   "as": "Whose machine made a farm stand into a donut shop.",
+   "rel": "person"
+  },
+  {
+   "to": "orchard-season",
+   "as": "The weeks it runs.",
+   "rel": "event"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "as": "Sold the first commercial version, and the machines.",
+   "rel": "org"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The dough it belongs to.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cider-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "new-england-cider/new-england-cider-vegan-apple-cider-doughnuts-5373093007.jpg",
+   "source": "commons",
+   "title": "File:Vegan Apple Cider Doughnuts (5373093007).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vegan_Apple_Cider_Doughnuts_%285373093007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AVegan_Apple_Cider_Doughnuts_%285373093007%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Veganbaking.net from USA",
+   "credit": "Vegan Apple Cider Doughnuts",
+   "alt": "Vegan Apple Cider Doughnuts",
+   "date": "2011-01-18 20:24",
+   "primary": true,
+   "sha256": "f75739ab766bd1b5cb1558dd894e2eb9b673173724319032a0ee1303a7061c5f"
+  }
+ ]
+}

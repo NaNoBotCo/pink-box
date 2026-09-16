@@ -1,0 +1,55 @@
+{
+ "id": "mochinut",
+ "type": "org",
+ "names": {
+  "name": "Mochinut",
+  "aliases": [],
+  "said": "Mochi donut, Korean hot dog, one counter."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "status": "open"
+ },
+ "text": {
+  "what": "A franchise selling mochi donuts and Korean corn dogs that spread rapidly across American strip malls in the 2020s.",
+  "story": "Mochinut built on the pon de ring shape that Mister Donut Japan launched in 2003 and that reached the mainland through Hawaii.",
+  "today": "The newest counter in the trade runs the same play as the oldest: a sweet item and a savoury one from one fryer."
+ },
+ "kin": [
+  {
+   "to": "mochi-donut",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The play.",
+   "rel": "story"
+  },
+  {
+   "to": "mister-donut",
+   "as": "Where the shape came from.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-mochinut",
+  "s:wp-mochi-donut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mochinut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16"
+}

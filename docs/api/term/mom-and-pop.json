@@ -1,0 +1,162 @@
+{
+ "id": "mom-and-pop",
+ "type": "term",
+ "names": {
+  "name": "Mom-and-pop",
+  "aliases": [
+   "independent",
+   "family shop"
+  ],
+  "said": "Two people and a lease. The rest is detail."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "M",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "A shop owned and worked by the family that runs it, as against a franchise or a company-owned store.",
+  "story": "The line is blurrier than the phrase suggests. A shop can buy its mix from a national flour company, carry a franchised name on the window, and still be owned outright by the family inside it — every Daylight Donuts store is independently owned and operated, and there are roughly 950 of them. A Spudnut sign may outlive the franchise that sold it. And a single family may hold three shops and run them all itself.\n\nThis project counts a shop as independent when no company owns it; the sign on the window is not the test."
+ },
+ "kin": [
+  {
+   "to": "tulsa-mix-shop",
+   "as": "The shops that complicate it.",
+   "rel": "style"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "as": "Where this project draws the line.",
+   "rel": "story"
+  },
+  {
+   "to": "daylight-donuts",
+   "as": "950 signs, 950 owners.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-daylight-donuts",
+  "s:wp-spudnut-shops"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the last paragraph states this project's own rule, not a trade definition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "American English for a business run by a married couple or a family",
+  "first_attested": "",
+  "note": "Used here for a shop no company owns, whatever name is on the window.",
+  "tier": "tradition",
+  "source": "s:this-project"
+ },
+ "blurb": "A shop owned and worked by the family that runs it, as against a franchise or a company-owned store.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "as": "The shops that complicate it.",
+   "rel": "style"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "Where this project draws the line.",
+   "rel": "story"
+  },
+  {
+   "to": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "950 signs, 950 owners.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-daylight-donuts",
+   "kind": "web",
+   "title": "Daylight Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Daylight_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-spudnut-shops",
+   "kind": "web",
+   "title": "Spudnut Shops — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spudnut_Shops",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the last paragraph states this project's own rule, not a trade definition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "as": "Why the sign is not the test.",
+   "rel": "term"
+  },
+  {
+   "from": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "Why the sign is not the test.",
+   "rel": "term"
+  },
+  {
+   "from": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "The term.",
+   "rel": "term"
+  }
+ ]
+}

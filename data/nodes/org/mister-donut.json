@@ -1,0 +1,59 @@
+{
+ "id": "mister-donut",
+ "type": "org",
+ "names": {
+  "name": "Mister Donut",
+  "aliases": [],
+  "said": "Gone in America, enormous in Japan."
+ },
+ "region": [
+  "new-england",
+  "us"
+ ],
+ "facets": {
+  "state": "MA",
+  "status": "open",
+  "founded": 1956
+ },
+ "text": {
+  "what": "The chain founded by Harry Winokur, Bill Rosenberg's former partner, absorbed into Dunkin' in the United States and still large in Asia.",
+  "story": "Dunkin's parent bought Mister Donut in 1990 and converted the American shops. In 2003 the Japanese Mister Donut launched pon de ring, the eight-ball chewy donut named after Brazilian pão de queijo, which travelled to Hawaii and then to the mainland as the mochi donut.",
+  "today": "The American chain disappeared into its rival; the Japanese one exported a new shape back."
+ },
+ "kin": [
+  {
+   "to": "dunkin",
+   "as": "The chain that absorbed it.",
+   "rel": "org"
+  },
+  {
+   "to": "mochi-donut",
+   "as": "The shape its Japanese arm launched.",
+   "rel": "donut"
+  },
+  {
+   "to": "mochinut",
+   "as": "The chain that carried the shape into American strip malls.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-mister-donut",
+  "s:wp-dunkin-donuts",
+  "s:wp-mochi-donut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mister-donut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

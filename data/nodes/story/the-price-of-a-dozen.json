@@ -1,0 +1,80 @@
+{
+ "id": "the-price-of-a-dozen",
+ "type": "story",
+ "names": {
+  "name": "The price of a dozen",
+  "aliases": [
+   "what donuts cost"
+  ],
+  "sort": "price of a dozen"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "A price without its date is not a price. This page holds the dated ones this project can actually cite, which is not many, and says plainly what is missing."
+ },
+ "sections": [
+  {
+   "h": "What is on the record here",
+   "text": "**39 cents each, 1 June 1968, North Kingstown, Rhode Island.** Frederick Alvin \"Allie\" Briggs opened Allie's Hand-Cut Do-nut Shop with about forty dollars in hand and a seven-thousand-dollar debt, and took $38 on the first day selling close to a hundred dozen.\n\n**$50 plus a hundred sacks of flour, 1948.** What a new Spudnut Shops franchisee paid to open. By 1952 a franchise cost $1,750 plus equipment — an initial investment of about $5,000, or roughly $109,550 in 2024 dollars.\n\n**2,400 calories and 144 grams of fat in a dozen, from 2004 onward.** Not a price, but the only per-dozen figure in this directory that somebody published — the Krispy Kreme Challenge prints it on the rules."
+  },
+  {
+   "h": "What is missing, and why",
+   "text": "Menu prices with dates, for the shops written up here. A donut price changes faster than a record does, and an undated price on a directory page is worse than no price: a reader plans around it.\n\nThis project prints a price only with the date it was read and the source it came from. That leaves the page thin, and thin is the accurate state of it."
+  },
+  {
+   "h": "What a dozen costs now",
+   "text": "Not answered here. A national average would need dated menu reads across the country, which this project has not done. *Inference —* the spread is wide: a strip-mall dozen and a made-to-order dozen at a shop like Pip's are not the same product and are not priced as if they were."
+  }
+ ],
+ "kin": [
+  {
+   "to": "the-dozen",
+   "as": "The unit.",
+   "rel": "term"
+  },
+  {
+   "to": "allies-donuts",
+   "as": "The 1968 price.",
+   "rel": "place"
+  },
+  {
+   "to": "spudnut",
+   "as": "The franchise fee.",
+   "rel": "donut"
+  },
+  {
+   "to": "krispy-kreme-challenge",
+   "as": "The published dozen.",
+   "rel": "event"
+  },
+  {
+   "to": "pips-original",
+   "as": "The other end of the range.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-allie-s-donuts",
+  "s:wp-spudnut-shops",
+  "s:wp-krispy-kreme-challenge"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-allie-s-donuts"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "klobasnek",
+ "type": "dish",
+ "names": {
+  "name": "Klobasnek",
+  "aliases": [
+   "klobásník",
+   "klobasniky",
+   "Texas kolache (as sold)"
+  ],
+  "said": "Ask a Czech Texan and you get the distinction; ask anyone else and you get a sausage roll."
+ },
+ "region": [
+  "texas",
+  "houston"
+ ],
+ "facets": {
+  "course": "savory",
+  "state": "TX"
+ },
+ "text": {
+  "what": "Sausage — klobása, traditionally — wrapped in kolache dough and baked. Ham, egg, cheese, jalapeño and hot dog are all standard now, and in some Texas shops boudin, the Cajun pork-and-rice sausage.",
+  "story": "Unlike the kolache, which came with Moravian immigrants, the klobasnek was invented by Czechs who had already settled in Texas. Texans of Czech ancestry call the savoury doughs klobasniky; Texans who are not call them kolaches, and that is what the sign says. They are sold everywhere from gas stations to dedicated kolache shops, well outside the Czech counties.",
+  "today": "The klobasnek is the reason a Texas donut shop runs an oven."
+ },
+ "kin": [
+  {
+   "to": "kolache",
+   "as": "The sweet one whose name it borrowed.",
+   "rel": "dish"
+  },
+  {
+   "to": "texas-kolache-counter",
+   "as": "The counter it built.",
+   "rel": "style"
+  },
+  {
+   "to": "czech-stop",
+   "as": "The stop on I-35 that sells them around the clock.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-klob-sn-k"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-klob-sn-k"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

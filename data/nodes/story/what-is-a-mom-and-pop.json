@@ -1,0 +1,89 @@
+{
+ "id": "what-is-a-mom-and-pop",
+ "type": "story",
+ "names": {
+  "name": "What counts as a mom-and-pop",
+  "aliases": [
+   "the independence line"
+  ],
+  "sort": "what counts as a mom-and-pop"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "This site is about independent donut shops, which means it needs a rule for what that is. The rule used here: a shop is independent when no company owns it. The name on the window is not the test, and neither is whose flour is in the mixer."
+ },
+ "sections": [
+  {
+   "h": "Why the sign is no help",
+   "text": "Every Daylight Donuts store is independently owned and operated, and there are roughly 950 of them in 13 countries. The company in Tulsa sells mix — it started in 1954 as a flour company, with Tommy and Lucille Day making donut mix in the mornings and selling it out of the trunk of their car in the afternoons.\n\nSpudnut Shops worked the same way from 1940 with a dry potato mix: more than 300 shops in 38 states by 1954, 315 by 1968, and then the parent company disappeared. Shops still trading under the name are not a chain; they are what a chain left behind."
+  },
+  {
+   "h": "The other direction",
+   "text": "A shop can look independent and not be. Top Pot makes donuts at two Seattle-area kitchens and trucks them to seventeen cafés, and supplies recipes to more than 7,000 Starbucks stores. Blue Star manufactures in one Portland facility and distributes to its shops rather than putting a fryer in each one.\n\nNeither is doing anything wrong. But a reader looking for a family frying at two in the morning should be told the difference."
+  },
+  {
+   "h": "The rule",
+   "text": "A shop counts as independent here when no company owns it, whatever the sign says. Where this project knows that a shop is owned by the family working in it, the record says so and names the source. Where it does not know, the record says nothing — which is where most shops in this directory currently stand."
+  },
+  {
+   "h": "Chains in the data",
+   "text": "The national map carries chain-owned locations too, marked as chains, because leaving them out would misrepresent what is on the ground and because OpenStreetMap records them by brand. Filtering them off is one click; pretending they are not there would be a different kind of map."
+  }
+ ],
+ "kin": [
+  {
+   "to": "mom-and-pop",
+   "as": "The term.",
+   "rel": "term"
+  },
+  {
+   "to": "tulsa-mix-shop",
+   "as": "The style that complicates it.",
+   "rel": "style"
+  },
+  {
+   "to": "daylight-donuts",
+   "as": "950 signs, 950 owners.",
+   "rel": "org"
+  },
+  {
+   "to": "top-pot-doughnuts",
+   "as": "Central kitchen, many cafés.",
+   "rel": "place"
+  },
+  {
+   "to": "spudnut",
+   "as": "The franchise that vanished.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-daylight-donuts",
+  "s:wp-spudnut-shops",
+  "s:wp-top-pot-doughnuts",
+  "s:wp-blue-star-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference",
+    "note": "the rule is this project's own, stated as such"
+   },
+   "sections[3].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

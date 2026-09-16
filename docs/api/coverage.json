@@ -1,0 +1,96 @@
+{
+ "built": "2026-09-17",
+ "scope": "Independent donut shops across the United States — cake and raised, who fries them, when, and what else is in the case: egg rolls, breakfast burritos, bacon egg and cheese, kolaches.",
+ "records": {
+  "style": 15,
+  "donut": 21,
+  "dish": 10,
+  "kitchen": 12,
+  "place": 17,
+  "person": 8,
+  "org": 12,
+  "event": 6,
+  "term": 13,
+  "art": 6,
+  "story": 11
+ },
+ "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json. Tradition fields are general knowledge of the tradition and are hedged in the text.",
+ "places": {
+  "curated": 17,
+  "harvested_from_osm": 10687,
+  "osm_fetched_at": "2026-09-16T17:35:34Z",
+  "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
+  "osm_query": "[out:json][timeout:180];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;(nwr[\"cuisine\"~\"donut|doughnut|donuts|doughnuts\",i](area.a);nwr[\"amenity\"~\"restaurant|fast_food|cafe\"][\"name\"~\"[Dd]o[u]?n[u]?ghts?nut|[Dd]onut|[Dd]oughnut|DONUT|DOUGHNUT\"](area.a);nwr[\"shop\"~\"bakery|pastry|confectionery|convenience\"][\"name\"~\"[Dd]o[u]?n[u]?ghts?nut|[Dd]onut|[Dd]oughnut|DONUT|DOUGHNUT\"](area.a);nwr[\"shop\"~\"bakery|pastry|confectionery|convenience\"][\"cuisine\"~\"donut|doughnut|donuts|doughnuts\",i](area.a););out center tags;"
+ },
+ "hours": {
+  "places_with_any_day_known": 4268,
+  "open_sunday": 4115,
+  "closed_sunday": 153,
+  "sunday_unknown": 6418,
+  "reading_an_absence": "A day is 'unknown' unless a source said so. Unknown is never rendered as closed."
+ },
+ "images": {
+  "count": 30,
+  "licences_accepted": [
+   "CC0",
+   "Public domain",
+   "CC BY",
+   "CC BY-SA",
+   "FAL"
+  ]
+ },
+ "tags": {
+  "family-run": 4,
+  "cambodian-american": 2,
+  "vietnamese-american": 0,
+  "chinese-american": 0,
+  "korean-american": 0,
+  "mexican-american": 0,
+  "greek-american": 0,
+  "black-owned": 0,
+  "woman-owned": 0,
+  "lgbtq-friendly": 0,
+  "both-doughs": 0,
+  "yeast-only": 0,
+  "cake-only": 0,
+  "hand-cut": 1,
+  "fried-overnight": 0,
+  "fries-twice": 0,
+  "egg-rolls": 0,
+  "breakfast-burritos": 0,
+  "bodega-sandwiches": 0,
+  "kolaches": 1,
+  "croissant-sandwiches": 0,
+  "fried-rice": 0,
+  "tamales": 0,
+  "biscuits-and-gravy": 0,
+  "boba": 0,
+  "ice-cream": 0,
+  "opens-before-five": 0,
+  "twentyfour-hours": 4,
+  "sold-out-closes": 0,
+  "drive-thru": 2,
+  "cash-only": 0,
+  "pink-box": 1,
+  "counter-or-window": 1,
+  "closed": 0
+ },
+ "tags_note": "Each tag carries the source it came from — the owner's words, a press profile, a public directory or a list. A place with no tag is one this project has not read.",
+ "recognitions": 7,
+ "recipes": 0,
+ "sources": 146,
+ "not_yet": [
+  "field observations (no record carries the field tier yet)",
+  "menu prices with dates on most shops",
+  "most towns beyond the ones written up",
+  "photographs for most records",
+  "per-piece weights for shop donuts, which almost nobody publishes"
+ ],
+ "tiers": {
+  "cited": "Cited — a named source, linked",
+  "harvested": "Harvested — fetched from an open dataset, with its licence",
+  "tradition": "Tradition — general knowledge of the tradition, hedged",
+  "inference": "Inference — this project's own reasoning from the above",
+  "field": "Field — someone stood there"
+ }
+}

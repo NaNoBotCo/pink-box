@@ -1,0 +1,186 @@
+{
+ "id": "round-rock-donuts",
+ "type": "place",
+ "names": {
+  "name": "Round Rock Donuts",
+  "aliases": [
+   "Lone Star Bakery"
+  ],
+  "sort": "Round Rock Donuts"
+ },
+ "region": [
+  "texas"
+ ],
+ "facets": {
+  "state": "TX",
+  "status": "open",
+  "founded": 1926,
+  "dough": "both",
+  "styles": [
+   "texas-kolache-counter"
+  ]
+ },
+ "text": {
+  "what": "A Texas counter trading since 1926, known for an outsized orange-yellow donut and a queue that starts early.",
+  "story": "Established in 1926 as Lone Star Bakery, it moved to 106 West Liberty in 1970 because the old spot at 101 East Main had nowhere to park. A second Austin location opened on Burnet Road in January 1977. A second modern location opened in Cedar Park in 2022.",
+  "today": "It has turned up on best-of lists for fifty years: Texas Monthly in 1976, Bon Appétit in 2010, The Daily Meal in 2013, Yelp in 2022, TasteAtlas in 2025."
+ },
+ "geo": {
+  "lat": 30.50954,
+  "lon": -97.67991,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "106 West Liberty Avenue",
+  "city": "Round Rock",
+  "county": "Williamson",
+  "state": "TX"
+ },
+ "recognitions": [
+  {
+   "by": "local-press",
+   "what": "Texas Monthly best-of list",
+   "year": 1976,
+   "source": "s:wp-round-rock-donuts"
+  },
+  {
+   "by": "bon-appetit",
+   "what": "best-of list",
+   "year": 2010,
+   "source": "s:wp-round-rock-donuts"
+  },
+  {
+   "by": "other",
+   "what": "The Daily Meal best-of list",
+   "year": 2013,
+   "source": "s:wp-round-rock-donuts"
+  }
+ ],
+ "kin": [
+  {
+   "to": "texas-kolache-counter",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "kolache",
+   "as": "What else a Texas counter sells at that hour.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-round-rock-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-round-rock-donuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Texas counter trading since 1926, known for an outsized orange-yellow donut and a queue that starts early.",
+ "region_terms": [
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX",
+   "note": "Houston, Dallas, San Antonio; kolaches, klobasniky, and Cambodian- and Vietnamese-American counters"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "as": "What else a Texas counter sells at that hour.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-round-rock-donuts",
+   "kind": "web",
+   "title": "Round Rock Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Round_Rock_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-round-rock-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-round-rock-donuts"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-round-rock-donuts"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-round-rock-donuts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [
+  {
+   "key": "local-press",
+   "label": "The local paper or alt-weekly",
+   "what": "Texas Monthly best-of list",
+   "url": "",
+   "year": 1976,
+   "source": "s:wp-round-rock-donuts"
+  },
+  {
+   "key": "bon-appetit",
+   "label": "Bon Appétit",
+   "what": "best-of list",
+   "url": "",
+   "year": 2010,
+   "source": "s:wp-round-rock-donuts"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "The Daily Meal best-of list",
+   "url": "",
+   "year": 2013,
+   "source": "s:wp-round-rock-donuts"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "A Texas counter big enough to be a landmark.",
+   "rel": "place"
+  }
+ ]
+}

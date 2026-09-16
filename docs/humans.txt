@@ -1,0 +1,15 @@
+/* PINK BOX */
+
+Built by NaN — https://wichaa.net
+131 records · 0 free-to-use recipes · 30 pictures · 146 sources
+
+/* THANKS */
+OpenStreetMap contributors, for every place point.
+Wikimedia Commons photographers, each named beside their picture.
+The Southern Foodways Alliance, for the oral histories.
+The cooks, most of them Black, who worked these pits through the night for two
+centuries and whose names came off the signs.
+
+/* SITE */
+Stdlib Python, no dependencies, no build step, no tracking, no accounts.
+Standards: HTML, JSON-LD, llms.txt, Atom, OpenSearch, ODbL, CC BY.

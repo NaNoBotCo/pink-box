@@ -1,0 +1,64 @@
+{
+ "id": "hot-now",
+ "type": "term",
+ "names": {
+  "name": "Hot now",
+  "aliases": [
+   "hot light",
+   "hot doughnuts now"
+  ],
+  "said": "Two words, lit up, and the parking lot fills."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "H",
+  "part_of_speech": "phrase"
+ },
+ "text": {
+  "what": "A lit sign saying donuts are coming out of the fryer at that moment.",
+  "story": "The practice predates the sign. Vernon Rudolph's Winston-Salem shop ran production from midnight to four in the morning for its wholesale trade and sold hot donuts to individual customers who turned up during it. In the early 2010s Krispy Kreme began building shops with tunnel ovens so the hot sign could stay on all day.\n\n*Inference —* the sign changed what it means. Lit at 3 a.m. it reports a shift; lit at 2 p.m. it reports a piece of equipment."
+ },
+ "kin": [
+  {
+   "to": "southern-hot-now",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "to": "krispy-kreme",
+   "as": "Whose sign it is.",
+   "rel": "org"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "What it used to point at.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "two words on a lit sign; plain description turned into a signal",
+  "first_attested": "",
+  "note": "The practice predates the sign: Krispy Kreme sold hot donuts during the midnight-to-four production run from 1937.",
+  "tier": "cited",
+  "source": "s:wp-krispy-kreme"
+ }
+}

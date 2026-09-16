@@ -1,0 +1,227 @@
+{
+ "id": "giant-donut-roof",
+ "type": "art",
+ "names": {
+  "name": "The donut on the roof",
+  "aliases": [
+   "big donut",
+   "programmatic architecture"
+  ],
+  "said": "Twenty-two feet of plaster ring, and it still works."
+ },
+ "region": [
+  "socal"
+ ],
+ "facets": {
+  "kind": "sign",
+  "state": "CA"
+ },
+ "text": {
+  "what": "Oversize donuts built on or around Southern California shops to catch drivers: roadside novelty architecture, most of it from the decade after the Second World War.",
+  "story": "Randy's, beside the 405 near LAX, is the best known of four surviving big donuts built by Russell C. Wendell, who started the Big Do-Nut Drive-In chain in the 1940s. A fifth was converted into a bagel. At one point there were ten Do-Nut Drive-Ins with 22-foot rings — or thirty feet high, depending on the account. The first opened in December 1949 with clowns, jugglers, magicians, free coffee and a trapeze artist swinging from the middle of the hole.\n\nMrs. Chapman's Angel Food Donuts ran about twenty stores with slightly smaller rings. The Donut Hole in La Puente, a drive-through you enter and leave through the holes of two giant donuts, is described as a distant cousin of the rooftop kind.\n\nOne critic called the giant donuts part of a Los Angeles that \"bordered on pop art, celebrating the effusiveness of life in the years after World War II\" — the same city that gave America an orange juice stand shaped like an orange.",
+  "today": "Municipal construction codes now generally prohibit oversize object-shaped buildings, so the survivors cannot be replaced, only kept."
+ },
+ "kin": [
+  {
+   "to": "randys-donuts",
+   "as": "The most photographed one.",
+   "rel": "place"
+  },
+  {
+   "to": "the-donut-hole",
+   "as": "The one you drive through.",
+   "rel": "place"
+  },
+  {
+   "to": "russell-wendell",
+   "as": "Who built them.",
+   "rel": "person"
+  },
+  {
+   "to": "neon-donut",
+   "as": "The other thing on the roofline.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:wp-big-donuts-of-southern-california",
+  "s:wp-randy-s-donuts",
+  "s:wp-the-donut-hole"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "giant-donut-roof/giant-donut-roof-bellflower-bagels-formerly-a-big-donut-bellflower-lo-14dcf31.jpg",
+   "source": "commons",
+   "title": "File:Bellflower Bagels formerly a big donut - Bellflower Los Angeles County California.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Bellflower_Bagels_formerly_a_big_donut_-_Bellflower_Los_Angeles_County_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABellflower_Bagels_formerly_a_big_donut_-_Bellflower_Los_Angeles_County_California.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jengod",
+   "credit": "Own work",
+   "alt": "Bellflower Bagels",
+   "date": "2025-02-24 09:18:46",
+   "primary": true,
+   "sha256": "25994f4ec98c31324c00396e7cf30b8ba2461ba15ec80788e426f5f47c666a19"
+  },
+  {
+   "file": "giant-donut-roof/giant-donut-roof-big-do-nut-drive-in-inglewood-california-lccn2017709532.jpg",
+   "source": "commons",
+   "title": "File:Big Do-Nut Drive-in, Inglewood, California LCCN2017709532.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Big_Do-Nut_Drive-in%2C_Inglewood%2C_California_LCCN2017709532.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABig_Do-Nut_Drive-in%2C_Inglewood%2C_California_LCCN2017709532.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709532\nImage download: https://cdn.loc.gov/master/pnp/mrg/07400/07440a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07440",
+   "alt": "Title: Big Do-Nut Drive-in, Inglewood, California\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America photograph arc",
+   "date": "1976",
+   "primary": false,
+   "sha256": "486af171b0c26cb55f0dbb16887c2ea248670a004df31ff6c432e0633bdac8b1"
+  }
+ ],
+ "blurb": "Oversize donuts built on or around Southern California shops to catch drivers: roadside novelty architecture, most of it from the decade after the Second World War.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The most photographed one.",
+   "rel": "place"
+  },
+  {
+   "to": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "The one you drive through.",
+   "rel": "place"
+  },
+  {
+   "to": "russell-wendell",
+   "type": "person",
+   "name": "Russell C. Wendell",
+   "as": "Who built them.",
+   "rel": "person"
+  },
+  {
+   "to": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "The other thing on the roofline.",
+   "rel": "art"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-big-donuts-of-southern-california",
+   "kind": "web",
+   "title": "Big donuts of Southern California — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Big_donuts_of_Southern_California",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-randy-s-donuts",
+   "kind": "web",
+   "title": "Randy's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Randy%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-the-donut-hole",
+   "kind": "web",
+   "title": "The Donut Hole — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/The_Donut_Hole",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  }
+ },
+ "primary_image": {
+  "file": "giant-donut-roof/giant-donut-roof-bellflower-bagels-formerly-a-big-donut-bellflower-lo-14dcf31.jpg",
+  "source": "commons",
+  "title": "File:Bellflower Bagels formerly a big donut - Bellflower Los Angeles County California.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Bellflower_Bagels_formerly_a_big_donut_-_Bellflower_Los_Angeles_County_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABellflower_Bagels_formerly_a_big_donut_-_Bellflower_Los_Angeles_County_California.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Jengod",
+  "credit": "Own work",
+  "alt": "Bellflower Bagels",
+  "date": "2025-02-24 09:18:46",
+  "primary": true,
+  "sha256": "25994f4ec98c31324c00396e7cf30b8ba2461ba15ec80788e426f5f47c666a19"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The best-known example of the form.",
+   "rel": "art"
+  },
+  {
+   "from": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "Programmatic architecture, and the one you drive through.",
+   "rel": "art"
+  },
+  {
+   "from": "russell-wendell",
+   "type": "person",
+   "name": "Russell C. Wendell",
+   "as": "The form.",
+   "rel": "art"
+  },
+  {
+   "from": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "as": "The daylight version.",
+   "rel": "art"
+  }
+ ]
+}

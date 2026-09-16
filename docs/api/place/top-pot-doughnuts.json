@@ -1,0 +1,178 @@
+{
+ "id": "top-pot-doughnuts",
+ "type": "place",
+ "names": {
+  "name": "Top Pot Doughnuts",
+  "aliases": [
+   "Top Pot"
+  ],
+  "sort": "Top Pot Doughnuts"
+ },
+ "region": [
+  "pacific-northwest"
+ ],
+ "facets": {
+  "state": "WA",
+  "status": "open",
+  "founded": 2002,
+  "dough": "both"
+ },
+ "text": {
+  "what": "A Seattle coffee-and-donut company begun on Capitol Hill, now 17 cafés around Puget Sound.",
+  "story": "Brothers Mark and Michael Klebeck started Top Pot in February 2002. As of November 2023 it ran 17 cafés, though the donuts are made only at the downtown Seattle and Bellevue kitchens and trucked to the rest.\n\nIts recipes are used for the donuts sold in more than 7,000 Starbucks stores in the United States and Canada, and by the Seattle grocer QFC. They are the official donut at Lumen Field.",
+  "today": "A shop that makes its own and ships them is a third thing: not a chain kitchen, not a counter with a kettle."
+ },
+ "geo": {
+  "lat": 47.61524,
+  "lon": -122.34113,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "2124 5th Avenue",
+  "city": "Seattle",
+  "county": "King",
+  "state": "WA"
+ },
+ "kin": [
+  {
+   "to": "voodoo-doughnut",
+   "as": "The other Northwest name, playing it differently.",
+   "rel": "place"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "as": "Where a shop stops being one.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-top-pot-doughnuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-top-pot-doughnuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "top-pot-doughnuts/top-pot-doughnuts-top-pot-5th-ave-seattle-09.jpg",
+   "source": "commons",
+   "title": "File:Top Pot 5th Ave Seattle 09.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Top_Pot_5th_Ave_Seattle_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATop_Pot_5th_Ave_Seattle_09.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Joe Mabel",
+   "credit": "Photo by Joe Mabel",
+   "alt": "Top Pot (Donut shop / coffeehouse) on Fifth Avenue in Belltown (the north part of downtown), Seattle, Washington. The building was previously the office of an architecture firm.",
+   "date": "Taken on 15 September 2006",
+   "primary": true,
+   "sha256": "c8d7e2c37423a330b3ea4c94e40d528e7eadc5cd7cb4ae1ae222218e663c55ee"
+  }
+ ],
+ "blurb": "A Seattle coffee-and-donut company begun on Capitol Hill, now 17 cafés around Puget Sound.",
+ "region_terms": [
+  {
+   "key": "pacific-northwest",
+   "name": "The Pacific Northwest",
+   "state": null,
+   "note": "Portland, Seattle"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "as": "The other Northwest name, playing it differently.",
+   "rel": "place"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "Where a shop stops being one.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-top-pot-doughnuts",
+   "kind": "web",
+   "title": "Top Pot Doughnuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Top_Pot_Doughnuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-top-pot-doughnuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-top-pot-doughnuts"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-top-pot-doughnuts"
+  }
+ },
+ "primary_image": {
+  "file": "top-pot-doughnuts/top-pot-doughnuts-top-pot-5th-ave-seattle-09.jpg",
+  "source": "commons",
+  "title": "File:Top Pot 5th Ave Seattle 09.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Top_Pot_5th_Ave_Seattle_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ATop_Pot_5th_Ave_Seattle_09.jpg",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Joe Mabel",
+  "credit": "Photo by Joe Mabel",
+  "alt": "Top Pot (Donut shop / coffeehouse) on Fifth Avenue in Belltown (the north part of downtown), Seattle, Washington. The building was previously the office of an architecture firm.",
+  "date": "Taken on 15 September 2006",
+  "primary": true,
+  "sha256": "c8d7e2c37423a330b3ea4c94e40d528e7eadc5cd7cb4ae1ae222218e663c55ee"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "as": "The other Northwest shop, and the opposite register.",
+   "rel": "place"
+  },
+  {
+   "from": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "as": "Central kitchen, many cafés.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "daylight-donuts",
+ "type": "org",
+ "names": {
+  "name": "Daylight Donuts",
+  "aliases": [
+   "Daylight Donut Flour Company"
+  ],
+  "said": "A flour company first. The shops came after, and they are not its shops."
+ },
+ "region": [
+  "us",
+  "texas"
+ ],
+ "facets": {
+  "state": "OK",
+  "status": "open",
+  "founded": 1954
+ },
+ "text": {
+  "what": "The Tulsa company that sells donut mix and a sign to roughly 950 independently owned shops in 13 countries.",
+  "story": "Tommy and Lucille Day started in 1954, making mix in the mornings and selling it to shops in the afternoons, mostly out of the trunk of their car. The company they named — Daylight Donuts Flour Co. — was a supplier before it was a brand. Each Daylight Donuts store is independently owned and operated.",
+  "today": "A Daylight sign tells you whose flour is inside and nothing about who owns the shop."
+ },
+ "kin": [
+  {
+   "to": "tulsa-mix-shop",
+   "as": "The kind of business it makes possible.",
+   "rel": "style"
+  },
+  {
+   "to": "mom-and-pop",
+   "as": "Why the sign is not the test.",
+   "rel": "term"
+  },
+  {
+   "to": "cake-batter",
+   "as": "What comes out of the bag.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-daylight-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "daylight-donuts/daylight-donuts-fort-findlay-doughnut-shop.jpg",
+   "source": "commons",
+   "title": "File:Fort Findlay Doughnut Shop.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Fort_Findlay_Doughnut_Shop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AFort_Findlay_Doughnut_Shop.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mbrickn",
+   "credit": "Own work",
+   "alt": "The Fort Findlay Doughnut Shop",
+   "date": "2019-06-07 15:56:08",
+   "primary": true,
+   "sha256": "6183616fb5985dcc3b89dccdbce8581825b1fc7f46516960687aa6c9bd7720c3"
+  }
+ ]
+}

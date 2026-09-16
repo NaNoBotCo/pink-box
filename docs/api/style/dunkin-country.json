@@ -1,0 +1,197 @@
+{
+ "id": "dunkin-country",
+ "type": "style",
+ "names": {
+  "name": "Dunkin' country",
+  "aliases": [
+   "New England coffee-and-donut",
+   "the regular"
+  ],
+  "said": "A regular means light and sweet, and you do not have to say so."
+ },
+ "region": [
+  "new-england"
+ ],
+ "facets": {
+  "state": "MA",
+  "dough": "both",
+  "counter": "coffee-only"
+ },
+ "text": {
+  "what": "Coffee first, donut second, at a counter that measures itself in how fast the line moves. The New England model, and the one the rest of the country meets as a drive-thru.",
+  "story": "Bill Rosenberg opened the Open Kettle in Quincy, Massachusetts, in 1948, selling donuts and coffee; in May 1950 he renamed it Dunkin' Donuts. He had been selling food to factories and construction sites and found donuts and coffee were what people bought. Franchising started in 1955. Johnny Spartos, running the original Quincy shop, talked Rosenberg into a donut with a handle, made for dunking.\n\nThe chain's growth came partly by absorption: in 1990 it took over Mister Donut — founded by Rosenberg's former partner Harry Winokur — and Dawn Donuts, converting the shops.\n\nDensity is the New England fact. The Providence metropolitan area has been cited as having the most donut shops per capita in the United States: 25.3 per 100,000 people, as of 13 January 2010.",
+  "how": "Donuts arrive from a central kitchen in most locations now, which is the difference between this and a shop with a kettle.",
+  "today": "A New England independent competes on frying on site and says so on the window."
+ },
+ "kin": [
+  {
+   "to": "dunkin",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "to": "bill-rosenberg",
+   "as": "Sold coffee to factories, then sold the idea.",
+   "rel": "person"
+  },
+  {
+   "to": "allies-donuts",
+   "as": "The Rhode Island counter that outlasted the argument.",
+   "rel": "place"
+  },
+  {
+   "to": "donuts-per-capita",
+   "as": "Where the shops actually are, counted.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-dunkin-donuts",
+  "s:wp-doughnut-shop"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "central-kitchen supply is this project's reading; the company publishes no per-store figure here"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Coffee first, donut second, at a counter that measures itself in how fast the line moves. The New England model, and the one the rest of the country meets as a drive-thru.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "to": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "Sold coffee to factories, then sold the idea.",
+   "rel": "person"
+  },
+  {
+   "to": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "as": "The Rhode Island counter that outlasted the argument.",
+   "rel": "place"
+  },
+  {
+   "to": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "Where the shops actually are, counted.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-dunkin-donuts",
+   "kind": "web",
+   "title": "Dunkin' Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "central-kitchen supply is this project's reading; the company publishes no per-store figure here"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "The chain that paired them nationally.",
+   "rel": "style"
+  },
+  {
+   "from": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "as": "The region it competes in, by frying its own.",
+   "rel": "style"
+  },
+  {
+   "from": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "as": "The region it shaped.",
+   "rel": "style"
+  },
+  {
+   "from": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "as": "The region it defines.",
+   "rel": "style"
+  },
+  {
+   "from": "jimmies",
+   "type": "term",
+   "name": "Jimmies",
+   "as": "The region the word belongs to.",
+   "rel": "style"
+  },
+  {
+   "from": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "The region that drives the New England number.",
+   "rel": "style"
+  }
+ ]
+}

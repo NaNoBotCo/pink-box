@@ -1,0 +1,101 @@
+{
+ "id": "leonards-bakery",
+ "type": "place",
+ "names": {
+  "name": "Leonard's Bakery",
+  "aliases": [
+   "Leonard's",
+   "Leonard's Malasadas"
+  ],
+  "sort": "Leonard's Bakery"
+ },
+ "region": [
+  "hawaii"
+ ],
+ "facets": {
+  "state": "HI",
+  "status": "open",
+  "founded": 1952,
+  "dough": "yeast",
+  "styles": [
+   "hawaii-malasada"
+  ]
+ },
+ "text": {
+  "what": "A Portuguese bakery on Kapahulu Avenue in Honolulu that made the malasada an everyday Hawaiian habit rather than a Carnival one.",
+  "story": "Margaret and Frank Leonard Rego Sr. opened the bakery in 1952. Rego's mother pushed him to sell malasadas — the holeless Portuguese pastry Portuguese immigrants had brought to the islands at the turn of the twentieth century. Leonard's carried it to a far wider audience than it had before.\n\nA franchise location opened in Japan in 2008.",
+  "today": "A household name in Hawaii and known well beyond it; the malasada wagons park across the island."
+ },
+ "geo": {
+  "lat": 21.28491,
+  "lon": -157.81328,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "933 Kapahulu Avenue",
+  "city": "East Honolulu",
+  "county": "Honolulu",
+  "state": "HI"
+ },
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:wp-leonard-s-bakery",
+   "tier": "cited",
+   "note": "opened by Margaret and Frank Leonard Rego Sr."
+  }
+ ],
+ "kin": [
+  {
+   "to": "malasada",
+   "as": "The thing it sells.",
+   "rel": "donut"
+  },
+  {
+   "to": "hawaii-malasada",
+   "as": "The style it anchors.",
+   "rel": "style"
+  },
+  {
+   "to": "malasada-day",
+   "as": "The day the queue goes around the block.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-leonard-s-bakery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-leonard-s-bakery"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "leonards-bakery/leonards-bakery-leonard-s-bakery-honolulu-hawaii-4540006860.jpg",
+   "source": "commons",
+   "title": "File:Leonard's Bakery, Honolulu, Hawaii (4540006860).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Leonard%27s_Bakery%2C_Honolulu%2C_Hawaii_%284540006860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALeonard%27s_Bakery%2C_Honolulu%2C_Hawaii_%284540006860%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Ken Lund from Las Vegas, Nevada, USA",
+   "credit": "Leonard's Bakery, Honolulu, Hawaii",
+   "alt": "Eat their malasadas and other good things. www.leonardshawaii.com/",
+   "date": "2010-04-17 11:17",
+   "primary": true,
+   "sha256": "4dfb312ff6fdad0569c080075c068c4def5cae5876f7642748d4cf96345f9542"
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "id": "the-dozen",
+ "type": "term",
+ "names": {
+  "name": "The dozen",
+  "aliases": [
+   "a dozen",
+   "half dozen",
+   "baker's dozen"
+  ],
+  "said": "You do not buy one. You buy twelve and eat two in the car."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "T",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The unit donuts are sold in, and the reason for the box.",
+  "story": "*Tradition holds —* the dozen is the trade's unit because a box holds twelve in a single layer without crushing, and because a shop prices twelve below twelve times one to move the tray. A baker's dozen is thirteen, an old trade practice of adding one to be safe against a short weight.\n\nThis project has not found a published history of donut dozen pricing in the United States and does not invent one."
+ },
+ "kin": [
+  {
+   "to": "pink-box",
+   "as": "What a dozen goes into.",
+   "rel": "art"
+  },
+  {
+   "to": "the-case",
+   "as": "Where it comes from.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "as": "What it costs, with dates.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "from Old French dozeine, twelve; a baker's dozen is thirteen",
+  "first_attested": "",
+  "note": "The extra one is an old trade practice against selling short weight.",
+  "tier": "tradition",
+  "source": "s:this-project"
+ },
+ "blurb": "The unit donuts are sold in, and the reason for the box.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "What a dozen goes into.",
+   "rel": "art"
+  },
+  {
+   "to": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "Where it comes from.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "What it costs, with dates.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Pink Box — this project's own reasoning",
+   "publisher": "Pink Box",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "as": "How it gets sold.",
+   "rel": "term"
+  },
+  {
+   "from": "krispy-kreme-challenge",
+   "type": "event",
+   "name": "Krispy Kreme Challenge",
+   "as": "The unit being eaten.",
+   "rel": "term"
+  },
+  {
+   "from": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "What goes inside.",
+   "rel": "term"
+  },
+  {
+   "from": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "The unit.",
+   "rel": "term"
+  }
+ ]
+}

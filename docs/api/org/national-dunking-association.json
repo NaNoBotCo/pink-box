@@ -1,0 +1,146 @@
+{
+ "id": "national-dunking-association",
+ "type": "org",
+ "names": {
+  "name": "National Dunking Association",
+  "aliases": [],
+  "said": "Jimmy Durante was president. So was Johnny Carson."
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "closed"
+ },
+ "text": {
+  "what": "A membership organisation started by the Doughnut Corporation of America in the 1930s to popularise donuts in North America.",
+  "story": "At its peak it claimed millions of members across more than 300 chapters — actors, athletes, politicians and ordinary members — with Official Dunking Rules treating dunking as a sport: break the donut in half, then swish it rhythmically in coffee, cocoa, tea or milk. It held an annual convention in New York. Presidents included Jimmy Durante, Jack Lemmon, Red Skelton, Joey Bishop and Johnny Carson; Bert Nevins was vice president.",
+  "today": "A trade association for a gesture, which is a thing the twentieth century could do and this one cannot."
+ },
+ "kin": [
+  {
+   "to": "dunking",
+   "as": "The gesture.",
+   "rel": "term"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "as": "Who ran it.",
+   "rel": "org"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "The other half.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-national-dunking-association"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-dunking-association"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A membership organisation started by the Doughnut Corporation of America in the 1930s to popularise donuts in North America.",
+ "region_terms": [
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunking",
+   "type": "term",
+   "name": "Dunking",
+   "as": "The gesture.",
+   "rel": "term"
+  },
+  {
+   "to": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "Who ran it.",
+   "rel": "org"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "The other half.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-national-dunking-association",
+   "kind": "web",
+   "title": "National Dunking Association — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Dunking_Association",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-national-dunking-association"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-national-dunking-association"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-national-dunking-association"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "The membership stunt his company ran.",
+   "rel": "org"
+  },
+  {
+   "from": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "Its membership stunt.",
+   "rel": "org"
+  },
+  {
+   "from": "dunking",
+   "type": "term",
+   "name": "Dunking",
+   "as": "The organisation.",
+   "rel": "org"
+  }
+ ]
+}

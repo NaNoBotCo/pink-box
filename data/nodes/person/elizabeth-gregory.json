@@ -1,0 +1,55 @@
+{
+ "id": "elizabeth-gregory",
+ "type": "person",
+ "names": {
+  "name": "Elizabeth Gregory",
+  "aliases": [],
+  "said": "The one who was actually frying."
+ },
+ "region": [
+  "new-england"
+ ],
+ "facets": {
+  "role": "cook",
+  "state": "ME"
+ },
+ "text": {
+  "what": "Hanson Gregory's mother, who by the Smithsonian's account made the deep-fried dough the ring story starts from.",
+  "story": "She used her son's spice cargo — nutmeg, cinnamon, lemon rind — and put hazelnuts or walnuts in the centre, where the dough might not cook through, and called them doughnuts. That detail is the strongest reading of why a fried cake is named after a nut.",
+  "today": "The son's version of the story travels; hers explains the word."
+ },
+ "kin": [
+  {
+   "to": "hanson-gregory",
+   "as": "Her son, and the claim.",
+   "rel": "person"
+  },
+  {
+   "to": "olykoek",
+   "as": "What she was frying a version of.",
+   "rel": "term"
+  },
+  {
+   "to": "hole",
+   "as": "The argument.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

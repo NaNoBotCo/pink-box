@@ -1,0 +1,70 @@
+{
+ "id": "federal-donuts",
+ "type": "place",
+ "names": {
+  "name": "Federal Donuts",
+  "aliases": [
+   "Federal Donuts & Chicken"
+  ],
+  "sort": "Federal Donuts"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "state": "PA",
+  "status": "open",
+  "founded": 2011,
+  "dough": "cake"
+ },
+ "text": {
+  "what": "A Philadelphia counter selling donuts, coffee and fried chicken from the same window.",
+  "story": "The founders took the idea from Cafe Soho in Philadelphia, which serves Korean fried chicken. The first shop opened in Pennsport in 2011; by 2018 there were six, plus stands at Citizens Bank Park. A Miami branch opened in 2017 and closed in 2018. In 2024 the flagship moved from 1219 South 2nd Street to 22 Wolf Street in South Philadelphia. Michael Solomonov owns the chain.",
+  "today": "Donuts and fried chicken on one menu reads as a concept here and as ordinary arithmetic in a Los Angeles strip mall."
+ },
+ "geo": {
+  "lat": 39.91879,
+  "lon": -75.14676,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "22 Wolf Street",
+  "city": "Philadelphia",
+  "county": "Philadelphia",
+  "state": "PA"
+ },
+ "kin": [
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The same two-menu logic, with a chef's name on it.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The side of the case it works on.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-federal-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-federal-donuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

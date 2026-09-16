@@ -1,0 +1,144 @@
+{
+ "id": "russell-wendell",
+ "type": "person",
+ "names": {
+  "name": "Russell C. Wendell",
+  "aliases": [
+   "Russell Wendell"
+  ],
+  "said": "Sold donut machines, then built buildings shaped like what they made."
+ },
+ "region": [
+  "socal"
+ ],
+ "facets": {
+  "role": "founder",
+  "state": "CA"
+ },
+ "text": {
+  "what": "The machine salesman who founded the Big Do-Nut Drive-In chain and put 22-foot donuts on its roofs.",
+  "story": "Wendell started the chain in the 1940s; the first shop opened in Westmont in 1951, the second — now Randy's — in 1952. At its height there were ten Do-Nut Drive-Ins carrying the giant rings. The December 1949 opening of the first big donut came with clowns, jugglers, magicians, free coffee and a trapeze artist swinging through the hole.\n\nHe sold out in the 1970s and moved to his Pup 'N' Taco chain, which Taco Bell bought in 1984. Four of the big donuts survive; a fifth was converted into a bagel.",
+  "today": "Municipal construction codes now generally prohibit giant object-shaped buildings, so the surviving ones cannot be replaced."
+ },
+ "kin": [
+  {
+   "to": "randys-donuts",
+   "as": "His second building.",
+   "rel": "place"
+  },
+  {
+   "to": "giant-donut-roof",
+   "as": "The form.",
+   "rel": "art"
+  },
+  {
+   "to": "the-donut-hole",
+   "as": "The drive-through cousin.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-big-donuts-of-southern-california",
+  "s:wp-randy-s-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The machine salesman who founded the Big Do-Nut Drive-In chain and put 22-foot donuts on its roofs.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "His second building.",
+   "rel": "place"
+  },
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The form.",
+   "rel": "art"
+  },
+  {
+   "to": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "The drive-through cousin.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-big-donuts-of-southern-california",
+   "kind": "web",
+   "title": "Big donuts of Southern California — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Big_donuts_of_Southern_California",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-randy-s-donuts",
+   "kind": "web",
+   "title": "Randy's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Randy%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-big-donuts-of-southern-california"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "Sold the machines, then built the chain the sign came from.",
+   "rel": "person"
+  },
+  {
+   "from": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "Who built them.",
+   "rel": "person"
+  }
+ ]
+}

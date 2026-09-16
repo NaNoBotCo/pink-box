@@ -1,0 +1,74 @@
+{
+ "id": "doughnut-plant",
+ "type": "place",
+ "names": {
+  "name": "Doughnut Plant",
+  "aliases": [
+   "Doughnut Plant NYC"
+  ],
+  "sort": "Doughnut Plant"
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1994,
+  "dough": "both"
+ },
+ "text": {
+  "what": "A New York bakery that treats the donut as a thing to redesign: square filled donuts, crème brûlée donuts, shapes that do not come off a standard cutter.",
+  "story": "Mark Isreal started making donuts in the basement of his Lower East Side building in 1994 and delivered them by bicycle to restaurants and food shops. The first storefront opened on Grand Street in 2000.",
+  "today": "Bon Appétit and Saveur have both named it an early influence on the American artisanal donut shops that followed."
+ },
+ "geo": {
+  "lat": 40.71634,
+  "lon": -73.98854,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "379 Grand Street",
+  "city": "New York",
+  "county": "",
+  "state": "NY"
+ },
+ "recognitions": [
+  {
+   "by": "bon-appetit",
+   "what": "identified as an early influence on the modern American artisanal doughnut",
+   "source": "s:wp-doughnut-plant"
+  }
+ ],
+ "kin": [
+  {
+   "to": "nyc-bodega-donut",
+   "as": "The city's other model, at a third the price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "as": "Where a five-dollar donut sits.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut-plant"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-plant"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

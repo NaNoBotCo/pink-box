@@ -1,0 +1,139 @@
+{
+ "id": "randys-donuts",
+ "type": "place",
+ "names": {
+  "name": "Randy's Donuts",
+  "aliases": [
+   "the big donut",
+   "Big Donut Drive-In (original)"
+  ],
+  "sort": "Randy's Donuts"
+ },
+ "region": [
+  "socal"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1952,
+  "dough": "both",
+  "styles": [
+   "socal-pink-box"
+  ]
+ },
+ "text": {
+  "what": "A drive-in donut counter on West Manchester Boulevard in Inglewood, under a 1950s rooftop donut big enough to be a landmark from the 405. Open around the clock.",
+  "story": "Russell Wendell, a donut machine salesman, founded a chain of drive-in shops called Big Donut in the late 1940s; the first opened in Westmont in 1951 and the second — this building — in 1952. Wendell moved on to his Pup 'N' Taco chain and sold the Inglewood shop in 1976 to Robert Eskow, who renamed it after his son Randy. Eskow sold it in 1978 to Ron and Larry Weintraub, who kept the name. It changed hands again in 2015.\n\nFour of Wendell's big donuts survive; a fifth became a bagel. At their height there were ten Do-Nut Drive-Ins carrying 22-foot donuts, and the opening of the first one in December 1949 had clowns, jugglers, free coffee and a trapeze artist swinging through the hole.",
+  "today": "The rooftop donut gets photographed more than anything else in the trade, and the shop now runs additional locations under the same name."
+ },
+ "geo": {
+  "lat": 33.96185,
+  "lon": -118.37038,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "805 West Manchester Boulevard",
+  "city": "Inglewood",
+  "county": "Los Angeles",
+  "state": "CA",
+  "postcode": "90301"
+ },
+ "tags": [
+  {
+   "tag": "drive-thru",
+   "source": "s:wp-randy-s-donuts",
+   "tier": "cited"
+  },
+  {
+   "tag": "twentyfour-hours",
+   "source": "s:wp-randy-s-donuts",
+   "tier": "cited",
+   "note": "the original is described as a 24-hour drive-in"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "local-press",
+   "what": "described as one of Los Angeles's most iconic landmarks",
+   "source": "s:wp-randy-s-donuts"
+  }
+ ],
+ "kin": [
+  {
+   "to": "giant-donut-roof",
+   "as": "The best-known example of the form.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The regional style it sits inside.",
+   "rel": "style"
+  },
+  {
+   "to": "the-donut-hole",
+   "as": "The other drive-through landmark, twenty miles east.",
+   "rel": "place"
+  },
+  {
+   "to": "russell-wendell",
+   "as": "Sold the machines, then built the chain the sign came from.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-randy-s-donuts",
+  "s:wp-big-donuts-of-southern-california"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-randy-s-donuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the photograph claim is this project's reading, not a count"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "randys-donuts/randys-donuts-2008-0914-randysdonuts.jpg",
+   "source": "commons",
+   "title": "File:2008-0914-RandysDonuts.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2008-0914-RandysDonuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2008-0914-RandysDonuts.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Bobak Ha'Eri",
+   "credit": "Own work",
+   "alt": "Randy's Donuts, Los Angeles, California.",
+   "date": "Taken on 14 September 2008",
+   "primary": true,
+   "sha256": "13aa9dca442e58d1e9444ee2d19226876e5075f64ccd52c7247e05a60a57599d"
+  },
+  {
+   "file": "randys-donuts/randys-donuts-big-do-nut-drive-in-inglewood-california-lccn2017709531.jpg",
+   "source": "commons",
+   "title": "File:Big Do-Nut Drive-in, Inglewood, California LCCN2017709531.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Big_Do-Nut_Drive-in%2C_Inglewood%2C_California_LCCN2017709531.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABig_Do-Nut_Drive-in%2C_Inglewood%2C_California_LCCN2017709531.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709531\nImage download: https://cdn.loc.gov/master/pnp/mrg/07400/07439a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07439",
+   "alt": "Title: Big Do-Nut Drive-in, Inglewood, California\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America photograph arc",
+   "date": "1976",
+   "primary": false,
+   "sha256": "0e2ad36697386debbff141976ec85210604a238aac0d5d5c5094a988b0e72bf2"
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "id": "adolph-levitt",
+ "type": "person",
+ "names": {
+  "name": "Adolph Levitt",
+  "aliases": [],
+  "said": "Sold the machine, then sold the donut, then sold membership in liking them."
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "role": "inventor",
+  "state": "NY"
+ },
+ "text": {
+  "what": "The Russian refugee who built the first automated donut machine in New York in 1920 and founded the Doughnut Corporation of America.",
+  "story": "Levitt's machine cut and fried donuts automatically, which turned a bakery job into a production line and made a shop window into a show. He founded the Doughnut Corporation of America, which later started the National Dunking Association, and opened the Mayflower donut shop in Times Square in 1931. At the 1933–34 Chicago World's Fair the machine was billed as the food hit of the Century of Progress.\n\nThe farm stands followed: cider-selling orchards took up the machine quickly, and cider donuts became a roadside product.",
+  "today": "Every depositor over every kettle in every strip-mall shop is downstream of that machine."
+ },
+ "kin": [
+  {
+   "to": "doughnut-corporation-of-america",
+   "as": "The company he built.",
+   "rel": "org"
+  },
+  {
+   "to": "cake-batter",
+   "as": "The process his machine automated.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "new-england-cider",
+   "as": "The trade it created at the roadside.",
+   "rel": "style"
+  },
+  {
+   "to": "national-dunking-association",
+   "as": "The membership stunt his company ran.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut-shop",
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The Russian refugee who built the first automated donut machine in New York in 1920 and founded the Doughnut Corporation of America.",
+ "region_terms": [
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "The company he built.",
+   "rel": "org"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The process his machine automated.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "The trade it created at the roadside.",
+   "rel": "style"
+  },
+  {
+   "to": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "The membership stunt his company ran.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cider-doughnut",
+   "kind": "web",
+   "title": "Cider doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cider_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "Whose machine made a farm stand into a donut shop.",
+   "rel": "person"
+  },
+  {
+   "from": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "Whose machine let a farm stand fry.",
+   "rel": "person"
+  },
+  {
+   "from": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "Whose machine started the idea.",
+   "rel": "person"
+  },
+  {
+   "from": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "from": "orchard-season",
+   "type": "event",
+   "name": "Cider donut season",
+   "as": "Whose machine made it a roadside trade.",
+   "rel": "person"
+  }
+ ]
+}

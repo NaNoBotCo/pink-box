@@ -1,0 +1,16 @@
+{
+ "name": "Pink Box",
+ "short_name": "Pink Box",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#fff5fa",
+ "theme_color": "#d6136a",
+ "description": "cake or raised, egg rolls in the case, and who's been up since two",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

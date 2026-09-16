@@ -1,0 +1,149 @@
+{
+ "id": "orchard-season",
+ "type": "event",
+ "names": {
+  "name": "Cider donut season",
+  "aliases": [
+   "harvest season",
+   "apple picking"
+  ],
+  "said": "September to the first hard frost, and then the machine goes quiet."
+ },
+ "region": [
+  "new-england",
+  "upstate-ny",
+  "upper-midwest"
+ ],
+ "facets": {
+  "when": "September to November or December",
+  "status": "seasonal"
+ },
+ "text": {
+  "what": "The weeks when orchards and cider mills in the Northeast and Midwest run donut machines for the people who came to pick apples.",
+  "story": "Cider donut season runs with the apple harvest: September through November or December. Grocery stores put them out as early as August. Food & Wine has pointed out that a year-round cider donut is unlikely to contain fresh-pressed cider.\n\nDonuts were autumn food long before this: the slaughter season produced the surplus fat to fry them in.",
+  "today": "Leaf-peeping traffic and the donut window are the same business for six weeks a year."
+ },
+ "kin": [
+  {
+   "to": "cider-donut",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "new-england-cider",
+   "as": "The counter.",
+   "rel": "style"
+  },
+  {
+   "to": "adolph-levitt",
+   "as": "Whose machine made it a roadside trade.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cider-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The weeks when orchards and cider mills in the Northeast and Midwest run donut machines for the people who came to pick apples.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "cider mills, the county fair"
+  },
+  {
+   "key": "upper-midwest",
+   "name": "The Upper Midwest",
+   "state": null,
+   "note": "Wisconsin, Minnesota, the Dakotas; bismarcks, long johns, church-basement fry"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "The counter.",
+   "rel": "style"
+  },
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Whose machine made it a roadside trade.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cider-doughnut",
+   "kind": "web",
+   "title": "Cider doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cider_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cider-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cider-doughnut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-cider-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "The weeks it runs.",
+   "rel": "event"
+  },
+  {
+   "from": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The weeks it exists in.",
+   "rel": "event"
+  }
+ ]
+}

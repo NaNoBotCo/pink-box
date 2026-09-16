@@ -1,0 +1,67 @@
+{
+ "id": "dunkin",
+ "type": "org",
+ "names": {
+  "name": "Dunkin'",
+  "aliases": [
+   "Dunkin' Donuts"
+  ],
+  "said": "Dropped Donuts from the name in 2019 and kept the donuts."
+ },
+ "region": [
+  "new-england",
+  "us"
+ ],
+ "facets": {
+  "state": "MA",
+  "status": "open",
+  "founded": 1948
+ },
+ "text": {
+  "what": "The Quincy, Massachusetts chain that paired coffee and donuts nationally, and the oldest surviving company using the short spelling.",
+  "story": "Bill Rosenberg opened the Open Kettle in 1948 and renamed it Dunkin' Donuts in May 1950. Franchising started in 1955. Allied Lyons, Baskin-Robbins' holding company, acquired the chain in 1990; its purchase of Mister Donut — founded by Rosenberg's former partner Harry Winokur — and the conversion of those shops drove North American growth the same year. Dawn Donuts went the same way.",
+  "today": "New England independents compete on frying on site, which is the difference the chain's scale cannot copy shop by shop."
+ },
+ "kin": [
+  {
+   "to": "dunkin-country",
+   "as": "The region it defines.",
+   "rel": "style"
+  },
+  {
+   "to": "bill-rosenberg",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "to": "donut-spelling",
+   "as": "The spelling it carried.",
+   "rel": "term"
+  },
+  {
+   "to": "mister-donut",
+   "as": "The rival it absorbed.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-dunkin-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dunkin-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

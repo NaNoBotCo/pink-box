@@ -1,0 +1,258 @@
+{
+ "note": "Six questions, scored in the browser. Result keys are style record ids, so every result links to a page that carries its own sources. The weights are this project's, and they are a joke with a map attached.",
+ "title": "Which donut shop are you?",
+ "lede": "Six questions. A counter takes your order at the end. Argue with it — arguing is most of the pleasure here.",
+ "questions": [
+  {
+   "q": "It is 5:40 in the morning. You are…",
+   "a": [
+    {
+     "t": "already in the car, because the raised ones go first",
+     "s": {
+      "socal-pink-box": 4,
+      "southern-hot-now": 3
+     }
+    },
+    {
+     "t": "asleep. Donuts are a 10 a.m. food",
+     "s": {
+      "novelty-donut-shop": 3,
+      "nyc-bodega-donut": 2
+     }
+    },
+    {
+     "t": "at work. Someone else is bringing them",
+     "s": {
+      "dunkin-country": 4,
+      "nyc-bodega-donut": 3
+     }
+    },
+    {
+     "t": "still out from last night",
+     "s": {
+      "bay-area-late-counter": 5,
+      "novelty-donut-shop": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "The dozen comes in…",
+   "a": [
+    {
+     "t": "a pink box, and you did not notice until just now",
+     "s": {
+      "socal-pink-box": 5
+     }
+    },
+    {
+     "t": "a white box with a logo",
+     "s": {
+      "dunkin-country": 3,
+      "southern-hot-now": 3
+     }
+    },
+    {
+     "t": "a paper bag going translucent in your lap",
+     "s": {
+      "new-england-cider": 5
+     }
+    },
+    {
+     "t": "whatever they had. You are eating it in the shop",
+     "s": {
+      "bay-area-late-counter": 3,
+      "tulsa-mix-shop": 3
+     }
+    }
+   ]
+  },
+  {
+   "q": "Cake or raised?",
+   "a": [
+    {
+     "t": "Raised. Light, glazed, hot, gone",
+     "s": {
+      "southern-hot-now": 4,
+      "hawaii-malasada": 3,
+      "socal-pink-box": 2
+     }
+    },
+    {
+     "t": "Cake. It holds up to coffee and it tastes of something",
+     "s": {
+      "new-england-cider": 4,
+      "tulsa-mix-shop": 3
+     }
+    },
+    {
+     "t": "Both, and I will be judging whether they can run both",
+     "s": {
+      "socal-pink-box": 4,
+      "texas-kolache-counter": 2
+     }
+    },
+    {
+     "t": "Neither. No hole, filled, and covered in sugar",
+     "s": {
+      "chicago-polish-bakery": 4,
+      "hawaii-malasada": 3,
+      "louisiana-beignet": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "What else is on the board?",
+   "a": [
+    {
+     "t": "Egg rolls, chow mein, and a warmer",
+     "s": {
+      "socal-pink-box": 5,
+      "delta-grocery-counter": 2
+     }
+    },
+    {
+     "t": "Kolaches. The sausage kind",
+     "s": {
+      "texas-kolache-counter": 5
+     }
+    },
+    {
+     "t": "Breakfast burritos, red or green",
+     "s": {
+      "new-mexico-burrito-counter": 5
+     }
+    },
+    {
+     "t": "A bacon egg and cheese on a roll",
+     "s": {
+      "nyc-bodega-donut": 5
+     }
+    }
+   ]
+  },
+  {
+   "q": "The sign out front is…",
+   "a": [
+    {
+     "t": "a rooftop donut you can see from the freeway",
+     "s": {
+      "socal-pink-box": 4,
+      "novelty-donut-shop": 2
+     }
+    },
+    {
+     "t": "a franchise name nobody in the family chose",
+     "s": {
+      "tulsa-mix-shop": 5
+     }
+    },
+    {
+     "t": "lit, and it means they are frying right now",
+     "s": {
+      "southern-hot-now": 5
+     }
+    },
+    {
+     "t": "hand-lettered, and the prices are taped over older prices",
+     "s": {
+      "socal-pink-box": 3,
+      "delta-grocery-counter": 3,
+      "bay-area-late-counter": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "The day you would not miss:",
+   "a": [
+    {
+     "t": "Fat Tuesday, and I know how many I am allowed",
+     "s": {
+      "chicago-polish-bakery": 5,
+      "pennsylvania-fastnacht": 4
+     }
+    },
+    {
+     "t": "The first cold morning in October",
+     "s": {
+      "new-england-cider": 5
+     }
+    },
+    {
+     "t": "Any day. That is the point of a donut",
+     "s": {
+      "socal-pink-box": 3,
+      "dunkin-country": 3,
+      "bay-area-late-counter": 2
+     }
+    },
+    {
+     "t": "Whenever the malasada wagon is out",
+     "s": {
+      "hawaii-malasada": 5
+     }
+    }
+   ]
+  }
+ ],
+ "results": {
+  "socal-pink-box": {
+   "title": "The pink box shop",
+   "say": "Strip mall, both doughs, one family, open before five. Egg rolls in the warmer. You have opinions about buttermilk bars and you are right to."
+  },
+  "southern-hot-now": {
+   "title": "The hot light",
+   "say": "You want it handed over with the glaze still moving. The sign is the whole marketing plan and it has worked on you since childhood."
+  },
+  "new-england-cider": {
+   "title": "The orchard window",
+   "say": "Six weeks a year, one machine, cinnamon sugar in a paper bag. You buy a dozen and arrive home with six."
+  },
+  "texas-kolache-counter": {
+   "title": "The kolache counter",
+   "say": "You call them kolaches, a Czech Texan corrects you, and you both keep eating. The oven runs alongside the kettle."
+  },
+  "nyc-bodega-donut": {
+   "title": "The corner counter",
+   "say": "Coffee regular and a bacon egg and cheese. The donut is an afterthought until the day it isn't."
+  },
+  "new-mexico-burrito-counter": {
+   "title": "The Southwest burrito counter",
+   "say": "Foil-wrapped, one hand on the wheel. Red or green is a real question and the donut is the chaser."
+  },
+  "chicago-polish-bakery": {
+   "title": "The Polish bakery counter",
+   "say": "You know which Tuesday it is without checking. There is a limit per customer and you respect it, barely."
+  },
+  "pennsylvania-fastnacht": {
+   "title": "Fastnacht Day",
+   "say": "Potato dough, square cut, butter or golden syrup on it, ordered a week ahead from a fire hall."
+  },
+  "hawaii-malasada": {
+   "title": "The malasada counter",
+   "say": "No hole, no filling unless you ask, sugar all over your shirt, and you would wait in that line again."
+  },
+  "louisiana-beignet": {
+   "title": "The beignet stand",
+   "say": "Three to an order under a snowbank of sugar, coffee cut with chicory, and you know not to inhale."
+  },
+  "bay-area-late-counter": {
+   "title": "The all-night counter",
+   "say": "Two in the morning, fluorescent light, and the only other people awake. The donut is incidental and it is also perfect."
+  },
+  "tulsa-mix-shop": {
+   "title": "The mix-and-sign shop",
+   "say": "Franchise name, family inside, flour from Tulsa. You can spot the difference and most people can't."
+  },
+  "novelty-donut-shop": {
+   "title": "The novelty shop",
+   "say": "You are here for the photograph and you will eat it anyway. Somebody put bacon on a maple bar and you respect the nerve."
+  },
+  "delta-grocery-counter": {
+   "title": "The Delta grocery counter",
+   "say": "A store first, a fryer second, and everything hot behind the same glass. Nobody there thinks that is unusual."
+  }
+ }
+}

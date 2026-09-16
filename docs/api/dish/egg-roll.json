@@ -1,0 +1,196 @@
+{
+ "id": "egg-roll",
+ "type": "dish",
+ "names": {
+  "name": "Egg roll",
+  "aliases": [
+   "eggroll"
+  ],
+  "said": "Two for a dollar something, in the warmer by the register, and nobody explains why."
+ },
+ "region": [
+  "socal",
+  "chinese-american",
+  "us"
+ ],
+ "facets": {
+  "course": "savory"
+ },
+ "text": {
+  "what": "A cylindrical deep-fried roll in a thick wheat skin — shredded cabbage, chopped meat, sometimes shrimp — eaten with the fingers out of a cellophane packet of duck sauce. Despite the name it generally has no egg in it, though egg white sometimes seals the seam.",
+  "story": "The egg roll is American. It is distinct from mainland Chinese spring rolls and first appears in the United States in the early twentieth century. Andrew Coe, who wrote Chop Suey: A Cultural History of Chinese Food in the United States, reckons the modern American egg roll was probably invented at a New York Chinese restaurant in the early 1930s by one of two chefs who each later claimed it: Lung Fong of Lung Fong's, or Henry Low of Port Arthur. Low's recipe, printed in the 1938 cookbook Cook at Home in Chinese, called for bamboo shoots, roast pork, shrimp, scallions, water chestnuts, salt, MSG, sugar, palm oil and pepper.\n\nWhy it is in a donut shop is a separate question with a plain answer: rent. Jolly Chan, who runs China Express and Donut in San Francisco, told KQED the combination \"came out of necessity\" — \"we have to sell more stuff to make up the rent and the expense.\"",
+  "today": "In Southern California a hot case beside the donuts holds egg rolls, and often chow mein and fried rice with them. The fryer was already on."
+ },
+ "kin": [
+  {
+   "to": "socal-pink-box",
+   "as": "The shop it shares a fryer with.",
+   "rel": "style"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The whole argument, told by the people running the shops.",
+   "rel": "story"
+  },
+  {
+   "to": "fried-rice",
+   "as": "What sits next to it in the warmer.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-fryer",
+   "as": "One kettle, two menus.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-egg-roll",
+  "s:kqed-donuts-chinese"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-egg-roll"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:kqed-donuts-chinese"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A cylindrical deep-fried roll in a thick wheat skin — shredded cabbage, chopped meat, sometimes shrimp — eaten with the fingers out of a cellophane packet of duck sauce.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "chinese-american",
+   "name": "Chinese America",
+   "state": null,
+   "note": "the Delta grocery, the California counter, the fried rice in the warmer"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shop it shares a fryer with.",
+   "rel": "style"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The whole argument, told by the people running the shops.",
+   "rel": "story"
+  },
+  {
+   "to": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "What sits next to it in the warmer.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "One kettle, two menus.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-egg-roll",
+   "kind": "web",
+   "title": "Egg roll — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Egg_roll",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:kqed-donuts-chinese",
+   "kind": "article",
+   "title": "Why Donuts + Chinese Food = A Very Californian Combination",
+   "author": "Asal Ehsanipour",
+   "publisher": "KQED",
+   "url": "https://www.kqed.org/news/11871915/why-donuts-chinese-food-a-very-californian-combination",
+   "year": 2021,
+   "accessed": "2026-09-16",
+   "note": "published 6 May 2021, updated 1 January 2025"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-egg-roll"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-egg-roll"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:kqed-donuts-chinese"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "On the board beside the glazed, and on it for a reason.",
+   "rel": "dish"
+  },
+  {
+   "from": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "The California answer to the same arithmetic.",
+   "rel": "dish"
+  },
+  {
+   "from": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "The other thing in the warmer.",
+   "rel": "dish"
+  },
+  {
+   "from": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "California.",
+   "rel": "dish"
+  },
+  {
+   "from": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The item that names the argument.",
+   "rel": "dish"
+  }
+ ]
+}

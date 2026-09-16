@@ -1,0 +1,66 @@
+{
+ "id": "yeast-raise",
+ "type": "kitchen",
+ "names": {
+  "name": "The raise",
+  "aliases": [
+   "proofing",
+   "the rise",
+   "bulk ferment"
+  ],
+  "said": "The dough is worked when it is ready, not when the clock says."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "raise"
+ },
+ "text": {
+  "what": "Baker's yeast fermenting a sweet dough until it is full of gas — once in bulk, once again after the rings are cut.",
+  "story": "Proofing is the rest in which yeast ferments the dough and makes the gas that lifts it. Blooming is a different thing with the same word: suspending dry yeast in warm water to hydrate it, and to see whether it is still alive.\n\nThe raise is why the raised donut lost ground when shops automated in the 1920s. Yeast needs time and a warm room, and the dough is harder to handle; baking soda was predictable and easy to build a machine around, so most bakers went to cake.",
+  "how": "Mix, bulk rise, sheet, cut, then proof the cut rings again in a warm cabinet until they are light enough to float sideways in the fat.",
+  "today": "The raise is the reason the shop opens at four and the work started at one."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "What comes out of it.",
+   "rel": "donut"
+  },
+  {
+   "to": "proof-box",
+   "as": "Where the second rise happens.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-batter",
+   "as": "The other way to get lift, and the one machines preferred.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "What the raise does to the schedule.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-proofing-baking-technique",
+  "s:wp-baker-s-yeast",
+  "s:wp-cake-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-proofing-baking-technique"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

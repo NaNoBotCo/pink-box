@@ -1,0 +1,65 @@
+{
+ "id": "psycho-donuts",
+ "type": "place",
+ "names": {
+  "name": "Psycho Donuts",
+  "aliases": [],
+  "sort": "Psycho Donuts"
+ },
+ "region": [
+  "bay-area"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 2009,
+  "dough": "both"
+ },
+ "text": {
+  "what": "A Campbell, California shop themed on \"craziness\", with donut names punning on mental illness, a straitjacket on the wall and a padded cell in the room.",
+  "story": "Jordan Zweigoron and Kipp Berdianski opened it in March 2009; Berdiansky left the partnership that July. A San Jose location and a Santa Clara location have both closed, as has a 2021 pop-up at Valley Fair.\n\nThe theme has drawn objection from mental-health advocates, which is part of the shop's public record rather than an aside to it.",
+  "today": "Still open in Campbell."
+ },
+ "geo": {
+  "lat": 37.28674,
+  "lon": -121.94954,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Campbell",
+  "county": "Santa Clara",
+  "state": "CA"
+ },
+ "kin": [
+  {
+   "to": "novelty-donut-shop",
+   "as": "The register it works in.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-psycho-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-psycho-donuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-psycho-donuts",
+    "note": "the objection is reported in the cited article; this record states that it exists and takes no side"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16"
+}

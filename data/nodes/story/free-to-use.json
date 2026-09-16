@@ -1,0 +1,74 @@
+{
+ "id": "free-to-use",
+ "type": "story",
+ "names": {
+  "name": "Where all of this came from",
+  "aliases": [
+   "sources",
+   "resources"
+  ],
+  "sort": "where all of this came from"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "resources"
+ },
+ "text": {
+  "what": "What this site is built from, what each thing is licensed under, and what it does not cover."
+ },
+ "sections": [
+  {
+   "h": "The records",
+   "text": "Every record here is hand-written JSON, one file per node, and every field carries a provenance tier: cited (a named source), harvested (a tool fetched it from an open dataset), tradition (general knowledge of the trade, hedged in the prose), inference (this project reasoning from the above, and saying so), field (somebody stood there — nothing carries it yet).\n\nThe records are licensed CC BY 4.0."
+  },
+  {
+   "h": "The text sources",
+   "text": "The bulk of the cited material is Wikipedia, fetched as plain text on 16 September 2026 and listed article by article on the sources page, under CC BY-SA 4.0. Where a fact came from reporting instead — KQED on why California donut shops sell Chinese food, PBS Independent Lens on The Donut King — the record names the outlet, the writer and the date.\n\nA fact this project could not source is either hedged in the prose and marked, or left out."
+  },
+  {
+   "h": "The places",
+   "text": "Place points come from OpenStreetMap contributors under ODbL 1.0, fetched state by state on the date the coverage page names, plus addresses geocoded through Nominatim. An absence in that data means the place was not in OpenStreetMap on the fetch date or has not been written up here. It is not a claim that a shop does not exist."
+  },
+  {
+   "h": "The pictures",
+   "text": "Pictures come from Wikimedia Commons, each with its licence, author and link beside it. Only CC0, public domain, CC BY, CC BY-SA and FAL are accepted."
+  },
+  {
+   "h": "What is not here",
+   "text": "Field observations. Menu prices with dates for most shops. Photographs for most records. Per-piece weights for shop donuts, which almost nobody publishes. Most towns. The coverage page keeps the current list."
+  }
+ ],
+ "kin": [
+  {
+   "to": "what-is-a-mom-and-pop",
+   "as": "How the scope is drawn.",
+   "rel": "story"
+  },
+  {
+   "to": "donuts-per-capita",
+   "as": "What the counts can and cannot say.",
+   "rel": "story"
+  },
+  {
+   "to": "the-price-of-a-dozen",
+   "as": "Why prices are thin here.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:this-project",
+  "s:wp-doughnut",
+  "s:kqed-donuts-chinese"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "source": "s:this-project"
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

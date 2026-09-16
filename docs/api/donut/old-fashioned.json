@@ -1,0 +1,298 @@
+{
+ "id": "old-fashioned",
+ "type": "donut",
+ "names": {
+  "name": "Old-fashioned",
+  "aliases": [
+   "old fashioned",
+   "sour cream old-fashioned",
+   "fry cake"
+  ],
+  "said": "The one that looks broken on purpose."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "cake",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "A cake ring with a cracked surface and tapered edges, glazed or sugared so the glaze pools in the cracks. The crack is the point: more surface, crisper edge, and a ring that holds up to coffee longer than a raised one.",
+  "story": "The name has moved. Nineteenth-century cookbooks print old-fashioned doughnuts made with yeast; the old-fashioned in a shop case today is a cake ring raised with baking powder or soda, and has been described as a subset of the cake doughnut. Older counters called cake rings fry cakes, and the terms doughnut, cruller and fry cake have been argued over for as long as anyone has written them down.\n\nCommercial versions often start from a dry batter mix that takes only water, which is one reason the same crack shows up in shops two thousand miles apart.",
+  "how": "A stiff cake batter, chilled, cut thick. Into the fat cooler than a plain cake ring so the outside sets before the inside finishes lifting, which is what splits the surface. Glaze while warm.",
+  "today": "Sour cream and buttermilk versions sell as their own items in most shops, and the plain glazed old-fashioned is the one that gets ordered with black coffee."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "The family it belongs to.",
+   "rel": "donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "as": "Same batter, cut in a bar.",
+   "rel": "donut"
+  },
+  {
+   "to": "fry-cake",
+   "as": "The older name for it.",
+   "rel": "term"
+  },
+  {
+   "to": "the-fryer",
+   "as": "Cooler fat is what makes the crack.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-against-raised",
+   "as": "The argument this one anchors.",
+   "rel": "story"
+  },
+  {
+   "to": "glaze-table",
+   "as": "Where the cracks fill.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-old-fashioned-doughnut",
+  "s:wp-cake-doughnut",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the cooler-fat explanation is bench knowledge, hedged here; the cracked, tapered description is cited"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "cake",
+  "finish": "glazed",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 40.0,
+  "kcal": 173.6,
+  "sugar_g": 7.3,
+  "fat_g": 10.0,
+  "sat_fat_g": 4.4,
+  "carb_g": 18.8,
+  "sodium_mg": 190.8,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/174990/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 174990, \"Doughnuts, cake-type, plain (includes unsugared, old-fashioned)\", published per 100 g and scaled here to the portion USDA itself lists as \"donut\" — 40 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ },
+ "images": [
+  {
+   "file": "old-fashioned/old-fashioned-old-fashioned-doughnut-from-doughnut-vault-chicago.jpg",
+   "source": "commons",
+   "title": "File:Old-fashioned doughnut from Doughnut Vault (Chicago).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Old-fashioned_doughnut_from_Doughnut_Vault_%28Chicago%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOld-fashioned_doughnut_from_Doughnut_Vault_%28Chicago%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "justgrimes from Washington DC, USA",
+   "credit": "Old Fashion Donut from Doughnut Vault (Chicago)",
+   "alt": "Old-fashioned doughnut from Doughnut Vault (Chicago)",
+   "date": "2011-09-02 09:31",
+   "primary": true,
+   "sha256": "28865c09d0490fc4ebc8c3600409d5ec261d4bdef40a8c01e9d904290f39fa28"
+  },
+  {
+   "file": "old-fashioned/old-fashioned-old-fashioned-doughnut.jpg",
+   "source": "commons",
+   "title": "File:Old fashioned doughnut.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Old_fashioned_doughnut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOld_fashioned_doughnut.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "BrokenSphere",
+   "credit": "File:Various_doughnuts_1.JPG",
+   "alt": "A plain old fashioned doughnut",
+   "date": "2010-07-18 12:39:56",
+   "primary": false,
+   "sha256": "3948ce9528bb3e1210f6888c857a973cd8d2e9eccbaf8dc5dd7abf8674c39af2"
+  }
+ ],
+ "blurb": "A cake ring with a cracked surface and tapered edges, glazed or sugared so the glaze pools in the cracks. The crack is the point: more surface, crisper edge, and a ring that holds up to coffee longer than a raised one.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The family it belongs to.",
+   "rel": "donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "Same batter, cut in a bar.",
+   "rel": "donut"
+  },
+  {
+   "to": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "The older name for it.",
+   "rel": "term"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Cooler fat is what makes the crack.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The argument this one anchors.",
+   "rel": "story"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Where the cracks fill.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-old-fashioned-doughnut",
+   "kind": "web",
+   "title": "Old-fashioned doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old-fashioned_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:fdc-sr-legacy",
+   "kind": "data",
+   "title": "FoodData Central, SR Legacy — doughnut foods",
+   "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "accessed": "2026-09-17",
+   "license": "Public domain (U.S. government work)",
+   "note": "SR Legacy CSV bundle 2018-04; the nine doughnut rows last updated 2019-04-01. Values per 100 g, with USDA's own portion weights."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the cooler-fat explanation is bench knowledge, hedged here; the cracked, tapered description is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  }
+ },
+ "primary_image": {
+  "file": "old-fashioned/old-fashioned-old-fashioned-doughnut-from-doughnut-vault-chicago.jpg",
+  "source": "commons",
+  "title": "File:Old-fashioned doughnut from Doughnut Vault (Chicago).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Old-fashioned_doughnut_from_Doughnut_Vault_%28Chicago%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AOld-fashioned_doughnut_from_Doughnut_Vault_%28Chicago%29.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "justgrimes from Washington DC, USA",
+  "credit": "Old Fashion Donut from Doughnut Vault (Chicago)",
+  "alt": "Old-fashioned doughnut from Doughnut Vault (Chicago)",
+  "date": "2011-09-02 09:31",
+  "primary": true,
+  "sha256": "28865c09d0490fc4ebc8c3600409d5ec261d4bdef40a8c01e9d904290f39fa28"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "Cracks for the same reason, in a ring.",
+   "rel": "donut"
+  },
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The cracked, tapered cake ring people order by name.",
+   "rel": "donut"
+  },
+  {
+   "from": "chocolate-cake",
+   "type": "donut",
+   "name": "Chocolate cake",
+   "as": "The plain cake ring beside it.",
+   "rel": "donut"
+  },
+  {
+   "from": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "as": "The cake ring that kept the old shape.",
+   "rel": "donut"
+  },
+  {
+   "from": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The cake ring people name.",
+   "rel": "donut"
+  }
+ ]
+}

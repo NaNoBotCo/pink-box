@@ -1,0 +1,79 @@
+{
+ "id": "fastnacht-day",
+ "type": "event",
+ "names": {
+  "name": "Fastnacht Day",
+  "aliases": [
+   "Fasnacht Day",
+   "Shrove Tuesday"
+  ],
+  "said": "In Lancaster County, Tuesday has a different name."
+ },
+ "region": [
+  "pennsylvania-dutch"
+ ],
+ "facets": {
+  "when": "Shrove Tuesday",
+  "status": "open",
+  "state": "PA"
+ },
+ "text": {
+  "what": "Shrove Tuesday in Pennsylvania Dutch country, named after the donut rather than the fast.",
+  "story": "Fasnachts were made to empty the pantry of lard, sugar, fat and butter before Lent. Lancaster, York, Lebanon and Berks counties keep the day; most chain supermarkets in eastern Pennsylvania carry the donuts for it. Parts of Maryland call them kinklings or kuechles and bakeries there sell them only on that Tuesday.",
+  "today": "Churches and fire halls take orders by the dozen and stop when the batch is gone."
+ },
+ "kin": [
+  {
+   "to": "fastnacht",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "pennsylvania-fastnacht",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "to": "paczki-day",
+   "as": "The Polish observance on the same day.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-fasnacht-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fasnacht-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 40.0379,
+  "lon": -76.3055,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Lancaster",
+  "county": "Lancaster",
+  "state": "PA"
+ }
+}

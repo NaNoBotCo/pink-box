@@ -1,0 +1,61 @@
+{
+ "id": "mr-spudnut",
+ "type": "art",
+ "names": {
+  "name": "Mr. Spudnut and the mascots",
+  "aliases": [
+   "Dunkie",
+   "Mr. Spudnut"
+  ],
+  "said": "A potato in a chef's hat, in a parade, in 1949."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "mascot"
+ },
+ "text": {
+  "what": "The cartoon characters donut companies used to sell themselves in the middle of the twentieth century.",
+  "story": "Spudnut Shops advertised with a cartoon Mr. Spudnut, who turned up in advertisements, in restaurants and in parades, under the slogan \"Coast to coast… Alaska to Mexico\". Dunkin' Donuts introduced its own mascot, Dunkie, in 1954, a year after its first logo.",
+  "today": "The mascots are gone and the signs are not, which is why a surviving sign reads as older than it is."
+ },
+ "kin": [
+  {
+   "to": "spudnut",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "dunkin",
+   "as": "The other mascot's company.",
+   "rel": "org"
+  },
+  {
+   "to": "neon-donut",
+   "as": "What outlasted them.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:wp-spudnut-shops",
+  "s:wp-dunkin-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-spudnut-shops"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

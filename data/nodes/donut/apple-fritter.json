@@ -1,0 +1,71 @@
+{
+ "id": "apple-fritter",
+ "type": "donut",
+ "names": {
+  "name": "Apple fritter",
+  "aliases": [
+   "fritter"
+  ],
+  "said": "The heaviest thing in the case, and the one that sells out."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "Chopped apple and cinnamon folded through raised dough, torn rather than cut, fried craggy and glazed all over so the sugar catches in every fold. No two come out the same shape.",
+  "story": "Fritter covers a wide family: a portion of batter or breading with a filling, fried. The word runs from the Latin frictura, frying, through the Old French friture. American shops use it for the apple one almost exclusively, and put the rest — corn fritters, clam fritters — in a different part of the food world entirely.",
+  "how": "Fold diced apple through sheeted raised dough, cut and stack, press, then pull pieces apart so the edges stay ragged. Fry longer than a plain ring because the fruit carries water, and glaze heavy.",
+  "today": "The fritter is the piece most often sold by weight in the shops that price by piece, because it is roughly two donuts of dough."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "Same dough, torn instead of cut.",
+   "rel": "donut"
+  },
+  {
+   "to": "cider-donut",
+   "as": "The other apple one, cake, and seasonal.",
+   "rel": "donut"
+  },
+  {
+   "to": "bear-claw",
+   "as": "The other big ragged one, filled with almond instead of fruit.",
+   "rel": "donut"
+  },
+  {
+   "to": "glaze-table",
+   "as": "Glazed all over, not just the top.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-fritter",
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fritter"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "pricing is this project's reading of menus"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

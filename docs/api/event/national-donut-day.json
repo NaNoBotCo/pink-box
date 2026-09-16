@@ -1,0 +1,163 @@
+{
+ "id": "national-donut-day",
+ "type": "event",
+ "names": {
+  "name": "National Donut Day",
+  "aliases": [
+   "National Doughnut Day"
+  ],
+  "said": "Free donut, first Friday in June, and almost nobody knows it is a war memorial."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "when": "first Friday in June",
+  "status": "open",
+  "founded": 1938
+ },
+ "text": {
+  "what": "An American observance on the first Friday of June, with free donuts at many shops.",
+  "story": "It started in 1938 as a fundraiser for the Chicago Salvation Army: money for people in need during the Depression, and recognition for the Salvation Army Lassies who served donuts to American soldiers in France in the First World War.\n\nAbout 250 volunteers went to France after the United States entered the war in 1917. Baking in abandoned buildings near the front was difficult, so Ensign Margaret Sheldon and Adjutant Helen Purviance turned to donuts. The men called the women Donut Girls. The idea that this is where the word doughboy comes from is a misconception; the term was in use as early as the Mexican–American War.",
+  "today": "The giveaway is now a marketing day for chains. The fundraiser it came from is rarely mentioned on the poster."
+ },
+ "kin": [
+  {
+   "to": "salvation-army-lassies",
+   "as": "Whom the day honours.",
+   "rel": "org"
+  },
+  {
+   "to": "salvation-army",
+   "as": "Who created it.",
+   "rel": "org"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "What gets given away.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-national-donut-day"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-donut-day"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 41.8781,
+  "lon": -87.6298,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Chicago",
+  "county": "Cook",
+  "state": "IL"
+ },
+ "blurb": "An American observance on the first Friday of June, with free donuts at many shops.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "salvation-army-lassies",
+   "type": "org",
+   "name": "The Salvation Army doughnut huts",
+   "as": "Whom the day honours.",
+   "rel": "org"
+  },
+  {
+   "to": "salvation-army",
+   "type": "org",
+   "name": "The Salvation Army",
+   "as": "Who created it.",
+   "rel": "org"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "What gets given away.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-national-donut-day",
+   "kind": "web",
+   "title": "National Donut Day — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Donut_Day",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-national-donut-day"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-national-donut-day"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the town the day is most associated with, not a venue"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-national-donut-day"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "salvation-army-lassies",
+   "type": "org",
+   "name": "The Salvation Army doughnut huts",
+   "as": "The day it produced.",
+   "rel": "event"
+  },
+  {
+   "from": "salvation-army",
+   "type": "org",
+   "name": "The Salvation Army",
+   "as": "The day.",
+   "rel": "event"
+  }
+ ]
+}

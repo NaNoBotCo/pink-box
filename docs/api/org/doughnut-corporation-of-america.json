@@ -1,0 +1,187 @@
+{
+ "id": "doughnut-corporation-of-america",
+ "type": "org",
+ "names": {
+  "name": "Doughnut Corporation of America",
+  "aliases": [
+   "DCA"
+  ],
+  "said": "Sold the machine, the mix, and the idea that liking donuts was a club."
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "closed"
+ },
+ "text": {
+  "what": "Adolph Levitt's company: donut machines, mixes, the Mayflower shop in Times Square, and the National Dunking Association.",
+  "story": "Levitt built the first automated donut machine in New York in 1920 and founded the corporation around it. It opened the Mayflower donut shop in Times Square in 1931 and started the National Dunking Association in the 1930s. At the 1933–34 Chicago World's Fair the machine was billed as the food hit of the Century of Progress. The company may have sold the first commercial cider donut — a \"sweet cider doughnut\" — in 1951.",
+  "today": "The machines outlived the company in thousands of small shops."
+ },
+ "kin": [
+  {
+   "to": "adolph-levitt",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "to": "national-dunking-association",
+   "as": "Its membership stunt.",
+   "rel": "org"
+  },
+  {
+   "to": "cider-donut",
+   "as": "A product it commercialised.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-batter",
+   "as": "The process it sold.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut-shop",
+  "s:wp-national-dunking-association",
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Adolph Levitt's company: donut machines, mixes, the Mayflower shop in Times Square, and the National Dunking Association.",
+ "region_terms": [
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "to": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "Its membership stunt.",
+   "rel": "org"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "A product it commercialised.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "The process it sold.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-national-dunking-association",
+   "kind": "web",
+   "title": "National Dunking Association — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Dunking_Association",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cider-doughnut",
+   "kind": "web",
+   "title": "Cider doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cider_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "as": "Sold the first commercial version, and the machines.",
+   "rel": "org"
+  },
+  {
+   "from": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "as": "The company he built.",
+   "rel": "org"
+  },
+  {
+   "from": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "as": "Who ran it.",
+   "rel": "org"
+  },
+  {
+   "from": "dunking",
+   "type": "term",
+   "name": "Dunking",
+   "as": "Who set it up, and why.",
+   "rel": "org"
+  }
+ ]
+}

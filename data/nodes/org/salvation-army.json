@@ -1,0 +1,53 @@
+{
+ "id": "salvation-army",
+ "type": "org",
+ "names": {
+  "name": "The Salvation Army",
+  "aliases": [],
+  "said": "The charity that put the donut in the war, and the war in the donut."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "status": "open"
+ },
+ "text": {
+  "what": "The Christian charitable organisation whose World War I canteens fried donuts for American soldiers, and whose Chicago branch created National Donut Day in 1938.",
+  "story": "The 1938 day was a Depression fundraiser: money for people in need, and recognition for the Lassies of 1917 and 1918.",
+  "today": "Donut shops across the country still give donuts away on the first Friday in June, mostly without mentioning the fundraiser."
+ },
+ "kin": [
+  {
+   "to": "salvation-army-lassies",
+   "as": "The huts in France.",
+   "rel": "org"
+  },
+  {
+   "to": "national-donut-day",
+   "as": "The day.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-national-donut-day",
+  "s:wp-salvation-army"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-donut-day"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

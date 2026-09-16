@@ -1,0 +1,66 @@
+{
+ "id": "fried-rice",
+ "type": "dish",
+ "names": {
+  "name": "Fried rice and chow mein",
+  "aliases": [
+   "chow mein",
+   "the hot case"
+  ],
+  "said": "Kept in a warmer, sold by the scoop, priced under the sandwich."
+ },
+ "region": [
+  "socal",
+  "chinese-american"
+ ],
+ "facets": {
+  "course": "savory"
+ },
+ "text": {
+  "what": "Cooked rice stir-fried with egg, vegetables and meat, held hot in a steam table beside the donut case — with chow mein next to it in many shops.",
+  "story": "Fried rice is a staple of Chinese cooking and of American Chinese menus. In California donut shops it arrives for the same reason egg rolls do: the shop needs a second product at a second hour, and the kitchen can already do it.\n\nDorothy Chow's family business, B & H Bakery Distributors, supplies these shops; her father, a survivor of the Cambodian genocide, built it, she told KQED, \"to help our own people.\"",
+  "today": "A donut shop with a steam table is doing lunch, which is a different business from the one it does at five in the morning."
+ },
+ "kin": [
+  {
+   "to": "egg-roll",
+   "as": "The other thing in the warmer.",
+   "rel": "dish"
+  },
+  {
+   "to": "delta-grocery-counter",
+   "as": "The same counter logic in Mississippi.",
+   "rel": "style"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The argument.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-fried-rice",
+  "s:kqed-donuts-chinese"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fried-rice"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:kqed-donuts-chinese"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

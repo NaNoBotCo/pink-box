@@ -1,0 +1,67 @@
+{
+ "id": "sufganiyah",
+ "type": "donut",
+ "names": {
+  "name": "Sufganiyah",
+  "aliases": [
+   "sufganiyot",
+   "Hanukkah donut"
+  ],
+  "said": "Fried in oil, for a reason the holiday turns on."
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "filled"
+ },
+ "text": {
+  "what": "A round filled donut, traditionally red jelly with icing sugar on top, eaten at Hanukkah. Dulce de leche fillings became common after South American immigration to Israel early in this century.",
+  "story": "Jelly or custard-filled donuts are a Hanukkah tradition because they are cooked in oil, which is the miracle the holiday commemorates: one day's oil kept the Temple menorah burning for eight. The sufganiyah belongs to the same European family as the Berliner, the pączek and the bombolone, whose common ancestor is the Gefüllte Krapfen of a 1485 Nuremberg cookbook.",
+  "how": "Rich yeast dough, rounded and proofed, fried, filled from the side, dusted.",
+  "today": "American bakeries and donut shops in Jewish neighbourhoods run them for the eight days and mark them on the board by name."
+ },
+ "kin": [
+  {
+   "to": "bismarck",
+   "as": "The same round under a different name.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "as": "Another calendar donut, another fast.",
+   "rel": "donut"
+  },
+  {
+   "to": "filling-injector",
+   "as": "How it is filled.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-sufganiyah",
+  "s:wp-jelly-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-sufganiyah"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

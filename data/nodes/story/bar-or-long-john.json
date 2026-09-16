@@ -1,0 +1,82 @@
+{
+ "id": "bar-or-long-john",
+ "type": "story",
+ "names": {
+  "name": "Bar or Long John",
+  "aliases": [
+   "what to call it",
+   "the word map"
+  ],
+  "sort": "bar or long john"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "map"
+ },
+ "text": {
+  "what": "One rectangular raised donut, at least five names, and a map of the country hiding inside a bakery case."
+ },
+ "sections": [
+  {
+   "h": "The words",
+   "text": "— **Long John** — the Midwest, Canada and Texas.\n— **Bar** — the West Coast: maple bar, chocolate bar, filled bar.\n— **Éclair** — the Mid-Atlantic and central Canada, where it is marketed that way even though an éclair is choux pastry with fondant and a Long John is yeast dough.\n— **Finger doughnut**, and **cream stick** when filled — parts of the Midwest.\n— **Maple creamstick**, **maple bismarck**, **maple-glazed Long John** — the same pastry again, named by its icing."
+  },
+  {
+   "h": "Other words that move",
+   "text": "**Bismarck** for a filled round holds in the Upper Midwest, where a case label will say it and nothing else; elsewhere it is a jelly donut. **Fry cake** for a cake donut survives on older signs. **Jimmies** for chocolate sprinkles belongs to Boston, Philadelphia and New England and is first recorded in 1930. **Bear claw** is Western American English, first attested in a Sacramento bakery advertisement on 13 March 1914. **Kolache** in Texas usually means a klobasnek, which Czech Texans will tell you is a different thing."
+  },
+  {
+   "h": "Why this matters to a directory",
+   "text": "A search that only matches the word a shop happens to print will miss half the country. This site's search carries the synonym groups above, so a search for one name returns shops and pages using the others."
+  }
+ ],
+ "kin": [
+  {
+   "to": "bar",
+   "as": "The word.",
+   "rel": "term"
+  },
+  {
+   "to": "long-john",
+   "as": "The pastry.",
+   "rel": "donut"
+  },
+  {
+   "to": "maple-bar",
+   "as": "The coast's version.",
+   "rel": "donut"
+  },
+  {
+   "to": "bismarck",
+   "as": "The filled round with a regional name.",
+   "rel": "donut"
+  },
+  {
+   "to": "jimmies",
+   "as": "Another regional word.",
+   "rel": "term"
+  },
+  {
+   "to": "bear-claw",
+   "as": "A Western word with a date.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-long-john-doughnut",
+  "s:wp-sprinkles",
+  "s:wp-bear-claw",
+  "s:wp-klob-sn-k"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

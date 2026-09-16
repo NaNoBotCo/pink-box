@@ -1,0 +1,190 @@
+{
+ "id": "filling-injector",
+ "type": "kitchen",
+ "names": {
+  "name": "The filler",
+  "aliases": [
+   "the injector",
+   "the nozzle",
+   "the pump"
+  ],
+  "said": "You can hear a filled donut being made: a thump and a hiss, once per piece."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "finish"
+ },
+ "text": {
+  "what": "A hand pump or bench machine that pushes jam, custard or cream through a nozzle into the side of a fried round.",
+  "story": "Filled fried dough is older than the ring — Gefüllte Krapfen are in a Nuremberg cookbook of 1485 — but the injector is what makes a case full of them possible before six in the morning. Fillings run to fruit preserve, custard, Bavarian cream, and in Polish shops powidła, stewed plum, and wild rose petal jam.",
+  "how": "Fry, cool, weigh the first few to set the dose, then work a tray at a time.",
+  "today": "A filled donut does not hold overnight the way a glazed ring does, which is why it is the one most often made last and sold out first."
+ },
+ "kin": [
+  {
+   "to": "bismarck",
+   "as": "The round it fills.",
+   "rel": "donut"
+  },
+  {
+   "to": "bavarian-cream",
+   "as": "The custard version.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "as": "Powidła and rose petal.",
+   "rel": "donut"
+  },
+  {
+   "to": "day-old",
+   "as": "What filled donuts are not sold as.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-jelly-doughnut",
+  "s:wp-p-czki",
+  "s:wp-fruit-preserves"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-jelly-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A hand pump or bench machine that pushes jam, custard or cream through a nozzle into the side of a fried round.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The round it fills.",
+   "rel": "donut"
+  },
+  {
+   "to": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "as": "The custard version.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "Powidła and rose petal.",
+   "rel": "donut"
+  },
+  {
+   "to": "day-old",
+   "type": "term",
+   "name": "Day-old",
+   "as": "What filled donuts are not sold as.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-jelly-doughnut",
+   "kind": "web",
+   "title": "Jelly doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jelly_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-p-czki",
+   "kind": "web",
+   "title": "Pączki — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/P%C4%85czki",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-fruit-preserves",
+   "kind": "web",
+   "title": "Fruit preserves — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fruit_preserves",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-jelly-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-jelly-doughnut"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "as": "The nozzle, and the weight in the hand.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The nozzle that makes it what it is.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "How the custard gets in.",
+   "rel": "kitchen"
+  },
+  {
+   "from": "sufganiyah",
+   "type": "donut",
+   "name": "Sufganiyah",
+   "as": "How it is filled.",
+   "rel": "kitchen"
+  }
+ ]
+}

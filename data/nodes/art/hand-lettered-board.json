@@ -1,0 +1,57 @@
+{
+ "id": "hand-lettered-board",
+ "type": "art",
+ "names": {
+  "name": "The hand-lettered board",
+  "aliases": [
+   "the menu board",
+   "marker on card"
+  ],
+  "said": "Prices in marker, taped over the last prices."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "sign"
+ },
+ "text": {
+  "what": "The menu written by hand — on card, on a whiteboard, on the glass — and updated by writing over it.",
+  "story": "*Inference —* a hand-lettered board is the tell of a shop that changes what it sells faster than it can order signage: the egg rolls, the boba, the burrito and the kolache arrive on card taped beneath the printed donut list. This project reads boards this way; it is not a cited finding.\n\nThe printed panel above usually carries what the shop has always sold, and the card below carries what is keeping it open.",
+  "today": "The board is where a directory should look first for what a shop actually does now."
+ },
+ "kin": [
+  {
+   "to": "why-the-egg-rolls",
+   "as": "What tends to be written on the card.",
+   "rel": "story"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The shops it is found in.",
+   "rel": "style"
+  },
+  {
+   "to": "the-case",
+   "as": "What the board describes.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "source": "s:this-project"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16"
+}

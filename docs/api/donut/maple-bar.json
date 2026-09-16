@@ -1,0 +1,213 @@
+{
+ "id": "maple-bar",
+ "type": "donut",
+ "names": {
+  "name": "Maple bar",
+  "aliases": [
+   "maple log",
+   "maple long john",
+   "maple creamstick",
+   "maple bismarck"
+  ],
+  "said": "On the West Coast it is a bar. Say Long John in Portland and you will be understood, and marked."
+ },
+ "region": [
+  "pacific-northwest",
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "iced"
+ },
+ "text": {
+  "what": "A bar of raised dough, fried, then topped end to end with maple-flavoured icing. Sometimes filled with custard or cream; sometimes finished with chopped bacon, which is a newer idea and an argued one.",
+  "story": "The same pastry carries different names by region. Long John runs through the Midwest, Canada and Texas; the Mid-Atlantic and central Canada sometimes sell it as an éclair, though an éclair is choux and this is yeast; parts of the Midwest say finger doughnut or cream stick when it is filled. On the West Coast it is a bar — maple bar, chocolate bar, filled bar — and the maple one is the one the coast is known for.",
+  "how": "Sheet raised dough, cut rectangles, proof, fry, cool enough that icing will not run off, then dip the top face in maple icing and set it down icing-up.",
+  "today": "A maple bar is the default second donut in a West Coast dozen — the one that goes in after the glazed."
+ },
+ "kin": [
+  {
+   "to": "long-john",
+   "as": "The same bar under the name most of the country uses.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "Same dough, different cut and finish.",
+   "rel": "donut"
+  },
+  {
+   "to": "bar-or-long-john",
+   "as": "Where the country changes the word.",
+   "rel": "story"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "Two or three of these go in the box.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-long-john-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "maple-bar/maple-bar-bacon-maple-bar.jpg",
+   "source": "commons",
+   "title": "File:Bacon maple bar.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bacon_maple_bar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABacon_maple_bar.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Kevin Galens",
+   "credit": "Bacon Maple",
+   "alt": "A bacon maple bar from Voodoo Doughnut in Portland, Oregon.",
+   "date": "2010-05-27 14:55",
+   "primary": true,
+   "sha256": "f4ccca1b2e72c1b69b070b2ceab9585a8f4c32aa291abd824672590b5348be82"
+  }
+ ],
+ "blurb": "A bar of raised dough, fried, then topped end to end with maple-flavoured icing. Sometimes filled with custard or cream; sometimes finished with chopped bacon, which is a newer idea and an argued one.",
+ "region_terms": [
+  {
+   "key": "pacific-northwest",
+   "name": "The Pacific Northwest",
+   "state": null,
+   "note": "Portland, Seattle"
+  },
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "The same bar under the name most of the country uses.",
+   "rel": "donut"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Same dough, different cut and finish.",
+   "rel": "donut"
+  },
+  {
+   "to": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "Where the country changes the word.",
+   "rel": "story"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Two or three of these go in the box.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-long-john-doughnut",
+   "kind": "web",
+   "title": "Long John (doughnut) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long_John_(doughnut)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-long-john-doughnut"
+  }
+ },
+ "primary_image": {
+  "file": "maple-bar/maple-bar-bacon-maple-bar.jpg",
+  "source": "commons",
+  "title": "File:Bacon maple bar.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bacon_maple_bar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABacon_maple_bar.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "Kevin Galens",
+  "credit": "Bacon Maple",
+  "alt": "A bacon maple bar from Voodoo Doughnut in Portland, Oregon.",
+  "date": "2010-05-27 14:55",
+  "primary": true,
+  "sha256": "f4ccca1b2e72c1b69b070b2ceab9585a8f4c32aa291abd824672590b5348be82"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The same dough, cut in a bar and iced instead of glazed.",
+   "rel": "donut"
+  },
+  {
+   "from": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "as": "The West Coast name and the coast's favourite icing.",
+   "rel": "donut"
+  },
+  {
+   "from": "bar",
+   "type": "term",
+   "name": "Bar",
+   "as": "The West Coast's version.",
+   "rel": "donut"
+  },
+  {
+   "from": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "as": "The coast's version.",
+   "rel": "donut"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "id": "biscuits-and-gravy",
+ "type": "dish",
+ "names": {
+  "name": "Biscuits and gravy",
+  "aliases": [],
+  "said": "A styrofoam clamshell, a plastic fork, and a queue that is not there for donuts."
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "course": "breakfast"
+ },
+ "text": {
+  "what": "Soft wheat biscuits split and covered in a white gravy built on sausage drippings, flour and milk.",
+  "story": "The dish is an American breakfast staple of the South, built out of cheap ingredients — biscuits made without yeast, gravy made from what was left in the pan.",
+  "today": "Southern donut counters that open at five sell it beside the case, on the same argument every other second menu rests on."
+ },
+ "kin": [
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The same arithmetic, in a different accent.",
+   "rel": "story"
+  },
+  {
+   "to": "southern-hot-now",
+   "as": "The region's other early-morning habit.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-biscuits-and-gravy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-biscuits-and-gravy"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "Soft wheat biscuits split and covered in a white gravy built on sausage drippings, flour and milk.",
+ "region_terms": [
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same arithmetic, in a different accent.",
+   "rel": "story"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The region's other early-morning habit.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-biscuits-and-gravy",
+   "kind": "web",
+   "title": "Biscuits and gravy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Biscuits_and_gravy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-biscuits-and-gravy"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-biscuits-and-gravy"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "The South.",
+   "rel": "dish"
+  }
+ ]
+}

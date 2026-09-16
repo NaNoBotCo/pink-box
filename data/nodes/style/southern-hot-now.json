@@ -1,0 +1,78 @@
+{
+ "id": "southern-hot-now",
+ "type": "style",
+ "names": {
+  "name": "The hot light",
+  "aliases": [
+   "Hot Now",
+   "the Southern glazed"
+  ],
+  "said": "The sign goes on and cars turn in. That is the whole marketing plan and it has worked since 1937."
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "NC",
+  "dough": "yeast",
+  "counter": "donuts-only"
+ },
+ "text": {
+  "what": "A glazed raised ring handed over hot, minutes out of the fryer, with the glaze still moving. Built around a window you can watch the line through, and a lit sign that says the fryer is running.",
+  "story": "Vernon Rudolph bought a yeast-raised recipe from a New Orleans chef, rented a building at 534 South Main Street in Winston-Salem in 1937 — now historic Old Salem — and sold to grocery stores. He also sold hot donuts to people who turned up during production, which ran from midnight to four in the morning. That is the origin of the whole idea: the hot donut was a by-product of the wholesale schedule, sold to whoever was awake.\n\nThe recipe traces back further, to Rudolph's uncle Ishmael Armstrong's general store in Paducah, Kentucky, and — by one account — to an Ohio River barge cook named Joseph LeBeouf, whose light doughnuts contained potatoes. The first store outside the South opened in Akron, Ohio, in 1939. A local architect, Benny Dinkins, drew the logo.\n\nIn the early 2010s the company began building shops with tunnel ovens so the hot sign could stay on all day, which is a different proposition from a sign that tells you the night shift is still going.",
+  "how": "A continuous proofer and fryer in the window, a glaze waterfall at the end of the belt, and a warmer nobody pretends is the same thing.",
+  "today": "Independent shops run the same trick without the sign: the raised dough comes out first, and the people who know arrive at opening."
+ },
+ "kin": [
+  {
+   "to": "krispy-kreme",
+   "as": "The company that built the window.",
+   "rel": "org"
+  },
+  {
+   "to": "hot-now",
+   "as": "The two words as a term of art.",
+   "rel": "term"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "vernon-rudolph",
+   "as": "Bought the recipe, picked the town for a cigarette company.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the independents' version is this project's reading of opening hours"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,167 @@
+{
+ "id": "apple-fritter",
+ "type": "donut",
+ "names": {
+  "name": "Apple fritter",
+  "aliases": [
+   "fritter"
+  ],
+  "said": "The heaviest thing in the case, and the one that sells out."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "Chopped apple and cinnamon folded through raised dough, torn rather than cut, fried craggy and glazed all over so the sugar catches in every fold. No two come out the same shape.",
+  "story": "Fritter covers a wide family: a portion of batter or breading with a filling, fried. The word runs from the Latin frictura, frying, through the Old French friture. American shops use it for the apple one almost exclusively, and put the rest — corn fritters, clam fritters — in a different part of the food world entirely.",
+  "how": "Fold diced apple through sheeted raised dough, cut and stack, press, then pull pieces apart so the edges stay ragged. Fry longer than a plain ring because the fruit carries water, and glaze heavy.",
+  "today": "The fritter is the piece most often sold by weight in the shops that price by piece, because it is roughly two donuts of dough."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "Same dough, torn instead of cut.",
+   "rel": "donut"
+  },
+  {
+   "to": "cider-donut",
+   "as": "The other apple one, cake, and seasonal.",
+   "rel": "donut"
+  },
+  {
+   "to": "bear-claw",
+   "as": "The other big ragged one, filled with almond instead of fruit.",
+   "rel": "donut"
+  },
+  {
+   "to": "glaze-table",
+   "as": "Glazed all over, not just the top.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-fritter",
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fritter"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "pricing is this project's reading of menus"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Chopped apple and cinnamon folded through raised dough, torn rather than cut, fried craggy and glazed all over so the sugar catches in every fold. No two come out the same shape.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Same dough, torn instead of cut.",
+   "rel": "donut"
+  },
+  {
+   "to": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The other apple one, cake, and seasonal.",
+   "rel": "donut"
+  },
+  {
+   "to": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "as": "The other big ragged one, filled with almond instead of fruit.",
+   "rel": "donut"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Glazed all over, not just the top.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-fritter",
+   "kind": "web",
+   "title": "Fritter — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fritter",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-fritter"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-fritter"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "pricing is this project's reading of menus"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "as": "The other big ragged piece in the case.",
+   "rel": "donut"
+  },
+  {
+   "from": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "as": "The year-round apple one, on the raised side.",
+   "rel": "donut"
+  }
+ ]
+}

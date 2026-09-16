@@ -1,0 +1,69 @@
+{
+ "id": "mom-and-pop",
+ "type": "term",
+ "names": {
+  "name": "Mom-and-pop",
+  "aliases": [
+   "independent",
+   "family shop"
+  ],
+  "said": "Two people and a lease. The rest is detail."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "M",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "A shop owned and worked by the family that runs it, as against a franchise or a company-owned store.",
+  "story": "The line is blurrier than the phrase suggests. A shop can buy its mix from a national flour company, carry a franchised name on the window, and still be owned outright by the family inside it — every Daylight Donuts store is independently owned and operated, and there are roughly 950 of them. A Spudnut sign may outlive the franchise that sold it. And a single family may hold three shops and run them all itself.\n\nThis project counts a shop as independent when no company owns it; the sign on the window is not the test."
+ },
+ "kin": [
+  {
+   "to": "tulsa-mix-shop",
+   "as": "The shops that complicate it.",
+   "rel": "style"
+  },
+  {
+   "to": "what-is-a-mom-and-pop",
+   "as": "Where this project draws the line.",
+   "rel": "story"
+  },
+  {
+   "to": "daylight-donuts",
+   "as": "950 signs, 950 owners.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-daylight-donuts",
+  "s:wp-spudnut-shops"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-daylight-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the last paragraph states this project's own rule, not a trade definition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "American English for a business run by a married couple or a family",
+  "first_attested": "",
+  "note": "Used here for a shop no company owns, whatever name is on the window.",
+  "tier": "tradition",
+  "source": "s:this-project"
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "note": "Known facet keys per type, with their known values. Open: an unknown value warns, never fails. Values are the trade's own words.",
+ "facets": {
+  "state": {
+   "types": [
+    "style",
+    "place",
+    "org",
+    "event",
+    "person",
+    "art",
+    "story",
+    "donut",
+    "dish",
+    "term",
+    "kitchen"
+   ],
+   "values": []
+  },
+  "dough": {
+   "types": [
+    "donut",
+    "style",
+    "place",
+    "kitchen"
+   ],
+   "values": [
+    "yeast",
+    "cake",
+    "choux",
+    "potato",
+    "sourdough",
+    "both",
+    "other",
+    "unknown"
+   ]
+  },
+  "finish": {
+   "types": [
+    "donut",
+    "style"
+   ],
+   "values": [
+    "glazed",
+    "sugared",
+    "powdered",
+    "iced",
+    "filled",
+    "topped",
+    "plain",
+    "dipped"
+   ]
+  },
+  "course": {
+   "types": [
+    "dish"
+   ],
+   "values": [
+    "breakfast",
+    "savory",
+    "sweet",
+    "drink",
+    "side"
+   ]
+  },
+  "kind": {
+   "types": [
+    "kitchen",
+    "art",
+    "story"
+   ],
+   "values": [
+    "mix",
+    "raise",
+    "cut",
+    "fry",
+    "finish",
+    "hold",
+    "tool",
+    "shift",
+    "sign",
+    "neon",
+    "mascot",
+    "mural",
+    "box",
+    "print",
+    "photograph",
+    "essay",
+    "map",
+    "quiz",
+    "resources"
+   ]
+  },
+  "role": {
+   "types": [
+    "person"
+   ],
+   "values": [
+    "fryer",
+    "founder",
+    "family",
+    "writer",
+    "scholar",
+    "organizer",
+    "inventor",
+    "supplier",
+    "broadcaster",
+    "cook",
+    "baker",
+    "owner"
+   ]
+  },
+  "status": {
+   "types": [
+    "place",
+    "org",
+    "event"
+   ],
+   "values": [
+    "open",
+    "closed",
+    "seasonal",
+    "unknown"
+   ]
+  },
+  "founded": {
+   "types": [
+    "place",
+    "org",
+    "event"
+   ],
+   "values": []
+  },
+  "fat": {
+   "types": [
+    "place",
+    "style",
+    "kitchen"
+   ],
+   "values": [
+    "shortening",
+    "lard",
+    "canola",
+    "soybean",
+    "palm",
+    "beef tallow",
+    "mixed",
+    "unknown"
+   ]
+  },
+  "counter": {
+   "types": [
+    "place",
+    "style"
+   ],
+   "values": [
+    "egg-rolls",
+    "breakfast-burritos",
+    "bodega-sandwiches",
+    "kolaches",
+    "croissant-sandwiches",
+    "fried-rice",
+    "tamales",
+    "biscuits-and-gravy",
+    "boba",
+    "ice-cream",
+    "coffee-only",
+    "donuts-only",
+    "unknown"
+   ]
+  },
+  "styles": {
+   "types": [
+    "place",
+    "person",
+    "dish",
+    "donut",
+    "event"
+   ],
+   "values": []
+  },
+  "when": {
+   "types": [
+    "event"
+   ],
+   "values": []
+  },
+  "letter": {
+   "types": [
+    "term"
+   ],
+   "values": []
+  },
+  "part_of_speech": {
+   "types": [
+    "term"
+   ],
+   "values": [
+    "noun",
+    "verb",
+    "adjective",
+    "phrase"
+   ]
+  }
+ }
+}

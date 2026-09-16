@@ -1,0 +1,95 @@
+{
+ "id": "donut-holes",
+ "type": "donut",
+ "names": {
+  "name": "Donut holes",
+  "aliases": [
+   "holes",
+   "munchkins",
+   "donut bites"
+  ],
+  "said": "A bag of holes is the only thing in the shop named after an absence."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "both",
+  "finish": "sugared"
+ },
+ "text": {
+  "what": "The centres cut out of ring donuts, fried and sold by the bag — or, more often now, made on purpose from the same dough or batter and never cut from anything.",
+  "story": "When a cutter with two concentric circles came into use around 1870, every ring made a small disc of dough as a by-product. That disc could be fried and sold, or thrown back into the batch. The name sticks to the piece that was removed, not the space it left, which is why the thing you buy is the opposite of what you asked for.",
+  "how": "Cut rings; collect the centres; fry them a shorter time than the rings, since they are smaller and rounder; roll in sugar or glaze in a tumbler.",
+  "today": "Chains sell them as a named product in boxes by the dozen and half-dozen. Independent shops more often sell them by the bag, by weight or by scoop, and cheaper."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "The ring the hole came out of.",
+   "rel": "donut"
+  },
+  {
+   "to": "hole",
+   "as": "The word, and the argument about who punched the first one.",
+   "rel": "term"
+  },
+  {
+   "to": "cake-donut",
+   "as": "Cut the same way on the other side of the case.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-donut-hole",
+  "s:wp-doughnut",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-donut-hole"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "how independents price them is read off menus, not counted"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "yeast",
+  "finish": "sugared",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 13.0,
+  "kcal": 54.7,
+  "sugar_g": 3.0,
+  "fat_g": 3.0,
+  "sat_fat_g": 1.2,
+  "carb_g": 6.2,
+  "sodium_mg": 41.1,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/172758/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 172758, \"Doughnuts, yeast-leavened, glazed, enriched (includes honey buns)\", published per 100 g and scaled here to the portion USDA itself lists as \"doughnut hole\" — 13 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ }
+}

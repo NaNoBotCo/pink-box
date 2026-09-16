@@ -1,0 +1,62 @@
+{
+ "id": "frying-fat",
+ "type": "kitchen",
+ "names": {
+  "name": "What is in the kettle",
+  "aliases": [
+   "shortening",
+   "lard",
+   "frying oil"
+  ],
+  "said": "Ask what they fry in and you learn how old the shop is."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "fry"
+ },
+ "text": {
+  "what": "The fat itself: lard, beef tallow, vegetable shortening, or liquid oils — canola, soybean, palm.",
+  "story": "Shortening means any fat solid at room temperature; the word is about what it does to gluten, keeping strands short so pastry crumbs instead of stretching. Lard was the original. Hippolyte Mège-Mouriès invented margarine from beef tallow in 1869 and the industry moved to hydrogenated vegetable fats after.\n\nThen it moved back. In 2015 the FDA found that artificial trans fats from partially hydrogenated oils were not generally recognised as safe; they were banned from foods sold in the United States from 18 June 2018, with limited extensions to 2020 and 2021. Crisco had already been reformulated in January 2007 to meet the zero-grams-per-serving definition. Denmark had capped industrial trans fats in 2004.\n\nFor a donut shop that meant a new fat, a different mouthfeel and, in many kitchens, a new supplier — inside a few years, and not by choice.",
+  "how": "Filter it, top it up, and change it on a schedule the shop keeps in its head.",
+  "today": "Fresh fat shows: a pale belt around a filled donut is read in Polish bakeries as evidence the oil had not been used and reused."
+ },
+ "kin": [
+  {
+   "to": "the-fryer",
+   "as": "The kettle it sits in.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "paczki",
+   "as": "Where fresh oil is read off the donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-against-raised",
+   "as": "How much of it each dough takes up.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-shortening",
+  "s:wp-trans-fat",
+  "s:wp-p-czki",
+  "s:wp-lard"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-shortening"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "ning-yen",
+ "type": "person",
+ "names": {
+  "name": "Ning Yen",
+  "aliases": [],
+  "said": "Named in the same breath as Ngoy, and much less often."
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "role": "founder",
+  "state": "CA"
+ },
+ "text": {
+  "what": "Credited with Ted Ngoy for the pink donut box, after helping other Cambodians set up shops in Southern California.",
+  "story": "The pink boxes that package donuts in Southern California shops are attributed to Ngoy and Yen. Beyond that attribution this project has found little published detail about him, and says so rather than filling it in.",
+  "today": "The box outlasted both names in public memory: most people who know the box do not know either."
+ },
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "The other name on the box.",
+   "rel": "person"
+  },
+  {
+   "to": "pink-box",
+   "as": "The object.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The style it marks.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-cambodian-americans"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cambodian-americans"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16"
+}

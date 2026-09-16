@@ -1,0 +1,154 @@
+{
+ "id": "delta-grocery-counter",
+ "type": "style",
+ "names": {
+  "name": "The Delta grocery counter",
+  "aliases": [
+   "Chinese grocery counter"
+  ],
+  "said": "The store came first; the fryer was added because the store was already open."
+ },
+ "region": [
+  "mississippi-delta",
+  "chinese-american",
+  "the-south"
+ ],
+ "facets": {
+  "dough": "cake",
+  "counter": "fried-rice"
+ },
+ "text": {
+  "what": "A small family grocery in the Mississippi or Arkansas Delta with a hot counter — and, in some of them, donuts fried in the morning beside the rest of the cooking.",
+  "story": "Chinese labourers were recruited to the Delta by cotton planters during Reconstruction, most of them men from the Siyi region of Guangdong. By the end of the 1870s they had left the plantations and opened small family groceries in Delta towns, and families followed in the early 1900s. The stores served Black customers that white-owned stores treated badly, in a state whose records classified the owners as \"colored\".\n\n*Inference —* the donut counter in a Delta grocery belongs to the same logic as the egg rolls in a California donut shop: a family business open early with a fryer already lit adds the thing that sells at that hour. This project has not found a published history of Delta grocery donut counters, and says so rather than inventing one.",
+  "how": "Cake batter, a small kettle, and a case by the register.",
+  "today": "The Delta Chinese community has thinned as generations left for cities; the stores that remain are fewer and older."
+ },
+ "kin": [
+  {
+   "to": "fried-rice",
+   "as": "What else is hot at the same counter.",
+   "rel": "dish"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The same arithmetic, on a different river.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The easier dough for a counter that is not primarily a bakery.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-chinese-americans-in-the-mississippi-delta"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chinese-americans-in-the-mississippi-delta"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.what": {
+    "tier": "inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-chinese-americans-in-the-mississippi-delta"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "A small family grocery in the Mississippi or Arkansas Delta with a hot counter — and, in some of them, donuts fried in the morning beside the rest of the cooking.",
+ "region_terms": [
+  {
+   "key": "mississippi-delta",
+   "name": "The Mississippi Delta",
+   "state": null,
+   "note": "Chinese-American grocers and counters, some of them frying"
+  },
+  {
+   "key": "chinese-american",
+   "name": "Chinese America",
+   "state": null,
+   "note": "the Delta grocery, the California counter, the fried rice in the warmer"
+  },
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "What else is hot at the same counter.",
+   "rel": "dish"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The same arithmetic, on a different river.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The easier dough for a counter that is not primarily a bakery.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-chinese-americans-in-the-mississippi-delta",
+   "kind": "web",
+   "title": "Chinese Americans in the Mississippi Delta — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Americans_in_the_Mississippi_Delta",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "inference"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-chinese-americans-in-the-mississippi-delta"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-chinese-americans-in-the-mississippi-delta"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "The same counter logic in Mississippi.",
+   "rel": "style"
+  }
+ ]
+}

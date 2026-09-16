@@ -1,0 +1,167 @@
+{
+ "id": "krispy-kreme",
+ "type": "org",
+ "names": {
+  "name": "Krispy Kreme",
+  "aliases": [
+   "Krispy Kreme Doughnuts, Inc."
+  ],
+  "said": "The name is a deliberate misspelling of crispy cream, and it has been for ninety years."
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": 1937
+ },
+ "text": {
+  "what": "The Winston-Salem company built on a bought yeast-raised recipe, a window you can watch the line through, and a lit sign.",
+  "story": "Vernon Rudolph bought the recipe from a New Orleans chef and rented a building in 1937 in what is now historic Old Salem. Steady growth ran to an expansion as a public company between 2000 and 2016 that proved unprofitable; JAB Holding took it private in 2016; it listed again on the Nasdaq in July 2021. Headquarters moved to Charlotte in December 2017, with most operations left in Winston-Salem. A group of franchisees had bought the company back from Beatrice Foods in 1982, ten years after Beatrice acquired it.",
+  "today": "The early-2010s tunnel-oven shops keep the hot sign lit all day, which is a different promise from the one the sign made in 1937."
+ },
+ "kin": [
+  {
+   "to": "southern-hot-now",
+   "as": "The style it built.",
+   "rel": "style"
+  },
+  {
+   "to": "vernon-rudolph",
+   "as": "Who started it.",
+   "rel": "person"
+  },
+  {
+   "to": "hot-now",
+   "as": "The sign.",
+   "rel": "term"
+  },
+  {
+   "to": "krispy-kreme-challenge",
+   "as": "The race students run at it.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The Winston-Salem company built on a bought yeast-raised recipe, a window you can watch the line through, and a lit sign.",
+ "region_terms": [
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The style it built.",
+   "rel": "style"
+  },
+  {
+   "to": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "Who started it.",
+   "rel": "person"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The sign.",
+   "rel": "term"
+  },
+  {
+   "to": "krispy-kreme-challenge",
+   "type": "event",
+   "name": "Krispy Kreme Challenge",
+   "as": "The race students run at it.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-krispy-kreme",
+   "kind": "web",
+   "title": "Krispy Kreme — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Krispy_Kreme",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The company that built the window.",
+   "rel": "org"
+  },
+  {
+   "from": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "from": "krispy-kreme-challenge",
+   "type": "event",
+   "name": "Krispy Kreme Challenge",
+   "as": "The shop at the turnaround.",
+   "rel": "org"
+  },
+  {
+   "from": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "Whose sign it is.",
+   "rel": "org"
+  }
+ ]
+}

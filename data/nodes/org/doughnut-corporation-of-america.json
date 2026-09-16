@@ -1,0 +1,65 @@
+{
+ "id": "doughnut-corporation-of-america",
+ "type": "org",
+ "names": {
+  "name": "Doughnut Corporation of America",
+  "aliases": [
+   "DCA"
+  ],
+  "said": "Sold the machine, the mix, and the idea that liking donuts was a club."
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "closed"
+ },
+ "text": {
+  "what": "Adolph Levitt's company: donut machines, mixes, the Mayflower shop in Times Square, and the National Dunking Association.",
+  "story": "Levitt built the first automated donut machine in New York in 1920 and founded the corporation around it. It opened the Mayflower donut shop in Times Square in 1931 and started the National Dunking Association in the 1930s. At the 1933–34 Chicago World's Fair the machine was billed as the food hit of the Century of Progress. The company may have sold the first commercial cider donut — a \"sweet cider doughnut\" — in 1951.",
+  "today": "The machines outlived the company in thousands of small shops."
+ },
+ "kin": [
+  {
+   "to": "adolph-levitt",
+   "as": "Who built it.",
+   "rel": "person"
+  },
+  {
+   "to": "national-dunking-association",
+   "as": "Its membership stunt.",
+   "rel": "org"
+  },
+  {
+   "to": "cider-donut",
+   "as": "A product it commercialised.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-batter",
+   "as": "The process it sold.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut-shop",
+  "s:wp-national-dunking-association",
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

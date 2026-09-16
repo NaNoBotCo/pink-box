@@ -1,0 +1,233 @@
+{
+ "id": "allies-donuts",
+ "type": "place",
+ "names": {
+  "name": "Allie's Donuts",
+  "aliases": [
+   "Allie's Hand-Cut Do-nut Shop"
+  ],
+  "sort": "Allie's Donuts"
+ },
+ "region": [
+  "new-england"
+ ],
+ "facets": {
+  "state": "RI",
+  "status": "open",
+  "founded": 1968,
+  "dough": "both"
+ },
+ "text": {
+  "what": "A shop on Route 2 in North Kingstown, Rhode Island, cutting its donuts by hand since 1968, and the state's landmark of the trade.",
+  "story": "Frederick Alvin \"Allie\" Briggs opened Allie's Hand-Cut Do-nut Shop on 1 June 1968 in a former sub sandwich shop, with about forty dollars in hand and a seven-thousand-dollar debt. He was a dairy farmer from Point Judith with ten years of donut experience from a shop in Wakefield. He took $38 on the first day, selling close to a hundred dozen at 39 cents each.\n\nIn 1969 his son Ricky was killed by a drunk driver while out delivering donuts for the business alongside his cousin. Briggs nearly closed.",
+  "today": "Customers drive in from Connecticut and Massachusetts. Saveur listed it among the country's best donut shops in 2008; Thrillist did the same in 2016."
+ },
+ "geo": {
+  "lat": 41.59826,
+  "lon": -71.49684,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "3661 Quaker Lane",
+  "city": "North Kingstown",
+  "county": "South",
+  "state": "RI"
+ },
+ "tags": [
+  {
+   "tag": "hand-cut",
+   "source": "s:wp-allie-s-donuts",
+   "tier": "cited",
+   "note": "the shop's original name was Allie's Hand-Cut Do-nut Shop"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:wp-allie-s-donuts",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "Saveur, best doughnut shops in the country",
+   "year": 2008,
+   "source": "s:wp-allie-s-donuts"
+  },
+  {
+   "by": "thrillist",
+   "what": "best doughnut shops in the country",
+   "year": 2016,
+   "source": "s:wp-allie-s-donuts"
+  }
+ ],
+ "kin": [
+  {
+   "to": "dunkin-country",
+   "as": "The region it competes in, by frying its own.",
+   "rel": "style"
+  },
+  {
+   "to": "donuts-per-capita",
+   "as": "Rhode Island's density, counted.",
+   "rel": "story"
+  },
+  {
+   "to": "hand-cut",
+   "as": "What the name claims and the bench does.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-allie-s-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-allie-s-donuts"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A shop on Route 2 in North Kingstown, Rhode Island, cutting its donuts by hand since 1968, and the state's landmark of the trade.",
+ "region_terms": [
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "cider donuts at the orchard, and the chain that started in Quincy"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The region it competes in, by frying its own.",
+   "rel": "style"
+  },
+  {
+   "to": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "Rhode Island's density, counted.",
+   "rel": "story"
+  },
+  {
+   "to": "hand-cut",
+   "type": "kitchen",
+   "name": "Cutting by hand",
+   "as": "What the name claims and the bench does.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-allie-s-donuts",
+   "kind": "web",
+   "title": "Allie's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Allie%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-allie-s-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-allie-s-donuts"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-allie-s-donuts"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-allie-s-donuts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "hand-cut",
+   "label": "Cut by hand",
+   "icon": "✂",
+   "group": "kitchen",
+   "evidence": "the shop's own words or a press piece describing the bench",
+   "resources": [],
+   "source": "s:wp-allie-s-donuts",
+   "note": "the shop's original name was Allie's Hand-Cut Do-nut Shop",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the shop's own history",
+   "resources": [],
+   "source": "s:wp-allie-s-donuts",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "Saveur, best doughnut shops in the country",
+   "url": "",
+   "year": 2008,
+   "source": "s:wp-allie-s-donuts"
+  },
+  {
+   "key": "thrillist",
+   "label": "Thrillist",
+   "what": "best doughnut shops in the country",
+   "url": "",
+   "year": 2016,
+   "source": "s:wp-allie-s-donuts"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "as": "The Rhode Island counter that outlasted the argument.",
+   "rel": "place"
+  },
+  {
+   "from": "hand-cut",
+   "type": "kitchen",
+   "name": "Cutting by hand",
+   "as": "A shop that put the words in its name.",
+   "rel": "place"
+  },
+  {
+   "from": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "The 1968 price.",
+   "rel": "place"
+  }
+ ]
+}

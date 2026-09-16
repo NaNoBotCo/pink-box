@@ -1,0 +1,139 @@
+{
+ "id": "pips-original",
+ "type": "place",
+ "names": {
+  "name": "Pip's Original Doughnuts & Chai",
+  "aliases": [
+   "Pip's Original"
+  ],
+  "sort": "Pip's Original"
+ },
+ "region": [
+  "pacific-northwest"
+ ],
+ "facets": {
+  "state": "OR",
+  "status": "open",
+  "dough": "cake"
+ },
+ "text": {
+  "what": "A northeast Portland shop frying small cake donuts to order and serving house chai beside them.",
+  "story": "The shop is on Fremont Street in northeast Portland; Nate Snell is a co-owner. A second location in Beaverton ran through 2023 and 2024. Vogue has described an always-out-the-door line at the Portland shop.",
+  "today": "Made-to-order is the opposite end of the trade from a case filled at four in the morning, and costs accordingly."
+ },
+ "geo": {
+  "lat": 45.54843,
+  "lon": -122.61384,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "4759 NE Fremont Street",
+  "city": "Portland",
+  "county": "Multnomah",
+  "state": "OR"
+ },
+ "kin": [
+  {
+   "to": "the-price-of-a-dozen",
+   "as": "Where made-to-order sits on the price map.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The dough it runs.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-pip-s-original-doughnuts-chai"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-pip-s-original-doughnuts-chai"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A northeast Portland shop frying small cake donuts to order and serving house chai beside them.",
+ "region_terms": [
+  {
+   "key": "pacific-northwest",
+   "name": "The Pacific Northwest",
+   "state": null,
+   "note": "Portland, Seattle"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "Where made-to-order sits on the price map.",
+   "rel": "story"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The dough it runs.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-pip-s-original-doughnuts-chai",
+   "kind": "web",
+   "title": "Pip's Original Doughnuts & Chai — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pip%27s_Original_Doughnuts_%26_Chai",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-pip-s-original-doughnuts-chai"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-pip-s-original-doughnuts-chai"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-pip-s-original-doughnuts-chai"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "as": "The other end of the range.",
+   "rel": "place"
+  }
+ ]
+}

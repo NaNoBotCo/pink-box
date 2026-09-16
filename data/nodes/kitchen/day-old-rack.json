@@ -1,0 +1,61 @@
+{
+ "id": "day-old-rack",
+ "type": "kitchen",
+ "names": {
+  "name": "Day-old",
+  "aliases": [
+   "the day-old rack",
+   "yesterday's"
+  ],
+  "said": "Half price, in a bag, and the sign does not apologise."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "hold"
+ },
+ "text": {
+  "what": "Yesterday's donuts, sold cheap the next morning, usually bagged rather than boxed and usually the rings rather than the filled ones.",
+  "story": "*Tradition holds —* the rack exists because a donut's shelf life is one morning and a shop's costs are not. Raised rings go stale fastest; cake rings hold longer, which is part of why the cake side of the case is the one that turns up marked down.\n\nThis project has found no published study of American day-old donut pricing, and says so rather than estimating one.",
+  "how": "Bag what is left at close, price it at open.",
+  "today": "Where a shop puts the day-old rack — by the till or out of sight — says how it would like to be thought of."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "Stales first.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "as": "Holds longer.",
+   "rel": "donut"
+  },
+  {
+   "to": "day-old",
+   "as": "The word.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-16"
+}

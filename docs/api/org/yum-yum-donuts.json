@@ -1,0 +1,125 @@
+{
+ "id": "yum-yum-donuts",
+ "type": "org",
+ "names": {
+  "name": "Yum Yum Donut Shops",
+  "aliases": [
+   "Yum Yum Donuts"
+  ],
+  "said": "A Los Angeles chain most of the country has never heard of."
+ },
+ "region": [
+  "socal"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open"
+ },
+ "text": {
+  "what": "A Southern California donut chain, and since 2004 the owner of Winchell's.",
+  "story": "Yum Yum Donut Shops, Inc. bought Winchell's in 2004, putting two of the West's older chains under one owner.",
+  "today": "Two chains, one company, in a region where most shops belong to families."
+ },
+ "kin": [
+  {
+   "to": "winchells",
+   "as": "The chain it bought.",
+   "rel": "org"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "What it competes with.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-yum-yum-donuts",
+  "s:wp-winchell-s-donuts"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-yum-yum-donuts"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "A Southern California donut chain, and since 2004 the owner of Winchell's.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "The chain it bought.",
+   "rel": "org"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "What it competes with.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-yum-yum-donuts",
+   "kind": "web",
+   "title": "Yum-Yum Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yum-Yum_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-winchell-s-donuts",
+   "kind": "web",
+   "title": "Winchell's Donuts — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Winchell%27s_Donuts",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-yum-yum-donuts"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-yum-yum-donuts"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-yum-yum-donuts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "The competitor that bought it.",
+   "rel": "org"
+  }
+ ]
+}

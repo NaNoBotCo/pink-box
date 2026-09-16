@@ -1,0 +1,62 @@
+{
+ "id": "anthora-cup",
+ "type": "art",
+ "names": {
+  "name": "The Anthora cup",
+  "aliases": [
+   "We Are Happy To Serve You",
+   "the Greek cup"
+  ],
+  "said": "Blue and white, a Greek key, and a paper cup that became a New York object."
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "kind": "print",
+  "state": "NY"
+ },
+ "text": {
+  "what": "The blue-and-white paper coffee cup with a Greek meander border and the words \"We Are Happy To Serve You\", designed for New York's Greek-run coffee shops.",
+  "story": "Greek immigrants ran a large share of the city's coffee shops and diners, and the cup was made for that trade. It has since been treated as a piece of New York design rather than as packaging.",
+  "today": "The cup appears in films set in New York more reliably than any donut does."
+ },
+ "kin": [
+  {
+   "to": "nyc-bodega-donut",
+   "as": "The counter it belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "as": "What it comes with.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "What is in it.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-anthora",
+  "s:wp-greek-americans"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anthora"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

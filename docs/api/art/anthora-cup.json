@@ -1,0 +1,147 @@
+{
+ "id": "anthora-cup",
+ "type": "art",
+ "names": {
+  "name": "The Anthora cup",
+  "aliases": [
+   "We Are Happy To Serve You",
+   "the Greek cup"
+  ],
+  "said": "Blue and white, a Greek key, and a paper cup that became a New York object."
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "kind": "print",
+  "state": "NY"
+ },
+ "text": {
+  "what": "The blue-and-white paper coffee cup with a Greek meander border and the words \"We Are Happy To Serve You\", designed for New York's Greek-run coffee shops.",
+  "story": "Greek immigrants ran a large share of the city's coffee shops and diners, and the cup was made for that trade. It has since been treated as a piece of New York design rather than as packaging.",
+  "today": "The cup appears in films set in New York more reliably than any donut does."
+ },
+ "kin": [
+  {
+   "to": "nyc-bodega-donut",
+   "as": "The counter it belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "as": "What it comes with.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "as": "What is in it.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-anthora",
+  "s:wp-greek-americans"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anthora"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The blue-and-white paper coffee cup with a Greek meander border and the words \"We Are Happy To Serve You\", designed for New York's Greek-run coffee shops.",
+ "region_terms": [
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The counter it belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "What it comes with.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "as": "What is in it.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-anthora",
+   "kind": "web",
+   "title": "Anthora — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anthora",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-greek-americans",
+   "kind": "web",
+   "title": "Greek Americans — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greek_Americans",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-anthora"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-anthora"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "as": "The cup the coffee comes in.",
+   "rel": "art"
+  },
+  {
+   "from": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "What the coffee comes in.",
+   "rel": "art"
+  }
+ ]
+}

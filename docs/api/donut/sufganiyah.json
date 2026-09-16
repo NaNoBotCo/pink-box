@@ -1,0 +1,154 @@
+{
+ "id": "sufganiyah",
+ "type": "donut",
+ "names": {
+  "name": "Sufganiyah",
+  "aliases": [
+   "sufganiyot",
+   "Hanukkah donut"
+  ],
+  "said": "Fried in oil, for a reason the holiday turns on."
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "filled"
+ },
+ "text": {
+  "what": "A round filled donut, traditionally red jelly with icing sugar on top, eaten at Hanukkah. Dulce de leche fillings became common after South American immigration to Israel early in this century.",
+  "story": "Jelly or custard-filled donuts are a Hanukkah tradition because they are cooked in oil, which is the miracle the holiday commemorates: one day's oil kept the Temple menorah burning for eight. The sufganiyah belongs to the same European family as the Berliner, the pączek and the bombolone, whose common ancestor is the Gefüllte Krapfen of a 1485 Nuremberg cookbook.",
+  "how": "Rich yeast dough, rounded and proofed, fried, filled from the side, dusted.",
+  "today": "American bakeries and donut shops in Jewish neighbourhoods run them for the eight days and mark them on the board by name."
+ },
+ "kin": [
+  {
+   "to": "bismarck",
+   "as": "The same round under a different name.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "as": "Another calendar donut, another fast.",
+   "rel": "donut"
+  },
+  {
+   "to": "filling-injector",
+   "as": "How it is filled.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-sufganiyah",
+  "s:wp-jelly-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-sufganiyah"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A round filled donut, traditionally red jelly with icing sugar on top, eaten at Hanukkah. Dulce de leche fillings became common after South American immigration to Israel early in this century.",
+ "region_terms": [
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the Greek coffee shop, the bodega, the corner cart"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The same round under a different name.",
+   "rel": "donut"
+  },
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "Another calendar donut, another fast.",
+   "rel": "donut"
+  },
+  {
+   "to": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "as": "How it is filled.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-sufganiyah",
+   "kind": "web",
+   "title": "Sufganiyah — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sufganiyah",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-jelly-doughnut",
+   "kind": "web",
+   "title": "Jelly doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jelly_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-sufganiyah"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-sufganiyah"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "The Hanukkah one, fried in oil for the reason the holiday turns on.",
+   "rel": "donut"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "id": "fry-cake",
+ "type": "term",
+ "names": {
+  "name": "Fry cake",
+  "aliases": [
+   "fried cake"
+  ],
+  "said": "An old word on an old sign."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "F",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "An older American name for the cake donut, still on some signs and menus.",
+  "story": "Historically the terms doughnut, cruller and fry cake were used loosely and argued over. In the older usage a doughnut was raised dough, risen and dropped into fat, while crullers and fried cakes were leavened with baking powder — soda, in colonial times — rolled out and cut with a smaller circle taken from the middle. By that usage it was the fried cake that had the hole."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "What it means now.",
+   "rel": "donut"
+  },
+  {
+   "to": "old-fashioned",
+   "as": "The cake ring that kept the old shape.",
+   "rel": "donut"
+  },
+  {
+   "to": "cruller-word",
+   "as": "The other word in the same argument.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-old-fashioned-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "etymology": {
+  "root": "fried + cake: a cake cooked in fat rather than an oven",
+  "first_attested": "",
+  "note": "In older American usage a doughnut was raised dough and a fried cake was the baking-powder ring — and it was the fried cake that had the hole.",
+  "tier": "cited",
+  "source": "s:wp-old-fashioned-doughnut"
+ },
+ "blurb": "An older American name for the cake donut, still on some signs and menus.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "What it means now.",
+   "rel": "donut"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The cake ring that kept the old shape.",
+   "rel": "donut"
+  },
+  {
+   "to": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "as": "The other word in the same argument.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-old-fashioned-doughnut",
+   "kind": "web",
+   "title": "Old-fashioned doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old-fashioned_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-old-fashioned-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "What the older counters called it.",
+   "rel": "term"
+  },
+  {
+   "from": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The older name for it.",
+   "rel": "term"
+  },
+  {
+   "from": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "as": "The other contested word.",
+   "rel": "term"
+  }
+ ]
+}

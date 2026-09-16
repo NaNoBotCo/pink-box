@@ -1,0 +1,222 @@
+{
+ "id": "seaside-donuts",
+ "type": "place",
+ "names": {
+  "name": "Seaside Donuts Bakery",
+  "aliases": [
+   "Seaside Bakery",
+   "Seaside"
+  ],
+  "sort": "Seaside Donuts Bakery"
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "state": "CA",
+  "status": "open",
+  "founded": 1985,
+  "dough": "both",
+  "styles": [
+   "socal-pink-box"
+  ]
+ },
+ "text": {
+  "what": "A Cambodian-American bakery in Newport Beach, open 24 hours, known for cheap selections and a beachside room that fills up at odd hours.",
+  "story": "Kong Eap, who came to the United States in the 1970s, opened the bakery in 1985 — one of many Cambodian-American bakeries that opened in the area after Ted Ngoy's shops showed the way. He later handed it to his son, Roger Eap, and went into hospitality. The family also took on Simone's Donuts in Long Beach, which his daughter Melissa Eap runs.\n\nSince the 2020s the shop has drawn heavy attention from Asian-American creators on TikTok, which is a different kind of custom from the college students who kept it going for decades.",
+  "today": "Still open around the clock."
+ },
+ "geo": {
+  "lat": 33.60869,
+  "lon": -117.92897,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Newport Beach",
+  "county": "Orange",
+  "state": "CA"
+ },
+ "tags": [
+  {
+   "tag": "cambodian-american",
+   "source": "s:wp-seaside-donuts-bakery",
+   "tier": "cited",
+   "note": "the article names Kong Eap, a Cambodian immigrant, as founder and the family as owners since"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:wp-seaside-donuts-bakery",
+   "tier": "cited",
+   "note": "founder to son to daughter across two shops"
+  },
+  {
+   "tag": "twentyfour-hours",
+   "source": "s:wp-seaside-donuts-bakery",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {
+   "to": "socal-pink-box",
+   "as": "A shop the style is made of.",
+   "rel": "style"
+  },
+  {
+   "to": "ted-ngoy",
+   "as": "The shops that showed the way, by name, in the shop's own history.",
+   "rel": "person"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "How a family arrives at a fryer in Orange County.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-seaside-donuts-bakery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-seaside-donuts-bakery"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "town centre, not the shop door — the article gives no street address"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Cambodian-American bakery in Newport Beach, open 24 hours, known for cheap selections and a beachside room that fills up at odd hours.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "cambodian-american",
+   "name": "Cambodian America",
+   "state": null,
+   "note": "Long Beach, Stockton, Lowell, Houston; a community, not a place — and the single largest owner group in independent donuts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "A shop the style is made of.",
+   "rel": "style"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The shops that showed the way, by name, in the shop's own history.",
+   "rel": "person"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "How a family arrives at a fryer in Orange County.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-seaside-donuts-bakery",
+   "kind": "web",
+   "title": "Seaside Donuts Bakery — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Seaside_Donuts_Bakery",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-seaside-donuts-bakery"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-seaside-donuts-bakery"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-seaside-donuts-bakery"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "town centre, not the shop door — the article gives no street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-seaside-donuts-bakery"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "cambodian-american",
+   "label": "Cambodian-American owned",
+   "icon": "🇰🇭",
+   "group": "community",
+   "evidence": "the owner's own words, a press profile naming the family, or an oral-history archive. Never a surname, never a guess.",
+   "resources": [
+    "r:cambodian-donut-press",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:wp-seaside-donuts-bakery",
+   "note": "the article names Kong Eap, a Cambodian immigrant, as founder and the family as owners since",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the shop's own history",
+   "resources": [],
+   "source": "s:wp-seaside-donuts-bakery",
+   "note": "founder to son to daughter across two shops",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "twentyfour-hours",
+   "label": "Open around the clock",
+   "icon": "🕓",
+   "group": "visit",
+   "evidence": "posted hours",
+   "resources": [],
+   "source": "s:wp-seaside-donuts-bakery",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bay-area-late-counter",
+   "type": "style",
+   "name": "The all-night counter",
+   "as": "Orange County's.",
+   "rel": "place"
+  }
+ ]
+}

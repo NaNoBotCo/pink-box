@@ -1,0 +1,442 @@
+{
+ "id": "glazed-raised",
+ "type": "donut",
+ "names": {
+  "name": "Glazed raised",
+  "aliases": [
+   "raised glazed",
+   "yeast glazed",
+   "the glazed",
+   "plain glazed"
+  ],
+  "said": "Ask for a glazed and nobody asks which kind. It means this one."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "yeast",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "A ring of yeast dough, proofed until it is full of gas, fried about two and a half minutes, then dragged through a thin sugar glaze while it is still hot enough to melt it. The glaze sets into a shell you can hear. Yeast-raised rings run larger and taller than cake rings and average around 38 grams apiece.",
+  "story": "The raised ring is the older idea and the harder one to run. Dutch settlers brought olykoek — oil cake — to New Amsterdam in the early eighteenth century, balls of sweetened dough fried in hog fat; Washington Irving put them in print in 1809 as \"dough-nuts, or oly koeks\". The hole arrives in the middle of the nineteenth century, credited by long habit to Hanson Gregory, a New England sailor who said he punched one out with a tin pepper box in 1847 at sixteen because the middles came out raw.\n\n*Tradition holds —* that the hole was about heat reaching the centre. Culinary historian Linda Civitello writes that the hole made doughnuts cook faster; food writer Michael Krondl reckons the ring shape came off recipes that called for a jumble, a ring-shaped cookie already on the table. By 1870 a cutter with two concentric circles was on sale and the argument stopped mattering to anyone but historians.\n\nWhen shops automated in the 1920s the raised dough lost ground: it needs time to rise and it is harder to handle, so machinery and baking soda pushed bakers toward cake. The raised ring survived because it is the one people mean.",
+  "how": "Mix a lean, sweet dough with baker's yeast. Let it rise, sheet it, cut rings, then proof the cut rings again in a warm box until they are light enough to float. Fry about 150 seconds at 182 to 190 °C, turning once. Glaze hot: a thin syrup of powdered sugar and water or milk goes on within a minute of the fryer, so it soaks the crust and sets clear.",
+  "today": "Every shop in the country sells it and most sell nothing else in that volume. A raised ring goes stale faster than a cake ring, which is why a shop that opened at four in the morning tells you so, and why the tray at noon is not the tray at six."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "The other half of the argument: same fryer, different lift, different mouth.",
+   "rel": "contrast"
+  },
+  {
+   "to": "yeast-raise",
+   "as": "What makes it rise, and the reason the shop was working at two in the morning.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glaze-table",
+   "as": "Where it gets the shell, seconds after it leaves the fat.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "hole",
+   "as": "The part that isn't there, and the part they sell you in a bag.",
+   "rel": "term"
+  },
+  {
+   "to": "donut-holes",
+   "as": "The middles, fried and sold by the bag.",
+   "rel": "donut"
+  },
+  {
+   "to": "maple-bar",
+   "as": "The same dough, cut in a bar and iced instead of glazed.",
+   "rel": "donut"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The shop style that sells this one by the dozen before dawn.",
+   "rel": "style"
+  },
+  {
+   "to": "cake-against-raised",
+   "as": "Why the two doughs split the case, and the numbers underneath.",
+   "rel": "story"
+  },
+  {
+   "to": "hot-now",
+   "as": "What a chain built out of glazing this exact donut in front of you.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut",
+  "s:wp-cake-doughnut",
+  "s:wp-doughnut-shop",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the staling point reasons from the raised dough's water and structure; the hours are what shops post"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "yeast",
+  "finish": "glazed",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 64.0,
+  "kcal": 269.4,
+  "sugar_g": 14.6,
+  "fat_g": 14.5,
+  "sat_fat_g": 6.0,
+  "carb_g": 30.7,
+  "sodium_mg": 202.2,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/172758/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 172758, \"Doughnuts, yeast-leavened, glazed, enriched (includes honey buns)\", published per 100 g and scaled here to the portion USDA itself lists as \"doughnut medium (approx 3-3/4\" dia)\" — 64 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ },
+ "images": [
+  {
+   "file": "glazed-raised/glazed-raised-02023-0563-hot-doughnuts.jpg",
+   "source": "commons",
+   "title": "File:02023 0563 Hot doughnuts.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/02023_0563_Hot_doughnuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A02023_0563_Hot_doughnuts.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Silar",
+   "credit": "Own work",
+   "alt": "Hot Doughnuts",
+   "date": "2023-09-17 12:55:36",
+   "primary": true,
+   "sha256": "427c741de1dfd55fa9a5e66788f261e6cc0ec85a941f7c3a38c3c7ea0da8ad8a"
+  }
+ ],
+ "blurb": "A ring of yeast dough, proofed until it is full of gas, fried about two and a half minutes, then dragged through a thin sugar glaze while it is still hot enough to melt it. The glaze sets into a shell you can hear.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The other half of the argument: same fryer, different lift, different mouth.",
+   "rel": "contrast"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What makes it rise, and the reason the shop was working at two in the morning.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "Where it gets the shell, seconds after it leaves the fat.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "hole",
+   "type": "term",
+   "name": "The hole",
+   "as": "The part that isn't there, and the part they sell you in a bag.",
+   "rel": "term"
+  },
+  {
+   "to": "donut-holes",
+   "type": "donut",
+   "name": "Donut holes",
+   "as": "The middles, fried and sold by the bag.",
+   "rel": "donut"
+  },
+  {
+   "to": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "The same dough, cut in a bar and iced instead of glazed.",
+   "rel": "donut"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The shop style that sells this one by the dozen before dawn.",
+   "rel": "style"
+  },
+  {
+   "to": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "Why the two doughs split the case, and the numbers underneath.",
+   "rel": "story"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "What a chain built out of glazing this exact donut in front of you.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:fdc-sr-legacy",
+   "kind": "data",
+   "title": "FoodData Central, SR Legacy — doughnut foods",
+   "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "accessed": "2026-09-17",
+   "license": "Public domain (U.S. government work)",
+   "note": "SR Legacy CSV bundle 2018-04; the nine doughnut rows last updated 2019-04-01. Values per 100 g, with USDA's own portion weights."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the staling point reasons from the raised dough's water and structure; the hours are what shops post"
+  }
+ },
+ "primary_image": {
+  "file": "glazed-raised/glazed-raised-02023-0563-hot-doughnuts.jpg",
+  "source": "commons",
+  "title": "File:02023 0563 Hot doughnuts.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/02023_0563_Hot_doughnuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3A02023_0563_Hot_doughnuts.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Silar",
+  "credit": "Own work",
+  "alt": "Hot Doughnuts",
+  "date": "2023-09-17 12:55:36",
+  "primary": true,
+  "sha256": "427c741de1dfd55fa9a5e66788f261e6cc0ec85a941f7c3a38c3c7ea0da8ad8a"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The item the box is built around.",
+   "rel": "donut"
+  },
+  {
+   "from": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "from": "apple-fritter",
+   "type": "donut",
+   "name": "Apple fritter",
+   "as": "Same dough, torn instead of cut.",
+   "rel": "donut"
+  },
+  {
+   "from": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "as": "Sweeter, richer dough than the ring.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "as": "Same dough, hole instead of filling.",
+   "rel": "donut"
+  },
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The other half of the argument: same fryer, different lift, different mouth.",
+   "rel": "contrast"
+  },
+  {
+   "from": "donut-holes",
+   "type": "donut",
+   "name": "Donut holes",
+   "as": "The ring the hole came out of.",
+   "rel": "donut"
+  },
+  {
+   "from": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "as": "Neither yeast nor powder — this one is lifted by steam alone.",
+   "rel": "contrast"
+  },
+  {
+   "from": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "Same dough, different cut and finish.",
+   "rel": "donut"
+  },
+  {
+   "from": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "What it is, under the potato.",
+   "rel": "donut"
+  },
+  {
+   "from": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "as": "Stales first.",
+   "rel": "donut"
+  },
+  {
+   "from": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "as": "What goes across it.",
+   "rel": "donut"
+  },
+  {
+   "from": "hand-cut",
+   "type": "kitchen",
+   "name": "Cutting by hand",
+   "as": "What the bench is for.",
+   "rel": "donut"
+  },
+  {
+   "from": "proof-box",
+   "type": "kitchen",
+   "name": "The proof box",
+   "as": "What is in there.",
+   "rel": "donut"
+  },
+  {
+   "from": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Longer in the fat, and carries more of it.",
+   "rel": "donut"
+  },
+  {
+   "from": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What comes out of it.",
+   "rel": "donut"
+  },
+  {
+   "from": "bobs-donuts",
+   "type": "place",
+   "name": "Bob's Donuts and Pastries",
+   "as": "What the challenge donut is a very large one of.",
+   "rel": "donut"
+  },
+  {
+   "from": "national-donut-day",
+   "type": "event",
+   "name": "National Donut Day",
+   "as": "What gets given away.",
+   "rel": "donut"
+  },
+  {
+   "from": "day-old",
+   "type": "term",
+   "name": "Day-old",
+   "as": "Which ones go first.",
+   "rel": "donut"
+  },
+  {
+   "from": "olykoek",
+   "type": "term",
+   "name": "Olykoek",
+   "as": "What it became.",
+   "rel": "donut"
+  },
+  {
+   "from": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "as": "The raised side.",
+   "rel": "donut"
+  }
+ ]
+}

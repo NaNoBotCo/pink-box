@@ -1,0 +1,59 @@
+{
+ "id": "hand-cut",
+ "type": "kitchen",
+ "names": {
+  "name": "Cutting by hand",
+  "aliases": [
+   "the bench",
+   "hand-cut",
+   "the cutter"
+  ],
+  "said": "A shop that says hand-cut on the window is drawing a line, and everyone in the trade knows which one."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "cut"
+ },
+ "text": {
+  "what": "Rolling sheeted dough and cutting rings with a two-ring cutter, rather than depositing or buying pre-formed shells.",
+  "story": "Cutters with two concentric circles were on sale by 1870, which is when the ring and its hole became a manufactured thing rather than a trick with a pepper box. A ring can also be made by joining the ends of a rope of dough, or by stretching a disc until the middle tears.",
+  "how": "Sheet, cut in rows, lift the rings onto screens, gather and re-roll the scrap once — twice makes it tough.",
+  "today": "Hand-cut is a claim a shop makes on its sign. This project records the claim and its source, and does not test it."
+ },
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "What the bench is for.",
+   "rel": "donut"
+  },
+  {
+   "to": "allies-donuts",
+   "as": "A shop that put the words in its name.",
+   "rel": "place"
+  },
+  {
+   "to": "donut-holes",
+   "as": "What the small ring leaves behind.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

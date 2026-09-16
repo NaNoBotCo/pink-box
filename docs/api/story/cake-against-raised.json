@@ -1,0 +1,226 @@
+{
+ "id": "cake-against-raised",
+ "type": "story",
+ "names": {
+  "name": "Cake against raised",
+  "aliases": [
+   "cake vs yeast",
+   "the two doughs"
+  ],
+  "sort": "cake against raised"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "Two doughs, one kettle, and an argument every shop settles twice a day. Raised dough is lifted by yeast and takes about 150 seconds at 182 to 190 °C; cake batter is lifted by baking powder or soda and takes about 90 seconds at 190 to 198 °C. Yeast rings average 38 grams, cake rings 24 to 28. The fat numbers are where the published accounts stop agreeing, and this page lays both out rather than picking one."
+ },
+ "sections": [
+  {
+   "h": "What actually differs",
+   "text": "Yeast and cake donuts share most of their ingredients. What separates them is the flour and the lift. Cake donuts use cake flour, around 7 to 8 percent protein, which crumbs rather than pulls, and they rise on baking powder or baking soda. Raised donuts use a stronger dough and baker's yeast, and they need time.\n\nThat difference sets everything downstream: how long the dough occupies the shop, how the ring is formed, how long it sits in the fat, how much fat it takes up, how big it comes out, and how long it is worth selling."
+  },
+  {
+   "h": "The numbers, as published",
+   "text": "Yeast-raised rings fry about 150 seconds at 182 to 190 °C and average 38 grams. Cake rings fry about 90 seconds at 190 to 198 °C, turning once, and weigh 24 to 28 grams.\n\nOn oil, the published accounts diverge. One says yeast-raised donuts contain about 25 percent oil by weight and cake donuts around 20 percent, with extra fat mixed into the batter before frying. Another says cake runs 20 to 25 percent and yeast 25 to 35, and that commercial cake rings fry for 30 to 45 seconds at 191 °C.\n\nNeither cites a laboratory. Both agree on the direction — the raised ring spends longer in the fat and carries more of it out — and disagree on the size of the gap. This project prints both."
+  },
+  {
+   "h": "Why the machines chose cake",
+   "text": "When donut shops industrialised in the 1920s and 1930s, the raised dough was at a disadvantage: it needs time to rise and it is harder to handle. Baking soda was predictable and easy to automate, so most bakers went the cake route. The cake ring also appeared in American cookbooks a century earlier, in the 1830s, once pearlash was easy to buy.\n\nThe raised ring survived anyway, because a glazed raised donut is what most people mean by the word."
+  },
+  {
+   "h": "What it means at the counter",
+   "text": "*Inference —* a shop that runs both doughs well is running two processes with different clocks in one small kitchen, which is most of the work in a mom-and-pop donut shop and none of the work in a shop that buys its donuts in.\n\nWhich side of the case carries the flavours is a reading, not a count: cider, buttermilk, sour cream, blueberry and chocolate sit on the cake side, and the raised side holds glazed, bars, fritters and filled."
+  }
+ ],
+ "kin": [
+  {
+   "to": "glazed-raised",
+   "as": "The raised side.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "as": "The cake side.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-fryer",
+   "as": "Where the difference is settled.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "yeast-raise",
+   "as": "What costs the time.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-batter",
+   "as": "What a machine could learn.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "old-fashioned",
+   "as": "The cake ring people name.",
+   "rel": "donut"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut",
+  "s:wp-cake-doughnut",
+  "s:wp-old-fashioned-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  },
+  "fields": {
+   "sections[3].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Two doughs, one kettle, and an argument every shop settles twice a day.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The raised side.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The cake side.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "Where the difference is settled.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "as": "What costs the time.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "as": "What a machine could learn.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The cake ring people name.",
+   "rel": "donut"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-doughnut",
+   "kind": "web",
+   "title": "Doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cake-doughnut",
+   "kind": "web",
+   "title": "Cake doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cake_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-old-fashioned-doughnut",
+   "kind": "web",
+   "title": "Old-fashioned doughnut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old-fashioned_doughnut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-doughnut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "as": "The argument, and what the numbers underneath it actually say.",
+   "rel": "story"
+  },
+  {
+   "from": "chocolate-cake",
+   "type": "donut",
+   "name": "Chocolate cake",
+   "as": "Where its numbers sit.",
+   "rel": "story"
+  },
+  {
+   "from": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "Why the two doughs split the case, and the numbers underneath.",
+   "rel": "story"
+  },
+  {
+   "from": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "as": "The argument this one anchors.",
+   "rel": "story"
+  },
+  {
+   "from": "frying-fat",
+   "type": "kitchen",
+   "name": "What is in the kettle",
+   "as": "How much of it each dough takes up.",
+   "rel": "story"
+  },
+  {
+   "from": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "as": "The numbers, side by side.",
+   "rel": "story"
+  }
+ ]
+}

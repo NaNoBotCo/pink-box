@@ -1,0 +1,211 @@
+{
+ "id": "neon-donut",
+ "type": "art",
+ "names": {
+  "name": "Neon and the lit sign",
+  "aliases": [
+   "the hot sign",
+   "the neon ring"
+  ],
+  "said": "The sign is on before anything else in the building is."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "neon"
+ },
+ "text": {
+  "what": "Signs that advertise by light: a neon ring, a lit arrow, a plastic panel with DONUTS in red, and the hot sign that says the fryer is going.",
+  "story": "Krispy Kreme's hot sign has an origin in the schedule rather than in advertising — Vernon Rudolph sold hot donuts to people who turned up during the midnight-to-four production run. Tunnel-oven shops from the early 2010s keep it lit all day.\n\nSpudnut signs are a different kind of survivor: the franchise that sold them reached more than 300 shops in 38 states by 1954 and then vanished, leaving the signs on independent shops.",
+  "today": "A shop's sign is usually older than its owners, and reads as the shop's real name whatever the paperwork says."
+ },
+ "kin": [
+  {
+   "to": "hot-now",
+   "as": "The two words.",
+   "rel": "term"
+  },
+  {
+   "to": "spudnut",
+   "as": "The vanished franchise on the sign.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "as": "What that does to a directory.",
+   "rel": "story"
+  },
+  {
+   "to": "giant-donut-roof",
+   "as": "The daylight version.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme",
+  "s:wp-spudnut-shops"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "neon-donut/neon-donut-donut-shop-neon-sign-on-santa-monica-boulevard-in-we-fdd247d.jpg",
+   "source": "commons",
+   "title": "File:Donut shop neon sign on Santa Monica Boulevard in West Hollywood, California LCCN2013631566.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Donut_shop_neon_sign_on_Santa_Monica_Boulevard_in_West_Hollywood%2C_California_LCCN2013631566.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADonut_shop_neon_sign_on_Santa_Monica_Boulevard_in_West_Hollywood%2C_California_LCCN2013631566.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Carol M. Highsmith",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2013631566\nImage download: https://cdn.loc.gov/master/pnp/highsm/24300/24388a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/highsm.24388",
+   "alt": "Title: Donut shop neon sign on Santa Monica Boulevard in West Hollywood, California\nPhysical description: 1 photograph : digital, tiff file, color.\nNotes: Title, date, and keywords provided by the pho",
+   "date": "Taken on 3 January 2013, 20:51 (accordin",
+   "primary": true,
+   "sha256": "3390c5d3167a850e9641868d8abf7817d15a9a631b33d3d0496ba148e9099f62"
+  },
+  {
+   "file": "neon-donut/neon-donut-the-donut-pub-lower-west-side-manhattan-nyc-3879206573.jpg",
+   "source": "commons",
+   "title": "File:The Donut Pub, Lower West Side, Manhattan, NYC (3879206573).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Donut_Pub%2C_Lower_West_Side%2C_Manhattan%2C_NYC_%283879206573%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_Donut_Pub%2C_Lower_West_Side%2C_Manhattan%2C_NYC_%283879206573%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Jazz Guy from New Jersey, United States",
+   "credit": "The Donut Pub, Lower West Side, Manhattan, NYC",
+   "alt": "Great neon sign. They have great donuts too!",
+   "date": "Taken on 30 August 2009, 21:12",
+   "primary": false,
+   "sha256": "43080e1ec1351eb0c0e43cd3815b50a2b7813153011afe0acb880134a1278be6"
+  }
+ ],
+ "blurb": "Signs that advertise by light: a neon ring, a lit arrow, a plastic panel with DONUTS in red, and the hot sign that says the fryer is going.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The two words.",
+   "rel": "term"
+  },
+  {
+   "to": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "The vanished franchise on the sign.",
+   "rel": "donut"
+  },
+  {
+   "to": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "as": "What that does to a directory.",
+   "rel": "story"
+  },
+  {
+   "to": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The daylight version.",
+   "rel": "art"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-krispy-kreme",
+   "kind": "web",
+   "title": "Krispy Kreme — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Krispy_Kreme",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-spudnut-shops",
+   "kind": "web",
+   "title": "Spudnut Shops — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spudnut_Shops",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": {
+  "file": "neon-donut/neon-donut-donut-shop-neon-sign-on-santa-monica-boulevard-in-we-fdd247d.jpg",
+  "source": "commons",
+  "title": "File:Donut shop neon sign on Santa Monica Boulevard in West Hollywood, California LCCN2013631566.tif",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Donut_shop_neon_sign_on_Santa_Monica_Boulevard_in_West_Hollywood%2C_California_LCCN2013631566.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ADonut_shop_neon_sign_on_Santa_Monica_Boulevard_in_West_Hollywood%2C_California_LCCN2013631566.tif",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "Carol M. Highsmith",
+  "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2013631566\nImage download: https://cdn.loc.gov/master/pnp/highsm/24300/24388a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/highsm.24388",
+  "alt": "Title: Donut shop neon sign on Santa Monica Boulevard in West Hollywood, California\nPhysical description: 1 photograph : digital, tiff file, color.\nNotes: Title, date, and keywords provided by the pho",
+  "date": "Taken on 3 January 2013, 20:51 (accordin",
+  "primary": true,
+  "sha256": "3390c5d3167a850e9641868d8abf7817d15a9a631b33d3d0496ba148e9099f62"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "as": "Spudnut signs are half the reason those signs get photographed.",
+   "rel": "art"
+  },
+  {
+   "from": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "as": "The other thing on the roofline.",
+   "rel": "art"
+  },
+  {
+   "from": "mr-spudnut",
+   "type": "art",
+   "name": "Mr. Spudnut and the mascots",
+   "as": "What outlasted them.",
+   "rel": "art"
+  }
+ ]
+}

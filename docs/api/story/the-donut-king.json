@@ -1,0 +1,247 @@
+{
+ "id": "the-donut-king",
+ "type": "story",
+ "names": {
+  "name": "The Donut King",
+  "aliases": [
+   "Ted Ngoy's story"
+  ],
+  "sort": "donut king"
+ },
+ "region": [
+  "socal",
+  "cambodian-american"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "How one man's shop in La Habra became a trade for a community, and what happened to the man. Ted Ngoy fled the Khmer Rouge in 1975, trained at a chain, bought a shop in 1977, and by the mid-1980s had leased shops to more than a hundred sponsored families. He also gambled it away."
+ },
+ "sections": [
+  {
+   "h": "Before the donuts",
+   "text": "Ngoy was born in 1941 in Sisophon, near the Thai border, to a Chinese immigrant family; his mother, from Shantou, did not speak Khmer, which made getting by hard. Sent to Phnom Penh to study in 1967, he married Suganthini Khoeun, worked as a travel agent and a tour guide, and joined the military in 1970. Through his brother-in-law Sak Sutsakhan — chief of police and briefly president of Cambodia — he was made a major and military attaché in Thailand.\n\nIn 1975 he fled with his wife and three children and came through the U.S. Refugee Admissions Program to Camp Pendleton."
+  },
+  {
+   "h": "The trade",
+   "text": "He took a janitor's job at Peace Lutheran Church in Tustin and a second job at a gas station. He noticed how busy a local donut shop was and asked to learn. An affirmative-action hiring programme at Winchell's trained him, and he managed a store in Newport Beach, employing his wife and nephew.\n\nIn 1977 he bought Christy's Donuts in La Habra. It had not done well before. It did under the Ngoys, and they named every shop they bought after it. By 1979 there were more than 25."
+  },
+  {
+   "h": "The system",
+   "text": "The part that mattered was not the shops but the leasing. Ngoy trained relatives and refugees and leased shops to them. \"I sponsored more than 100 families\", he said, and claimed each as kin on official documents. He lived out of a motor home to open new locations up and down California. By 1987 there were 32 Christy's; at the peak he reckoned 65.\n\nA family arrived, learned a trade in weeks, took a shop, and a few years later handed one to the next family. That is how a refugee community came to hold a large share of an American trade."
+  },
+  {
+   "h": "The fall",
+   "text": "In 1977 the Ngoys went to Las Vegas and he saw Elvis. He also found the blackjack tables. He went back monthly for the shows and stayed for the cards, forged his wife's signature on cheques, borrowed from relatives who leased shops from him, and signed shops over when he could not repay. Refugees who had once come to him for help began to avoid him. Gamblers Anonymous did not take: \"I cry, everybody cry. After cry, go back gambling.\""
+  },
+  {
+   "h": "What outlasted him",
+   "text": "The shops. In 1985 he and his wife became citizens as Ted and Christy; the pink box is attributed to him and to Ning Yen, who were setting other families up in the trade. KQED reported in 2021 that roughly 90 percent of California's 5,000-plus independent donut shops were Cambodian-owned.\n\nAlice Gu's documentary The Donut King (2020) put the story in front of a national audience. Most people who recognise the pink box do not know either name."
+  }
+ ],
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "The man.",
+   "rel": "person"
+  },
+  {
+   "to": "christys-donuts",
+   "as": "The shop.",
+   "rel": "place"
+  },
+  {
+   "to": "pink-box",
+   "as": "The object.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "to": "winchells",
+   "as": "Where he learned.",
+   "rel": "org"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "What the shops sell beside donuts, and why.",
+   "rel": "story"
+  },
+  {
+   "to": "ning-yen",
+   "as": "The other name on the box.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-ted-ngoy",
+  "s:kqed-donuts-chinese",
+  "s:wp-cambodian-americans",
+  "s:wp-the-donut-king"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "fields": {
+   "sections[4].text": {
+    "tier": "cited",
+    "source": "s:kqed-donuts-chinese"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "How one man's shop in La Habra became a trade for a community, and what happened to the man.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "cambodian-american",
+   "name": "Cambodian America",
+   "state": null,
+   "note": "Long Beach, Stockton, Lowell, Houston; a community, not a place — and the single largest owner group in independent donuts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The man.",
+   "rel": "person"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The shop.",
+   "rel": "place"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "Where he learned.",
+   "rel": "org"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "What the shops sell beside donuts, and why.",
+   "rel": "story"
+  },
+  {
+   "to": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "The other name on the box.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-ted-ngoy",
+   "kind": "web",
+   "title": "Ted Ngoy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ted_Ngoy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:kqed-donuts-chinese",
+   "kind": "article",
+   "title": "Why Donuts + Chinese Food = A Very Californian Combination",
+   "author": "Asal Ehsanipour",
+   "publisher": "KQED",
+   "url": "https://www.kqed.org/news/11871915/why-donuts-chinese-food-a-very-californian-combination",
+   "year": 2021,
+   "accessed": "2026-09-16",
+   "note": "published 6 May 2021, updated 1 January 2025"
+  },
+  {
+   "id": "s:wp-cambodian-americans",
+   "kind": "web",
+   "title": "Cambodian Americans — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cambodian_Americans",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-the-donut-king",
+   "kind": "web",
+   "title": "The Donut King — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/The_Donut_King",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The long version: refugee, empire, gambling, return.",
+   "rel": "story"
+  },
+  {
+   "from": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The long version.",
+   "rel": "story"
+  },
+  {
+   "from": "seaside-donuts",
+   "type": "place",
+   "name": "Seaside Donuts Bakery",
+   "as": "How a family arrives at a fryer in Orange County.",
+   "rel": "story"
+  },
+  {
+   "from": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The long version.",
+   "rel": "story"
+  }
+ ]
+}

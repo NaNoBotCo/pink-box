@@ -1,0 +1,61 @@
+{
+ "id": "adolph-levitt",
+ "type": "person",
+ "names": {
+  "name": "Adolph Levitt",
+  "aliases": [],
+  "said": "Sold the machine, then sold the donut, then sold membership in liking them."
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "role": "inventor",
+  "state": "NY"
+ },
+ "text": {
+  "what": "The Russian refugee who built the first automated donut machine in New York in 1920 and founded the Doughnut Corporation of America.",
+  "story": "Levitt's machine cut and fried donuts automatically, which turned a bakery job into a production line and made a shop window into a show. He founded the Doughnut Corporation of America, which later started the National Dunking Association, and opened the Mayflower donut shop in Times Square in 1931. At the 1933–34 Chicago World's Fair the machine was billed as the food hit of the Century of Progress.\n\nThe farm stands followed: cider-selling orchards took up the machine quickly, and cider donuts became a roadside product.",
+  "today": "Every depositor over every kettle in every strip-mall shop is downstream of that machine."
+ },
+ "kin": [
+  {
+   "to": "doughnut-corporation-of-america",
+   "as": "The company he built.",
+   "rel": "org"
+  },
+  {
+   "to": "cake-batter",
+   "as": "The process his machine automated.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "new-england-cider",
+   "as": "The trade it created at the roadside.",
+   "rel": "style"
+  },
+  {
+   "to": "national-dunking-association",
+   "as": "The membership stunt his company ran.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-doughnut-shop",
+  "s:wp-cider-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doughnut-shop"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

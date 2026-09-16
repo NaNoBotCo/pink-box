@@ -1,0 +1,82 @@
+{
+ "id": "paczki-day",
+ "type": "event",
+ "names": {
+  "name": "Paczki Day",
+  "aliases": [
+   "Fat Tuesday",
+   "Shrove Tuesday"
+  ],
+  "said": "Bakeries post a limit per customer and mean it."
+ },
+ "region": [
+  "chicago",
+  "detroit"
+ ],
+ "facets": {
+  "when": "Shrove Tuesday",
+  "status": "open",
+  "state": "MI"
+ },
+ "text": {
+  "what": "The Tuesday before Lent, kept in Polish-American cities — Chicago, Milwaukee, Detroit, Windsor — as a day for eating pączki.",
+  "story": "Pączki are traditionally eaten in Poland on the Thursday before Lent. In Polish communities in the United States the observance moved to Fasnacht Day — the Tuesday — which puts Polish and Pennsylvania Dutch traditions on the same morning.\n\nHamtramck, Michigan, a city surrounded by Detroit with deep Polish roots, is the best-known American centre of the day.",
+  "today": "Lines start before dawn; bakeries fry all night ahead of it and sell until the dough runs out."
+ },
+ "kin": [
+  {
+   "to": "paczki",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "as": "The counter.",
+   "rel": "style"
+  },
+  {
+   "to": "fastnacht-day",
+   "as": "The other tradition on the same Tuesday.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-p-czki",
+  "s:wp-fasnacht-doughnut",
+  "s:wp-hamtramck-michigan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 42.3928,
+  "lon": -83.0497,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Hamtramck",
+  "county": "Wayne",
+  "state": "MI"
+ }
+}

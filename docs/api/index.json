@@ -1,0 +1,3630 @@
+{
+ "built": "2026-09-17",
+ "count": 131,
+ "nodes": [
+  {
+   "id": "bay-area-late-counter",
+   "type": "style",
+   "name": "The all-night counter",
+   "aliases": [
+    "24-hour donut shop",
+    "the late window"
+   ],
+   "region": [
+    "bay-area",
+    "socal"
+   ],
+   "facets": {
+    "dough": "both",
+    "counter": "coffee-only",
+    "state": "CA"
+   },
+   "state": "CA",
+   "blurb": "A shop that never closes, or opens again at midnight: bar traffic, night shifts, students, and whoever else is out.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/bay-area-late-counter/"
+  },
+  {
+   "id": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "aliases": [
+    "paczki counter",
+    "Chicago Polish bakery"
+   ],
+   "region": [
+    "chicago",
+    "detroit",
+    "upper-midwest"
+   ],
+   "facets": {
+    "state": "IL",
+    "dough": "yeast",
+    "counter": "donuts-only"
+   },
+   "state": "IL",
+   "blurb": "A Polish-American bakery selling pączki — rich filled donuts, powidła or rose-petal jam inside, powdered or glazed — beside rye bread and coffee cake. One day a year it is the only thing anyone is there for.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/chicago-polish-bakery/"
+  },
+  {
+   "id": "delta-grocery-counter",
+   "type": "style",
+   "name": "The Delta grocery counter",
+   "aliases": [
+    "Chinese grocery counter"
+   ],
+   "region": [
+    "mississippi-delta",
+    "chinese-american",
+    "the-south"
+   ],
+   "facets": {
+    "dough": "cake",
+    "counter": "fried-rice"
+   },
+   "state": null,
+   "blurb": "A small family grocery in the Mississippi or Arkansas Delta with a hot counter — and, in some of them, donuts fried in the morning beside the rest of the cooking.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "style/delta-grocery-counter/"
+  },
+  {
+   "id": "dunkin-country",
+   "type": "style",
+   "name": "Dunkin' country",
+   "aliases": [
+    "New England coffee-and-donut",
+    "the regular"
+   ],
+   "region": [
+    "new-england"
+   ],
+   "facets": {
+    "state": "MA",
+    "dough": "both",
+    "counter": "coffee-only"
+   },
+   "state": "MA",
+   "blurb": "Coffee first, donut second, at a counter that measures itself in how fast the line moves. The New England model, and the one the rest of the country meets as a drive-thru.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/dunkin-country/"
+  },
+  {
+   "id": "hawaii-malasada",
+   "type": "style",
+   "name": "The malasada counter",
+   "aliases": [
+    "Hawaiian donut shop"
+   ],
+   "region": [
+    "hawaii"
+   ],
+   "facets": {
+    "state": "HI",
+    "dough": "yeast",
+    "counter": "donuts-only"
+   },
+   "state": "HI",
+   "blurb": "A bakery counter in Hawaii selling malasadas — no hole, no filling by default, rolled in sugar — by the dozen in a box or hot by the piece in a bag.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/hawaii-malasada/"
+  },
+  {
+   "id": "louisiana-beignet",
+   "type": "style",
+   "name": "The beignet stand",
+   "aliases": [
+    "New Orleans beignet",
+    "the Quarter counter"
+   ],
+   "region": [
+    "louisiana"
+   ],
+   "facets": {
+    "state": "LA",
+    "dough": "choux",
+    "counter": "coffee-only"
+   },
+   "state": "LA",
+   "blurb": "An open-air or walk-up counter selling square fried dough under powdered sugar, three to an order, with coffee cut with chicory beside it.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/louisiana-beignet/"
+  },
+  {
+   "id": "new-england-cider",
+   "type": "style",
+   "name": "The orchard window",
+   "aliases": [
+    "cider donut stand",
+    "farm stand donuts"
+   ],
+   "region": [
+    "new-england",
+    "upstate-ny"
+   ],
+   "facets": {
+    "dough": "cake",
+    "counter": "donuts-only"
+   },
+   "state": null,
+   "blurb": "A seasonal counter at a cider mill, orchard or farm stand, running one machine and one product: cake donuts with cider in the batter, sugared and handed over hot in a paper bag.",
+   "image": "new-england-cider/new-england-cider-vegan-apple-cider-doughnuts-5373093007.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/new-england-cider/"
+  },
+  {
+   "id": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "aliases": [
+    "donuts and breakfast burritos"
+   ],
+   "region": [
+    "new-mexico",
+    "southwest"
+   ],
+   "facets": {
+    "state": "NM",
+    "dough": "both",
+    "counter": "breakfast-burritos"
+   },
+   "state": "NM",
+   "blurb": "A donut shop in New Mexico, Arizona or west Texas that also wraps breakfast burritos to order: scrambled egg, potato, cheese and chile in a flour tortilla, sold at the same window as the glazed.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "style/new-mexico-burrito-counter/"
+  },
+  {
+   "id": "novelty-donut-shop",
+   "type": "style",
+   "name": "The novelty shop",
+   "aliases": [
+    "concept donut shop",
+    "the topping arms race"
+   ],
+   "region": [
+    "pacific-northwest",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "counter": "donuts-only"
+   },
+   "state": null,
+   "blurb": "A shop that competes on invention: unusual toppings, themed rooms, names that are jokes, and a queue that photographs its order.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/novelty-donut-shop/"
+  },
+  {
+   "id": "nyc-bodega-donut",
+   "type": "style",
+   "name": "The New York corner counter",
+   "aliases": [
+    "bodega donut",
+    "deli donut",
+    "Greek coffee shop donut"
+   ],
+   "region": [
+    "nyc",
+    "greek-american"
+   ],
+   "facets": {
+    "state": "NY",
+    "dough": "both",
+    "counter": "bodega-sandwiches"
+   },
+   "state": "NY",
+   "blurb": "Donuts sold from a deli, bodega or coffee shop rather than a donut shop: a tray by the register, a grill behind the counter, and a bacon egg and cheese on a kaiser roll doing most of the business.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/nyc-bodega-donut/"
+  },
+  {
+   "id": "pennsylvania-fastnacht",
+   "type": "style",
+   "name": "Fastnacht Day in the Dutch counties",
+   "aliases": [
+    "Pennsylvania Dutch fastnacht",
+    "Fasnacht Day"
+   ],
+   "region": [
+    "pennsylvania-dutch"
+   ],
+   "facets": {
+    "state": "PA",
+    "dough": "potato",
+    "counter": "donuts-only"
+   },
+   "state": "PA",
+   "blurb": "One pastry, one day. Potato-dough donuts, square or diamond cut, fried for Shrove Tuesday and eaten with butter or golden syrup, sold by bakeries, churches, fire halls and — in eastern Pennsylvania — most chain…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/pennsylvania-fastnacht/"
+  },
+  {
+   "id": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "aliases": [
+    "the pink box shop",
+    "SoCal independent donut shop",
+    "Cambodian-American donut shop"
+   ],
+   "region": [
+    "socal",
+    "cambodian-american",
+    "us"
+   ],
+   "facets": {
+    "state": "CA",
+    "dough": "both",
+    "counter": "egg-rolls"
+   },
+   "state": "CA",
+   "blurb": "An independent counter, usually in a strip mall, usually open before five in the morning, frying both doughs in one small kitchen and selling them out of a matte pink box.",
+   "image": "socal-pink-box/socal-pink-box-california-donuts-los-angeles-usa-panoramio.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/socal-pink-box/"
+  },
+  {
+   "id": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "aliases": [
+    "Hot Now",
+    "the Southern glazed"
+   ],
+   "region": [
+    "the-south",
+    "us"
+   ],
+   "facets": {
+    "state": "NC",
+    "dough": "yeast",
+    "counter": "donuts-only"
+   },
+   "state": "NC",
+   "blurb": "A glazed raised ring handed over hot, minutes out of the fryer, with the glaze still moving. Built around a window you can watch the line through, and a lit sign that says the fryer is running.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/southern-hot-now/"
+  },
+  {
+   "id": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "aliases": [
+    "kolache shop",
+    "donut and kolache"
+   ],
+   "region": [
+    "texas",
+    "houston"
+   ],
+   "facets": {
+    "state": "TX",
+    "dough": "both",
+    "counter": "kolaches"
+   },
+   "state": "TX",
+   "blurb": "A donut counter that also sells kolaches — and, in Texas, mostly klobasniky: sausage, ham, egg, cheese or jalapeño wrapped in sweet kolache dough.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/texas-kolache-counter/"
+  },
+  {
+   "id": "tulsa-mix-shop",
+   "type": "style",
+   "name": "The mix-and-sign shop",
+   "aliases": [
+    "Daylight shop",
+    "franchise-flour independent"
+   ],
+   "region": [
+    "us",
+    "texas",
+    "the-south"
+   ],
+   "facets": {
+    "dough": "both",
+    "counter": "kolaches"
+   },
+   "state": null,
+   "blurb": "An independently owned shop trading under a shared name and buying its dry mix from one supplier. It looks like a chain from the road and is not one at the till.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/tulsa-mix-shop/"
+  },
+  {
+   "id": "apple-fritter",
+   "type": "donut",
+   "name": "Apple fritter",
+   "aliases": [
+    "fritter"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "Chopped apple and cinnamon folded through raised dough, torn rather than cut, fried craggy and glazed all over so the sugar catches in every fold. No two come out the same shape.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/apple-fritter/"
+  },
+  {
+   "id": "bavarian-cream",
+   "type": "donut",
+   "name": "Bavarian cream",
+   "aliases": [
+    "custard-filled",
+    "cream-filled",
+    "Boston cream (when chocolate-topped)"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "filled"
+   },
+   "state": null,
+   "blurb": "A raised round with no hole, filled with a set custard — Bavarian cream is custard lightened with whipped cream and held with gelatin — and finished in sugar, or iced with chocolate, at which point most counters call it…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/bavarian-cream/"
+  },
+  {
+   "id": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "aliases": [
+    "bearclaw"
+   ],
+   "region": [
+    "socal",
+    "sacramento",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "iced"
+   },
+   "state": null,
+   "blurb": "A sweet yeast dough — bread dough carrying more shortening than usual — filled with almond paste and sometimes raisins, shaped in a semicircle with slices cut along the curved edge so the sections separate as it proofs…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/bear-claw/"
+  },
+  {
+   "id": "beignet",
+   "type": "donut",
+   "name": "Beignet",
+   "aliases": [
+    "French-style beignet",
+    "New Orleans beignet"
+   ],
+   "region": [
+    "louisiana"
+   ],
+   "facets": {
+    "dough": "choux",
+    "finish": "powdered",
+    "state": "LA"
+   },
+   "state": "LA",
+   "blurb": "A deep-fried pastry of French origin, in New Orleans a square of dough fried until it puffs hollow and buried in confectioner's sugar. Beignet means bump.",
+   "image": "beignet/beignet-beignets-cafe-du-monde-metairie-louisiana-2015.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/beignet/"
+  },
+  {
+   "id": "bismarck",
+   "type": "donut",
+   "name": "Bismarck",
+   "aliases": [
+    "bismark",
+    "jelly donut",
+    "filled donut",
+    "Berliner"
+   ],
+   "region": [
+    "upper-midwest",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "filled"
+   },
+   "state": null,
+   "blurb": "A round raised donut with no hole, fried, then injected with fruit preserve, custard or cream and finished in sugar or icing.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/bismarck/"
+  },
+  {
+   "id": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "aliases": [
+    "buttermilk donut"
+   ],
+   "region": [
+    "socal",
+    "us"
+   ],
+   "facets": {
+    "dough": "cake",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "Cake batter cut in a bar rather than a ring, fried so it splits open along the top, and glazed heavily enough that the glaze runs into the split.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "donut/buttermilk-bar/"
+  },
+  {
+   "id": "cake-donut",
+   "type": "donut",
+   "name": "Cake donut",
+   "aliases": [
+    "fry cake",
+    "cake-type",
+    "chemical-leavened donut"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "cake",
+    "finish": "sugared"
+   },
+   "state": null,
+   "blurb": "A ring of thick batter, not dough, raised by baking powder or soda rather than yeast and dropped straight into the fat from a depositor.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/cake-donut/"
+  },
+  {
+   "id": "chocolate-cake",
+   "type": "donut",
+   "name": "Chocolate cake",
+   "aliases": [
+    "devil's food",
+    "chocolate old-fashioned"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "cake",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "A cake ring with cocoa in the batter, glazed or sugared. Dark, dense, and sweeter than the plain cake ring on the published numbers.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/chocolate-cake/"
+  },
+  {
+   "id": "cider-donut",
+   "type": "donut",
+   "name": "Cider donut",
+   "aliases": [
+    "apple cider doughnut"
+   ],
+   "region": [
+    "new-england",
+    "upstate-ny",
+    "upper-midwest"
+   ],
+   "facets": {
+    "dough": "cake",
+    "finish": "sugared"
+   },
+   "state": null,
+   "blurb": "An American cake donut flavoured with apple cider, cinnamon and nutmeg in the batter, usually rolled in cinnamon or granulated sugar.",
+   "image": "cider-donut/cider-donut-apple-cider-donuts-at-common-man-stop.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/cider-donut/"
+  },
+  {
+   "id": "donut-holes",
+   "type": "donut",
+   "name": "Donut holes",
+   "aliases": [
+    "holes",
+    "munchkins",
+    "donut bites"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "both",
+    "finish": "sugared"
+   },
+   "state": null,
+   "blurb": "The centres cut out of ring donuts, fried and sold by the bag — or, more often now, made on purpose from the same dough or batter and never cut from anything.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/donut-holes/"
+  },
+  {
+   "id": "fastnacht",
+   "type": "donut",
+   "name": "Fastnacht",
+   "aliases": [
+    "fasnacht",
+    "faschnacht",
+    "fosnaught",
+    "kinkling"
+   ],
+   "region": [
+    "pennsylvania-dutch"
+   ],
+   "facets": {
+    "dough": "potato",
+    "finish": "sugared",
+    "state": "PA"
+   },
+   "state": "PA",
+   "blurb": "A Pennsylvania Dutch fried donut, often made with potato dough, eaten in the days of Carnival and above all on Shrove Tuesday.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/fastnacht/"
+  },
+  {
+   "id": "french-cruller",
+   "type": "donut",
+   "name": "French cruller",
+   "aliases": [
+    "cruller",
+    "kruller"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "choux",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "A ring extruded from choux paste — flour cooked into butter and water, then beaten with eggs — piped through a star tip so it fries up ridged and hollow, and glazed thin. No yeast, no baking powder: steam lifts it.",
+   "image": "french-cruller/french-cruller-french-crullers-in-a-doughnut-shop-display-case-in-c-0bbb8fe.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/french-cruller/"
+  },
+  {
+   "id": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "aliases": [
+    "raised glazed",
+    "yeast glazed",
+    "the glazed",
+    "plain glazed"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "A ring of yeast dough, proofed until it is full of gas, fried about two and a half minutes, then dragged through a thin sugar glaze while it is still hot enough to melt it. The glaze sets into a shell you can hear.",
+   "image": "glazed-raised/glazed-raised-02023-0563-hot-doughnuts.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/glazed-raised/"
+  },
+  {
+   "id": "long-john",
+   "type": "donut",
+   "name": "Long John",
+   "aliases": [
+    "bar",
+    "finger doughnut",
+    "cream stick",
+    "éclair (as sold)"
+   ],
+   "region": [
+    "upper-midwest",
+    "texas",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "iced"
+   },
+   "state": null,
+   "blurb": "A bar-shaped raised donut, glazed all over or iced on top, sometimes filled with custard or cream.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/long-john/"
+  },
+  {
+   "id": "malasada",
+   "type": "donut",
+   "name": "Malasada",
+   "aliases": [
+    "malassada",
+    "Hawaiian donut",
+    "filhós (related)"
+   ],
+   "region": [
+    "hawaii",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "sugared",
+    "state": "HI"
+   },
+   "state": "HI",
+   "blurb": "A flattened round of yeasted dough, fried and rolled in sugar — cinnamon sugar, often — with no hole and traditionally no filling.",
+   "image": "malasada/malasada-leonard-s-malasadas.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/malasada/"
+  },
+  {
+   "id": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "aliases": [
+    "maple log",
+    "maple long john",
+    "maple creamstick",
+    "maple bismarck"
+   ],
+   "region": [
+    "pacific-northwest",
+    "socal",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "iced"
+   },
+   "state": null,
+   "blurb": "A bar of raised dough, fried, then topped end to end with maple-flavoured icing. Sometimes filled with custard or cream; sometimes finished with chopped bacon, which is a newer idea and an argued one.",
+   "image": "maple-bar/maple-bar-bacon-maple-bar.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/maple-bar/"
+  },
+  {
+   "id": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "aliases": [
+    "pon de ring",
+    "poi mochi"
+   ],
+   "region": [
+    "hawaii",
+    "socal",
+    "us"
+   ],
+   "facets": {
+    "dough": "other",
+    "finish": "iced"
+   },
+   "state": null,
+   "blurb": "A chewy donut made with glutinous rice flour or tapioca flour, usually formed as a ring of eight connected balls that pull apart. Moist, springy, and heavier in the hand than it looks.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/mochi-donut/"
+  },
+  {
+   "id": "old-fashioned",
+   "type": "donut",
+   "name": "Old-fashioned",
+   "aliases": [
+    "old fashioned",
+    "sour cream old-fashioned",
+    "fry cake"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "dough": "cake",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "A cake ring with a cracked surface and tapered edges, glazed or sugared so the glaze pools in the cracks. The crack is the point: more surface, crisper edge, and a ring that holds up to coffee longer than a raised one.",
+   "image": "old-fashioned/old-fashioned-old-fashioned-doughnut-from-doughnut-vault-chicago.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/old-fashioned/"
+  },
+  {
+   "id": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "aliases": [
+    "paczki",
+    "punchki",
+    "pączek (sing.)"
+   ],
+   "region": [
+    "chicago",
+    "detroit",
+    "upper-midwest"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "filled"
+   },
+   "state": null,
+   "blurb": "A Polish filled donut: a flattened ball of rich dough — eggs, fat, sugar, yeast, sometimes milk — deep fried, filled with jam or cream, and finished in powdered sugar, icing, glaze or dried orange zest.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/paczki/"
+  },
+  {
+   "id": "spudnut",
+   "type": "donut",
+   "name": "Spudnut",
+   "aliases": [
+    "potato donut"
+   ],
+   "region": [
+    "utah",
+    "mountain-west",
+    "us"
+   ],
+   "facets": {
+    "dough": "potato",
+    "finish": "glazed"
+   },
+   "state": null,
+   "blurb": "A donut made with potato flour or mashed potato in the dough. Softer crumb, longer shelf life, and a faint savoury note under the sugar.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/spudnut/"
+  },
+  {
+   "id": "sufganiyah",
+   "type": "donut",
+   "name": "Sufganiyah",
+   "aliases": [
+    "sufganiyot",
+    "Hanukkah donut"
+   ],
+   "region": [
+    "nyc",
+    "us"
+   ],
+   "facets": {
+    "dough": "yeast",
+    "finish": "filled"
+   },
+   "state": null,
+   "blurb": "A round filled donut, traditionally red jelly with icing sugar on top, eaten at Hanukkah. Dulce de leche fillings became common after South American immigration to Israel early in this century.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "donut/sufganiyah/"
+  },
+  {
+   "id": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "aliases": [
+    "BEC",
+    "baconeggandcheese",
+    "bodega sandwich"
+   ],
+   "region": [
+    "nyc"
+   ],
+   "facets": {
+    "course": "breakfast",
+    "state": "NY"
+   },
+   "state": "NY",
+   "blurb": "Bacon, fried or scrambled egg and cheese on bread — in New York City, on a kaiser roll. About 20 grams of fat and 350 calories in a typical one.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/bacon-egg-and-cheese/"
+  },
+  {
+   "id": "biscuits-and-gravy",
+   "type": "dish",
+   "name": "Biscuits and gravy",
+   "aliases": [],
+   "region": [
+    "the-south",
+    "us"
+   ],
+   "facets": {
+    "course": "breakfast"
+   },
+   "state": null,
+   "blurb": "Soft wheat biscuits split and covered in a white gravy built on sausage drippings, flour and milk.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/biscuits-and-gravy/"
+  },
+  {
+   "id": "boba",
+   "type": "dish",
+   "name": "Boba",
+   "aliases": [
+    "bubble tea",
+    "pearl milk tea"
+   ],
+   "region": [
+    "socal",
+    "us"
+   ],
+   "facets": {
+    "course": "drink"
+   },
+   "state": null,
+   "blurb": "Tea with milk and tapioca pearls, sealed under a film lid and drunk through a fat straw.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/boba/"
+  },
+  {
+   "id": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "aliases": [
+    "breakfast wrap"
+   ],
+   "region": [
+    "new-mexico",
+    "southwest"
+   ],
+   "facets": {
+    "course": "breakfast"
+   },
+   "state": null,
+   "blurb": "Breakfast inside a flour tortilla: scrambled egg, potato, cheese, and in the Southwest, New Mexico chile, jalapeño, salsa, onion, chorizo or bacon.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/breakfast-burrito/"
+  },
+  {
+   "id": "chicory-coffee",
+   "type": "dish",
+   "name": "Coffee with chicory",
+   "aliases": [
+    "café au lait",
+    "New Orleans coffee"
+   ],
+   "region": [
+    "louisiana"
+   ],
+   "facets": {
+    "course": "drink",
+    "state": "LA"
+   },
+   "state": "LA",
+   "blurb": "Coffee blended with roasted chicory root and cut half-and-half with hot milk.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/chicory-coffee/"
+  },
+  {
+   "id": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "aliases": [
+    "eggroll"
+   ],
+   "region": [
+    "socal",
+    "chinese-american",
+    "us"
+   ],
+   "facets": {
+    "course": "savory"
+   },
+   "state": null,
+   "blurb": "A cylindrical deep-fried roll in a thick wheat skin — shredded cabbage, chopped meat, sometimes shrimp — eaten with the fingers out of a cellophane packet of duck sauce.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/egg-roll/"
+  },
+  {
+   "id": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "aliases": [
+    "chow mein",
+    "the hot case"
+   ],
+   "region": [
+    "socal",
+    "chinese-american"
+   ],
+   "facets": {
+    "course": "savory"
+   },
+   "state": null,
+   "blurb": "Cooked rice stir-fried with egg, vegetables and meat, held hot in a steam table beside the donut case — with chow mein next to it in many shops.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/fried-rice/"
+  },
+  {
+   "id": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "aliases": [
+    "klobásník",
+    "klobasniky",
+    "Texas kolache (as sold)"
+   ],
+   "region": [
+    "texas",
+    "houston"
+   ],
+   "facets": {
+    "course": "savory",
+    "state": "TX"
+   },
+   "state": "TX",
+   "blurb": "Sausage — klobása, traditionally — wrapped in kolache dough and baked. Ham, egg, cheese, jalapeño and hot dog are all standard now, and in some Texas shops boudin, the Cajun pork-and-rice sausage.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/klobasnek/"
+  },
+  {
+   "id": "kolache",
+   "type": "dish",
+   "name": "Kolache",
+   "aliases": [
+    "koláč",
+    "kolach",
+    "kolaches"
+   ],
+   "region": [
+    "texas"
+   ],
+   "facets": {
+    "course": "sweet",
+    "state": "TX"
+   },
+   "state": "TX",
+   "blurb": "A sweet bread with a well of fruit or cheese in the middle of puffy yeast dough — tvaroh, jam, poppy seed, or povidla, which is prune. Baked, not fried.",
+   "image": "kolache/kolache-howdy-kolache-coffee-amazing-breakfast-buns.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/kolache/"
+  },
+  {
+   "id": "the-pot-of-coffee",
+   "type": "dish",
+   "name": "The pot of coffee",
+   "aliases": [
+    "drip coffee",
+    "the regular",
+    "bottomless cup"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "course": "drink"
+   },
+   "state": null,
+   "blurb": "Drip coffee from a glass pot on a warmer, in a paper cup or a mug, refilled by whoever is at the counter.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/the-pot-of-coffee/"
+  },
+  {
+   "id": "cake-batter",
+   "type": "kitchen",
+   "name": "The batter and the depositor",
+   "aliases": [
+    "depositor",
+    "the drop"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "mix"
+   },
+   "state": null,
+   "blurb": "A thick chemically-leavened batter dropped straight into hot fat through a hand-held or bench depositor, which forms the ring as it falls.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/cake-batter/"
+  },
+  {
+   "id": "day-old-rack",
+   "type": "kitchen",
+   "name": "Day-old",
+   "aliases": [
+    "the day-old rack",
+    "yesterday's"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "hold"
+   },
+   "state": null,
+   "blurb": "Yesterday's donuts, sold cheap the next morning, usually bagged rather than boxed and usually the rings rather than the filled ones.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "kitchen/day-old-rack/"
+  },
+  {
+   "id": "filling-injector",
+   "type": "kitchen",
+   "name": "The filler",
+   "aliases": [
+    "the injector",
+    "the nozzle",
+    "the pump"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "finish"
+   },
+   "state": null,
+   "blurb": "A hand pump or bench machine that pushes jam, custard or cream through a nozzle into the side of a fried round.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/filling-injector/"
+  },
+  {
+   "id": "frying-fat",
+   "type": "kitchen",
+   "name": "What is in the kettle",
+   "aliases": [
+    "shortening",
+    "lard",
+    "frying oil"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "fry"
+   },
+   "state": null,
+   "blurb": "The fat itself: lard, beef tallow, vegetable shortening, or liquid oils — canola, soybean, palm.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/frying-fat/"
+  },
+  {
+   "id": "glaze-table",
+   "type": "kitchen",
+   "name": "The glaze table",
+   "aliases": [
+    "the waterfall",
+    "the dip"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "finish"
+   },
+   "state": null,
+   "blurb": "A shallow pan of thin sugar glaze beside the fryer, where raised rings are dragged through face-down within a minute of coming out of the fat.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/glaze-table/"
+  },
+  {
+   "id": "hand-cut",
+   "type": "kitchen",
+   "name": "Cutting by hand",
+   "aliases": [
+    "the bench",
+    "hand-cut",
+    "the cutter"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "cut"
+   },
+   "state": null,
+   "blurb": "Rolling sheeted dough and cutting rings with a two-ring cutter, rather than depositing or buying pre-formed shells.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/hand-cut/"
+  },
+  {
+   "id": "proof-box",
+   "type": "kitchen",
+   "name": "The proof box",
+   "aliases": [
+    "proofer",
+    "the cabinet"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "raise"
+   },
+   "state": null,
+   "blurb": "A warm humid cabinet where cut rings take their final rise before they go in the fat.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/proof-box/"
+  },
+  {
+   "id": "sprinkle-and-dip",
+   "type": "kitchen",
+   "name": "Dipping and sprinkles",
+   "aliases": [
+    "jimmies",
+    "nonpareils",
+    "the dip"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "finish"
+   },
+   "state": null,
+   "blurb": "Icing in flat pans, sprinkles in bins: a donut is dipped face-down, then set in the sprinkles while the icing is still wet.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/sprinkle-and-dip/"
+  },
+  {
+   "id": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "aliases": [
+    "the two o'clock",
+    "the night bake"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "shift"
+   },
+   "state": null,
+   "blurb": "The hours the work actually happens in: dough started in the small hours so the case is full when the door opens.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/the-2am-shift/"
+  },
+  {
+   "id": "the-case",
+   "type": "kitchen",
+   "name": "The case",
+   "aliases": [
+    "the display",
+    "the tray"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "hold"
+   },
+   "state": null,
+   "blurb": "The glass case: trays by kind, tongs on a hook, and a layout that repeats across the country without anyone having agreed on it.",
+   "image": "the-case/the-case-020240623-131800-donuts.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/the-case/"
+  },
+  {
+   "id": "the-fryer",
+   "type": "kitchen",
+   "name": "The kettle",
+   "aliases": [
+    "the fryer",
+    "the vat",
+    "the flip"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "fry"
+   },
+   "state": null,
+   "blurb": "A shallow open kettle of hot fat with a screen, where every donut in the shop is cooked, turned once, and lifted out.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/the-fryer/"
+  },
+  {
+   "id": "yeast-raise",
+   "type": "kitchen",
+   "name": "The raise",
+   "aliases": [
+    "proofing",
+    "the rise",
+    "bulk ferment"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "raise"
+   },
+   "state": null,
+   "blurb": "Baker's yeast fermenting a sweet dough until it is full of gas — once in bulk, once again after the rings are cut.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "kitchen/yeast-raise/"
+  },
+  {
+   "id": "allies-donuts",
+   "type": "place",
+   "name": "Allie's Donuts",
+   "aliases": [
+    "Allie's Hand-Cut Do-nut Shop"
+   ],
+   "region": [
+    "new-england"
+   ],
+   "facets": {
+    "state": "RI",
+    "status": "open",
+    "founded": 1968,
+    "dough": "both"
+   },
+   "state": "RI",
+   "blurb": "A shop on Route 2 in North Kingstown, Rhode Island, cutting its donuts by hand since 1968, and the state's landmark of the trade.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "hand-cut"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/allies-donuts/"
+  },
+  {
+   "id": "bobs-donuts",
+   "type": "place",
+   "name": "Bob's Donuts and Pastries",
+   "aliases": [
+    "Bob's Donuts",
+    "Bob's on Polk"
+   ],
+   "region": [
+    "bay-area"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 1953,
+    "dough": "both"
+   },
+   "state": "CA",
+   "blurb": "A 24-hour counter on Polk Street in San Francisco, busiest after midnight, and two other locations.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "twentyfour-hours"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/bobs-donuts/"
+  },
+  {
+   "id": "cafe-du-monde",
+   "type": "place",
+   "name": "Café du Monde",
+   "aliases": [
+    "Cafe du Monde"
+   ],
+   "region": [
+    "louisiana"
+   ],
+   "facets": {
+    "state": "LA",
+    "status": "open",
+    "dough": "choux",
+    "styles": [
+     "louisiana-beignet"
+    ]
+   },
+   "state": "LA",
+   "blurb": "An open-air coffee stand on Decatur Street in the French Quarter, selling café au lait cut with chicory and beignets three to an order under powdered sugar.",
+   "image": "cafe-du-monde/cafe-du-monde-beignets-and-caf-au-lait-at-caf-du-monde-new-orleans.jpg",
+   "confidence": "high",
+   "tags": [
+    "counter-or-window"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/cafe-du-monde/"
+  },
+  {
+   "id": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "aliases": [
+    "Christy's"
+   ],
+   "region": [
+    "socal",
+    "cambodian-american"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "unknown",
+    "founded": 1977,
+    "dough": "both",
+    "styles": [
+     "socal-pink-box"
+    ]
+   },
+   "state": "CA",
+   "blurb": "The La Habra shop Ted Ngoy bought in 1977, and the name he put on every shop he bought after it.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "cambodian-american"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/christys-donuts/"
+  },
+  {
+   "id": "czech-stop",
+   "type": "place",
+   "name": "Czech Stop and Little Czech Bakery",
+   "aliases": [
+    "Czech Stop"
+   ],
+   "region": [
+    "texas"
+   ],
+   "facets": {
+    "state": "TX",
+    "status": "open",
+    "founded": 1983,
+    "dough": "yeast",
+    "counter": "kolaches",
+    "styles": [
+     "texas-kolache-counter"
+    ]
+   },
+   "state": "TX",
+   "blurb": "A combination deli, bakery and convenience store on Interstate 35 in West, Texas, selling kolaches, klobasniky and strudel to about 600 people a day.",
+   "image": "czech-stop/czech-stop-czechstopfff2010-4kpx.jpg",
+   "confidence": "medium",
+   "tags": [
+    "kolaches",
+    "twentyfour-hours"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/czech-stop/"
+  },
+  {
+   "id": "donut-wheel",
+   "type": "place",
+   "name": "Donut Wheel",
+   "aliases": [
+    "Jack's Donut Wheel"
+   ],
+   "region": [
+    "bay-area"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 1962,
+    "dough": "both"
+   },
+   "state": "CA",
+   "blurb": "A Livermore landmark at the intersection of the city's four quadrants, trading since 1962.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/donut-wheel/"
+  },
+  {
+   "id": "doughnut-plant",
+   "type": "place",
+   "name": "Doughnut Plant",
+   "aliases": [
+    "Doughnut Plant NYC"
+   ],
+   "region": [
+    "nyc"
+   ],
+   "facets": {
+    "state": "NY",
+    "status": "open",
+    "founded": 1994,
+    "dough": "both"
+   },
+   "state": "NY",
+   "blurb": "A New York bakery that treats the donut as a thing to redesign: square filled donuts, crème brûlée donuts, shapes that do not come off a standard cutter.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/doughnut-plant/"
+  },
+  {
+   "id": "federal-donuts",
+   "type": "place",
+   "name": "Federal Donuts",
+   "aliases": [
+    "Federal Donuts & Chicken"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "state": "PA",
+    "status": "open",
+    "founded": 2011,
+    "dough": "cake"
+   },
+   "state": "PA",
+   "blurb": "A Philadelphia counter selling donuts, coffee and fried chicken from the same window.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/federal-donuts/"
+  },
+  {
+   "id": "leonards-bakery",
+   "type": "place",
+   "name": "Leonard's Bakery",
+   "aliases": [
+    "Leonard's",
+    "Leonard's Malasadas"
+   ],
+   "region": [
+    "hawaii"
+   ],
+   "facets": {
+    "state": "HI",
+    "status": "open",
+    "founded": 1952,
+    "dough": "yeast",
+    "styles": [
+     "hawaii-malasada"
+    ]
+   },
+   "state": "HI",
+   "blurb": "A Portuguese bakery on Kapahulu Avenue in Honolulu that made the malasada an everyday Hawaiian habit rather than a Carnival one.",
+   "image": "leonards-bakery/leonards-bakery-leonard-s-bakery-honolulu-hawaii-4540006860.jpg",
+   "confidence": "high",
+   "tags": [
+    "family-run"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/leonards-bakery/"
+  },
+  {
+   "id": "pips-original",
+   "type": "place",
+   "name": "Pip's Original Doughnuts & Chai",
+   "aliases": [
+    "Pip's Original"
+   ],
+   "region": [
+    "pacific-northwest"
+   ],
+   "facets": {
+    "state": "OR",
+    "status": "open",
+    "dough": "cake"
+   },
+   "state": "OR",
+   "blurb": "A northeast Portland shop frying small cake donuts to order and serving house chai beside them.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/pips-original/"
+  },
+  {
+   "id": "psycho-donuts",
+   "type": "place",
+   "name": "Psycho Donuts",
+   "aliases": [],
+   "region": [
+    "bay-area"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 2009,
+    "dough": "both"
+   },
+   "state": "CA",
+   "blurb": "A Campbell, California shop themed on \"craziness\", with donut names punning on mental illness, a straitjacket on the wall and a padded cell in the room.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/psycho-donuts/"
+  },
+  {
+   "id": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "aliases": [
+    "the big donut",
+    "Big Donut Drive-In (original)"
+   ],
+   "region": [
+    "socal"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 1952,
+    "dough": "both",
+    "styles": [
+     "socal-pink-box"
+    ]
+   },
+   "state": "CA",
+   "blurb": "A drive-in donut counter on West Manchester Boulevard in Inglewood, under a 1950s rooftop donut big enough to be a landmark from the 405. Open around the clock.",
+   "image": "randys-donuts/randys-donuts-2008-0914-randysdonuts.jpg",
+   "confidence": "high",
+   "tags": [
+    "drive-thru",
+    "twentyfour-hours"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/randys-donuts/"
+  },
+  {
+   "id": "round-rock-donuts",
+   "type": "place",
+   "name": "Round Rock Donuts",
+   "aliases": [
+    "Lone Star Bakery"
+   ],
+   "region": [
+    "texas"
+   ],
+   "facets": {
+    "state": "TX",
+    "status": "open",
+    "founded": 1926,
+    "dough": "both",
+    "styles": [
+     "texas-kolache-counter"
+    ]
+   },
+   "state": "TX",
+   "blurb": "A Texas counter trading since 1926, known for an outsized orange-yellow donut and a queue that starts early.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/round-rock-donuts/"
+  },
+  {
+   "id": "seaside-donuts",
+   "type": "place",
+   "name": "Seaside Donuts Bakery",
+   "aliases": [
+    "Seaside Bakery",
+    "Seaside"
+   ],
+   "region": [
+    "socal",
+    "cambodian-american"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 1985,
+    "dough": "both",
+    "styles": [
+     "socal-pink-box"
+    ]
+   },
+   "state": "CA",
+   "blurb": "A Cambodian-American bakery in Newport Beach, open 24 hours, known for cheap selections and a beachside room that fills up at odd hours.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "cambodian-american",
+    "family-run",
+    "twentyfour-hours"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/seaside-donuts/"
+  },
+  {
+   "id": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "aliases": [
+    "Donut Hole La Puente"
+   ],
+   "region": [
+    "socal"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 1963,
+    "dough": "both",
+    "styles": [
+     "socal-pink-box"
+    ]
+   },
+   "state": "CA",
+   "blurb": "A drive-through bakery in La Puente shaped like two giant donuts: you drive in through one hole, order, and drive out through the other.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "drive-thru"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/the-donut-hole/"
+  },
+  {
+   "id": "top-pot-doughnuts",
+   "type": "place",
+   "name": "Top Pot Doughnuts",
+   "aliases": [
+    "Top Pot"
+   ],
+   "region": [
+    "pacific-northwest"
+   ],
+   "facets": {
+    "state": "WA",
+    "status": "open",
+    "founded": 2002,
+    "dough": "both"
+   },
+   "state": "WA",
+   "blurb": "A Seattle coffee-and-donut company begun on Capitol Hill, now 17 cafés around Puget Sound.",
+   "image": "top-pot-doughnuts/top-pot-doughnuts-top-pot-5th-ave-seattle-09.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/top-pot-doughnuts/"
+  },
+  {
+   "id": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "aliases": [
+    "Voodoo"
+   ],
+   "region": [
+    "pacific-northwest"
+   ],
+   "facets": {
+    "state": "OR",
+    "status": "open",
+    "founded": 2003,
+    "dough": "yeast"
+   },
+   "state": "OR",
+   "blurb": "A Portland shop built on novelty donuts and a late-night queue, now with locations in several states.",
+   "image": "voodoo-doughnut/voodoo-doughnut-captain-my-captain-voodoo-doughnut.jpg",
+   "confidence": "high",
+   "tags": [
+    "pink-box"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/voodoo-doughnut/"
+  },
+  {
+   "id": "adolph-levitt",
+   "type": "person",
+   "name": "Adolph Levitt",
+   "aliases": [],
+   "region": [
+    "nyc"
+   ],
+   "facets": {
+    "role": "inventor",
+    "state": "NY"
+   },
+   "state": "NY",
+   "blurb": "The Russian refugee who built the first automated donut machine in New York in 1920 and founded the Doughnut Corporation of America.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/adolph-levitt/"
+  },
+  {
+   "id": "bill-rosenberg",
+   "type": "person",
+   "name": "Bill Rosenberg",
+   "aliases": [
+    "William Rosenberg"
+   ],
+   "region": [
+    "new-england"
+   ],
+   "facets": {
+    "role": "founder",
+    "state": "MA"
+   },
+   "state": "MA",
+   "blurb": "Opened the Open Kettle in Quincy, Massachusetts in 1948 and renamed it Dunkin' Donuts in 1950.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/bill-rosenberg/"
+  },
+  {
+   "id": "elizabeth-gregory",
+   "type": "person",
+   "name": "Elizabeth Gregory",
+   "aliases": [],
+   "region": [
+    "new-england"
+   ],
+   "facets": {
+    "role": "cook",
+    "state": "ME"
+   },
+   "state": "ME",
+   "blurb": "Hanson Gregory's mother, who by the Smithsonian's account made the deep-fried dough the ring story starts from.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/elizabeth-gregory/"
+  },
+  {
+   "id": "hanson-gregory",
+   "type": "person",
+   "name": "Hanson Gregory",
+   "aliases": [
+    "Captain Gregory"
+   ],
+   "region": [
+    "new-england"
+   ],
+   "facets": {
+    "role": "inventor",
+    "state": "ME"
+   },
+   "state": "ME",
+   "blurb": "The New England sailor who said he punched the first hole in a donut in 1847, at sixteen, aboard a lime-trading ship.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/hanson-gregory/"
+  },
+  {
+   "id": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "aliases": [],
+   "region": [
+    "socal",
+    "cambodian-american"
+   ],
+   "facets": {
+    "role": "founder",
+    "state": "CA"
+   },
+   "state": "CA",
+   "blurb": "Credited with Ted Ngoy for the pink donut box, after helping other Cambodians set up shops in Southern California.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "person/ning-yen/"
+  },
+  {
+   "id": "russell-wendell",
+   "type": "person",
+   "name": "Russell C. Wendell",
+   "aliases": [
+    "Russell Wendell"
+   ],
+   "region": [
+    "socal"
+   ],
+   "facets": {
+    "role": "founder",
+    "state": "CA"
+   },
+   "state": "CA",
+   "blurb": "The machine salesman who founded the Big Do-Nut Drive-In chain and put 22-foot donuts on its roofs.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/russell-wendell/"
+  },
+  {
+   "id": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "aliases": [
+    "Bun Tek Ngoy",
+    "the Donut King"
+   ],
+   "region": [
+    "socal",
+    "cambodian-american"
+   ],
+   "facets": {
+    "role": "founder",
+    "state": "CA"
+   },
+   "state": "CA",
+   "blurb": "The Cambodian refugee who turned one La Habra donut shop into a trade for a community, and lost the fortune it made him.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/ted-ngoy/"
+  },
+  {
+   "id": "vernon-rudolph",
+   "type": "person",
+   "name": "Vernon Rudolph",
+   "aliases": [],
+   "region": [
+    "the-south"
+   ],
+   "facets": {
+    "role": "founder",
+    "state": "NC"
+   },
+   "state": "NC",
+   "blurb": "Bought a yeast-raised recipe from a New Orleans chef and opened in Winston-Salem in 1937.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "person/vernon-rudolph/"
+  },
+  {
+   "id": "b-and-h-distributors",
+   "type": "org",
+   "name": "B & H Bakery Distributors",
+   "aliases": [],
+   "region": [
+    "socal",
+    "cambodian-american"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open"
+   },
+   "state": "CA",
+   "blurb": "A Cambodian-American bakery supply business serving California donut shops.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/b-and-h-distributors/"
+  },
+  {
+   "id": "daylight-donuts",
+   "type": "org",
+   "name": "Daylight Donuts",
+   "aliases": [
+    "Daylight Donut Flour Company"
+   ],
+   "region": [
+    "us",
+    "texas"
+   ],
+   "facets": {
+    "state": "OK",
+    "status": "open",
+    "founded": 1954
+   },
+   "state": "OK",
+   "blurb": "The Tulsa company that sells donut mix and a sign to roughly 950 independently owned shops in 13 countries.",
+   "image": "daylight-donuts/daylight-donuts-fort-findlay-doughnut-shop.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/daylight-donuts/"
+  },
+  {
+   "id": "doughnut-corporation-of-america",
+   "type": "org",
+   "name": "Doughnut Corporation of America",
+   "aliases": [
+    "DCA"
+   ],
+   "region": [
+    "nyc",
+    "us"
+   ],
+   "facets": {
+    "state": "NY",
+    "status": "closed"
+   },
+   "state": "NY",
+   "blurb": "Adolph Levitt's company: donut machines, mixes, the Mayflower shop in Times Square, and the National Dunking Association.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/doughnut-corporation-of-america/"
+  },
+  {
+   "id": "dunkin",
+   "type": "org",
+   "name": "Dunkin'",
+   "aliases": [
+    "Dunkin' Donuts"
+   ],
+   "region": [
+    "new-england",
+    "us"
+   ],
+   "facets": {
+    "state": "MA",
+    "status": "open",
+    "founded": 1948
+   },
+   "state": "MA",
+   "blurb": "The Quincy, Massachusetts chain that paired coffee and donuts nationally, and the oldest surviving company using the short spelling.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/dunkin/"
+  },
+  {
+   "id": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "aliases": [
+    "Krispy Kreme Doughnuts, Inc."
+   ],
+   "region": [
+    "the-south",
+    "us"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": 1937
+   },
+   "state": "NC",
+   "blurb": "The Winston-Salem company built on a bought yeast-raised recipe, a window you can watch the line through, and a lit sign.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/krispy-kreme/"
+  },
+  {
+   "id": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "aliases": [],
+   "region": [
+    "new-england",
+    "us"
+   ],
+   "facets": {
+    "state": "MA",
+    "status": "open",
+    "founded": 1956
+   },
+   "state": "MA",
+   "blurb": "The chain founded by Harry Winokur, Bill Rosenberg's former partner, absorbed into Dunkin' in the United States and still large in Asia.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/mister-donut/"
+  },
+  {
+   "id": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "aliases": [],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "status": "open"
+   },
+   "state": null,
+   "blurb": "A franchise selling mochi donuts and Korean corn dogs that spread rapidly across American strip malls in the 2020s.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/mochinut/"
+  },
+  {
+   "id": "national-dunking-association",
+   "type": "org",
+   "name": "National Dunking Association",
+   "aliases": [],
+   "region": [
+    "nyc",
+    "us"
+   ],
+   "facets": {
+    "state": "NY",
+    "status": "closed"
+   },
+   "state": "NY",
+   "blurb": "A membership organisation started by the Doughnut Corporation of America in the 1930s to popularise donuts in North America.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/national-dunking-association/"
+  },
+  {
+   "id": "salvation-army-lassies",
+   "type": "org",
+   "name": "The Salvation Army doughnut huts",
+   "aliases": [
+    "Donut Girls",
+    "Doughnut Lassies"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "status": "closed"
+   },
+   "state": null,
+   "blurb": "The World War I canteens where Salvation Army volunteers fried donuts for American soldiers in France — and the reason there is a National Donut Day.",
+   "image": "salvation-army-lassies/salvation-army-lassies-a-red-cross-girls-carrying-fresh-doughnuts-from-an-i-bcbec62.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/salvation-army-lassies/"
+  },
+  {
+   "id": "salvation-army",
+   "type": "org",
+   "name": "The Salvation Army",
+   "aliases": [],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "status": "open"
+   },
+   "state": null,
+   "blurb": "The Christian charitable organisation whose World War I canteens fried donuts for American soldiers, and whose Chicago branch created National Donut Day in 1938.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/salvation-army/"
+  },
+  {
+   "id": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "aliases": [
+    "Winchell's"
+   ],
+   "region": [
+    "socal",
+    "us"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open",
+    "founded": 1948
+   },
+   "state": "CA",
+   "blurb": "The Temple City, California chain founded by Verne Winchell on 8 October 1948.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/winchells/"
+  },
+  {
+   "id": "yum-yum-donuts",
+   "type": "org",
+   "name": "Yum Yum Donut Shops",
+   "aliases": [
+    "Yum Yum Donuts"
+   ],
+   "region": [
+    "socal"
+   ],
+   "facets": {
+    "state": "CA",
+    "status": "open"
+   },
+   "state": "CA",
+   "blurb": "A Southern California donut chain, and since 2004 the owner of Winchell's.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "org/yum-yum-donuts/"
+  },
+  {
+   "id": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "aliases": [
+    "Fasnacht Day",
+    "Shrove Tuesday"
+   ],
+   "region": [
+    "pennsylvania-dutch"
+   ],
+   "facets": {
+    "when": "Shrove Tuesday",
+    "status": "open",
+    "state": "PA"
+   },
+   "state": "PA",
+   "blurb": "Shrove Tuesday in Pennsylvania Dutch country, named after the donut rather than the fast.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "event/fastnacht-day/"
+  },
+  {
+   "id": "krispy-kreme-challenge",
+   "type": "event",
+   "name": "Krispy Kreme Challenge",
+   "aliases": [],
+   "region": [
+    "the-south"
+   ],
+   "facets": {
+    "when": "February",
+    "status": "open",
+    "state": "NC",
+    "founded": 2004
+   },
+   "state": "NC",
+   "blurb": "An annual charity run in Raleigh: 2.5 miles to a Krispy Kreme, a dozen donuts, and 2.5 miles back, inside an hour.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "event/krispy-kreme-challenge/"
+  },
+  {
+   "id": "malasada-day",
+   "type": "event",
+   "name": "Malasada Day",
+   "aliases": [
+    "Terça-feira Gorda"
+   ],
+   "region": [
+    "hawaii"
+   ],
+   "facets": {
+    "when": "Shrove Tuesday",
+    "status": "open",
+    "state": "HI"
+   },
+   "state": "HI",
+   "blurb": "The Hawaiian observance of Shrove Tuesday, kept by eating malasadas.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "event/malasada-day/"
+  },
+  {
+   "id": "national-donut-day",
+   "type": "event",
+   "name": "National Donut Day",
+   "aliases": [
+    "National Doughnut Day"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "when": "first Friday in June",
+    "status": "open",
+    "founded": 1938
+   },
+   "state": "IL",
+   "blurb": "An American observance on the first Friday of June, with free donuts at many shops.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "event/national-donut-day/"
+  },
+  {
+   "id": "orchard-season",
+   "type": "event",
+   "name": "Cider donut season",
+   "aliases": [
+    "harvest season",
+    "apple picking"
+   ],
+   "region": [
+    "new-england",
+    "upstate-ny",
+    "upper-midwest"
+   ],
+   "facets": {
+    "when": "September to November or December",
+    "status": "seasonal"
+   },
+   "state": null,
+   "blurb": "The weeks when orchards and cider mills in the Northeast and Midwest run donut machines for the people who came to pick apples.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "event/orchard-season/"
+  },
+  {
+   "id": "paczki-day",
+   "type": "event",
+   "name": "Paczki Day",
+   "aliases": [
+    "Fat Tuesday",
+    "Shrove Tuesday"
+   ],
+   "region": [
+    "chicago",
+    "detroit"
+   ],
+   "facets": {
+    "when": "Shrove Tuesday",
+    "status": "open",
+    "state": "MI"
+   },
+   "state": "MI",
+   "blurb": "The Tuesday before Lent, kept in Polish-American cities — Chicago, Milwaukee, Detroit, Windsor — as a day for eating pączki.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "event/paczki-day/"
+  },
+  {
+   "id": "bar",
+   "type": "term",
+   "name": "Bar",
+   "aliases": [
+    "long john",
+    "finger doughnut",
+    "cream stick",
+    "éclair (as sold)"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "B",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "A rectangular raised donut, glazed or iced, sometimes filled.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/bar/"
+  },
+  {
+   "id": "cruller-word",
+   "type": "term",
+   "name": "Cruller",
+   "aliases": [
+    "kruller",
+    "crulla"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "C",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "In North America: either a small loaf- or stick-shaped cake donut, or the choux ring sold as a French cruller.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/cruller-word/"
+  },
+  {
+   "id": "day-old",
+   "type": "term",
+   "name": "Day-old",
+   "aliases": [
+    "yesterday's",
+    "seconds"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "D",
+    "part_of_speech": "adjective"
+   },
+   "state": null,
+   "blurb": "Yesterday's donuts, sold cheap.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/day-old/"
+  },
+  {
+   "id": "donut-spelling",
+   "type": "term",
+   "name": "Donut / doughnut",
+   "aliases": [
+    "donut",
+    "doughnut"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "D",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "Two spellings of the same word. Doughnut is the older form and still dominates in print; donut is American, shorter, and on more signs.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/donut-spelling/"
+  },
+  {
+   "id": "dunking",
+   "type": "term",
+   "name": "Dunking",
+   "aliases": [
+    "dunk"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "D",
+    "part_of_speech": "verb"
+   },
+   "state": null,
+   "blurb": "Putting a donut in coffee. For twenty-odd years, an organised pastime with officers.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/dunking/"
+  },
+  {
+   "id": "fry-cake",
+   "type": "term",
+   "name": "Fry cake",
+   "aliases": [
+    "fried cake"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "F",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "An older American name for the cake donut, still on some signs and menus.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/fry-cake/"
+  },
+  {
+   "id": "hole",
+   "type": "term",
+   "name": "The hole",
+   "aliases": [
+    "the middle",
+    "the ring"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "T",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The absence in the middle of a ring donut, and the argument about who first made one.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/hole/"
+  },
+  {
+   "id": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "aliases": [
+    "hot light",
+    "hot doughnuts now"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "H",
+    "part_of_speech": "phrase"
+   },
+   "state": null,
+   "blurb": "A lit sign saying donuts are coming out of the fryer at that moment.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/hot-now/"
+  },
+  {
+   "id": "jimmies",
+   "type": "term",
+   "name": "Jimmies",
+   "aliases": [
+    "sprinkles",
+    "hundreds and thousands",
+    "nonpareils"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "J",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The long rod-shaped sprinkles, above all the chocolate ones. The tiny balls are nonpareils.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/jimmies/"
+  },
+  {
+   "id": "mom-and-pop",
+   "type": "term",
+   "name": "Mom-and-pop",
+   "aliases": [
+    "independent",
+    "family shop"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "M",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "A shop owned and worked by the family that runs it, as against a franchise or a company-owned store.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/mom-and-pop/"
+  },
+  {
+   "id": "olykoek",
+   "type": "term",
+   "name": "Olykoek",
+   "aliases": [
+    "oly koek",
+    "oliekoek",
+    "oil cake"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "O",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The Dutch fried dough ball that came to New Amsterdam, and the American donut's direct ancestor: sweetened dough fried in fat, with no hole.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/olykoek/"
+  },
+  {
+   "id": "powdered-sugar",
+   "type": "term",
+   "name": "Powdered sugar",
+   "aliases": [
+    "confectioner's sugar",
+    "icing sugar",
+    "10X"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "P",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "Sugar ground fine and cut with a little starch to stop it caking. The base of every glaze and the finish on beignets, malasadas and pączki.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/powdered-sugar/"
+  },
+  {
+   "id": "the-dozen",
+   "type": "term",
+   "name": "The dozen",
+   "aliases": [
+    "a dozen",
+    "half dozen",
+    "baker's dozen"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "letter": "T",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The unit donuts are sold in, and the reason for the box.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "word/the-dozen/"
+  },
+  {
+   "id": "anthora-cup",
+   "type": "art",
+   "name": "The Anthora cup",
+   "aliases": [
+    "We Are Happy To Serve You",
+    "the Greek cup"
+   ],
+   "region": [
+    "nyc"
+   ],
+   "facets": {
+    "kind": "print",
+    "state": "NY"
+   },
+   "state": "NY",
+   "blurb": "The blue-and-white paper coffee cup with a Greek meander border and the words \"We Are Happy To Serve You\", designed for New York's Greek-run coffee shops.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "art/anthora-cup/"
+  },
+  {
+   "id": "giant-donut-roof",
+   "type": "art",
+   "name": "The donut on the roof",
+   "aliases": [
+    "big donut",
+    "programmatic architecture"
+   ],
+   "region": [
+    "socal"
+   ],
+   "facets": {
+    "kind": "sign",
+    "state": "CA"
+   },
+   "state": "CA",
+   "blurb": "Oversize donuts built on or around Southern California shops to catch drivers: roadside novelty architecture, most of it from the decade after the Second World War.",
+   "image": "giant-donut-roof/giant-donut-roof-bellflower-bagels-formerly-a-big-donut-bellflower-lo-14dcf31.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "art/giant-donut-roof/"
+  },
+  {
+   "id": "hand-lettered-board",
+   "type": "art",
+   "name": "The hand-lettered board",
+   "aliases": [
+    "the menu board",
+    "marker on card"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "sign"
+   },
+   "state": null,
+   "blurb": "The menu written by hand — on card, on a whiteboard, on the glass — and updated by writing over it.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "art/hand-lettered-board/"
+  },
+  {
+   "id": "mr-spudnut",
+   "type": "art",
+   "name": "Mr. Spudnut and the mascots",
+   "aliases": [
+    "Dunkie",
+    "Mr. Spudnut"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "mascot"
+   },
+   "state": null,
+   "blurb": "The cartoon characters donut companies used to sell themselves in the middle of the twentieth century.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "art/mr-spudnut/"
+  },
+  {
+   "id": "neon-donut",
+   "type": "art",
+   "name": "Neon and the lit sign",
+   "aliases": [
+    "the hot sign",
+    "the neon ring"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "neon"
+   },
+   "state": null,
+   "blurb": "Signs that advertise by light: a neon ring, a lit arrow, a plastic panel with DONUTS in red, and the hot sign that says the fryer is going.",
+   "image": "neon-donut/neon-donut-donut-shop-neon-sign-on-santa-monica-boulevard-in-we-fdd247d.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "art/neon-donut/"
+  },
+  {
+   "id": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "aliases": [
+    "the box",
+    "1-dozen pink"
+   ],
+   "region": [
+    "socal",
+    "us"
+   ],
+   "facets": {
+    "kind": "box",
+    "state": "CA"
+   },
+   "state": "CA",
+   "blurb": "The matte pink paperboard box a dozen donuts go into: the most recognisable object in the American trade, and the cheapest.",
+   "image": "pink-box/pink-box-american-donuts-in-red-box-closeup-49818859171.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "art/pink-box/"
+  },
+  {
+   "id": "bar-or-long-john",
+   "type": "story",
+   "name": "Bar or Long John",
+   "aliases": [
+    "what to call it",
+    "the word map"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "map"
+   },
+   "state": null,
+   "blurb": "One rectangular raised donut, at least five names, and a map of the country hiding inside a bakery case.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/bar-or-long-john/"
+  },
+  {
+   "id": "cake-against-raised",
+   "type": "story",
+   "name": "Cake against raised",
+   "aliases": [
+    "cake vs yeast",
+    "the two doughs"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "Two doughs, one kettle, and an argument every shop settles twice a day.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/cake-against-raised/"
+  },
+  {
+   "id": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "aliases": [
+    "donuts per capita",
+    "the density map"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "map"
+   },
+   "state": null,
+   "blurb": "Donut shops are not spread evenly, and the places with the most of them are not the places with the most famous ones.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/donuts-per-capita/"
+  },
+  {
+   "id": "free-to-use",
+   "type": "story",
+   "name": "Where all of this came from",
+   "aliases": [
+    "sources",
+    "resources"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "resources"
+   },
+   "state": null,
+   "blurb": "What this site is built from, what each thing is licensed under, and what it does not cover.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/free-to-use/"
+  },
+  {
+   "id": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "aliases": [
+    "what else is in the case"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "map"
+   },
+   "state": null,
+   "blurb": "What a donut shop sells besides donuts, region by region, and what this project can show evidence for.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-counter/"
+  },
+  {
+   "id": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "aliases": [
+    "Ted Ngoy's story"
+   ],
+   "region": [
+    "socal",
+    "cambodian-american"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "How one man's shop in La Habra became a trade for a community, and what happened to the man.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-donut-king/"
+  },
+  {
+   "id": "the-franchise-that-vanished",
+   "type": "story",
+   "name": "The franchise that vanished",
+   "aliases": [
+    "Spudnut"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "Between 1940 and 1968 a Salt Lake City potato-flour company put more than three hundred shops on American streets. The company is gone. Some of the shops are not.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-franchise-that-vanished/"
+  },
+  {
+   "id": "the-price-of-a-dozen",
+   "type": "story",
+   "name": "The price of a dozen",
+   "aliases": [
+    "what donuts cost"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "A price without its date is not a price. This page holds the dated ones this project can actually cite, which is not many, and says plainly what is missing.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-price-of-a-dozen/"
+  },
+  {
+   "id": "the-sign-outlives-the-owner",
+   "type": "story",
+   "name": "The sign outlives the owner",
+   "aliases": [
+    "reading a donut shop sign"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "Donut shop signs are older than the businesses behind them, which makes them unreliable evidence and excellent evidence at the same time.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-sign-outlives-the-owner/"
+  },
+  {
+   "id": "what-is-a-mom-and-pop",
+   "type": "story",
+   "name": "What counts as a mom-and-pop",
+   "aliases": [
+    "the independence line"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "This site is about independent donut shops, which means it needs a rule for what that is. The rule used here: a shop is independent when no company owns it.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/what-is-a-mom-and-pop/"
+  },
+  {
+   "id": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "aliases": [
+    "the second menu",
+    "donuts and Chinese food"
+   ],
+   "region": [
+    "us"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "A donut shop that also sells egg rolls, or breakfast burritos, or bacon egg and cheese, or kolaches, is not being eccentric. It is doing arithmetic out loud.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/why-the-egg-rolls/"
+  }
+ ]
+}

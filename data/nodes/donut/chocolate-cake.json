@@ -1,0 +1,92 @@
+{
+ "id": "chocolate-cake",
+ "type": "donut",
+ "names": {
+  "name": "Chocolate cake",
+  "aliases": [
+   "devil's food",
+   "chocolate old-fashioned"
+  ],
+  "said": "Cocoa in the batter, not on the outside — the iced one is a different animal."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "dough": "cake",
+  "finish": "glazed"
+ },
+ "text": {
+  "what": "A cake ring with cocoa in the batter, glazed or sugared. Dark, dense, and sweeter than the plain cake ring on the published numbers.",
+  "story": "Cake donuts hold a flavour the way raised dough does not, and chocolate is the oldest of the cake flavours in an American case. USDA publishes it as its own food — \"Doughnuts, cake-type, chocolate, sugared or glazed\" — separate from the chocolate-coated plain cake donut, which is a plain ring with icing on it and a different set of numbers.",
+  "how": "Cocoa into a cake batter, dropped and fried like any cake ring, then glazed while warm.",
+  "today": "The two chocolate donuts in a case — cocoa in the batter, or chocolate on the outside — get confused constantly, including by people selling them."
+ },
+ "kin": [
+  {
+   "to": "cake-donut",
+   "as": "The family.",
+   "rel": "donut"
+  },
+  {
+   "to": "old-fashioned",
+   "as": "The plain cake ring beside it.",
+   "rel": "donut"
+  },
+  {
+   "to": "cake-against-raised",
+   "as": "Where its numbers sit.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-cake-doughnut",
+  "s:fdc-sr-legacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cake-doughnut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sr-legacy"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "profile": {
+  "dough": "cake",
+  "finish": "glazed",
+  "kind": "usda",
+  "leaven": null,
+  "serving_g": 42.0,
+  "kcal": 175.1,
+  "sugar_g": 13.4,
+  "fat_g": 8.4,
+  "sat_fat_g": 2.2,
+  "carb_g": 24.1,
+  "sodium_mg": 90.3,
+  "ingredients": [],
+  "flour_rank": null,
+  "sugar_rank": null,
+  "fat_rank": null,
+  "egg_rank": null,
+  "maker": null,
+  "town": null,
+  "state": null,
+  "source": "s:fdc-sr-legacy",
+  "url": "https://fdc.nal.usda.gov/food-details/174993/nutrients",
+  "accessed": "2026-09-17",
+  "note": "USDA SR Legacy 174993, \"Doughnuts, cake-type, chocolate, sugared or glazed\", published per 100 g and scaled here to the portion USDA itself lists as \"doughnut, medium (approx 3\" dia)\" — 42 g. No ingredient list is published for these generic rows, so the ingredient ranks are null. A shop's own donut is not this donut; this is the closest published measurement of the kind."
+ }
+}

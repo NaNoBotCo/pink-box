@@ -1,0 +1,100 @@
+{
+ "id": "voodoo-doughnut",
+ "type": "place",
+ "names": {
+  "name": "Voodoo Doughnut",
+  "aliases": [
+   "Voodoo"
+  ],
+  "sort": "Voodoo Doughnut"
+ },
+ "region": [
+  "pacific-northwest"
+ ],
+ "facets": {
+  "state": "OR",
+  "status": "open",
+  "founded": 2003,
+  "dough": "yeast"
+ },
+ "text": {
+  "what": "A Portland shop built on novelty donuts and a late-night queue, now with locations in several states.",
+  "story": "Kenneth \"Cat Daddy\" Pogson and Richard \"Tres\" Shannon opened the first shop on Southwest Third Avenue in Old Town Portland in May 2003. The logo carries a depiction of Baron Samedi, a figure from Haitian Vodou. Until 2006 the shop opened only at night.\n\nThe pink box came from California: Pogson travelled there, saw the boxes, and brought both the box and the slogan home — \"Good things come in pink boxes.\"",
+  "today": "The pink box now reads as Voodoo's to a lot of people who have never been to a strip-mall shop in Orange County."
+ },
+ "geo": {
+  "lat": 45.52266,
+  "lon": -122.67312,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "22 SW 3rd Avenue",
+  "city": "Portland",
+  "county": "Multnomah",
+  "state": "OR"
+ },
+ "tags": [
+  {
+   "tag": "pink-box",
+   "source": "s:wp-voodoo-doughnut",
+   "tier": "cited",
+   "note": "adopted after Pogson saw the California boxes; the slogan followed"
+  }
+ ],
+ "kin": [
+  {
+   "to": "pink-box",
+   "as": "Took the box east and made it a brand.",
+   "rel": "art"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "Where the box came from.",
+   "rel": "style"
+  },
+  {
+   "to": "top-pot-doughnuts",
+   "as": "The other Northwest shop, and the opposite register.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-voodoo-doughnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-voodoo-doughnut"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "voodoo-doughnut/voodoo-doughnut-captain-my-captain-voodoo-doughnut.jpg",
+   "source": "commons",
+   "title": "File:Captain My Captain, Voodoo Doughnut.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Captain_My_Captain%2C_Voodoo_Doughnut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACaptain_My_Captain%2C_Voodoo_Doughnut.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Kevin Galens",
+   "credit": "O' Captain My Captain",
+   "alt": "A \"Captain my Captain\" doughnut from Voodoo Doughtnut in Portland, Oregon, consisting of vanilla frosting and Cap'n Crunch cereal.",
+   "date": "2010-05-27 14:54",
+   "primary": true,
+   "sha256": "75c477e12935b5d221ed26d8bdab9ecbf6875dcbe90ad3c130571b20ecb91731"
+  }
+ ]
+}

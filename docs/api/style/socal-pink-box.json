@@ -1,0 +1,508 @@
+{
+ "id": "socal-pink-box",
+ "type": "style",
+ "names": {
+  "name": "The Southern California pink box",
+  "aliases": [
+   "the pink box shop",
+   "SoCal independent donut shop",
+   "Cambodian-American donut shop"
+  ],
+  "said": "Nobody calls it a style. You say \"the donut shop\", and everyone knows which corner of which strip mall you mean."
+ },
+ "region": [
+  "socal",
+  "cambodian-american",
+  "us"
+ ],
+ "facets": {
+  "state": "CA",
+  "dough": "both",
+  "counter": "egg-rolls"
+ },
+ "text": {
+  "what": "An independent counter, usually in a strip mall, usually open before five in the morning, frying both doughs in one small kitchen and selling them out of a matte pink box. Glazed raised, cake rings, buttermilk bars, fritters, bear claws, maple bars, holes in a bag. Coffee in a paper cup. Often, on the same board: egg rolls, croissant sandwiches, chow mein, boba, or a breakfast burrito.",
+  "story": "Ted Ngoy left Cambodia with his wife and three children in 1975, ahead of the Khmer Rouge, and came through the U.S. Refugee Admissions Program to Camp Pendleton. He took a janitor's job at a Lutheran church in Tustin and a second job at a gas station, noticed how busy a local donut shop was, and asked to learn the trade. An affirmative-action hiring program at the Winchell's chain trained him; he managed a store in Newport Beach and put his wife and nephew to work in it. In 1977 he bought his own shop, Christy's Donuts in La Habra, and named every shop he bought afterwards the same thing.\n\nBy 1979 he had more than 25 shops. He grew tired of running them himself, so he trained relatives and refugees and leased shops to them — \"I sponsored more than 100 families\", he said, and claimed each on official paperwork as kin. By 1987 he had 32 Christy's; at the peak he reckoned 65. The leasing model is the part that mattered: a family arrived, learned a trade in a month, took a shop, and a few years later sold or leased a shop to the next family.\n\nKQED reported in 2021 that roughly 90 percent of California's 5,000-plus independent donut shops were Cambodian-owned. The pink box itself is attributed to Ngoy and Ning Yen, who were helping other Cambodians set up shops: cheaper matte pink stock instead of the glossy white box.\n\nWhy the second menu is there is not a mystery either. Jolly Chan, who opened China Express and Donut by the 24th Street BART station in San Francisco in 1993, put it plainly to KQED: \"We have to sell more stuff to make up the rent and the expense.\"",
+  "how": "One fryer, two doughs. Raised dough goes up overnight and is cut, proofed and fried first; cake batter is dropped from a depositor after. Glaze table by the door. Everything is done before the first commuter, and the case is not restocked — when the bars are gone they are gone. A second warmer holds whatever the shop also sells hot.",
+  "today": "The model is under pressure from rents, from flour and shortening prices, and from the second generation going to college rather than to the bench at two in the morning. Shops still open, close and change hands quietly; the pink box outlives the owner's name on the sign. *Inference —* the box is the most portable piece of the whole thing, which is why it turns up in cities that never had the shops."
+ },
+ "kin": [
+  {
+   "to": "ted-ngoy",
+   "as": "Trained at Winchell's, bought Christy's in La Habra, and leased shops to the families who followed.",
+   "rel": "person"
+  },
+  {
+   "to": "ning-yen",
+   "as": "Named with Ngoy as the reason the box is pink.",
+   "rel": "person"
+  },
+  {
+   "to": "christys-donuts",
+   "as": "The La Habra shop the whole pattern starts from.",
+   "rel": "place"
+  },
+  {
+   "to": "pink-box",
+   "as": "The object the style is named for here.",
+   "rel": "art"
+  },
+  {
+   "to": "egg-roll",
+   "as": "On the board beside the glazed, and on it for a reason.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-donut-king",
+   "as": "The long version: refugee, empire, gambling, return.",
+   "rel": "story"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "Rent arithmetic, told by the people who did it.",
+   "rel": "story"
+  },
+  {
+   "to": "glazed-raised",
+   "as": "The item the box is built around.",
+   "rel": "donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "as": "The tell of a shop that can run a cake bench.",
+   "rel": "donut"
+  },
+  {
+   "to": "randys-donuts",
+   "as": "The one with the roof that everybody photographs.",
+   "rel": "place"
+  },
+  {
+   "to": "winchells",
+   "as": "Where the trade got taught, by a chain, to a refugee.",
+   "rel": "org"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "When the work actually happens.",
+   "rel": "kitchen"
+  }
+ ],
+ "sources": [
+  "s:wp-ted-ngoy",
+  "s:wp-cambodian-americans",
+  "s:kqed-donuts-chinese",
+  "s:wp-doughnut-shop"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.what": {
+    "tier": "tradition",
+    "note": "the case description is general knowledge of these shops; the second menu is cited to KQED"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "bench order as these shops run it; hedged"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the pressures are this project reasoning from the cited rent argument and from shop turnover; no count is claimed"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "socal-pink-box/socal-pink-box-california-donuts-los-angeles-usa-panoramio.jpg",
+   "source": "commons",
+   "title": "File:California Donuts , Los Angeles USA - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/California_Donuts_%2C_Los_Angeles_USA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACalifornia_Donuts_%2C_Los_Angeles_USA_-_panoramio.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "The Erica Chang",
+   "credit": "https://web.archive.org/web/20161024035750/http://www.panoramio.com/photo/58494359",
+   "alt": "California Donuts , Los Angeles USA",
+   "date": "Taken on 3 March 2011",
+   "primary": true,
+   "sha256": "6e9e63ef2bf3237161a5a593b1e15bc671b46cddd3f39dafa8b2a781977b09c9"
+  },
+  {
+   "file": "socal-pink-box/socal-pink-box-dale-s-donuts-15904-s-atlantic-ave-compton-ca-01.jpg",
+   "source": "commons",
+   "title": "File:Dale's Donuts 15904 S. Atlantic Ave Compton CA 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dale%27s_Donuts_15904_S._Atlantic_Ave_Compton_CA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADale%27s_Donuts_15904_S._Atlantic_Ave_Compton_CA_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jengod",
+   "credit": "Own work",
+   "alt": "Dale's Donuts 15904 S. Atlantic Ave Compton CA",
+   "date": "2024-03-01 09:27:51",
+   "primary": false,
+   "sha256": "8b400908a25eb8f3892bb8317da077a383157c130f14f302f42f4b5b0812c3c9"
+  }
+ ],
+ "blurb": "An independent counter, usually in a strip mall, usually open before five in the morning, frying both doughs in one small kitchen and selling them out of a matte pink box.",
+ "region_terms": [
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, the Inland Empire; the pink box and roughly a thousand independent shops"
+  },
+  {
+   "key": "cambodian-american",
+   "name": "Cambodian America",
+   "state": null,
+   "note": "Long Beach, Stockton, Lowell, Houston; a community, not a place — and the single largest owner group in independent donuts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "Trained at Winchell's, bought Christy's in La Habra, and leased shops to the families who followed.",
+   "rel": "person"
+  },
+  {
+   "to": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "Named with Ngoy as the reason the box is pink.",
+   "rel": "person"
+  },
+  {
+   "to": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The La Habra shop the whole pattern starts from.",
+   "rel": "place"
+  },
+  {
+   "to": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The object the style is named for here.",
+   "rel": "art"
+  },
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "On the board beside the glazed, and on it for a reason.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The long version: refugee, empire, gambling, return.",
+   "rel": "story"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "Rent arithmetic, told by the people who did it.",
+   "rel": "story"
+  },
+  {
+   "to": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The item the box is built around.",
+   "rel": "donut"
+  },
+  {
+   "to": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "The tell of a shop that can run a cake bench.",
+   "rel": "donut"
+  },
+  {
+   "to": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The one with the roof that everybody photographs.",
+   "rel": "place"
+  },
+  {
+   "to": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "Where the trade got taught, by a chain, to a refugee.",
+   "rel": "org"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "When the work actually happens.",
+   "rel": "kitchen"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-ted-ngoy",
+   "kind": "web",
+   "title": "Ted Ngoy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ted_Ngoy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cambodian-americans",
+   "kind": "web",
+   "title": "Cambodian Americans — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cambodian_Americans",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:kqed-donuts-chinese",
+   "kind": "article",
+   "title": "Why Donuts + Chinese Food = A Very Californian Combination",
+   "author": "Asal Ehsanipour",
+   "publisher": "KQED",
+   "url": "https://www.kqed.org/news/11871915/why-donuts-chinese-food-a-very-californian-combination",
+   "year": 2021,
+   "accessed": "2026-09-16",
+   "note": "published 6 May 2021, updated 1 January 2025"
+  },
+  {
+   "id": "s:wp-doughnut-shop",
+   "kind": "web",
+   "title": "Doughnut shop — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doughnut_shop",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition",
+   "note": "the case description is general knowledge of these shops; the second menu is cited to KQED"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-ted-ngoy"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "bench order as these shops run it; hedged"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the pressures are this project reasoning from the cited rent argument and from shop turnover; no count is claimed"
+  }
+ },
+ "primary_image": {
+  "file": "socal-pink-box/socal-pink-box-california-donuts-los-angeles-usa-panoramio.jpg",
+  "source": "commons",
+  "title": "File:California Donuts , Los Angeles USA - panoramio.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/California_Donuts_%2C_Los_Angeles_USA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ACalifornia_Donuts_%2C_Los_Angeles_USA_-_panoramio.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "author": "The Erica Chang",
+  "credit": "https://web.archive.org/web/20161024035750/http://www.panoramio.com/photo/58494359",
+  "alt": "California Donuts , Los Angeles USA",
+  "date": "Taken on 3 March 2011",
+  "primary": true,
+  "sha256": "6e9e63ef2bf3237161a5a593b1e15bc671b46cddd3f39dafa8b2a781977b09c9"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "as": "The same second-menu logic, one state west.",
+   "rel": "style"
+  },
+  {
+   "from": "bear-claw",
+   "type": "donut",
+   "name": "Bear claw",
+   "as": "A staple of the California case, and the name is a California word.",
+   "rel": "style"
+  },
+  {
+   "from": "buttermilk-bar",
+   "type": "donut",
+   "name": "Buttermilk bar",
+   "as": "A fixture of the California dozen.",
+   "rel": "style"
+  },
+  {
+   "from": "glazed-raised",
+   "type": "donut",
+   "name": "Glazed raised",
+   "as": "The shop style that sells this one by the dozen before dawn.",
+   "rel": "style"
+  },
+  {
+   "from": "maple-bar",
+   "type": "donut",
+   "name": "Maple bar",
+   "as": "Two or three of these go in the box.",
+   "rel": "style"
+  },
+  {
+   "from": "boba",
+   "type": "dish",
+   "name": "Boba",
+   "as": "The board it turns up on.",
+   "rel": "style"
+  },
+  {
+   "from": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The shop it shares a fryer with.",
+   "rel": "style"
+  },
+  {
+   "from": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "Whose families work it.",
+   "rel": "style"
+  },
+  {
+   "from": "christys-donuts",
+   "type": "place",
+   "name": "Christy's Donuts",
+   "as": "The shop the style traces back through.",
+   "rel": "style"
+  },
+  {
+   "from": "donut-wheel",
+   "type": "place",
+   "name": "Donut Wheel",
+   "as": "The same shape of business, further north.",
+   "rel": "style"
+  },
+  {
+   "from": "randys-donuts",
+   "type": "place",
+   "name": "Randy's Donuts",
+   "as": "The regional style it sits inside.",
+   "rel": "style"
+  },
+  {
+   "from": "seaside-donuts",
+   "type": "place",
+   "name": "Seaside Donuts Bakery",
+   "as": "A shop the style is made of.",
+   "rel": "style"
+  },
+  {
+   "from": "the-donut-hole",
+   "type": "place",
+   "name": "The Donut Hole",
+   "as": "The style around it.",
+   "rel": "style"
+  },
+  {
+   "from": "voodoo-doughnut",
+   "type": "place",
+   "name": "Voodoo Doughnut",
+   "as": "Where the box came from.",
+   "rel": "style"
+  },
+  {
+   "from": "ning-yen",
+   "type": "person",
+   "name": "Ning Yen",
+   "as": "The style it marks.",
+   "rel": "style"
+  },
+  {
+   "from": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "The style his system produced.",
+   "rel": "style"
+  },
+  {
+   "from": "b-and-h-distributors",
+   "type": "org",
+   "name": "B & H Bakery Distributors",
+   "as": "The shops it supplies.",
+   "rel": "style"
+  },
+  {
+   "from": "winchells",
+   "type": "org",
+   "name": "Winchell's Donut House",
+   "as": "The independents that followed.",
+   "rel": "style"
+  },
+  {
+   "from": "yum-yum-donuts",
+   "type": "org",
+   "name": "Yum Yum Donut Shops",
+   "as": "What it competes with.",
+   "rel": "style"
+  },
+  {
+   "from": "hand-lettered-board",
+   "type": "art",
+   "name": "The hand-lettered board",
+   "as": "The shops it is found in.",
+   "rel": "style"
+  },
+  {
+   "from": "pink-box",
+   "type": "art",
+   "name": "The pink box",
+   "as": "The style named for it here.",
+   "rel": "style"
+  },
+  {
+   "from": "donuts-per-capita",
+   "type": "story",
+   "name": "Where the shops actually are",
+   "as": "The 5,000-shop state.",
+   "rel": "style"
+  },
+  {
+   "from": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "The style.",
+   "rel": "style"
+  },
+  {
+   "from": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The style it belongs to.",
+   "rel": "style"
+  }
+ ]
+}

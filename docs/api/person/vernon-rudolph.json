@@ -1,0 +1,150 @@
+{
+ "id": "vernon-rudolph",
+ "type": "person",
+ "names": {
+  "name": "Vernon Rudolph",
+  "aliases": [],
+  "said": "Picked the town because his cigarettes came from there."
+ },
+ "region": [
+  "the-south"
+ ],
+ "facets": {
+  "role": "founder",
+  "state": "NC"
+ },
+ "text": {
+  "what": "Bought a yeast-raised recipe from a New Orleans chef and opened in Winston-Salem in 1937.",
+  "story": "Rudolph (1915–1973) started at eighteen in his uncle Ishmael Armstrong's general store in Paducah, Kentucky, which sold popular doughnuts; the recipe is believed to trace to an Ohio River barge cook named Joseph LeBeouf, whose light doughnuts contained potatoes. Uncle and nephew moved to Nashville in 1934 and opened The Krispy Kreme Doughnut Company on Gallatin Road.\n\nIn 1937 Rudolph opened his own store, choosing Winston-Salem because Camel Cigarettes was headquartered there. He rented 534 South Main Street, in what is now historic Old Salem, sold to grocery stores, and sold hot donuts to people who came by during production between midnight and four in the morning. A local architect, Benny Dinkins, drew the logo. The first store outside the South opened in Akron, Ohio, in 1939.",
+  "today": "The hot-donut trade he started as a side effect became the company's main idea."
+ },
+ "kin": [
+  {
+   "to": "krispy-kreme",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "to": "southern-hot-now",
+   "as": "The style it built.",
+   "rel": "style"
+  },
+  {
+   "to": "the-2am-shift",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "hot-now",
+   "as": "The two words.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-krispy-kreme"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Bought a yeast-raised recipe from a New Orleans chef and opened in Winston-Salem in 1937.",
+ "region_terms": [
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "The company.",
+   "rel": "org"
+  },
+  {
+   "to": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "The style it built.",
+   "rel": "style"
+  },
+  {
+   "to": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "The schedule the hot donut fell out of.",
+   "rel": "kitchen"
+  },
+  {
+   "to": "hot-now",
+   "type": "term",
+   "name": "Hot now",
+   "as": "The two words.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-krispy-kreme",
+   "kind": "web",
+   "title": "Krispy Kreme — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Krispy_Kreme",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-krispy-kreme"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "southern-hot-now",
+   "type": "style",
+   "name": "The hot light",
+   "as": "Bought the recipe, picked the town for a cigarette company.",
+   "rel": "person"
+  },
+  {
+   "from": "the-2am-shift",
+   "type": "kitchen",
+   "name": "The night shift",
+   "as": "Sold hot donuts to the people awake at 2 a.m.",
+   "rel": "person"
+  },
+  {
+   "from": "krispy-kreme",
+   "type": "org",
+   "name": "Krispy Kreme",
+   "as": "Who started it.",
+   "rel": "person"
+  }
+ ]
+}

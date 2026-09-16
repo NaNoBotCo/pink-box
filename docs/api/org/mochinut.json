@@ -1,0 +1,141 @@
+{
+ "id": "mochinut",
+ "type": "org",
+ "names": {
+  "name": "Mochinut",
+  "aliases": [],
+  "said": "Mochi donut, Korean hot dog, one counter."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "status": "open"
+ },
+ "text": {
+  "what": "A franchise selling mochi donuts and Korean corn dogs that spread rapidly across American strip malls in the 2020s.",
+  "story": "Mochinut built on the pon de ring shape that Mister Donut Japan launched in 2003 and that reached the mainland through Hawaii.",
+  "today": "The newest counter in the trade runs the same play as the oldest: a sweet item and a savoury one from one fryer."
+ },
+ "kin": [
+  {
+   "to": "mochi-donut",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "as": "The play.",
+   "rel": "story"
+  },
+  {
+   "to": "mister-donut",
+   "as": "Where the shape came from.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-mochinut",
+  "s:wp-mochi-donut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mochinut"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-16",
+ "blurb": "A franchise selling mochi donuts and Korean corn dogs that spread rapidly across American strip malls in the 2020s.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The item.",
+   "rel": "donut"
+  },
+  {
+   "to": "why-the-egg-rolls",
+   "type": "story",
+   "name": "Why the egg rolls",
+   "as": "The play.",
+   "rel": "story"
+  },
+  {
+   "to": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "Where the shape came from.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mochinut",
+   "kind": "web",
+   "title": "Mochinut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mochinut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-mochi-donut",
+   "kind": "web",
+   "title": "Mochi donut — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mochi_donut",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-mochinut"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-mochinut"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-mochinut"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "mochi-donut",
+   "type": "donut",
+   "name": "Mochi donut",
+   "as": "The chain that put the shape in strip malls nationwide.",
+   "rel": "org"
+  },
+  {
+   "from": "mister-donut",
+   "type": "org",
+   "name": "Mister Donut",
+   "as": "The chain that carried the shape into American strip malls.",
+   "rel": "org"
+  }
+ ]
+}

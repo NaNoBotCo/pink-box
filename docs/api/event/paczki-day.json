@@ -1,0 +1,198 @@
+{
+ "id": "paczki-day",
+ "type": "event",
+ "names": {
+  "name": "Paczki Day",
+  "aliases": [
+   "Fat Tuesday",
+   "Shrove Tuesday"
+  ],
+  "said": "Bakeries post a limit per customer and mean it."
+ },
+ "region": [
+  "chicago",
+  "detroit"
+ ],
+ "facets": {
+  "when": "Shrove Tuesday",
+  "status": "open",
+  "state": "MI"
+ },
+ "text": {
+  "what": "The Tuesday before Lent, kept in Polish-American cities — Chicago, Milwaukee, Detroit, Windsor — as a day for eating pączki.",
+  "story": "Pączki are traditionally eaten in Poland on the Thursday before Lent. In Polish communities in the United States the observance moved to Fasnacht Day — the Tuesday — which puts Polish and Pennsylvania Dutch traditions on the same morning.\n\nHamtramck, Michigan, a city surrounded by Detroit with deep Polish roots, is the best-known American centre of the day.",
+  "today": "Lines start before dawn; bakeries fry all night ahead of it and sell until the dough runs out."
+ },
+ "kin": [
+  {
+   "to": "paczki",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "as": "The counter.",
+   "rel": "style"
+  },
+  {
+   "to": "fastnacht-day",
+   "as": "The other tradition on the same Tuesday.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-p-czki",
+  "s:wp-fasnacht-doughnut",
+  "s:wp-hamtramck-michigan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the town the day is most associated with, not a venue"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "geo": {
+  "lat": 42.3928,
+  "lon": -83.0497,
+  "precision": "town",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "",
+  "city": "Hamtramck",
+  "county": "Wayne",
+  "state": "MI"
+ },
+ "blurb": "The Tuesday before Lent, kept in Polish-American cities — Chicago, Milwaukee, Detroit, Windsor — as a day for eating pączki.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "Polish bakeries, paczki, the long john"
+  },
+  {
+   "key": "detroit",
+   "name": "Detroit",
+   "state": "MI",
+   "note": "Hamtramck on Paczki Day"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The donut.",
+   "rel": "donut"
+  },
+  {
+   "to": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The counter.",
+   "rel": "style"
+  },
+  {
+   "to": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The other tradition on the same Tuesday.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-p-czki",
+   "kind": "web",
+   "title": "Pączki — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/P%C4%85czki",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-fasnacht-doughnut",
+   "kind": "web",
+   "title": "Fasnacht (doughnut) — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fasnacht_(doughnut)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hamtramck-michigan",
+   "kind": "web",
+   "title": "Hamtramck, Michigan — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hamtramck,_Michigan",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  },
+  "text.today": {
+   "tier": "tradition"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the town the day is most associated with, not a venue"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-p-czki"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicago-polish-bakery",
+   "type": "style",
+   "name": "The Polish bakery counter",
+   "as": "The Tuesday.",
+   "rel": "event"
+  },
+  {
+   "from": "paczki",
+   "type": "donut",
+   "name": "Pączki",
+   "as": "The one Tuesday the whole thing turns on.",
+   "rel": "event"
+  },
+  {
+   "from": "fastnacht-day",
+   "type": "event",
+   "name": "Fastnacht Day",
+   "as": "The Polish observance on the same day.",
+   "rel": "event"
+  }
+ ]
+}

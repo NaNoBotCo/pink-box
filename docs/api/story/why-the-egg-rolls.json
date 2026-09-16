@@ -1,0 +1,332 @@
+{
+ "id": "why-the-egg-rolls",
+ "type": "story",
+ "names": {
+  "name": "Why the egg rolls",
+  "aliases": [
+   "the second menu",
+   "donuts and Chinese food"
+  ],
+  "sort": "why egg rolls"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "A donut shop that also sells egg rolls, or breakfast burritos, or bacon egg and cheese, or kolaches, is not being eccentric. It is doing arithmetic out loud. The people running those shops have said so in print, repeatedly, and this page collects what they said."
+ },
+ "sections": [
+  {
+   "h": "The answer, from the people doing it",
+   "text": "Jolly Chan opened China Express and Donut by the 24th Street BART station in San Francisco in 1993. He had come from Cambodia in 1981. Asked by KQED in 2021 why the two menus sit together, he said the combination \"came out of necessity\" — \"We have to sell more stuff to make up the rent and the expense.\" His customer base, he said, was 80 percent Latino.\n\nThat is the whole mechanism. A donut shop's trade is over by ten in the morning. The rent is not."
+  },
+  {
+   "h": "Who was in the shops",
+   "text": "Ted Ngoy, a Cambodian refugee who reached Camp Pendleton in 1975, trained at Winchell's, bought Christy's Donuts in La Habra in 1977, and then leased shops to relatives and to refugee families he sponsored — more than a hundred, by his own account. KQED reported that roughly 90 percent of California's 5,000-plus independent donut shops were Cambodian-owned.\n\nA trade that arrives through one community carries that community's other food with it, and a fryer that is already hot does not care what goes in it."
+  },
+  {
+   "h": "The same arithmetic, different accents",
+   "text": "The pattern repeats wherever an early-morning counter needs a second product:\n\n— Southern California: egg rolls, chow mein and fried rice in a warmer beside the case.\n— Texas: kolaches, and above all klobasniky — sausage in kolache dough — which means the shop runs an oven as well as a kettle.\n— New Mexico and the Southwest: breakfast burritos, wrapped in foil, red or green.\n— New York: the bacon, egg and cheese on a kaiser roll, at a deli or bodega where the donuts are bought in.\n— The South: biscuits and gravy.\n— The 2020s: boba, and Korean corn dogs beside mochi donuts.\n\n*Inference —* the second menu is the most reliable sign that a shop is owned by the people working in it. A company-owned store sells what the company prints."
+  },
+  {
+   "h": "Why it gets read wrong",
+   "text": "The combination gets written up as a quirk — as a joke about America, or a listicle item. The shops are describing a cost structure. Dorothy Chow, whose father built B & H Bakery Distributors after surviving the Cambodian genocide, told KQED he started it \"to help our own people\": the supply chain behind these shops was built by the same community that runs them.\n\nThis project tags what a shop sells beside its donuts, names where the tag came from, and leaves the quirk to somebody else."
+  }
+ ],
+ "kin": [
+  {
+   "to": "egg-roll",
+   "as": "The item that names the argument.",
+   "rel": "dish"
+  },
+  {
+   "to": "socal-pink-box",
+   "as": "The style it belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "breakfast-burrito",
+   "as": "The Southwestern version.",
+   "rel": "dish"
+  },
+  {
+   "to": "klobasnek",
+   "as": "The Texan version.",
+   "rel": "dish"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "as": "The New York version.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-counter",
+   "as": "The map of it.",
+   "rel": "story"
+  },
+  {
+   "to": "b-and-h-distributors",
+   "as": "Who supplies the shops.",
+   "rel": "org"
+  },
+  {
+   "to": "ted-ngoy",
+   "as": "How the trade arrived.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:kqed-donuts-chinese",
+  "s:wp-ted-ngoy",
+  "s:wp-egg-roll",
+  "s:wp-klob-sn-k",
+  "s:wp-breakfast-burrito"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:kqed-donuts-chinese"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference",
+    "note": "the regional list is cited item by item on its own pages; the closing reading is this project's"
+   },
+   "sections[3].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "schema": 1,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A donut shop that also sells egg rolls, or breakfast burritos, or bacon egg and cheese, or kolaches, is not being eccentric. It is doing arithmetic out loud.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The item that names the argument.",
+   "rel": "dish"
+  },
+  {
+   "to": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "The style it belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "The Southwestern version.",
+   "rel": "dish"
+  },
+  {
+   "to": "klobasnek",
+   "type": "dish",
+   "name": "Klobasnek",
+   "as": "The Texan version.",
+   "rel": "dish"
+  },
+  {
+   "to": "bacon-egg-and-cheese",
+   "type": "dish",
+   "name": "Bacon, egg and cheese",
+   "as": "The New York version.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "The map of it.",
+   "rel": "story"
+  },
+  {
+   "to": "b-and-h-distributors",
+   "type": "org",
+   "name": "B & H Bakery Distributors",
+   "as": "Who supplies the shops.",
+   "rel": "org"
+  },
+  {
+   "to": "ted-ngoy",
+   "type": "person",
+   "name": "Ted Ngoy",
+   "as": "How the trade arrived.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:kqed-donuts-chinese",
+   "kind": "article",
+   "title": "Why Donuts + Chinese Food = A Very Californian Combination",
+   "author": "Asal Ehsanipour",
+   "publisher": "KQED",
+   "url": "https://www.kqed.org/news/11871915/why-donuts-chinese-food-a-very-californian-combination",
+   "year": 2021,
+   "accessed": "2026-09-16",
+   "note": "published 6 May 2021, updated 1 January 2025"
+  },
+  {
+   "id": "s:wp-ted-ngoy",
+   "kind": "web",
+   "title": "Ted Ngoy — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ted_Ngoy",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-egg-roll",
+   "kind": "web",
+   "title": "Egg roll — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Egg_roll",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-klob-sn-k",
+   "kind": "web",
+   "title": "Klobásník — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Klob%C3%A1sn%C3%ADk",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-breakfast-burrito",
+   "kind": "web",
+   "title": "Breakfast burrito — Wikipedia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Breakfast_burrito",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:kqed-donuts-chinese"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "delta-grocery-counter",
+   "type": "style",
+   "name": "The Delta grocery counter",
+   "as": "The same arithmetic, on a different river.",
+   "rel": "story"
+  },
+  {
+   "from": "new-mexico-burrito-counter",
+   "type": "style",
+   "name": "The Southwest burrito counter",
+   "as": "Why any of these counters sell something savoury at all.",
+   "rel": "story"
+  },
+  {
+   "from": "socal-pink-box",
+   "type": "style",
+   "name": "The Southern California pink box",
+   "as": "Rent arithmetic, told by the people who did it.",
+   "rel": "story"
+  },
+  {
+   "from": "texas-kolache-counter",
+   "type": "style",
+   "name": "The Texas kolache counter",
+   "as": "The same arithmetic, a different second menu.",
+   "rel": "story"
+  },
+  {
+   "from": "biscuits-and-gravy",
+   "type": "dish",
+   "name": "Biscuits and gravy",
+   "as": "The same arithmetic, in a different accent.",
+   "rel": "story"
+  },
+  {
+   "from": "breakfast-burrito",
+   "type": "dish",
+   "name": "Breakfast burrito",
+   "as": "Why the savoury item is there at all.",
+   "rel": "story"
+  },
+  {
+   "from": "egg-roll",
+   "type": "dish",
+   "name": "Egg roll",
+   "as": "The whole argument, told by the people running the shops.",
+   "rel": "story"
+  },
+  {
+   "from": "fried-rice",
+   "type": "dish",
+   "name": "Fried rice and chow mein",
+   "as": "The argument.",
+   "rel": "story"
+  },
+  {
+   "from": "federal-donuts",
+   "type": "place",
+   "name": "Federal Donuts",
+   "as": "The same two-menu logic, with a chef's name on it.",
+   "rel": "story"
+  },
+  {
+   "from": "b-and-h-distributors",
+   "type": "org",
+   "name": "B & H Bakery Distributors",
+   "as": "The same reporting.",
+   "rel": "story"
+  },
+  {
+   "from": "mochinut",
+   "type": "org",
+   "name": "Mochinut",
+   "as": "The play.",
+   "rel": "story"
+  },
+  {
+   "from": "hand-lettered-board",
+   "type": "art",
+   "name": "The hand-lettered board",
+   "as": "What tends to be written on the card.",
+   "rel": "story"
+  },
+  {
+   "from": "the-counter",
+   "type": "story",
+   "name": "The counter",
+   "as": "The argument in full.",
+   "rel": "story"
+  },
+  {
+   "from": "the-donut-king",
+   "type": "story",
+   "name": "The Donut King",
+   "as": "What the shops sell beside donuts, and why.",
+   "rel": "story"
+  }
+ ]
+}
