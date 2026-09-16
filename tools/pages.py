@@ -68,7 +68,12 @@ CHART_CSS = """
 .viz .rowlab{font:600 13px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--ink)}
 .viz .vallab{font:600 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
 .viz .grid{stroke:var(--line);stroke-width:1}
-.viz .dot{fill:var(--donut);stroke:var(--panel);stroke-width:2}
+.viz .dot{fill:var(--c,var(--donut));stroke:var(--panel);stroke-width:2}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .viz .dot,:root:not([data-theme="light"]) .viz .mark{fill:var(--cd,var(--donut))}}
+:root[data-theme="dark"] .viz .dot,:root[data-theme="dark"] .viz .mark{fill:var(--cd,var(--donut))}
+.viz .mark{fill:var(--c,var(--donut))}.viz .span{fill:var(--c,var(--donut))}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .viz .span{fill:var(--cd,var(--donut))}}
+:root[data-theme="dark"] .viz .span{fill:var(--cd,var(--donut))}
 .viz .med{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
 .viz .seg{stroke:var(--panel);stroke-width:2}
 .viz figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
@@ -362,8 +367,8 @@ def dot_strip(groups: list, unit: str, width=700, rowh=52) -> str:
             off = seen.get(k, 0)
             seen[k] = off + 1
             dy = (off % 3 - 1) * 8
-            out.append(f'<circle class="dot dough-{E(key)}" cx="{px(v):.1f}" cy="{y + dy}" r="6" fill="{cl}" data-dark="{cd}">'
-                       f'<title>{E(name)} — {v:,.4g}</title></circle>')
+            out.append(f'<circle class="dot dough-{E(key)}" cx="{px(v):.1f}" cy="{y + dy}" r="6" '
+                       f'style="--c:{cl};--cd:{cd}"><title>{E(name)} — {v:,.4g}</title></circle>')
     out.append("</svg>")
     return "".join(out)
 
@@ -391,10 +396,11 @@ def piece_range(foods: list, width=700, rowh=34) -> str:
         hi_g = max(p["g"] for p in f["portions"])
         short = f["description"].replace("Doughnuts, ", "").replace(" (includes honey buns)", "")
         out.append(f'<text class="rowlab" x="0" y="{y + 4}" style="font-size:11.5px">{E(short[:40])}</text>')
-        out.append(f'<rect x="{px(lo):.1f}" y="{y - 7}" width="{max(px(hi_g) - px(lo), 3):.1f}" height="14" rx="4" fill="{cl}" opacity=".28"/>')
+        out.append(f'<rect class="span" x="{px(lo):.1f}" y="{y - 7}" width="{max(px(hi_g) - px(lo), 3):.1f}" height="14" rx="4" '
+                   f'style="--c:{cl};--cd:{cd}" opacity=".28"/>')
         for p_ in f["portions"]:
-            out.append(f'<circle cx="{px(p_["g"]):.1f}" cy="{y}" r="5" fill="{cl}" stroke="var(--panel)" stroke-width="2" data-dark="{cd}">'
-                       f'<title>{E(p_["desc"])} — {p_["g"]:g} g</title></circle>')
+            out.append(f'<circle class="mark" cx="{px(p_["g"]):.1f}" cy="{y}" r="5" stroke="var(--panel)" stroke-width="2" '
+                       f'style="--c:{cl};--cd:{cd}"><title>{E(p_["desc"])} — {p_["g"]:g} g</title></circle>')
         lab = f"{lo:g}" if lo == hi_g else f"{lo:g}–{hi_g:g} g"
         out.append(f'<text class="vallab" x="{px(hi_g) + 8:.1f}" y="{y + 4}">{lab}</text>')
     out.append("</svg>")
@@ -699,16 +705,18 @@ def dough_svg(lit: set, width=460, label=True, ident="") -> str:
             x = cx + sign * (rx + 13)
             g.append(f'<ellipse cx="{x}" cy="{FAT}" rx="{rx}" ry="{ry}" fill="{c}" stroke="var(--ink)" stroke-width="2.6"/>')
             # the glaze: a cap over the top third, not an outline
-            g.append(f'<ellipse cx="{x}" cy="{FAT}" rx="{rx - 2}" ry="{ry - 2}" fill="var(--panel)" opacity=".34" '
+            # the glaze, the crumb and the belt are painted in white at low opacity rather
+            # than in the panel colour: they must read pale on the dough in both themes.
+            g.append(f'<ellipse cx="{x}" cy="{FAT}" rx="{rx - 2}" ry="{ry - 2}" fill="#fff" opacity=".30" '
                      f'clip-path="url(#c{uid}{key})"/>')
             for bx, by, m in bubbles:
-                g.append(f'<circle cx="{x + bx}" cy="{FAT + by}" r="{br * m:.1f}" fill="var(--panel)" opacity=".8"/>')
+                g.append(f'<circle cx="{x + bx}" cy="{FAT + by}" r="{br * m:.1f}" fill="#fff" opacity=".62"/>')
             if crack:
                 g.append(f'<path d="M{x - rx * 0.62:.0f} {FAT - ry * 0.55:.0f} l6 7 l7 -8 l7 8 l6 -7" fill="none" '
-                         f'stroke="var(--ink)" stroke-width="2.4" stroke-linejoin="round" opacity=".8"/>')
+                         f'stroke="#2a1420" stroke-width="2.4" stroke-linejoin="round" opacity=".55"/>')
         # the belt, drawn last so it sits on top of both lobes at the fat line
         g.append(f'<line x1="{cx - rx * 2 - 26}" y1="{FAT}" x2="{cx + rx * 2 + 26}" y2="{FAT}" '
-                 f'stroke="var(--panel)" stroke-width="3" opacity=".9"/>')
+                 f'stroke="#fff" stroke-width="3" opacity=".75"/>')
         return "".join(g)
 
     RAISED_B = [(-11, -13, 1.0), (9, -17, .85), (0, -6, .7), (13, -6, .8), (-13, -2, .75)]

@@ -25,7 +25,12 @@
 .viz .rowlab{font:600 13px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--ink)}
 .viz .vallab{font:600 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
 .viz .grid{stroke:var(--line);stroke-width:1}
-.viz .dot{fill:var(--donut);stroke:var(--panel);stroke-width:2}
+.viz .dot{fill:var(--c,var(--donut));stroke:var(--panel);stroke-width:2}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .viz .dot,:root:not([data-theme="light"]) .viz .mark{fill:var(--cd,var(--donut))}}
+:root[data-theme="dark"] .viz .dot,:root[data-theme="dark"] .viz .mark{fill:var(--cd,var(--donut))}
+.viz .mark{fill:var(--c,var(--donut))}.viz .span{fill:var(--c,var(--donut))}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .viz .span{fill:var(--cd,var(--donut))}}
+:root[data-theme="dark"] .viz .span{fill:var(--cd,var(--donut))}
 .viz .med{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
 .viz .seg{stroke:var(--panel);stroke-width:2}
 .viz figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
