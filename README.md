@@ -73,7 +73,7 @@ See `README.txt` for the full pipeline, and `AUTHORING.txt` for how to write a r
 ## Licence
 
 Records, prose and pages: CC BY-SA 4.0. Other layers — upstream data,
-pictures, tools — keep their own terms, set out in [LICENSE](LICENSE).
+pictures, tools — keep their own terms, set out in [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
 
 **Commercial licence.** If share-alike doesn't fit your use — a corpus, a
 product, a model — a commercial licence is available.
