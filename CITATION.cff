@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it as below."
+title: "Pink Box"
+abstract: "Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two"
+type: dataset
+authors:
+  - name: "NaN"
+    website: "https://github.com/NaNoBotCo"
+repository-code: "https://github.com/NaNoBotCo/pink-box"
+url: "https://nanobotco.github.io/pink-box/"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+date-released: "2026-09-18"
