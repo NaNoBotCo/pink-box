@@ -187,6 +187,36 @@ COUNTER_CUISINE = {
 }
 
 
+# Who owns the shop, as far as the map can tell. Three states, not two.
+#
+#   chain     a company's own brand, whether it runs the shop or franchises it. OSM usually
+#             carries a brand tag, but not always — 240 rows name a chain in the name field
+#             and carry no brand at all, so the name is checked too.
+#   mix       a shared name over an independently owned shop: Daylight sells mix and a sign
+#             to roughly 950 owners, Spudnut's parent company is gone, and the several US
+#             Donut Kings are unrelated businesses that share a word. Counting these as
+#             chains would contradict what this site documents about them.
+#   neither   nothing here says it belongs to anyone but the family inside.
+CHAIN_NAMES = ("dunkin", "krispy kreme", "tim horton", "shipley", "duck donut", "mochinut",
+               "yum yum donut", "winchell", "honey dew", "lamar's", "lamars donut", "mister donut",
+               "voodoo doughnut", "top pot", "dunkin donuts", "randy's donuts", "crispy cream",
+               "7-eleven", "seven eleven", "starbucks", "walmart", "target", "safeway", "kroger",
+               "albertsons", "costco", "speedway", "circle k", "casey's", "wawa", "sheetz",
+               "quiktrip", "cumberland farms", "sam's club", "whole foods", "trader joe")
+MIX_NAMES = ("daylight donut", "spudnut", "donut king", "donut hole")
+
+
+def ownership(name: str, tags: dict) -> tuple:
+    """(chain, mix) for one row."""
+    n = (name or "").lower()
+    brand = (tags.get("brand") or "").lower()
+    if any(k in n or k in brand for k in MIX_NAMES):
+        return False, True
+    if tags.get("brand") or tags.get("brand:wikidata"):
+        return True, False
+    return any(k in n for k in CHAIN_NAMES), False
+
+
 def counter_tags(name: str, tags: dict) -> list:
     out = []
     n = (name or "").lower()
@@ -216,7 +246,7 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
                      "id": r["id"], "name": r["names"]["name"], "state": a.get("state") or (r.get("facets") or {}).get("state"), "city": a.get("city", ""),
                      "county": a.get("county", ""), "lat": g.get("lat"), "lon": g.get("lon"), "styles": (r.get("facets") or {}).get("styles") or [],
                      "status": (r.get("facets") or {}).get("status"), "founded": (r.get("facets") or {}).get("founded"), "cooked": (r.get("facets") or {}).get("cooked"),
-                     "curated": True, "chain": bool((r.get("facets") or {}).get("chain")), "url": f"place/{r['id']}/", "blurb": r["blurb"], "tier": tier_for(r, "text.what").get("tier"), "osm_id": None,
+                     "curated": True, "chain": bool((r.get("facets") or {}).get("chain")), "mix": bool((r.get("facets") or {}).get("mix")), "url": f"place/{r['id']}/", "blurb": r["blurb"], "tier": tier_for(r, "text.what").get("tier"), "osm_id": None,
                      "tags": sorted({t["tag"] for t in r.get("tags", [])}), "recognitions": r.get("acclaim", 0),
                      "recognized_by": [RECOG.get(x["by"], {}).get("label", x["by"]) for x in r.get("recognitions", [])], "image": (r.get("primary_image") or {}).get("file")})
         curated_names[_norm(r["names"]["name"])] = rows[-1]
@@ -251,6 +281,7 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
         st = p["state"] if (p["state"] or "").isalpha() and len(p["state"] or "") == 2 else (state_by_geo(p["lat"], p["lon"]) or "unknown")
         tw = towns.get(p["osm_id"], {})
         tags = []
+        is_chain, is_mix = ownership(p["name"], t)
         lists_hit = listed.get((_norm(p["name"]), st), []) or listed.get((_norm(p["name"]), ""), [])
         for _, grants in lists_hit:
             if grants not in tags:
@@ -265,11 +296,17 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
                      "styles": [], "status": None, "founded": t.get("start_date"), "cooked": None, "curated": False, "url": None, "blurb": "",
                      "tier": "harvested", "osm_id": p["osm_id"], "website": t.get("website"), "phone": t.get("phone"), "hours": t.get("opening_hours"),
                      "street": " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x), "postcode": t.get("addr:postcode"), "cuisine": t.get("cuisine"),
-                     "chain": bool(p.get("chain")), "brand": t.get("brand"),
+                     "chain": is_chain, "mix": is_mix, "brand": t.get("brand"),
                      "tags": tags, "tag_lists": [l for l, _ in lists_hit], "recognitions": 0, "recognized_by": [], "image": None})
         n_osm += 1
     rows.sort(key=lambda x: ((x["state"] or "zz"), x["name"].lower()))
+    n_chain = sum(1 for r in rows if r.get("chain"))
+    n_mix = sum(1 for r in rows if r.get("mix"))
     return {"built": time.strftime("%Y-%m-%d"), "count": len(rows), "curated": len(rows) - n_osm, "harvested": n_osm,
+            "chains": n_chain, "shared_name": n_mix, "independent": len(rows) - n_chain,
+            "reading_the_counts": ("A chain row is one OpenStreetMap gives a brand, or whose name is a company's. "
+                                   "A shared-name row carries a name several independent owners use — Daylight, "
+                                   "Spudnut, Donut King — and is counted with the independents, which is what they are."),
             "harvest": {k: (osm or {}).get(k) for k in ("source", "license", "license_url", "attribution", "fetched_at", "osm_base")} if osm else None,
             "places": rows}
 
@@ -349,8 +386,9 @@ def donut_table(recs: list[dict]) -> dict:
             "donuts": rows}
 
 
-def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
+def coverage(recs: list[dict], osm: dict | None, sources: dict, pl: dict | None = None) -> dict:
     by_type = {t: sum(1 for r in recs if r["type"] == t) for t in TYPES}
+    pl = pl or {}
     return {
         "built": time.strftime("%Y-%m-%d"),
         "scope": "Independent donut shops across the United States — cake and raised, who fries them, when, and what else is in the case: egg rolls, breakfast burritos, bacon egg and cheese, kolaches.",
@@ -359,6 +397,14 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
         "places": {
             "curated": by_type["place"],
             "harvested_from_osm": (osm or {}).get("count", 0),
+            "independent": pl.get("independent"),
+            "chain_locations": pl.get("chains"),
+            "shared_name_not_a_chain": pl.get("shared_name"),
+            "what_the_split_means": ("A chain row is one OpenStreetMap gives a brand, or whose name is a company's. "
+                                     "Two thirds of the harvest is a single company, so the maps and the lists on this "
+                                     "site are drawn from the independents and say the chain count beside them. A "
+                                     "shared-name row — Daylight, Spudnut, Donut King — carries a name several "
+                                     "independent owners use, and is counted with the independents."),
             "osm_fetched_at": (osm or {}).get("fetched_at"),
             "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
             "osm_query": (osm or {}).get("query"),
@@ -416,7 +462,7 @@ def main() -> int:
     ptab = places_table(recs, osm)
     jdump(ptab, API / "places.json")
     jdump(donut_table(recs), API / "donuts.json")
-    cov = coverage(recs, osm, sources)
+    cov = coverage(recs, osm, sources, ptab)
     cov["hours"] = hours_coverage(ptab["places"])
     jdump(cov, API / "coverage.json")
     docs = [search_doc(r) for r in recs]

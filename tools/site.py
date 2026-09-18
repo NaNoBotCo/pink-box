@@ -328,9 +328,12 @@ def directory_sections(recs: list[dict], types: dict, depth: int, limit: int | N
 # ------------------------------------------------------------------ the map
 
 def map_svg(places: list[dict], recs_by_id: dict, depth: int, width=760) -> str:
-    """Inline SVG: fifty states in Albers equal-area, every donut place a dot; places
-    written up here are donut-coloured and link to their page, OpenStreetMap rows are
-    smoke. Alaska and Hawaii sit in the corner at the reduced scale the caption names."""
+    """Inline SVG: fifty states in Albers equal-area, one dot per INDEPENDENT donut place;
+    places written up here are donut-coloured and link to their page, OpenStreetMap rows are
+    smoke. Chain locations are dropped before the map is drawn — two thirds of the rows in
+    the harvest are one company's, and a map of them is a map of that company, not of this
+    subject. The count and the way back to them is printed under every map that does it.
+    Alaska and Hawaii sit in the corner at the reduced scale the caption names."""
     g = usmap.load()
     fit = usmap.fit_states(g, width * 0.88, pad=10)
     w, h = width, fit["h"] + 8
@@ -339,7 +342,7 @@ def map_svg(places: list[dict], recs_by_id: dict, depth: int, width=760) -> str:
         paths.append(f'<path class="st" d="{d}"><title>{E(name)}</title></path>')
     dots = []
     for p in places:
-        if p.get("lat") is None:
+        if p.get("lat") is None or p.get("chain"):
             continue
         x, y = usmap.project(p["lon"], p["lat"], fit)
         if not (0 <= x <= w and 0 <= y <= h):
@@ -758,18 +761,26 @@ TAGV: dict = {}
 
 def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
     depth = 1
-    rows = places["places"]
+    rows = [p for p in places["places"] if not p.get("chain")]   # this page is about the other kind
     svg = map_svg(rows, recs_by_id, depth, 900)
     by_state: dict = {}
     for p in rows:
         by_state.setdefault(p.get("state") or "unknown", {}).setdefault(p.get("county") or "—", []).append(p)
-    osm_line = (f'{places["harvested"]} more pulled off OpenStreetMap on {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
-                'Orange dots have a page. Grey dots have a name, an address and nothing else yet. '
+    chains = places.get("chains", 0)
+    indie = places.get("independent", len(rows))
+    osm_line = (f'{indie - places["curated"]:,} more pulled off OpenStreetMap on {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
+                'Pink dots have a page. Grey dots have a name, an address and nothing else yet. '
                 if places["harvested"] else
-                'The OpenStreetMap layer has not been pulled yet, so every dot here is one we wrote up. ')
-    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Every shop <span class="count">({places["count"]})</span></h1>'
-            f'<p class="lede">{places["curated"]} written up. {osm_line}Missing means we haven\'t got to it.</p>'
+                'The OpenStreetMap layer has not been pulled yet, so every dot here is one written up here. ')
+    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Every shop <span class="count">({indie:,})</span></h1>'
+            f'<p class="lede">{places["curated"]} written up. {osm_line}Missing means nobody has got to it.</p>'
             f'<div class="mapwrap">{svg}</div>'
+            f'<p class="mute">A further <b>{chains:,}</b> locations in the harvest carry a company&#8217;s brand, and are off '
+            f'this map and this list: two thirds of them belong to one company, and a map of them is a map of that company. '
+            f'They are in <a href="{rel(depth)}api/places.json">api/places.json</a> under <code>chain: true</code>, and the '
+            f'<a href="{rel(depth)}coverage/index.html">coverage page</a> counts them. '
+            f'{places.get("shared_name", 0)} shops carry a name several independent owners use — Daylight, Spudnut, Donut King — '
+            f'and are counted here, because that is what they are.</p>'
             + '<div class="chips" id="plchips" role="group" aria-label="Filter the list">'
             + "".join(f'<button type="button" data-tag="{E(k)}" aria-pressed="false">{E(v.get("icon", ""))} {E(v.get("label", k))}</button>'
                       for k, v in TAGV.items() if any(k in (p.get("tags") or []) for p in rows))
@@ -849,7 +860,8 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
              (sum(len(r.get("kin_out", [])) for r in recs), "kin links"),
              (counts.get("donut", 0), "donuts by dough"), (counts.get("term", 0), "words with roots")]
     if places["harvested"]:
-        facts.insert(2, (places["harvested"], "more off OpenStreetMap"))
+        facts.insert(2, (places.get("independent", 0) - places["curated"], "independents off OpenStreetMap"))
+        facts.insert(3, (places.get("chains", 0), "chain locations, kept off the map"))
     shot = next((r for r in recs if r["id"] == "socal-pink-box" and r.get("images")), None) or next((r for r in recs if r["type"] == "place" and r.get("images")), None)
     banner = ""
     if shot:
@@ -1292,7 +1304,7 @@ def main() -> int:
     if leaks:
         print("REFUSED: host paths in", [str(p.relative_to(SITE)) for p in leaks][:5])
         return 2
-    print(f"site: {n_html} pages · {len(recs)} records · {places['count']} places on the map · "
+    print(f"site: {n_html} pages · {len(recs)} records · {places.get('independent', places['count'])} independents on the map ({places.get('chains', 0)} chains off) · "
           f"{saved/1e6:.0f} MB saved on pictures · {SITE} · {time.time()-t0:.1f}s")
     return 0
 

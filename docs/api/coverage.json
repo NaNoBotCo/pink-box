@@ -1,5 +1,5 @@
 {
- "built": "2026-09-17",
+ "built": "2026-09-18",
  "scope": "Independent donut shops across the United States — cake and raised, who fries them, when, and what else is in the case: egg rolls, breakfast burritos, bacon egg and cheese, kolaches.",
  "records": {
   "style": 15,
@@ -18,6 +18,10 @@
  "places": {
   "curated": 17,
   "harvested_from_osm": 10687,
+  "independent": 3162,
+  "chain_locations": 7524,
+  "shared_name_not_a_chain": 192,
+  "what_the_split_means": "A chain row is one OpenStreetMap gives a brand, or whose name is a company's. Two thirds of the harvest is a single company, so the maps and the lists on this site are drawn from the independents and say the chain count beside them. A shared-name row — Daylight, Spudnut, Donut King — carries a name several independent owners use, and is counted with the independents.",
   "osm_fetched_at": "2026-09-16T17:35:34Z",
   "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
   "osm_query": "[out:json][timeout:180];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;(nwr[\"cuisine\"~\"donut|doughnut|donuts|doughnuts\",i](area.a);nwr[\"amenity\"~\"restaurant|fast_food|cafe\"][\"name\"~\"[Dd]o[u]?n[u]?ghts?nut|[Dd]onut|[Dd]oughnut|DONUT|DOUGHNUT\"](area.a);nwr[\"shop\"~\"bakery|pastry|confectionery|convenience\"][\"name\"~\"[Dd]o[u]?n[u]?ghts?nut|[Dd]onut|[Dd]oughnut|DONUT|DOUGHNUT\"](area.a);nwr[\"shop\"~\"bakery|pastry|confectionery|convenience\"][\"cuisine\"~\"donut|doughnut|donuts|doughnuts\",i](area.a););out center tags;"

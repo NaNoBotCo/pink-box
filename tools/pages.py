@@ -141,7 +141,7 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
 
     chips = ('<button type="button" data-tag="__sun" aria-pressed="false" title="A source says this one opens on Sunday">&#9788; Open Sunday</button>'
              '<button type="button" data-tag="__today" aria-pressed="false" title="Uses your own clock">&#128337; Open today</button>'
-             '<button type="button" data-tag="__indie" aria-pressed="false" title="Drops every row OpenStreetMap gives a brand — the chains">&#127881; Independents only</button>'
+             '<button type="button" data-tag="__indie" aria-pressed="true" title="On by default. Drops every row carrying a company brand — two thirds of the harvest is one company.">&#127881; Independents only</button>'
              '<button type="button" data-tag="__counter" aria-pressed="false" title="Sells something besides donuts: egg rolls, burritos, sandwiches, kolaches, boba">&#129386; More than donuts</button>'
              + "".join(f'<button type="button" data-tag="{E(t["key"])}" aria-pressed="false">{E(t["icon"])} {E(t["label"])}</button>' for t in tags))
     drive_cards = "".join(
@@ -165,7 +165,7 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
              'A shop that wants a tag it has earned can say so on its own site or in a public directory, and it gets read there.')
     body = f"""
 <h1><span class="kind">Pink Box</span>Donuts near me</h1>
-<p class="lede">Who&#8217;s frying near you, what else is in their case, and who&#8217;s worth the drive.</p>
+<p class="lede">Who&#8217;s frying near you, what else is in their case, and who&#8217;s worth the drive. Chains are off unless you switch them on.</p>
 
 <div class="finder">
   <div class="row">
@@ -196,7 +196,7 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
 var ROWS={esc_js(rows)}, TOWNS={esc_js(townpts)};
 var COUNTER=["egg-rolls","breakfast-burritos","bodega-sandwiches","kolaches","croissant-sandwiches","fried-rice","tamales","biscuits-and-gravy","boba","ice-cream"];
 var TAGL={esc_js({e["key"]: (e["icon"] + " " + e["label"]) for e in tagvocab.get("entries", [])})};
-var here=null, on={{}};
+var here=null, on={{__indie:true}};   /* the chains are off until a reader asks for them */
 function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
 function miles(a,b,c,d){{var R=3958.8,p=Math.PI/180,x=(c-a)*p,y=(d-b)*p,
   h=Math.sin(x/2)*Math.sin(x/2)+Math.cos(a*p)*Math.cos(c*p)*Math.sin(y/2)*Math.sin(y/2);
@@ -620,7 +620,7 @@ def counter_multiples(states_geo: dict, by_tag: dict, width=250) -> str:
 
 
 def counter_page(page, places: dict, recs: list, tagvocab: dict, states_geo: dict, site_url: str) -> str:
-    rows = places["places"]
+    rows = [r for r in places["places"] if not r.get("chain")]   # the chains are a different subject
     tags = {e["key"]: e for e in tagvocab.get("entries", [])}
     by_tag: dict = {}
     for r in rows:
@@ -650,7 +650,9 @@ def counter_page(page, places: dict, recs: list, tagvocab: dict, states_geo: dic
             'the tag because the map itself records it — in the shop&#8217;s own name, or in its cuisine tags. A shop called '
             '&#8220;Donut &amp; Burrito&#8221; is advertising the second menu on its sign.</p>'
             '<p class="mute">That is a floor, not a count. Most shops selling egg rolls do not say so in their name, and most have '
-            'never been read here. An empty panel says where the reading stopped.</p>']
+            'never been read here. An empty panel says where the reading stopped.</p>'
+            '<p class="mute">Chain locations are left out of this page entirely. A company decides what is on its own board '
+            'nationally, which is the opposite of the thing being counted here.</p>']
     for key, label in COUNTER_ORDER:
         rows_k = sorted(by_tag.get(key) or [], key=lambda r: (not r.get("curated"), r.get("state") or "", r["name"]))
         if not rows_k:
