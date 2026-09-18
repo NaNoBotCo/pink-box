@@ -20,6 +20,8 @@ import html
 import json
 import math
 import os
+
+import fleet
 import random
 import re
 import shutil
@@ -119,7 +121,7 @@ figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);bord
 .tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
 .card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
-footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}
 .btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--donut);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--donut);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--donut)}
 .cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
 .etym{background:var(--panel);border-left:4px solid var(--lemon);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
@@ -232,6 +234,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <footer>
 <div class="bots">For the machines: <a href="{r}api/nodes.json">nodes.json</a> <a href="{r}api/places.json">places.json</a> <a href="{r}api/kin.json">kin.json</a> <a href="{r}nodes.jsonl">nodes.jsonl</a> <a href="{r}nodes.csv">nodes.csv</a> <a href="{r}llms-full.txt">llms-full.txt</a> <a href="{r}sitemap.xml">sitemap.xml</a> <a href="{r}feed.xml">feed.xml</a> <a href="{r}api/coverage.json">coverage</a> <a href="{r}api/sources.json">sources</a></div>
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+{fleet.row_html("pink-box")}
 </footer>
 </body>
 </html>
@@ -916,7 +919,7 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
              '<mark class="tier">Inference —</mark> means we worked it out. '
              'It is all <a href="api/index.json">JSON</a> too, and the holes are at <a href="coverage/index.html">where we stop</a>.</p>')
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": SITE_NAME, "description": "A structured directory of the American independent donut shop: regional styles, donuts by dough, what else is in the case, kitchen practice, shops, people, organizations, days and vocabulary, one JSON record per node with per-field provenance.",
-           "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "isAccessibleForFree": True, "keywords": ["donut shop", "doughnut", "cake donut", "raised donut", "pink box", "Cambodian American donut shops", "kolache", "egg rolls", "breakfast burrito"],
+           "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "publisher": fleet.publisher_ld(), "includedInDataCatalog": fleet.catalog_ld(), "isAccessibleForFree": True, "keywords": ["donut shop", "doughnut", "cake donut", "raised donut", "pink box", "Cambodian American donut shops", "kolache", "egg rolls", "breakfast burrito"],
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/nodes.json"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"{SITE_URL}/nodes.csv"},
                             {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": f"{SITE_URL}/nodes.jsonl"}]},
           {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": SITE_URL + "/", "potentialAction": {"@type": "SearchAction", "target": f"{SITE_URL}/search/?q={{search_term_string}}", "query-input": "required name=search_term_string"}}]
@@ -1291,6 +1294,7 @@ def main() -> int:
     if CARDS_DIR.exists():
         shutil.copytree(CARDS_DIR, SITE / "cards")
     (SITE / "humans.txt").write_text(humans_txt(recs, cov), encoding="utf-8")
+    fleet.decorate(SITE, "pink-box")
     wk = SITE / ".well-known"
     wk.mkdir(exist_ok=True)
     (wk / "ai.txt").write_text(ai_txt(), encoding="utf-8")
