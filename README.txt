@@ -167,3 +167,7 @@ COMMERCIAL LICENCE
 If share-alike doesn't fit your use — a corpus, a product, a model — a
 commercial licence is available. Open an issue and say what you need:
 https://github.com/NaNoBotCo/pink-box/issues
+
+---
+
+Contact: Nan · nan@motdang.net · Sponsor: ko-fi.com/defiantchiangmai · patreon.com/nanobotco
