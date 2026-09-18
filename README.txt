@@ -157,3 +157,13 @@ NOT HERE YET
   A domain. Field observations. Menu prices with dates for most shops. Photographs for
   most records. Per-piece weights for shop donuts, which almost nobody publishes. Most
   towns.
+
+
+LICENCE
+Records, prose and pages: CC BY-SA 4.0. Other layers — upstream data,
+pictures, tools — keep their own terms, set out in LICENSE.
+
+COMMERCIAL LICENCE
+If share-alike doesn't fit your use — a corpus, a product, a model — a
+commercial licence is available. Open an issue and say what you need:
+https://github.com/NaNoBotCo/pink-box/issues
