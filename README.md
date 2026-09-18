@@ -53,7 +53,7 @@ Every field carries a tier: **cited** (a named source in `data/sources/sources.j
 of the trade, hedged in the prose), **inference** (this project reasoning from the above,
 and saying so), **field** (somebody stood there — nothing carries it yet).
 
-Records are CC BY-SA 4.0. Place points are OpenStreetMap contributors, ODbL 1.0. Nutrition
+Records are CC BY 4.0. Place points are OpenStreetMap contributors, ODbL 1.0. Nutrition
 figures are USDA FoodData Central SR Legacy, public domain. Pictures carry their own
 licences, stated beside each one.
 
@@ -72,12 +72,12 @@ See `README.txt` for the full pipeline, and `AUTHORING.txt` for how to write a r
 
 ## Licence
 
-Records, prose and pages: CC BY-SA 4.0. Other layers — upstream data,
+Records, prose and pages: CC BY 4.0. Other layers — upstream data,
 pictures, tools — keep their own terms, set out in [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
 
-**Commercial licence.** If share-alike doesn't fit your use — a corpus, a
-product, a model — a commercial licence is available.
-[Open an issue](https://github.com/NaNoBotCo/pink-box/issues) and say what you need.
+**Using it.** Attribution is the whole of the condition — copy it, adapt it,
+sell it, index it, train on it, and say where it came from.
+[Open an issue](https://github.com/NaNoBotCo/pink-box/issues) if something is missing.
 
 ---
 
