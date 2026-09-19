@@ -178,7 +178,10 @@ Contact: Nan · nan@motdang.net · Sponsor: ko-fi.com/defiantchiangmai · patreo
 Elsewhere from the same publisher
 
 - Mot Dang — https://motdang.net/ — city directory for Chiang Mai and Chiang Rai
+- The Mae Hong Son Loop — https://nanobotco.github.io/mae-hong-son-loop/ — motorcycling the 600 km loop out of Chiang Mai — curves counted, air measured
+- Muay Thai — https://motdang.net/muay-thai/ — the eight limbs, the thirty named techniques, the ceremony, and every gym on the map
 - wichaa — https://wichaa.net/ — Lanna manuscripts, the amulet market, and the traditions around them
+- Hand Poke — https://nanobotco.github.io/hand-poke/ — 28 traditions of marking skin by hand — the leg-tattoo zone of Burma, the Shan States and Lanna, counted
 - Amulet Atlas — https://nanobotco.github.io/amulet-atlas/ — amulets, charms and talismans worldwide
 - Carolina Barbecue — https://nanobotco.github.io/carolina-barbecue/ — barbecue in North and South Carolina
 - Wing Country — https://nanobotco.github.io/buffalo-wings/ — the American chicken wing
