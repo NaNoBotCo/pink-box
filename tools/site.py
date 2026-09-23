@@ -235,7 +235,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <div class="bots">For the machines: <a href="{r}api/nodes.json">nodes.json</a> <a href="{r}api/places.json">places.json</a> <a href="{r}api/kin.json">kin.json</a> <a href="{r}nodes.jsonl">nodes.jsonl</a> <a href="{r}nodes.csv">nodes.csv</a> <a href="{r}llms-full.txt">llms-full.txt</a> <a href="{r}sitemap.xml">sitemap.xml</a> <a href="{r}feed.xml">feed.xml</a> <a href="{r}api/coverage.json">coverage</a> <a href="{r}api/sources.json">sources</a></div>
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
 {fleet.row_html("pink-box")}
-{fleet.support_html()}
+{fleet.support_html(self_id="pink-box")}
 {fleet.maker_html()}
 </footer>
 </body>
