@@ -201,7 +201,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
         og_image = f"{SITE_URL}/cards/{card}.jpg"
     ld = "".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False)}</script>' for o in (jsonld or []))
     return f"""<!doctype html>
-<html lang="en">
+<html lang="en" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -222,6 +222,9 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 {extra_head}
 <style>{CSS}{SHARE_CSS}{viz.DAY_CSS}</style>
 {ld}
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Pink <b>Box</b></a>
