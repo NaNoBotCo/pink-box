@@ -5,7 +5,7 @@ Everything here is computed from the corpus at build time. Nothing is decorative
 picture is the shortest way to say a thing the words would take a paragraph to say.
 
   distance_png     how near the nearest wing counter is, anywhere in the country
-  locator_svg      a place and its neighbours, at street scale
+  locator_svg      a place and its neighbours over a Natural Earth basemap, true scale
   where_svg        every place matching a style, a donut, a person or a dish
   timeline_svg     when the places that are still open opened
   bars_svg         a plain ranked bar chart with a table twin
@@ -25,6 +25,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter
 
+import basemap
+import roads
 import usmap
 
 RAMP = ["#f7e5d6", "#efc1a0", "#e49a6d", "#d67343", "#cf4a1e", "#a63715", "#71230c"]
@@ -172,26 +174,61 @@ def distance_png(geo: dict, places: list, out: Path, w=1200, step=0.18):
 
 # ------------------------------------------------------------------ small maps
 
-def locator_svg(lat, lon, others: list, w=430, span=1.4, label=""):
-    """One place at the centre, its neighbours around it, the two states inset."""
-    box = (lon - span, lat - span * 0.62, lon + span, lat + span * 0.62)
-    h = int(w * 0.62)
-    out = [f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="Map of the country around {E(label or "this place")}">',
-           f'<rect width="{w}" height="{h}" fill="var(--chip)" rx="10"/>']
+LOC_KM = 250          # a locator's width, about 155 miles
+
+
+def locator_frame(lat, lon, w=760):
+    """The window a place page's map draws: the place at the centre, true scale."""
+    return basemap.Frame(lat, lon, w, int(w * 0.62), LOC_KM)
+
+
+def basemap_boxes() -> list:
+    """Every box a map on this site draws, for tools/basemap.py to clip to."""
+    from common import load_nodes
+    return [locator_frame(r["geo"]["lat"], r["geo"]["lon"]).box
+            for r in load_nodes() if r.get("type") == "place" and r.get("geo")]
+
+
+def road_points() -> list:
+    """Every point tools/roads.py measures between: the places with a page."""
+    from common import load_nodes
+    return [(r["geo"]["lat"], r["geo"]["lon"]) for r in load_nodes() if r.get("type") == "place" and r.get("geo")]
+
+
+def nearest(here: tuple, others: list, n=5, look=10) -> list:
+    """(miles, by_road, item) for the n nearest of others=[((lat, lon), item)], by road
+    where roads.py has a usable route, else straight-line and marked so."""
+    crow = sorted(((roads.crow_mi(here, ll), ll, it) for ll, it in others), key=lambda x: x[0])[:look]
+    out = []
+    for c, ll, it in crow:
+        r = roads.road_mi(here, ll)
+        out.append((round(c if r is None else r, 1), r is not None, it))
+    out.sort(key=lambda x: x[0])
+    return out[:n]
+
+
+def locator_layout(lat, lon, others: list, w=760):
+    """The frame and the pins it draws: (x, y, name, lat, lon), the place itself first."""
+    fr = locator_frame(lat, lon, w)
+    pins = [(*fr.xy(lon, lat), "", lat, lon)]
     for o in others:
-        if o.get("lat") is None:
-            continue
-        if not (box[0] <= o["lon"] <= box[2] and box[1] <= o["lat"] <= box[3]):
-            continue
-        x, y = project(o["lon"], o["lat"], w, h, box)
-        out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.4" fill="var(--mute)" opacity=".75"><title>{E(o["name"])}</title></circle>')
-    x, y = project(lon, lat, w, h, box)
-    out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="16" fill="var(--donut)" opacity=".22"/>'
-               f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="var(--donut)" stroke="var(--panel)" stroke-width="2.5"/>')
-    out.append(f'<text x="10" y="{h - 10}" style="font:600 11px -apple-system,sans-serif" fill="var(--mute)">'
-               f'about {span * 69:.0f} miles across</text>')
-    out.append("</svg>")
-    return "".join(out)
+        if o.get("lat") is not None and fr.inside(o["lon"], o["lat"], 4):
+            pins.append((*fr.xy(o["lon"], o["lat"]), o["name"], o["lat"], o["lon"]))
+    return fr, pins
+
+
+def locator_svg(lat, lon, others: list, w=760, label=""):
+    """One place at the centre and its neighbours, over Natural Earth land, water, state
+    lines, highways and towns."""
+    fr, pins = locator_layout(lat, lon, others, w)
+    (cx, cy, *_), rest = pins[0], pins[1:]
+    avoid = [(cx, cy, 20)] + [(x, y, 6) for x, y, *_ in rest]
+    return "".join([
+        f'<svg class="bm" viewBox="0 0 {fr.w} {fr.h}" style="border-radius:10px;overflow:hidden" role="img" '
+        f'aria-label="Map of the country around {E(label or "this place")}, {LOC_KM / 1.609344:.0f} miles across">',
+        basemap.draw(fr, basemap.load(), avoid),
+        *(basemap.pin_svg(x, y, "", name) for x, y, name, *_ in rest),
+        basemap.pin_svg(cx, cy, "var(--donut)", big=True), basemap.scale_bar(fr), "</svg>"])
 
 
 def where_svg(geo: dict, pts: list, w=430, title=""):

@@ -90,6 +90,23 @@ def text_fields(rec: dict):
         yield f"recognitions[{i}].what", rg.get("what", "") + " " + rg.get("note", "")
 
 
+def map_gate(recs: list) -> list:
+    """Each place's coordinate against its state's box, and each locator's pins against
+    its own frame."""
+    import basemap
+    import viz
+    places = [r for r in recs if r.get("type") == "place" and r.get("geo")]
+    pts, frames = [], []
+    for r in places:
+        g = r["geo"]
+        st = (r.get("address") or {}).get("state") or (r.get("facets") or {}).get("state")
+        pts.append((f"place/{r['id']}", g["lat"], g["lon"], st))
+        others = [{"lat": o["geo"]["lat"], "lon": o["geo"]["lon"], "name": o["id"]} for o in places if o is not r]
+        fr, pins = viz.locator_layout(g["lat"], g["lon"], others)
+        frames.append((f"place/{r['id']}", fr, [(la, lo) for *_, la, lo in pins]))
+    return basemap.gate(pts, frames)
+
+
 def validate_all(strict=False, quiet=False) -> int:
     schema = jload(SCHEMA)
     recs = load_nodes()
@@ -207,6 +224,7 @@ def validate_all(strict=False, quiet=False) -> int:
             warns.append(f"{tag}: no geo (map will not show it)")
         if not r.get("sources") and prov.get("default", {}).get("tier") in ("cited", "harvested"):
             warns.append(f"{tag}: tier {prov['default']['tier']} but sources is empty")
+    errors += map_gate(recs)
     if not quiet:
         for w in warns:
             print("warn ", w)

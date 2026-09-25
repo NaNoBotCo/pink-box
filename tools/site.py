@@ -220,7 +220,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <link rel="search" type="application/opensearchdescription+xml" title="{E(SITE_NAME)}" href="{r}opensearch.xml">
 <link rel="alternate" type="application/atom+xml" title="{E(SITE_NAME)} updates" href="{r}feed.xml">
 {extra_head}
-<style>{CSS}{SHARE_CSS}{viz.DAY_CSS}</style>
+<style>{CSS}{SHARE_CSS}{viz.DAY_CSS}{viz.basemap.CSS}</style>
 {ld}
 <meta name="google" content="notranslate">
 <meta name="robots" content="notranslate">
@@ -515,7 +515,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         others = [{"lat": (o.get("geo") or {}).get("lat"), "lon": (o.get("geo") or {}).get("lon"), "name": o["names"]["name"]}
                   for o in by_id.values() if o["type"] == "place" and o["id"] != r["id"] and o.get("geo")]
         hero = (f'<figure class="hero-draw">{viz.locator_svg(g["lat"], g["lon"], others, w=760, label=n["name"])}'
-                f'<figcaption>{E(n["name"])} and the counters around it.</figcaption></figure>')
+                f'<figcaption>{E(n["name"])} and the counters around it. Basemap: Natural Earth, public domain.</figcaption></figure>')
     elif r["type"] == "term" and (r.get("etymology") or {}).get("root"):
         hero = (f'<figure class="hero-word"><b>{E(n["name"])}</b>'
                 f'<span>{E((r["etymology"]["root"])[:150])}</span></figure>')
@@ -638,22 +638,17 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
                      f'<figcaption>{len(pts)} places on this page\'s own map.</figcaption></figure>')
     if r["type"] == "place" and r.get("geo"):
         g = r["geo"]
-        others = []
-        for o in by_id.values():
-            if o["type"] != "place" or o["id"] == r["id"] or not o.get("geo"):
-                continue
-            dx = (o["geo"]["lon"] - g["lon"]) * math.cos(math.radians(g["lat"])) * 69.0
-            dy = (o["geo"]["lat"] - g["lat"]) * 69.0
-            others.append((round((dx * dx + dy * dy) ** 0.5, 1), o))
-        others.sort(key=lambda x: x[0])
-        near = others[:5]
+        near = viz.nearest((g["lat"], g["lon"]), [((o["geo"]["lat"], o["geo"]["lon"]), o) for o in by_id.values()
+                                                   if o["type"] == "place" and o["id"] != r["id"] and o.get("geo")])
         if near:
-            body += ('<h2>Near here</h2><p class="mute">Crow-flies miles; the road is always longer. '
+            crow = any(not ok for _, ok, _ in near)
+            body += ('<h2>Near here</h2><p class="mute">Miles by road, routed by OSRM on OpenStreetMap data'
+                     + (', except where marked straight-line' if crow else '') + '. '
                      f'<a href="{rel(depth)}near/index.html">The finder</a> sorts every shop in the country from wherever you\'re standing.</p><ul>'
-                     + "".join(f'<li><b>{d:g} mi</b> — {name_link(o, depth)}'
+                     + "".join(f'<li><b>{d:g} mi</b>{"" if ok else CROW} — {name_link(o, depth)}'
                                + (f' <span class="mute">{E((o.get("address") or {}).get("city", ""))}</span>' if (o.get("address") or {}).get("city") else "")
                                + ("".join(f' <span class="chip">{E(t.get("icon", ""))} {E(t.get("label", ""))}</span>' for t in o.get("tag_facts", [])[:3]))
-                               + "</li>" for d, o in near) + "</ul>")
+                               + "</li>" for d, ok, o in near) + "</ul>")
     body += kin_block(r, by_id, depth)
     if len(r.get("images", [])) > 1:
         body += '<h2>Pictures</h2><div class="gallery">' + "".join(
@@ -763,6 +758,7 @@ def share_row(url: str, title: str) -> str:
 
 
 GEO_CACHE: dict = {}
+CROW = ' <span class="mute">straight-line</span>'
 PLACE_DAYS: dict = {}
 TAGV: dict = {}
 
