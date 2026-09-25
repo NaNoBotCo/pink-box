@@ -231,13 +231,13 @@ function render(){{
   var hits=ROWS.filter(keep).map(function(r){{var d=miles(here[0],here[1],r.la,r.lo);return {{r:r,d:d}}}})
     .sort(function(a,b){{return a.d-b.d}}).slice(0,25);
   if(!hits.length){{out.innerHTML='<p class="mute">Nothing doing. Drop a filter, or try the next town over.</p>';return}}
-  out.innerHTML='<h2>Nearest first</h2>'+hits.map(function(h){{
+  out.innerHTML='<h2>Nearest first</h2><p class="mute">Miles in a straight line; the drive is longer.</p>'+hits.map(function(h){{
     var r=h.r, tg=r.t.map(function(k){{return '<span class="chip">'+esc(TAGL[k]||k)+'</span>'}}).join("");
     var nm=r.u?('<a href="../'+esc(r.u)+'index.html">'+esc(r.n)+'</a>'):esc(r.n);
     var acc=r.a?(' <span class="stars" aria-hidden="true">'+"●".repeat(Math.min(r.a,5))+'</span>'):"";
     var where=[r.c,r.co?r.co+" County":"",r.s].filter(Boolean).join(" · ");
     var go=r.u?'<a class="go" href="../'+esc(r.u)+'index.html">page →</a>':(r.w?'<a class="go" href="'+esc(r.w)+'" rel="noopener">site →</a>':'<span class="go mute">not written up</span>');
-    return '<div class="hit"><span class="mi">'+h.d.toFixed(1)+' mi</span><span class="nm">'+nm+acc+'</span>'+go+
+    return '<div class="hit"><span class="mi" title="straight-line">'+h.d.toFixed(1)+' mi</span><span class="nm">'+nm+acc+'</span>'+go+
       '<span class="wh">'+esc(where)+(r.b?' — '+esc(r.b.slice(0,110))+'…':'')+'</span>'+
       '<span class="wk">'+strip(r.d)+(r.so?' <em>till it runs out</em>':'')+(r.ht?' <em>'+esc(r.ht)+'</em>':(r.h?' <span class="mute">'+esc(r.h)+'</span>':''))+'</span>'+
       (tg?'<span class="tg">'+tg+'</span>':'')+'</div>';

@@ -20,6 +20,8 @@ domain, or from Wikibooks under CC BY-SA 4.0, named on the page. Recipes still i
 copyright appear as their ingredient list only.
 
 State outlines in data/geo/states.json: Natural Earth, public domain.
+Basemap in data/geo/basemap.json: Natural Earth 1:10m, public domain.
+Road miles in data/geo/roads.json: OSRM on OpenStreetMap data, © OpenStreetMap contributors, ODbL 1.0.
 
 The code in tools/ is MIT:
 
