@@ -1,0 +1,3 @@
+data/vocab/facets.json	an unknown value warns, never fails	operator note on the validator
+data/vocab/regions.json	validate.py warns so it can be added	operator note on the validator
+schema/node.schema.json	validated against data/vocab/regions.json with a warning	schema description for the validator

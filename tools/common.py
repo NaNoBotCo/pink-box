@@ -76,7 +76,7 @@ def load_sources() -> dict:
             for s in jload(p).get("sources", []):
                 out.setdefault(s["id"], s)
         except (ValueError, KeyError, AttributeError):
-            print(f"warn  {p.name}: not a sources file")
+            print(f"warn  {p.name}: not a sources file")  # stylecheck: allow — console output for the operator
     return out
 
 

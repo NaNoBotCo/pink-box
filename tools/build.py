@@ -98,7 +98,7 @@ def enrich(r: dict, by_id: dict, sources: dict, regions: dict) -> dict:
 
 
 def backlinks(recs: list[dict]):
-    """Every record learns who links to it, with that record's sentence (kin_in). Never invented prose."""
+    """Every record learns who links to it, with that record's sentence (kin_in). Never invented prose."""  # stylecheck: allow — code docstring
     by_id = {r["id"]: r for r in recs}
     for r in recs:
         r["kin_in"] = []
@@ -260,7 +260,7 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
     for lst in (load_harvest("tag-lists") or {}).get("lists", []):
         grants = lst.get("grants")
         if grants not in TAGS:
-            print(f"warn  tag-lists: {lst.get('list')!r} grants {grants!r}, which is not a tag key — skipped")
+            print(f"warn  tag-lists: {lst.get('list')!r} grants {grants!r}, which is not a tag key — skipped")  # stylecheck: allow — console output for the operator
             continue
         for row in lst.get("rows", []):
             if row.get("name"):

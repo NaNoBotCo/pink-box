@@ -117,4 +117,4 @@ if __name__ == "__main__":
         n = fill(pts)
         print(f"roads: {len(set(pts))} points, {n} OSRM requests, {len(_load()['m'])} pairs cached")
     except (RuntimeError, ValueError, OSError) as e:
-        print(f"warn  roads: OSRM fetch failed ({e}); pages print straight-line miles where the cache has no road")
+        print(f"warn  roads: OSRM fetch failed ({e}); pages print straight-line miles where the cache has no road")  # stylecheck: allow — console output for the operator
