@@ -933,7 +933,8 @@ def wander_page(recs: list[dict]) -> str:
     body = ('<h1><span class="kind">🎲</span>Wander</h1><p class="lede">A page at random. If nothing happens, pick from the list.</p>'
             f'<script>(function(){{var u={json.dumps(urls)};location.replace(u[Math.floor(Math.random()*u.length)]+"index.html")}})();</script>'
             '<ul>' + "".join(f'<li><a href="{E(url_of(r))}index.html">{E(r["names"]["name"])}</a></li>' for r in sorted(recs, key=lambda r: r["names"]["name"].lower())) + "</ul>")
-    return page(f"Wander — {SITE_NAME}", body, 0, "A page at random.", None, f"{SITE_URL}/wander.html", '<meta name="robots" content="noindex">')
+    return page(f"Wander — {SITE_NAME}", body, 0, "A page at random.", None, f"{SITE_URL}/wander.html", '<meta name="robots" content="noindex">',
+                card="wander", og_alt="Card: Wander, a page at random, on a Pink Box photograph")
 
 
 def sources_page(sources: dict) -> str:

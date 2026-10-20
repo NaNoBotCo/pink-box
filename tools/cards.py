@@ -572,6 +572,7 @@ def main(argv: list[str]) -> int:
         "coverage": ("Coverage", "Where every row comes from, how many shops carry each tag, and what nobody has read yet.", "the holes", None, None, None),
         "search": ("Search", "Spell it however you spell it: doughnut, donut, paczki, punchki, kolache. Near spellings turn up, and say they are near.", "search", None, None, None),
         "sources": ("Sources", "Every article, dataset and page the records cite, by id.", "sources", None, None, None),
+        "wander": ("Wander", "A page at random. If nothing happens, pick from the list.", "a page at random", None, None, "pink-box"),
         "stories": ("The stories", "Cake against raised, the Donut King, why the egg rolls, and what counts as a mom-and-pop.", "long reads", None, None, "the-donut-king"),
     }
     for name, (title, lede, eb, panel, stats, photo_id) in pages.items():
